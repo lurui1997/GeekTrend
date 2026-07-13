@@ -101,6 +101,7 @@ def test_install_test_collect_and_publish_contract() -> None:
         "name": "Collect",
         "id": "collect",
         "shell": "bash",
+        "env": {"GITHUB_TOKEN": "${{ github.token }}"},
         "run": (
             "set -euo pipefail\n"
             'snapshot_path="$(python -m geektrend.cli)"\n'

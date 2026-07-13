@@ -57,6 +57,11 @@ class Repository:
     contributors: Sequence[Contributor]
     description: str | None
     primary_language: str | None
+    ai_agent_contributors: Sequence[str] = ()
+    uses_ai_agent: bool = False
+    origin_country: str = "unknown"
+    origin_confidence: str = "unknown"
+    origin_evidence: Sequence[str] = ()
 
     def __post_init__(self) -> None:
         if not isinstance(self.repository_name, str):
@@ -85,6 +90,26 @@ class Repository:
         )
         if not all(isinstance(item, Contributor) for item in self.contributors):
             raise ValidationError("contributors must contain Contributor records")
+        object.__setattr__(
+            self,
+            "ai_agent_contributors",
+            _as_tuple(self.ai_agent_contributors, "ai_agent_contributors"),
+        )
+        if not all(isinstance(item, str) and item for item in self.ai_agent_contributors):
+            raise ValidationError("ai_agent_contributors must contain non-empty strings")
+        if not isinstance(self.uses_ai_agent, bool):
+            raise ValidationError("uses_ai_agent must be a boolean")
+        if self.uses_ai_agent != bool(self.ai_agent_contributors):
+            raise ValidationError("uses_ai_agent must match ai_agent_contributors")
+        if not isinstance(self.origin_country, str) or not self.origin_country:
+            raise ValidationError("origin_country must be a non-empty string")
+        if self.origin_confidence not in {"high", "medium", "low", "unknown"}:
+            raise ValidationError("origin_confidence must be high, medium, low, or unknown")
+        object.__setattr__(
+            self, "origin_evidence", _as_tuple(self.origin_evidence, "origin_evidence")
+        )
+        if not all(isinstance(item, str) and item for item in self.origin_evidence):
+            raise ValidationError("origin_evidence must contain non-empty strings")
 
     def to_dict(self) -> dict[str, Any]:
         return {
@@ -93,6 +118,11 @@ class Repository:
             "contributors": [item.to_dict() for item in self.contributors],
             "description": self.description,
             "primary_language": self.primary_language,
+            "ai_agent_contributors": list(self.ai_agent_contributors),
+            "uses_ai_agent": self.uses_ai_agent,
+            "origin_country": self.origin_country,
+            "origin_confidence": self.origin_confidence,
+            "origin_evidence": list(self.origin_evidence),
         }
 
 
@@ -129,5 +159,13 @@ class Snapshot:
             "fetched_at": fetched_at,
             "source_url": self.source_url,
             "repository_count": len(self.repositories),
+            "ai_agent_project_count": sum(
+                1 for repository in self.repositories if repository.uses_ai_agent
+            ),
+            "ai_agent_project_ratio": round(
+                sum(1 for repository in self.repositories if repository.uses_ai_agent)
+                / len(self.repositories),
+                4,
+            ),
             "repositories": [item.to_dict() for item in self.repositories],
         }

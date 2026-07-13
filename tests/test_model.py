@@ -17,6 +17,11 @@ def repository(
     repository_name: str = "octo/demo",
     url: str = "https://github.com/octo/demo",
     contributors: Sequence[Contributor] = (),
+    ai_agent_contributors: Sequence[str] = (),
+    uses_ai_agent: bool = False,
+    origin_country: str = "unknown",
+    origin_confidence: str = "unknown",
+    origin_evidence: Sequence[str] = (),
 ) -> Repository:
     return Repository(
         repository_name=repository_name,
@@ -24,6 +29,11 @@ def repository(
         contributors=contributors,
         description=None,
         primary_language=None,
+        ai_agent_contributors=ai_agent_contributors,
+        uses_ai_agent=uses_ai_agent,
+        origin_country=origin_country,
+        origin_confidence=origin_confidence,
+        origin_evidence=origin_evidence,
     )
 
 
@@ -53,6 +63,11 @@ def test_valid_snapshot_serializes_to_exact_schema() -> None:
                 ),
                 description="你好",
                 primary_language="Python",
+                ai_agent_contributors=("claude",),
+                uses_ai_agent=True,
+                origin_country="United States",
+                origin_confidence="high",
+                origin_evidence=("octocat: location=New York",),
             ),
         ),
     )
@@ -63,6 +78,8 @@ def test_valid_snapshot_serializes_to_exact_schema() -> None:
         "fetched_at",
         "source_url",
         "repository_count",
+        "ai_agent_project_count",
+        "ai_agent_project_ratio",
         "repositories",
     ]
     assert list(serialized["repositories"][0]) == [
@@ -71,6 +88,11 @@ def test_valid_snapshot_serializes_to_exact_schema() -> None:
         "contributors",
         "description",
         "primary_language",
+        "ai_agent_contributors",
+        "uses_ai_agent",
+        "origin_country",
+        "origin_confidence",
+        "origin_evidence",
     ]
     assert list(serialized["repositories"][0]["contributors"][0]) == [
         "username",
@@ -80,6 +102,8 @@ def test_valid_snapshot_serializes_to_exact_schema() -> None:
         "fetched_at": "2026-07-13T10:00:00+08:00",
         "source_url": "https://github.com/trending/",
         "repository_count": 1,
+        "ai_agent_project_count": 1,
+        "ai_agent_project_ratio": 1.0,
         "repositories": [
             {
                 "repository_name": "octo/demo",
@@ -92,6 +116,11 @@ def test_valid_snapshot_serializes_to_exact_schema() -> None:
                 ],
                 "description": "你好",
                 "primary_language": "Python",
+                "ai_agent_contributors": ["claude"],
+                "uses_ai_agent": True,
+                "origin_country": "United States",
+                "origin_confidence": "high",
+                "origin_evidence": ["octocat: location=New York"],
             }
         ],
     }
@@ -102,6 +131,8 @@ def test_records_are_frozen_slotted_and_store_nested_collections_as_tuples() -> 
     record = snapshot(repositories=[repo])
 
     assert repo.contributors == (contributor(),)
+    assert repo.ai_agent_contributors == ()
+    assert repo.origin_evidence == ()
     assert record.repositories == (repo,)
     assert not hasattr(record, "__dict__")
     with pytest.raises(FrozenInstanceError):
@@ -122,6 +153,24 @@ def test_snapshot_translates_noniterable_repositories_to_validation_error(
 ) -> None:
     with pytest.raises(ValidationError, match="repositories"):
         snapshot(repositories=repositories)
+
+
+@pytest.mark.parametrize(
+    ("kwargs", "field"),
+    [
+        ({"ai_agent_contributors": [None]}, "ai_agent_contributors"),
+        ({"ai_agent_contributors": ["claude"], "uses_ai_agent": False}, "uses_ai_agent"),
+        ({"uses_ai_agent": "yes"}, "uses_ai_agent"),
+        ({"origin_country": ""}, "origin_country"),
+        ({"origin_confidence": "certain"}, "origin_confidence"),
+        ({"origin_evidence": [None]}, "origin_evidence"),
+    ],
+)
+def test_repository_rejects_invalid_analysis_fields(
+    kwargs: dict[str, object], field: str
+) -> None:
+    with pytest.raises(ValidationError, match=field):
+        repository(**kwargs)
 
 
 @pytest.mark.parametrize(

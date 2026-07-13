@@ -31,6 +31,10 @@ def test_collect_runs_pipeline_once_and_writes_second_precision_snapshot(tmp_pat
         calls.append(("parse", html))
         return repositories
 
+    def analyzer(items: object) -> tuple[Repository, ...]:
+        calls.append(("analyze", items))
+        return repositories
+
     def clock() -> datetime:
         calls.append("clock")
         return instant
@@ -39,11 +43,11 @@ def test_collect_runs_pipeline_once_and_writes_second_precision_snapshot(tmp_pat
         calls.append(("write", snapshot, root))
         return expected_path
 
-    result = collect(tmp_path, fetcher, parser, writer, clock)
+    result = collect(tmp_path, fetcher, parser, writer, clock, analyzer)
 
     assert result == expected_path
     assert [call if isinstance(call, str) else call[0] for call in calls] == [
-        "fetch", "parse", "clock", "write"
+        "fetch", "parse", "analyze", "clock", "write"
     ]
     snapshot = calls[-1][1]
     assert snapshot.fetched_at == instant.replace(microsecond=0)
@@ -54,8 +58,8 @@ def test_collect_runs_pipeline_once_and_writes_second_precision_snapshot(tmp_pat
 
 @pytest.mark.parametrize(
     ("failing_stage", "expected_calls"),
-    [("fetch", ["fetch"]), ("parse", ["fetch", "parse"]), ("clock", ["fetch", "parse", "clock"]),
-     ("write", ["fetch", "parse", "clock", "write"])],
+    [("fetch", ["fetch"]), ("parse", ["fetch", "parse"]), ("clock", ["fetch", "parse", "analyze", "clock"]),
+     ("write", ["fetch", "parse", "analyze", "clock", "write"])],
 )
 def test_collect_stops_after_failure(
     tmp_path: Path, failing_stage: str, expected_calls: list[str]
@@ -76,12 +80,39 @@ def test_collect_stops_after_failure(
             lambda html: step("parse", (repository(),)),
             lambda snapshot, root: step("write", Path("data/snapshot.json")),
             lambda: step("clock", datetime(2026, 7, 13, tzinfo=CHINA_TIME)),
+            lambda repositories: step("analyze", repositories),
         )
 
     assert calls == expected_calls
     assert caught.value.__cause__ is cause
     assert str(caught.value) == f"{failing_stage} stage failed"
     assert list(tmp_path.rglob("*")) == []
+
+
+def test_collect_falls_back_when_analysis_fails(tmp_path: Path) -> None:
+    calls: list[str] = []
+
+    def analyzer(repositories: object) -> object:
+        calls.append("analyze")
+        raise RuntimeError("GitHub API unavailable")
+
+    def writer(snapshot: object, root: Path) -> Path:
+        calls.append("write")
+        assert snapshot.repositories[0].origin_country == "unknown"
+        assert snapshot.repositories[0].origin_evidence == ("Contributor analysis failed",)
+        return Path("data/snapshot.json")
+
+    result = collect(
+        tmp_path,
+        lambda: "html",
+        lambda html: (repository(),),
+        writer,
+        lambda: datetime(2026, 7, 13, tzinfo=CHINA_TIME),
+        analyzer,
+    )
+
+    assert result == Path("data/snapshot.json")
+    assert calls == ["analyze", "write"]
 
 
 def test_collect_reports_snapshot_validation_before_writer(tmp_path: Path) -> None:
