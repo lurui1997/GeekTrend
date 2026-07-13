@@ -65,7 +65,7 @@ def test_runner_action_pins_and_setup_are_exact() -> None:
     uses = [step["uses"] for step in job["steps"] if "uses" in step]
     assert uses == [
         "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
-        "actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+        "actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1",
     ]
     assert all(re.fullmatch(r"(?:actions/checkout|actions/setup-python)@[0-9a-f]{40}", use) for use in uses)
     assert job["steps"][0]["with"] == {"fetch-depth": 0}
@@ -99,9 +99,16 @@ def test_install_test_collect_and_publish_contract() -> None:
             "printf 'snapshot_path=%s\\n' \"$snapshot_path\" >> \"$GITHUB_OUTPUT\"\n"
         ),
     }
-    assert steps[5]["run"] == (
+    assert steps[5] == {
+        "name": "Publish exact snapshot",
+        "env": {"BRANCH": "${{ github.ref_name }}"},
+        "run": (
         'python scripts/publish_snapshot.py "${{ steps.collect.outputs.snapshot_path }}" '
-        '--branch "${{ github.ref_name }}"'
+            '--branch "$BRANCH"'
+        ),
+    }
+    assert all(
+        "${{ github.ref_name }}" not in str(step.get("run", "")) for step in steps
     )
 
 
@@ -129,6 +136,50 @@ def test_collection_failure_does_not_write_an_output(tmp_path: Path) -> None:
 
     assert result.returncode == 42
     assert output.read_text() == ""
+
+
+def test_malicious_branch_name_is_passed_as_one_literal_argument(tmp_path: Path) -> None:
+    publication = snapshot_steps()[5]
+    fake_bin = tmp_path / "bin"
+    fake_bin.mkdir()
+    fake_python = fake_bin / "python"
+    arguments = tmp_path / "arguments"
+    marker = tmp_path / "injected"
+    fake_python.write_text(
+        "#!/bin/sh\n"
+        "for argument in \"$@\"; do printf '%s\\n' \"$argument\"; done > \"$CAPTURE\"\n"
+    )
+    fake_python.chmod(0o755)
+    malicious_branch = f'main\"; touch \"{marker}'
+    environment = os.environ | {
+        "PATH": f"{fake_bin}:{os.environ['PATH']}",
+        "CAPTURE": str(arguments),
+        "BRANCH": malicious_branch,
+    }
+
+    result = subprocess.run(
+        [
+            "bash",
+            "-c",
+            publication["run"].replace(
+                "${{ steps.collect.outputs.snapshot_path }}",
+                "data/2026/07/13/snapshot.json",
+            ),
+        ],
+        cwd=ROOT,
+        env=environment,
+        text=True,
+        capture_output=True,
+    )
+
+    assert result.returncode == 0
+    assert arguments.read_text().splitlines() == [
+        "scripts/publish_snapshot.py",
+        "data/2026/07/13/snapshot.json",
+        "--branch",
+        malicious_branch,
+    ]
+    assert not marker.exists()
 
 
 def test_fixed_unfiltered_url_and_publish_safeguards() -> None:
