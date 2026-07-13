@@ -55,7 +55,7 @@ Every file has this exact shape:
 
 ## Automation and operating constraints
 
-The `Capture GitHub Trending` Actions workflow is scheduled every two hours and can also be run manually. GitHub schedules are best effort, so a delayed or skipped run is not backfilled. Repository Actions settings must grant workflows **Read and write permissions** (`contents: write`) so a successful snapshot can be committed and pushed.
+The `Capture GitHub Trending` Actions workflow is scheduled every two hours and can also be run manually. GitHub schedules are best effort, so a delayed or skipped run is not backfilled. In the repository, select **Settings → Actions → General → Workflow permissions → Read and write permissions** (`contents: write`) so a successful snapshot can be committed and pushed.
 
 One concurrency group serializes runs without cancelling an in-progress collection. Publication retries a bounded number of push races, never overwrites or backfills an existing path, and treats every successfully published snapshot as immutable.
 
