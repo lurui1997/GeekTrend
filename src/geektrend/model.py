@@ -2,10 +2,11 @@
 
 from dataclasses import dataclass
 from datetime import datetime, timedelta
-from typing import Any
+from typing import Any, Sequence, TypeVar
 
 
 SOURCE_URL = "https://github.com/trending/"
+Record = TypeVar("Record")
 
 
 class ValidationError(ValueError):
@@ -18,6 +19,13 @@ def _has_whitespace(value: str) -> bool:
 
 def _has_url_syntax(value: str) -> bool:
     return any(character in value for character in "?#%\\")
+
+
+def _as_tuple(value: Sequence[Record], field_name: str) -> tuple[Record, ...]:
+    try:
+        return tuple(value)
+    except TypeError as error:
+        raise ValidationError(f"{field_name} must be a sequence") from error
 
 
 @dataclass(frozen=True, slots=True)
@@ -45,7 +53,7 @@ class Contributor:
 class Repository:
     repository_name: str
     url: str
-    contributors: tuple[Contributor, ...]
+    contributors: Sequence[Contributor]
     description: str | None
     primary_language: str | None
 
@@ -71,7 +79,9 @@ class Repository:
         ):
             raise ValidationError("primary_language must be a string or None")
 
-        object.__setattr__(self, "contributors", tuple(self.contributors))
+        object.__setattr__(
+            self, "contributors", _as_tuple(self.contributors, "contributors")
+        )
         if not all(isinstance(item, Contributor) for item in self.contributors):
             raise ValidationError("contributors must contain Contributor records")
 
@@ -89,7 +99,7 @@ class Repository:
 class Snapshot:
     fetched_at: datetime
     source_url: str
-    repositories: tuple[Repository, ...]
+    repositories: Sequence[Repository]
 
     def __post_init__(self) -> None:
         if not isinstance(self.fetched_at, datetime) or self.fetched_at.utcoffset() != timedelta(0):
@@ -97,7 +107,9 @@ class Snapshot:
         if self.source_url != SOURCE_URL:
             raise ValidationError(f"source_url must be exactly {SOURCE_URL}")
 
-        object.__setattr__(self, "repositories", tuple(self.repositories))
+        object.__setattr__(
+            self, "repositories", _as_tuple(self.repositories, "repositories")
+        )
         if not self.repositories:
             raise ValidationError("repositories must contain at least one repository")
         if not all(isinstance(item, Repository) for item in self.repositories):

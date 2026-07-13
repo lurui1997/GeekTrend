@@ -1,5 +1,6 @@
 from dataclasses import FrozenInstanceError
 from datetime import datetime, timedelta, timezone
+from typing import Any, Sequence
 
 import pytest
 
@@ -15,7 +16,7 @@ def contributor(
 def repository(
     repository_name: str = "octo/demo",
     url: str = "https://github.com/octo/demo",
-    contributors: tuple[Contributor, ...] = (),
+    contributors: Sequence[Contributor] = (),
 ) -> Repository:
     return Repository(
         repository_name=repository_name,
@@ -30,7 +31,7 @@ def snapshot(
     *,
     fetched_at: datetime = datetime(2026, 7, 13, 2, tzinfo=timezone.utc),
     source_url: str = "https://github.com/trending/",
-    repositories: tuple[Repository, ...] = (repository(),),
+    repositories: Sequence[Repository] = (repository(),),
 ) -> Snapshot:
     return Snapshot(
         fetched_at=fetched_at,
@@ -97,14 +98,30 @@ def test_valid_snapshot_serializes_to_exact_schema() -> None:
 
 
 def test_records_are_frozen_slotted_and_store_nested_collections_as_tuples() -> None:
-    repo = repository(contributors=[contributor()])  # type: ignore[arg-type]
-    record = snapshot(repositories=[repo])  # type: ignore[arg-type]
+    repo = repository(contributors=[contributor()])
+    record = snapshot(repositories=[repo])
 
     assert repo.contributors == (contributor(),)
     assert record.repositories == (repo,)
     assert not hasattr(record, "__dict__")
     with pytest.raises(FrozenInstanceError):
         record.source_url = "https://example.com"  # type: ignore[misc]
+
+
+@pytest.mark.parametrize("contributors", [None, 7])
+def test_repository_translates_noniterable_contributors_to_validation_error(
+    contributors: Any,
+) -> None:
+    with pytest.raises(ValidationError, match="contributors"):
+        repository(contributors=contributors)
+
+
+@pytest.mark.parametrize("repositories", [None, 7])
+def test_snapshot_translates_noniterable_repositories_to_validation_error(
+    repositories: Any,
+) -> None:
+    with pytest.raises(ValidationError, match="repositories"):
+        snapshot(repositories=repositories)
 
 
 @pytest.mark.parametrize(
