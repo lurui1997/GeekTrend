@@ -1,0 +1,362 @@
+{
+  "fetched_at": "2026-07-14T00:18:25+08:00",
+  "source_url": "https://github.com/trending/",
+  "repository_count": 10,
+  "ai_agent_project_count": 7,
+  "ai_agent_project_ratio": 0.7,
+  "repositories": [
+    {
+      "repository_name": "OpenCut-app/OpenCut",
+      "url": "https://github.com/OpenCut-app/OpenCut",
+      "contributors": [
+        {
+          "username": "mazeincoding",
+          "url": "https://github.com/mazeincoding"
+        },
+        {
+          "username": "izadoesdev",
+          "url": "https://github.com/izadoesdev"
+        },
+        {
+          "username": "anwarulislam",
+          "url": "https://github.com/anwarulislam"
+        },
+        {
+          "username": "khanguyen74",
+          "url": "https://github.com/khanguyen74"
+        },
+        {
+          "username": "DevloperAmanSingh",
+          "url": "https://github.com/DevloperAmanSingh"
+        }
+      ],
+      "description": "The open-source CapCut alternative",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "Palestine",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "izadoesdev: location=Palestine"
+      ]
+    },
+    {
+      "repository_name": "HKUDS/Vibe-Trading",
+      "url": "https://github.com/HKUDS/Vibe-Trading",
+      "contributors": [
+        {
+          "username": "warren618",
+          "url": "https://github.com/warren618"
+        },
+        {
+          "username": "shadowinlife",
+          "url": "https://github.com/shadowinlife"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "Elfsa-Miranda",
+          "url": "https://github.com/Elfsa-Miranda"
+        },
+        {
+          "username": "Teerapat-Vatpitak",
+          "url": "https://github.com/Teerapat-Vatpitak"
+        }
+      ],
+      "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "China",
+      "origin_confidence": "medium",
+      "origin_evidence": [
+        "shadowinlife: location=Beijing",
+        "Elfsa-Miranda: company=South China Normal University"
+      ]
+    },
+    {
+      "repository_name": "moeru-ai/airi",
+      "url": "https://github.com/moeru-ai/airi",
+      "contributors": [
+        {
+          "username": "nekomeowww",
+          "url": "https://github.com/nekomeowww"
+        },
+        {
+          "username": "luoling8192",
+          "url": "https://github.com/luoling8192"
+        },
+        {
+          "username": "shinohara-rin",
+          "url": "https://github.com/shinohara-rin"
+        },
+        {
+          "username": "sumimakito",
+          "url": "https://github.com/sumimakito"
+        }
+      ],
+      "description": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "China",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "luoling8192: location=Shanghai"
+      ]
+    },
+    {
+      "repository_name": "Shubhamsaboo/awesome-llm-apps",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "contributors": [
+        {
+          "username": "Shubhamsaboo",
+          "url": "https://github.com/Shubhamsaboo"
+        },
+        {
+          "username": "Madhuvod",
+          "url": "https://github.com/Madhuvod"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "onestardao",
+          "url": "https://github.com/onestardao"
+        },
+        {
+          "username": "libw0430",
+          "url": "https://github.com/libw0430"
+        }
+      ],
+      "description": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "India",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "Madhuvod: location=blr"
+      ]
+    },
+    {
+      "repository_name": "Nutlope/hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
+      "contributors": [
+        {
+          "username": "Luffixos",
+          "url": "https://github.com/Luffixos"
+        },
+        {
+          "username": "Nutlope",
+          "url": "https://github.com/Nutlope"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "riccardogiorato",
+          "url": "https://github.com/riccardogiorato"
+        },
+        {
+          "username": "JaySmith502",
+          "url": "https://github.com/JaySmith502"
+        }
+      ],
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "primary_language": "CSS",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United States",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "Nutlope: location=New York City, NY"
+      ]
+    },
+    {
+      "repository_name": "Raphire/Win11Debloat",
+      "url": "https://github.com/Raphire/Win11Debloat",
+      "contributors": [
+        {
+          "username": "Raphire",
+          "url": "https://github.com/Raphire"
+        },
+        {
+          "username": "HetCreep",
+          "url": "https://github.com/HetCreep"
+        },
+        {
+          "username": "SashankBhamidi",
+          "url": "https://github.com/SashankBhamidi"
+        },
+        {
+          "username": "N0tHorizon",
+          "url": "https://github.com/N0tHorizon"
+        },
+        {
+          "username": "tsumi",
+          "url": "https://github.com/tsumi"
+        }
+      ],
+      "description": "A simple, lightweight PowerShell script that allows you to remove pre-installed apps, disable telemetry, as well as perform various other changes to declutter and customize your Windows experience. Win11Debloat works for both Windows 10 and Windows 11.",
+      "primary_language": "PowerShell",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "Netherlands",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "Raphire: location=The Netherlands"
+      ]
+    },
+    {
+      "repository_name": "Graphify-Labs/graphify",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "contributors": [
+        {
+          "username": "safishamsi",
+          "url": "https://github.com/safishamsi"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "TPAteeq",
+          "url": "https://github.com/TPAteeq"
+        },
+        {
+          "username": "Synvoya",
+          "url": "https://github.com/Synvoya"
+        },
+        {
+          "username": "oleksii-tumanov",
+          "url": "https://github.com/oleksii-tumanov"
+        }
+      ],
+      "description": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "safishamsi: location=London, United Kingdom"
+      ]
+    },
+    {
+      "repository_name": "hasaneyldrm/exercises-dataset",
+      "url": "https://github.com/hasaneyldrm/exercises-dataset",
+      "contributors": [
+        {
+          "username": "hasaneyldrm",
+          "url": "https://github.com/hasaneyldrm"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "anderboski",
+          "url": "https://github.com/anderboski"
+        },
+        {
+          "username": "wacko-io",
+          "url": "https://github.com/wacko-io"
+        },
+        {
+          "username": "alfredo0592",
+          "url": "https://github.com/alfredo0592"
+        }
+      ],
+      "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step instructions in 6 languages. The exercise data layer behind the LogPress app.",
+      "primary_language": "HTML",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "Turkey",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "hasaneyldrm: location=Istanbul"
+      ]
+    },
+    {
+      "repository_name": "github/spec-kit",
+      "url": "https://github.com/github/spec-kit",
+      "contributors": [
+        {
+          "username": "localden",
+          "url": "https://github.com/localden"
+        },
+        {
+          "username": "mnriem",
+          "url": "https://github.com/mnriem"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        }
+      ],
+      "description": "💫 Toolkit to help you get started with Spec-Driven Development",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "coreyhaines31/marketingskills",
+      "url": "https://github.com/coreyhaines31/marketingskills",
+      "contributors": [
+        {
+          "username": "coreyhaines31",
+          "url": "https://github.com/coreyhaines31"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "njcameron",
+          "url": "https://github.com/njcameron"
+        },
+        {
+          "username": "Jiliac",
+          "url": "https://github.com/Jiliac"
+        },
+        {
+          "username": "basseko",
+          "url": "https://github.com/basseko"
+        }
+      ],
+      "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United States",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "coreyhaines31: location=San Diego"
+      ]
+    }
+  ]
+}
