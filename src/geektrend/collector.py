@@ -1,11 +1,11 @@
 """Orchestrate one immutable GitHub Trending snapshot collection."""
 
 from collections.abc import Callable, Sequence
-from datetime import datetime, timezone
+from datetime import datetime
 from pathlib import Path
 
 from geektrend.client import fetch_trending
-from geektrend.model import SOURCE_URL, Repository, Snapshot
+from geektrend.model import CHINA_TIME, SOURCE_URL, Repository, Snapshot
 from geektrend.parser import parse_trending
 from geektrend.writer import write_snapshot
 
@@ -14,8 +14,8 @@ class CollectionError(RuntimeError):
     """Raised with the pipeline stage that prevented collection."""
 
 
-def _utc_now() -> datetime:
-    return datetime.now(timezone.utc)
+def _china_time_now() -> datetime:
+    return datetime.now(CHINA_TIME)
 
 
 def collect(
@@ -23,7 +23,7 @@ def collect(
     fetcher: Callable[[], str] = fetch_trending,
     parser: Callable[[str], Sequence[Repository]] = parse_trending,
     writer: Callable[[Snapshot, Path], Path] = write_snapshot,
-    clock: Callable[[], datetime] = _utc_now,
+    clock: Callable[[], datetime] = _china_time_now,
 ) -> Path:
     """Fetch, parse, timestamp, and write one snapshot under *root*."""
     try:

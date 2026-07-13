@@ -1,10 +1,10 @@
 from dataclasses import FrozenInstanceError
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, timezone
 from typing import Any, Sequence
 
 import pytest
 
-from geektrend.model import Contributor, Repository, Snapshot, ValidationError
+from geektrend.model import CHINA_TIME, Contributor, Repository, Snapshot, ValidationError
 
 
 def contributor(
@@ -29,7 +29,7 @@ def repository(
 
 def snapshot(
     *,
-    fetched_at: datetime = datetime(2026, 7, 13, 2, tzinfo=timezone.utc),
+    fetched_at: datetime = datetime(2026, 7, 13, 10, tzinfo=CHINA_TIME),
     source_url: str = "https://github.com/trending/",
     repositories: Sequence[Repository] = (repository(),),
 ) -> Snapshot:
@@ -42,7 +42,7 @@ def snapshot(
 
 def test_valid_snapshot_serializes_to_exact_schema() -> None:
     record = Snapshot(
-        fetched_at=datetime(2026, 7, 13, 2, 0, 0, 999999, tzinfo=timezone.utc),
+        fetched_at=datetime(2026, 7, 13, 10, 0, 0, 999999, tzinfo=CHINA_TIME),
         source_url="https://github.com/trending/",
         repositories=(
             Repository(
@@ -77,7 +77,7 @@ def test_valid_snapshot_serializes_to_exact_schema() -> None:
         "url",
     ]
     assert serialized == {
-        "fetched_at": "2026-07-13T02:00:00Z",
+        "fetched_at": "2026-07-13T10:00:00+08:00",
         "source_url": "https://github.com/trending/",
         "repository_count": 1,
         "repositories": [
@@ -205,10 +205,10 @@ def test_contributor_rejects_url_delimiter_in_matching_username(delimiter: str) 
     "fetched_at",
     [
         datetime(2026, 7, 13, 2),
-        datetime(2026, 7, 13, 10, tzinfo=timezone(timedelta(hours=8))),
+        datetime(2026, 7, 13, 2, tzinfo=timezone.utc),
     ],
 )
-def test_snapshot_rejects_timestamp_that_is_not_utc(fetched_at: datetime) -> None:
+def test_snapshot_rejects_timestamp_that_is_not_east_8(fetched_at: datetime) -> None:
     with pytest.raises(ValidationError, match="fetched_at"):
         snapshot(fetched_at=fetched_at)
 

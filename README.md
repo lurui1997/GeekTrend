@@ -19,7 +19,7 @@ python -m geektrend.cli
 python -m geektrend.cli --output-root /tmp/geektrend-smoke
 ```
 
-The command prints the relative path it created. Snapshots live at `data/YYYY/MM/DD/YYYY-MM-DDTHH-MM-SSZ.json`. Run the deterministic, offline test suite with:
+The command prints the relative path it created. Snapshots use UTC+08:00 time and live at `data/YYYY/MM/DD/YYYY-MM-DDTHH-MM-SS+08-00.json`. Run the deterministic, offline test suite with:
 
 ```sh
 python -m pytest -q
@@ -31,7 +31,7 @@ Every file has this exact shape:
 
 ```json
 {
-  "fetched_at": "2026-07-13T02:00:00Z",
+  "fetched_at": "2026-07-13T10:00:00+08:00",
   "source_url": "https://github.com/trending/",
   "repository_count": 1,
   "repositories": [
@@ -51,7 +51,7 @@ Every file has this exact shape:
 }
 ```
 
-`fetched_at` is UTC at whole-second precision. `repository_count` equals the length of `repositories`; repository and contributor URLs are canonical GitHub URLs. `contributors` is always an array (possibly empty). `description` and `primary_language` are the only nullable fields.
+`fetched_at` is UTC+08:00 at whole-second precision. `repository_count` equals the length of `repositories`; repository and contributor URLs are canonical GitHub URLs. `contributors` is always an array (possibly empty). `description` and `primary_language` are the only nullable fields.
 
 ## Automation and operating constraints
 

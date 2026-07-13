@@ -4,7 +4,7 @@ from pathlib import Path
 import pytest
 
 from geektrend.collector import CollectionError, collect
-from geektrend.model import Repository
+from geektrend.model import CHINA_TIME, Repository
 
 
 def repository() -> Repository:
@@ -20,7 +20,7 @@ def repository() -> Repository:
 def test_collect_runs_pipeline_once_and_writes_second_precision_snapshot(tmp_path: Path) -> None:
     calls: list[object] = []
     repositories = (repository(),)
-    instant = datetime(2026, 7, 13, 2, 3, 4, 987654, tzinfo=timezone.utc)
+    instant = datetime(2026, 7, 13, 10, 3, 4, 987654, tzinfo=CHINA_TIME)
     expected_path = Path("data/2026/07/13/snapshot.json")
 
     def fetcher() -> str:
@@ -75,7 +75,7 @@ def test_collect_stops_after_failure(
             lambda: step("fetch", "html"),
             lambda html: step("parse", (repository(),)),
             lambda snapshot, root: step("write", Path("data/snapshot.json")),
-            lambda: step("clock", datetime(2026, 7, 13, tzinfo=timezone.utc)),
+            lambda: step("clock", datetime(2026, 7, 13, tzinfo=CHINA_TIME)),
         )
 
     assert calls == expected_calls

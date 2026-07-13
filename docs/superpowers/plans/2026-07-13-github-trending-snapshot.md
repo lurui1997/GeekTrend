@@ -18,7 +18,7 @@
 - Create `src/geektrend/model.py`: immutable contributor/repository/snapshot records plus validation.
 - Create `src/geektrend/parser.py`: all selectors and HTML-to-record conversion.
 - Create `src/geektrend/client.py`: fixed Trending URL, user agent, timeout, and HTTP error translation.
-- Create `src/geektrend/writer.py`: UTC path calculation and atomic UTF-8 JSON persistence.
+- Create `src/geektrend/writer.py`: UTC+08:00 path calculation and atomic UTF-8 JSON persistence.
 - Create `src/geektrend/collector.py`: fetch/parse/validate/write coordination with injected clock and collaborators.
 - Create `src/geektrend/cli.py`: command-line boundary, stable success output, and non-zero failures.
 - Create `scripts/publish_snapshot.py`: exact-path staging, commit, bounded fetch/rebase/push retry, and post-rebase safety checks.
@@ -172,7 +172,7 @@ Use frozen dataclasses `Contributor`, `Repository`, and `Snapshot`. Tests must a
 ```python
 def test_valid_snapshot_serializes_to_schema():
     snapshot = Snapshot(
-        fetched_at=datetime(2026, 7, 13, 2, tzinfo=timezone.utc),
+        fetched_at=datetime(2026, 7, 13, 10, tzinfo=CHINA_TIME),
         source_url="https://github.com/trending/",
         repositories=(Repository(
             repository_name="octo/demo",
@@ -183,10 +183,10 @@ def test_valid_snapshot_serializes_to_schema():
         ),),
     )
     assert snapshot.to_dict()["repository_count"] == 1
-    assert snapshot.to_dict()["fetched_at"] == "2026-07-13T02:00:00Z"
+    assert snapshot.to_dict()["fetched_at"] == "2026-07-13T10:00:00+08:00"
 ```
 
-Add parametrized failures for a zero-repository snapshot, duplicate repository names, names without exactly one slash, empty owner/name segments (`/repo`, `owner/`), whitespace within either segment, mismatched repository URLs, URLs with query/fragment, blank contributor usernames, contributor usernames containing a slash or any whitespace, mismatched/non-GitHub contributor URLs, a naive timestamp, an aware but non-UTC timestamp, and a source URL other than the exact fixed URL. Assert the domain-specific `ValidationError` text names the offending field.
+Add parametrized failures for a zero-repository snapshot, duplicate repository names, names without exactly one slash, empty owner/name segments (`/repo`, `owner/`), whitespace within either segment, mismatched repository URLs, URLs with query/fragment, blank contributor usernames, contributor usernames containing a slash or any whitespace, mismatched/non-GitHub contributor URLs, a naive timestamp, an aware but non-UTC+08:00 timestamp, and a source URL other than the exact fixed URL. Assert the domain-specific `ValidationError` text names the offending field.
 
 - [ ] **Step 2: Run the model tests and confirm failure**
 
@@ -196,7 +196,7 @@ Expected: FAIL with `ModuleNotFoundError: No module named 'geektrend.model'`.
 
 - [ ] **Step 3: Implement the immutable model and centralized validation**
 
-Implement frozen, slotted dataclasses. Validate in `__post_init__`; accept optional description/language as `str | None`; store repositories/contributors as tuples. A repository identity must consist of exactly two non-empty slash-separated segments with no whitespace in either; a contributor username must be one non-empty segment with no slash or whitespace. Repository URLs must equal `f"https://github.com/{repository_name}"`; contributor URLs must equal `f"https://github.com/{username}"`. Reject duplicate repository names. Require `fetched_at.utcoffset() == timedelta(0)` rather than merely timezone-awareness. `Snapshot.to_dict()` must return only JSON primitives in the exact key order from the spec and render UTC as second-precision `...Z`.
+Implement frozen, slotted dataclasses. Validate in `__post_init__`; accept optional description/language as `str | None`; store repositories/contributors as tuples. A repository identity must consist of exactly two non-empty slash-separated segments with no whitespace in either; a contributor username must be one non-empty segment with no slash or whitespace. Repository URLs must equal `f"https://github.com/{repository_name}"`; contributor URLs must equal `f"https://github.com/{username}"`. Reject duplicate repository names. Require `fetched_at.utcoffset() == timedelta(hours=8)` rather than merely timezone-awareness. `Snapshot.to_dict()` must return only JSON primitives in the exact key order from the spec and render UTC+08:00 as second-precision ISO 8601 with `+08:00`.
 
 - [ ] **Step 4: Run focused and complete tests**
 
@@ -284,7 +284,7 @@ Expected: all client tests PASS.
 
 - [ ] **Step 3: Write failing atomic writer tests**
 
-With `tmp_path`, assert timestamp `2026-07-13T02:00:03Z` produces `data/2026/07/13/2026-07-13T02-00-03Z.json`; JSON is UTF-8, pretty-printed with `ensure_ascii=False`, ends in exactly one newline, and matches `Snapshot.to_dict()`. Assert an existing destination raises `SnapshotExistsError` unchanged.
+With `tmp_path`, assert timestamp `2026-07-13T10:00:03+08:00` produces `data/2026/07/13/2026-07-13T10-00-03+08-00.json`; JSON is UTF-8, pretty-printed with `ensure_ascii=False`, ends in exactly one newline, and matches `Snapshot.to_dict()`. Assert an existing destination raises `SnapshotExistsError` unchanged.
 
 Add fault injection through private wrappers or injected callables for serialization, temporary-file write, flush, `os.fsync`, atomic `os.link`, and cleanup `os.unlink`. For failures before/during `os.link`, assert the destination does not exist; for cleanup unlink failure after a successful link, assert the complete destination exists and no partial JSON is observable. In every case assert cleanup is attempted, any safe-to-remove temporary artifact is removed, and `WriteError` retains the original exception as `__cause__`. Add a same-destination race test in which a competing complete destination appears immediately before `os.link`: the link must fail with `FileExistsError`, the competitor's bytes must remain unchanged, and the collector's temp must be cleaned. Keep the temporary file in the destination directory so the hard-link publication occurs on one filesystem.
 
@@ -317,7 +317,7 @@ git commit -m "feat: fetch and atomically store snapshots"
 
 - [ ] **Step 1: Write failing coordinator tests with injected collaborators**
 
-Assert `collect(root, fetcher, parser, writer, clock)` calls each collaborator once, uses a timezone-aware UTC timestamp truncated to seconds, sets the exact source URL, and returns the relative writer path. Tests for fetch, parse, validation, and write exceptions must prove later collaborators are not called and no output exists.
+Assert `collect(root, fetcher, parser, writer, clock)` calls each collaborator once, uses a timezone-aware UTC+08:00 timestamp truncated to seconds, sets the exact source URL, and returns the relative writer path. Tests for fetch, parse, validation, and write exceptions must prove later collaborators are not called and no output exists.
 
 - [ ] **Step 2: Run and implement the coordinator**
 
@@ -325,7 +325,7 @@ Run: `.venv/bin/python -m pytest tests/test_collector.py -q`
 
 Expected: FAIL importing `geektrend.collector`.
 
-Implement the straight-line flow `fetch -> parse -> Snapshot -> write`; default the clock to `datetime.now(timezone.utc)`. Add a `CollectionError` only when it adds stage context; retain exception chaining and do not swallow typed errors useful to the CLI.
+Implement the straight-line flow `fetch -> parse -> Snapshot -> write`; default the clock to `datetime.now(CHINA_TIME)`. Add a `CollectionError` only when it adds stage context; retain exception chaining and do not swallow typed errors useful to the CLI.
 
 Run: `.venv/bin/python -m pytest tests/test_collector.py -q`
 

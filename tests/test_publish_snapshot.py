@@ -37,7 +37,7 @@ def clones(tmp_path: Path) -> tuple[Path, Path, Path]:
     return origin, first, second
 
 
-def snapshot(repo: Path, name: str = "2026-07-13T02-00-03Z.json") -> Path:
+def snapshot(repo: Path, name: str = "2026-07-13T10-00-03+08-00.json") -> Path:
     relative = Path("data/2026/07/13") / name
     (repo / relative).parent.mkdir(parents=True, exist_ok=True)
     (repo / relative).write_text("{}\n")
@@ -141,7 +141,7 @@ def test_first_push_commits_only_snapshot_and_preserves_unrelated_changes(
     publish(relative, branch="main")
 
     assert git(repo, "diff-tree", "--no-commit-id", "--name-only", "-r", "HEAD").stdout.splitlines() == [relative.as_posix()]
-    assert git(repo, "log", "-1", "--format=%s").stdout.strip() == "chore(data): capture GitHub Trending snapshot 2026-07-13T02-00-03Z"
+    assert git(repo, "log", "-1", "--format=%s").stdout.strip() == "chore(data): capture GitHub Trending snapshot 2026-07-13T10-00-03+08-00"
     assert git(repo, "status", "--short").stdout.splitlines() == [" M README.md", "?? scratch.txt"]
     git(observer, "pull", "--ff-only")
     assert (observer / relative).is_file()

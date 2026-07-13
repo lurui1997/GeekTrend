@@ -20,7 +20,9 @@ class SnapshotExistsError(WriteError):
 
 def snapshot_relative_path(fetched_at: datetime) -> Path:
     date_path = fetched_at.strftime("%Y/%m/%d")
-    filename = fetched_at.strftime("%Y-%m-%dT%H-%M-%SZ.json")
+    timezone_suffix = fetched_at.strftime("%z")
+    formatted_suffix = f"{timezone_suffix[:3]}-{timezone_suffix[3:]}"
+    filename = fetched_at.strftime("%Y-%m-%dT%H-%M-%S") + f"{formatted_suffix}.json"
     return Path("data") / date_path / filename
 
 

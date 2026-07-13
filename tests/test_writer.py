@@ -1,11 +1,11 @@
 import json
 import os
-from datetime import datetime, timezone
+from datetime import datetime
 from pathlib import Path
 
 import pytest
 
-from geektrend.model import Contributor, Repository, Snapshot
+from geektrend.model import CHINA_TIME, Contributor, Repository, Snapshot
 from geektrend.writer import (
     SnapshotExistsError,
     WriteError,
@@ -16,7 +16,7 @@ from geektrend.writer import (
 
 def snapshot() -> Snapshot:
     return Snapshot(
-        fetched_at=datetime(2026, 7, 13, 2, 0, 3, tzinfo=timezone.utc),
+        fetched_at=datetime(2026, 7, 13, 10, 0, 3, tzinfo=CHINA_TIME),
         source_url="https://github.com/trending/",
         repositories=(
             Repository(
@@ -36,9 +36,9 @@ def temp_artifacts(root: Path) -> list[Path]:
     return list(root.rglob("*.tmp"))
 
 
-def test_snapshot_path_uses_utc_calendar_and_second_precision() -> None:
+def test_snapshot_path_uses_east_8_calendar_and_second_precision() -> None:
     assert snapshot_relative_path(snapshot().fetched_at) == Path(
-        "data/2026/07/13/2026-07-13T02-00-03Z.json"
+        "data/2026/07/13/2026-07-13T10-00-03+08-00.json"
     )
 
 
@@ -47,7 +47,7 @@ def test_writes_pretty_utf8_json_with_exactly_one_final_newline(tmp_path: Path) 
     destination = tmp_path / relative
     raw = destination.read_bytes()
 
-    assert relative == Path("data/2026/07/13/2026-07-13T02-00-03Z.json")
+    assert relative == Path("data/2026/07/13/2026-07-13T10-00-03+08-00.json")
     assert raw.decode("utf-8").endswith("\n")
     assert not raw.decode("utf-8").endswith("\n\n")
     assert b"\\u4f60" not in raw

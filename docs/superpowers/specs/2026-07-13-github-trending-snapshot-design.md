@@ -21,14 +21,14 @@ The design avoids browser automation because the required content is present in 
 Snapshots are stored at:
 
 ```text
-data/YYYY/MM/DD/YYYY-MM-DDTHH-MM-SSZ.json
+data/YYYY/MM/DD/YYYY-MM-DDTHH-MM-SS+08-00.json
 ```
 
 Each snapshot contains:
 
 ```json
 {
-  "fetched_at": "2026-07-13T02:00:00Z",
+  "fetched_at": "2026-07-13T10:00:00+08:00",
   "source_url": "https://github.com/trending/",
   "repository_count": 1,
   "repositories": [
@@ -62,7 +62,7 @@ JSON is UTF-8, pretty-printed, and ends with a newline so snapshots remain reada
 6. Write the completed snapshot atomically, creating date directories as needed.
 7. In GitHub Actions, commit only when a new snapshot file exists.
 
-The timestamp is generated in UTC. Every successful collection is preserved as a separate immutable file. Failed, delayed, or missed scheduled runs are not backfilled, and history is never overwritten or rewritten. If a manually retried run uses the same second-level timestamp, the command refuses to overwrite the existing snapshot.
+The timestamp is generated in UTC+08:00. Every successful collection is preserved as a separate immutable file. Failed, delayed, or missed scheduled runs are not backfilled, and history is never overwritten or rewritten. If a manually retried run uses the same second-level timestamp, the command refuses to overwrite the existing snapshot.
 
 ## Failure Handling
 
@@ -86,7 +86,7 @@ Parser tests use checked-in HTML fixtures rather than the live website. Tests co
 
 Writer tests verify the directory layout, JSON schema, UTF-8 output, and overwrite protection. Fault-injection tests prove that serialization, write, flush, and atomic-rename failures leave no destination snapshot and clean up temporary artifacts so nothing partial can be committed. Coordinator tests use a fake HTTP response or mocked fetcher to verify successful collection and failure behavior without network access.
 
-Automation contract tests parse the workflow and supporting publish script to verify the two-hour cron, manual dispatch, serialized non-canceling concurrency, fixed unfiltered source URL, UTC-stamped output, test-before-collection ordering, exact-file staging, bounded push retry, and non-zero conflict behavior.
+Automation contract tests parse the workflow and supporting publish script to verify the two-hour cron, manual dispatch, serialized non-canceling concurrency, UTC+08:00-stamped output, test-before-collection ordering, exact-file staging, bounded push retry, and non-zero conflict behavior.
 
 A live collection can be run manually for smoke testing, but it is not required for deterministic automated tests.
 
@@ -98,6 +98,6 @@ The README explains local setup, manual collection, tests, snapshot structure, G
 
 - The default GitHub Trending page is collected into the documented JSON schema.
 - Contributors include usernames and GitHub profile links when present.
-- A new UTC-stamped snapshot is scheduled every two hours.
+- A new UTC+08:00-stamped snapshot is scheduled every two hours.
 - Failed or empty collections never create committed snapshots.
 - Tests exercise parsing, validation, and file output without relying on live GitHub availability.

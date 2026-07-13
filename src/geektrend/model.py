@@ -1,11 +1,12 @@
 """Immutable, validated records for a GitHub Trending snapshot."""
 
 from dataclasses import dataclass
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from typing import Any, Sequence, TypeVar
 
 
 SOURCE_URL = "https://github.com/trending/"
+CHINA_TIME = timezone(timedelta(hours=8))
 Record = TypeVar("Record")
 
 
@@ -102,8 +103,11 @@ class Snapshot:
     repositories: Sequence[Repository]
 
     def __post_init__(self) -> None:
-        if not isinstance(self.fetched_at, datetime) or self.fetched_at.utcoffset() != timedelta(0):
-            raise ValidationError("fetched_at must be a UTC-aware datetime")
+        if (
+            not isinstance(self.fetched_at, datetime)
+            or self.fetched_at.utcoffset() != CHINA_TIME.utcoffset(None)
+        ):
+            raise ValidationError("fetched_at must be an East-8-aware datetime")
         if self.source_url != SOURCE_URL:
             raise ValidationError(f"source_url must be exactly {SOURCE_URL}")
 
@@ -120,9 +124,7 @@ class Snapshot:
             raise ValidationError("repository_name values must be unique")
 
     def to_dict(self) -> dict[str, Any]:
-        fetched_at = self.fetched_at.replace(microsecond=0).isoformat().replace(
-            "+00:00", "Z"
-        )
+        fetched_at = self.fetched_at.replace(microsecond=0).isoformat()
         return {
             "fetched_at": fetched_at,
             "source_url": self.source_url,
