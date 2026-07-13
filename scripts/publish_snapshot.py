@@ -9,6 +9,7 @@ from typing import NoReturn
 
 MAX_PUSH_ATTEMPTS = 3
 _SNAPSHOT_PATH = re.compile(r"data/\d{4}/\d{2}/\d{2}/[^/]+\.json")
+_SAFE_REMOTE = re.compile(r"[A-Za-z0-9][A-Za-z0-9._-]*")
 
 
 def _git(*args: str, check: bool = True) -> subprocess.CompletedProcess[str]:
@@ -63,10 +64,61 @@ def _names(*args: str) -> list[str]:
     return _git(*args).stdout.splitlines()
 
 
-def _verify_head(relative: str) -> None:
+def _verify_head(relative: str, expected_oid: str | None = None) -> None:
     changed = _names("diff-tree", "--no-commit-id", "--name-only", "-r", "HEAD")
     if changed != [relative]:
         _fail("rebased HEAD does not contain exactly the snapshot path")
+    if expected_oid is not None:
+        committed_oid = _git("rev-parse", f"HEAD:{relative}").stdout.strip()
+        if committed_oid != expected_oid:
+            _fail("committed snapshot blob differs from the validated staged file")
+
+
+def _validate_destination(branch: str, remote: str) -> None:
+    destination = f"refs/heads/{branch}"
+    if branch.startswith("-") or branch.startswith("refs/"):
+        raise ValueError("branch must be a safe short branch name")
+    if _git("check-ref-format", destination, check=False).returncode != 0:
+        raise ValueError("branch does not form a valid destination ref")
+    if not _SAFE_REMOTE.fullmatch(remote) or remote not in _names("remote"):
+        raise ValueError("remote must be an existing safe remote name")
+
+
+def _verify_staged_file(relative: str) -> str:
+    supplied = Path(_git("rev-parse", "--show-toplevel").stdout.strip()) / relative
+    staged = _names("ls-files", "--stage", "--", relative)
+    if len(staged) != 1:
+        _fail("snapshot path does not have exactly one staged object")
+    metadata = staged[0].split(maxsplit=3)
+    if len(metadata) != 4 or metadata[0] not in {"100644", "100755"}:
+        _fail("staged snapshot is not a regular file")
+    if supplied.is_symlink() or not supplied.is_file():
+        _fail("snapshot changed before it could be committed")
+    worktree_oid = _git("hash-object", "--no-filters", "--", relative).stdout.strip()
+    if metadata[1] != worktree_oid:
+        _fail("staged snapshot content differs from the validated file")
+    return metadata[1]
+
+
+def _is_non_fast_forward(push: subprocess.CompletedProcess[str], branch: str) -> bool:
+    expected_ref = f"refs/heads/{branch}"
+    for line in push.stdout.splitlines():
+        fields = line.split("\t")
+        if len(fields) != 3 or fields[0] != "!":
+            continue
+        if fields[1] != f"HEAD:{expected_ref}":
+            continue
+        if fields[2] in {
+            "[rejected] (non-fast-forward)",
+            "[rejected] (fetch first)",
+        }:
+            return True
+    return False
+
+
+def _diagnostic(result: subprocess.CompletedProcess[str]) -> str:
+    details = [text.strip() for text in (result.stderr, result.stdout) if text.strip()]
+    return "\n".join(details) or "git command failed without diagnostics"
 
 
 def publish(
@@ -76,11 +128,10 @@ def publish(
     remote: str = "origin",
     max_push_attempts: int = MAX_PUSH_ATTEMPTS,
 ) -> None:
-    if not branch or not remote:
-        raise ValueError("branch and remote must be non-empty")
     if max_push_attempts < 1:
         raise ValueError("max_push_attempts must be positive")
 
+    _validate_destination(branch, remote)
     relative = _validated_path(snapshot_path)
     if _names("diff", "--cached", "--name-only"):
         _fail("index must be clean before publication")
@@ -92,24 +143,37 @@ def publish(
     _git("add", "--", relative)
     if _names("diff", "--cached", "--name-only") != [relative]:
         _fail("snapshot path is not the sole staged path")
+    expected_oid = _verify_staged_file(relative)
 
     timestamp = Path(relative).stem
     _git("commit", "-m", f"chore(data): capture GitHub Trending snapshot {timestamp}", "--", relative)
-    _verify_head(relative)
+    _verify_head(relative, expected_oid)
 
     for attempt in range(1, max_push_attempts + 1):
-        push = _run_push(["git", "push", remote, f"HEAD:{branch}"])
+        push = _run_push(
+            ["git", "push", "--porcelain", "--", remote, f"HEAD:refs/heads/{branch}"]
+        )
         if push.returncode == 0:
             return
+        diagnostic = _diagnostic(push)
+        if not _is_non_fast_forward(push, branch):
+            _fail(f"push failed without a retryable non-fast-forward: {diagnostic}")
         if attempt == max_push_attempts:
-            _fail(f"push failed after {max_push_attempts} attempts")
+            _fail(f"push failed after {max_push_attempts} attempts: {diagnostic}")
 
-        _git("fetch", remote, branch)
-        rebase = _run_rebase(["rebase", "--autostash", f"{remote}/{branch}"])
+        _git("fetch", "--", remote, branch)
+        upstream = f"refs/remotes/{remote}/{branch}"
+        rebase = _run_rebase(["rebase", "--autostash", upstream])
         if rebase.returncode != 0:
-            _git("rebase", "--abort", check=False)
-            _fail("rebase failed; publication aborted")
-        _verify_head(relative)
+            abort = _git("rebase", "--abort", check=False)
+            if abort.returncode != 0:
+                _fail(
+                    "rebase failed and abort also failed: "
+                    f"rebase: {_diagnostic(rebase)}; abort: {_diagnostic(abort)}"
+                )
+            detail = _diagnostic(rebase)
+            _fail(f"rebase failed; publication aborted: {detail}")
+        _verify_head(relative, expected_oid)
 
 
 def main() -> None:
