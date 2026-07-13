@@ -42,13 +42,13 @@ Each snapshot contains:
         }
       ],
       "description": "Repository description",
-      "language": "Python"
+      "primary_language": "Python"
     }
   ]
 }
 ```
 
-Missing descriptions and languages are represented as `null`. A repository may have an empty contributors list when GitHub does not render “Built by” entries.
+Missing descriptions and primary languages are represented as `null`. `primary_language` is the language displayed by GitHub on the Trending card. A repository may have an empty contributors list when GitHub does not render “Built by” entries.
 
 JSON is UTF-8, pretty-printed, and ends with a newline so snapshots remain readable and diff-friendly.
 
@@ -58,11 +58,11 @@ JSON is UTF-8, pretty-printed, and ends with a newline so snapshots remain reada
 2. Require a successful HTTP response.
 3. Parse all Trending repository cards.
 4. Normalize relative GitHub links into absolute HTTPS URLs.
-5. Validate that at least one repository was parsed and that every repository has a name and canonical URL.
+5. Validate that at least one repository was parsed. Each name must have exactly the `owner/repository` shape, and its URL must be the corresponding `https://github.com/{owner}/{repository}` URL with no query or fragment. Contributor entries must have a non-empty username and matching `https://github.com/{username}` profile URL. Duplicate repository names make the collection fail rather than being silently merged.
 6. Write the completed snapshot atomically, creating date directories as needed.
 7. In GitHub Actions, commit only when a new snapshot file exists.
 
-The timestamp is generated in UTC. Separate runs produce separate files. If a manually retried run uses the same second-level timestamp, the command refuses to overwrite the existing snapshot.
+The timestamp is generated in UTC. Every successful collection is preserved as a separate immutable file. Failed, delayed, or missed scheduled runs are not backfilled, and history is never overwritten or rewritten. If a manually retried run uses the same second-level timestamp, the command refuses to overwrite the existing snapshot.
 
 ## Failure Handling
 
@@ -72,17 +72,21 @@ Parser selectors are kept in one module so adaptations to GitHub markup remain l
 
 ## Automation
 
-The workflow uses a two-hour cron schedule and `workflow_dispatch`. It grants only `contents: write`, installs pinned project dependencies, runs the test suite, executes the collector, and commits the generated data with a bot identity.
+The workflow uses the two-hour `0 */2 * * *` cron schedule and `workflow_dispatch`. It requests only `contents: write`. It installs a fixed Python minor version and exact direct and transitive dependency versions from a committed lock file; third-party actions are pinned to immutable full commit SHAs. Tests run before collection, and publication happens only after both steps succeed.
 
 Because GitHub Actions cron schedules are best-effort, a run may start later than its nominal time. The snapshot records the actual fetch time rather than the scheduled time.
 
-Concurrent workflow runs are grouped to avoid simultaneous commits. The workflow pulls/rebases before pushing when needed, and fails visibly if it cannot safely publish the snapshot.
+Workflow concurrency uses a repository-wide group such as `github-trending-snapshot-${{ github.repository }}` with `cancel-in-progress: false`, serializing scheduled and manual runs without discarding an active collection.
+
+The collector prints or exposes the exact relative path it created. Publication stages only that path, never `git add .` or unrelated workspace files. It commits with a bot identity and attempts a normal push. On a non-fast-forward rejection, it fetches the remote branch, rebases the already-created snapshot commit onto it, verifies that the rebased commit still changes exactly the intended snapshot path, and retries the push a bounded number of times. It exits non-zero if safe publication remains impossible. No force push is allowed.
 
 ## Testing
 
-Parser tests use checked-in HTML fixtures rather than the live website. Tests cover complete cards, missing optional fields, contributor extraction, URL normalization, multiple repositories, and an empty/changed page.
+Parser tests use checked-in HTML fixtures rather than the live website. Tests cover complete cards, missing optional fields, contributor extraction, URL normalization, multiple repositories, duplicate repositories, malformed repository/contributor identities, and an empty or structurally changed page.
 
-Writer tests verify the directory layout, JSON schema, UTF-8 output, and overwrite protection. Coordinator tests use a fake HTTP response or mocked fetcher to verify successful collection and failure behavior without network access.
+Writer tests verify the directory layout, JSON schema, UTF-8 output, and overwrite protection. Fault-injection tests prove that serialization, write, flush, and atomic-rename failures leave no destination snapshot and clean up temporary artifacts so nothing partial can be committed. Coordinator tests use a fake HTTP response or mocked fetcher to verify successful collection and failure behavior without network access.
+
+Automation contract tests parse the workflow and supporting publish script to verify the two-hour cron, manual dispatch, serialized non-canceling concurrency, fixed unfiltered source URL, UTC-stamped output, test-before-collection ordering, exact-file staging, bounded push retry, and non-zero conflict behavior.
 
 A live collection can be run manually for smoke testing, but it is not required for deterministic automated tests.
 
