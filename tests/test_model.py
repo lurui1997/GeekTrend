@@ -144,6 +144,17 @@ def test_repository_rejects_noncanonical_url(url: str) -> None:
         repository(url=url)
 
 
+@pytest.mark.parametrize("delimiter", ["?", "#", "%2F", "\\"])
+def test_repository_rejects_url_delimiter_in_matching_name(delimiter: str) -> None:
+    repository_name = f"octo/demo{delimiter}readme"
+
+    with pytest.raises(ValidationError, match="repository_name"):
+        repository(
+            repository_name=repository_name,
+            url=f"https://github.com/{repository_name}",
+        )
+
+
 @pytest.mark.parametrize("username", ["", " ", "octo/cat", "octo cat", "octo\tcat"])
 def test_contributor_rejects_invalid_username(username: str) -> None:
     with pytest.raises(ValidationError, match="username"):
@@ -163,6 +174,14 @@ def test_contributor_rejects_invalid_username(username: str) -> None:
 def test_contributor_rejects_noncanonical_url(url: str) -> None:
     with pytest.raises(ValidationError, match="url"):
         contributor(url=url)
+
+
+@pytest.mark.parametrize("delimiter", ["?", "#", "%2F", "\\"])
+def test_contributor_rejects_url_delimiter_in_matching_username(delimiter: str) -> None:
+    username = f"octocat{delimiter}profile"
+
+    with pytest.raises(ValidationError, match="username"):
+        contributor(username=username, url=f"https://github.com/{username}")
 
 
 @pytest.mark.parametrize(

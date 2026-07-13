@@ -16,6 +16,10 @@ def _has_whitespace(value: str) -> bool:
     return any(character.isspace() for character in value)
 
 
+def _has_url_syntax(value: str) -> bool:
+    return any(character in value for character in "?#%\\")
+
+
 @dataclass(frozen=True, slots=True)
 class Contributor:
     username: str
@@ -27,8 +31,9 @@ class Contributor:
             or not self.username
             or "/" in self.username
             or _has_whitespace(self.username)
+            or _has_url_syntax(self.username)
         ):
-            raise ValidationError("username must be one non-empty segment without whitespace")
+            raise ValidationError("username must be one canonical non-empty URL path segment")
         if self.url != f"https://github.com/{self.username}":
             raise ValidationError("url must match the contributor username")
 
@@ -52,9 +57,10 @@ class Repository:
             len(segments) != 2
             or not all(segments)
             or any(_has_whitespace(segment) for segment in segments)
+            or any(_has_url_syntax(segment) for segment in segments)
         ):
             raise ValidationError(
-                "repository_name must have exactly two non-empty segments without whitespace"
+                "repository_name must have exactly two canonical non-empty URL path segments"
             )
         if self.url != f"https://github.com/{self.repository_name}":
             raise ValidationError("url must match the repository_name")
