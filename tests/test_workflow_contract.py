@@ -81,6 +81,7 @@ def test_install_test_collect_and_publish_contract() -> None:
     assert [step.get("name") for step in steps[2:]] == [
         "Install dependencies",
         "Test",
+        "Configure Git author",
         "Collect",
         "Publish exact snapshot",
     ]
@@ -90,6 +91,13 @@ def test_install_test_collect_and_publish_contract() -> None:
     )
     assert steps[3]["run"] == "python -m pytest -q"
     assert steps[4] == {
+        "name": "Configure Git author",
+        "run": (
+            'git config user.name "github-actions[bot]"\n'
+            'git config user.email "41898282+github-actions[bot]@users.noreply.github.com"\n'
+        ),
+    }
+    assert steps[5] == {
         "name": "Collect",
         "id": "collect",
         "shell": "bash",
@@ -99,7 +107,7 @@ def test_install_test_collect_and_publish_contract() -> None:
             "printf 'snapshot_path=%s\\n' \"$snapshot_path\" >> \"$GITHUB_OUTPUT\"\n"
         ),
     }
-    assert steps[5] == {
+    assert steps[6] == {
         "name": "Publish exact snapshot",
         "env": {"BRANCH": "${{ github.ref_name }}"},
         "run": (
@@ -113,7 +121,7 @@ def test_install_test_collect_and_publish_contract() -> None:
 
 
 def test_collection_failure_does_not_write_an_output(tmp_path: Path) -> None:
-    collection = snapshot_steps()[4]
+    collection = snapshot_steps()[5]
     fake_bin = tmp_path / "bin"
     fake_bin.mkdir()
     fake_python = fake_bin / "python"
@@ -139,7 +147,7 @@ def test_collection_failure_does_not_write_an_output(tmp_path: Path) -> None:
 
 
 def test_malicious_branch_name_is_passed_as_one_literal_argument(tmp_path: Path) -> None:
-    publication = snapshot_steps()[5]
+    publication = snapshot_steps()[6]
     fake_bin = tmp_path / "bin"
     fake_bin.mkdir()
     fake_python = fake_bin / "python"

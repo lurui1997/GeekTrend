@@ -30,6 +30,10 @@ jobs:
           python -m pip install -r requirements.lock
       - name: Test
         run: python -m pytest -q
+      - name: Configure Git author
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
       - name: Collect
         id: collect
         shell: bash
