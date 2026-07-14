@@ -14,6 +14,21 @@ GeekTrend records immutable JSON snapshots of GitHub Trending every two hours.
 Each collection uses GitHub's default **All languages** and **Daily** view; the
 collector intentionally exposes no language or time-range filters.
 
+## Why GeekTrend
+
+GitHub projects are seeing more visible bot and AI-agent contributions. On
+[GitHub Trending](https://github.com/trending/), this signal is especially
+interesting: trending repositories are where developers are actively building,
+shipping, and attracting attention right now.
+
+GeekTrend turns that public activity into an **agent contribute leaderboard**.
+Instead of asking developers which coding agent they prefer, it watches which
+agents actually appear in contributor lists across trending projects. That makes
+the data a practical proxy for real developer agent selection: if `claude`,
+`codex`, `cursor`, `github-copilot`, or another agent is repeatedly showing up
+in current projects, it reflects tooling choices made in live development rather
+than survey answers or marketing claims.
+
 Each snapshot preserves the trending repositories shown at collection time and
 adds a best-effort contributor analysis:
 
