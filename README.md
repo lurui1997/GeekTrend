@@ -90,6 +90,9 @@ Run the deterministic, offline test suite with:
 python -m pytest -q
 ```
 
+For step-by-step operation, snapshot inspection commands, and troubleshooting,
+see [docs/USAGE.md](docs/USAGE.md).
+
 ## Snapshot Format
 
 New snapshots have this shape:
