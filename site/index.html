@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GeekTrend Agent Contribute 榜</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav>
+        <a href="https://github.com/lurui1997/GeekTrend">GitHub</a>
+        <a href="https://github.com/trending/">Trending</a>
+      </nav>
+      <p class="eyebrow">GitHub Trending · 每 2 小时更新</p>
+      <h1>Agent Contribute 榜</h1>
+      <p class="lede">
+        用 GitHub Trending 的真实 contributor 数据，观察开发者正在选择哪些 AI coding agent。
+      </p>
+    </header>
+
+    <main>
+      <section class="cards" aria-label="最新统计">
+        <article class="card">
+          <span>快照时间</span>
+          <strong id="fetched-at">加载中</strong>
+        </article>
+        <article class="card">
+          <span>Trending 项目</span>
+          <strong id="repo-count">-</strong>
+        </article>
+        <article class="card">
+          <span>使用 AI agent</span>
+          <strong id="agent-count">-</strong>
+        </article>
+        <article class="card">
+          <span>使用占比</span>
+          <strong id="agent-ratio">-</strong>
+        </article>
+      </section>
+
+      <section class="grid">
+        <article class="panel">
+          <div class="panel-header">
+            <h2>AI agent 使用趋势</h2>
+            <span id="snapshot-count"></span>
+          </div>
+          <div id="history-chart" class="bar-chart"></div>
+        </article>
+
+        <article class="panel">
+          <div class="panel-header">
+            <h2>Agent 排行</h2>
+          </div>
+          <div id="agent-chart" class="bar-chart"></div>
+        </article>
+
+        <article class="panel">
+          <div class="panel-header">
+            <h2>项目来源分布</h2>
+          </div>
+          <div id="country-chart" class="bar-chart"></div>
+        </article>
+      </section>
+
+      <section class="panel">
+        <div class="panel-header">
+          <h2>最新 Trending 项目</h2>
+          <span id="latest-path"></span>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>项目</th>
+                <th>语言</th>
+                <th>AI agent</th>
+                <th>来源</th>
+                <th>置信度</th>
+              </tr>
+            </thead>
+            <tbody id="repo-table"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      数据来自 GitHub Trending 公开页面与公开 GitHub profile。来源国家/地区为推断结果，不代表国籍声明。
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>

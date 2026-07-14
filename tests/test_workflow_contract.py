@@ -12,6 +12,7 @@ import yaml
 
 ROOT = Path(__file__).parents[1]
 WORKFLOW = ROOT / ".github/workflows/snapshot.yml"
+PAGES_WORKFLOW = ROOT / ".github/workflows/pages.yml"
 
 
 class WorkflowLoader(yaml.SafeLoader):
@@ -36,6 +37,10 @@ WorkflowLoader.add_implicit_resolver(
 
 def load_workflow() -> dict[str, object]:
     return yaml.load(WORKFLOW.read_text(), Loader=WorkflowLoader)
+
+
+def load_pages_workflow() -> dict[str, object]:
+    return yaml.load(PAGES_WORKFLOW.read_text(), Loader=WorkflowLoader)
 
 
 def snapshot_steps() -> list[dict[str, object]]:
@@ -74,6 +79,44 @@ def test_runner_action_pins_and_setup_are_exact() -> None:
         "cache": "pip",
         "cache-dependency-path": "requirements.lock",
     }
+
+
+def test_pages_workflow_deploys_after_snapshot_success() -> None:
+    workflow = load_pages_workflow()
+
+    assert workflow["on"]["workflow_run"] == {
+        "workflows": ["Capture GitHub Trending"],
+        "types": ["completed"],
+    }
+    assert workflow["permissions"] == {
+        "contents": "read",
+        "pages": "write",
+        "id-token": "write",
+    }
+    assert workflow["jobs"]["build"]["if"] == (
+        "github.event_name != 'workflow_run' || "
+        "github.event.workflow_run.conclusion == 'success'"
+    )
+
+
+def test_pages_workflow_action_pins_are_exact() -> None:
+    workflow = load_pages_workflow()
+    build_steps = workflow["jobs"]["build"]["steps"]
+    deploy_steps = workflow["jobs"]["deploy"]["steps"]
+    uses = [
+        step["uses"]
+        for step in [*build_steps, *deploy_steps]
+        if "uses" in step
+    ]
+
+    assert uses == [
+        "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+        "actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1",
+        "actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b",
+        "actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa",
+        "actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e",
+    ]
+    assert all(re.fullmatch(r"actions/[a-z-]+@[0-9a-f]{40}", use) for use in uses)
 
 
 def test_install_test_collect_and_publish_contract() -> None:

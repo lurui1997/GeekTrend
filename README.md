@@ -3,11 +3,13 @@
 默认中文 · [English](README.en.md)
 
 [![Capture GitHub Trending](https://github.com/lurui1997/GeekTrend/actions/workflows/snapshot.yml/badge.svg)](https://github.com/lurui1997/GeekTrend/actions/workflows/snapshot.yml)
+[![Publish Pages Report](https://github.com/lurui1997/GeekTrend/actions/workflows/pages.yml/badge.svg)](https://github.com/lurui1997/GeekTrend/actions/workflows/pages.yml)
 ![Python 3.13](https://img.shields.io/badge/Python-3.13-blue)
 ![GitHub Trending](https://img.shields.io/badge/source-GitHub%20Trending-24292f)
 ![Schedule](https://img.shields.io/badge/schedule-every%202h-2ea44f)
 ![Timezone](https://img.shields.io/badge/timezone-UTC%2B08%3A00-orange)
 ![AI Agent Analysis](https://img.shields.io/badge/analysis-AI%20agent%20contributors-purple)
+![GitHub Pages](https://img.shields.io/badge/report-GitHub%20Pages-0969da)
 
 ## 为什么做 GeekTrend
 
@@ -29,6 +31,9 @@ coding agent”，而是观察哪些 agent 真实出现在热门项目的 contri
 
 ## 工作流程
 
+[在线报表](https://lurui1997.github.io/GeekTrend/) 会展示最新快照的 AI agent 使用占比、
+agent 排行、项目来源分布和 Trending 项目明细。每次定时采集成功发布新快照后，Pages 报表会自动重新构建。
+
 ```mermaid
 flowchart LR
     A["GitHub Actions<br/>每 2 小时"] --> B["抓取 GitHub Trending<br/>All languages · Daily"]
@@ -36,6 +41,7 @@ flowchart LR
     C --> D["分析 contributors<br/>AI agent 使用 · 来源信号"]
     D --> E["写入不可变 JSON<br/>UTC+08:00 路径"]
     E --> F["提交单个快照<br/>data/YYYY/MM/DD/*.json"]
+    F --> G["更新 GitHub Pages<br/>可视化报表"]
 ```
 
 ```mermaid
@@ -159,6 +165,8 @@ workflow 会：
 4. 采集当前 GitHub Trending 页面；
 5. 使用 `GITHUB_TOKEN` 补充 contributor profile 分析；
 6. 把一个新快照文件提交回分支。
+7. 触发 `Publish Pages Report` workflow，重新生成并发布
+   [GitHub Pages 在线报表](https://lurui1997.github.io/GeekTrend/)。
 
 为了让 workflow 能提交快照，需要在 GitHub 仓库里开启：
 

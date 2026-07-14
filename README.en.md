@@ -3,18 +3,13 @@
 [中文默认版](README.md) · English
 
 [![Capture GitHub Trending](https://github.com/lurui1997/GeekTrend/actions/workflows/snapshot.yml/badge.svg)](https://github.com/lurui1997/GeekTrend/actions/workflows/snapshot.yml)
+[![Publish Pages Report](https://github.com/lurui1997/GeekTrend/actions/workflows/pages.yml/badge.svg)](https://github.com/lurui1997/GeekTrend/actions/workflows/pages.yml)
 ![Python 3.13](https://img.shields.io/badge/Python-3.13-blue)
 ![GitHub Trending](https://img.shields.io/badge/source-GitHub%20Trending-24292f)
 ![Schedule](https://img.shields.io/badge/schedule-every%202h-2ea44f)
 ![Timezone](https://img.shields.io/badge/timezone-UTC%2B08%3A00-orange)
 ![AI Agent Analysis](https://img.shields.io/badge/analysis-AI%20agent%20contributors-purple)
-
-`github-trending` · `snapshot` · `ai-agent-analysis` · `contributors` ·
-`automation` · `python-3.13` · `github-actions`
-
-GeekTrend records immutable JSON snapshots of GitHub Trending every two hours.
-Each collection uses GitHub's default **All languages** and **Daily** view; the
-collector intentionally exposes no language or time-range filters.
+![GitHub Pages](https://img.shields.io/badge/report-GitHub%20Pages-0969da)
 
 ## Why GeekTrend
 
@@ -41,6 +36,11 @@ adds a best-effort contributor analysis:
 
 ## How It Works
 
+The [live report](https://lurui1997.github.io/GeekTrend/) shows the latest AI
+agent adoption ratio, agent leaderboard, project-origin distribution, and
+repository details. After each scheduled snapshot is published, the GitHub Pages
+report is rebuilt automatically.
+
 ```mermaid
 flowchart LR
     A["GitHub Actions<br/>every 2 hours"] --> B["Fetch GitHub Trending<br/>All languages · Daily"]
@@ -48,6 +48,7 @@ flowchart LR
     C --> D["Analyze contributors<br/>AI agent usage · origin signals"]
     D --> E["Write immutable JSON<br/>UTC+08:00 path"]
     E --> F["Commit one snapshot<br/>data/YYYY/MM/DD/*.json"]
+    F --> G["Update GitHub Pages<br/>visual report"]
 ```
 
 ```mermaid
@@ -172,6 +173,8 @@ The workflow:
 4. collects the current GitHub Trending page;
 5. enriches contributors with GitHub profile analysis using `GITHUB_TOKEN`;
 6. commits exactly one new snapshot file back to the branch.
+7. triggers the `Publish Pages Report` workflow to rebuild and publish the
+   [GitHub Pages live report](https://lurui1997.github.io/GeekTrend/).
 
 In the repository, select **Settings → Actions → General → Workflow permissions
 → Read and write permissions** (`contents: write`) so a successful snapshot can

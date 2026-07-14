@@ -55,6 +55,16 @@ data/2026/07/14/2026-07-14T10-00-00+08-00.json
 
 ## Read The Latest Snapshot
 
+You can also open the live GitHub Pages report:
+
+```text
+https://lurui1997.github.io/GeekTrend/
+```
+
+The report visualizes the latest AI-agent adoption ratio, agent leaderboard,
+project-origin distribution, and repository table. It is rebuilt automatically
+after a successful scheduled snapshot run.
+
 Find the newest local snapshot:
 
 ```sh
