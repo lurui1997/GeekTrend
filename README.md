@@ -9,13 +9,6 @@
 ![Timezone](https://img.shields.io/badge/timezone-UTC%2B08%3A00-orange)
 ![AI Agent Analysis](https://img.shields.io/badge/analysis-AI%20agent%20contributors-purple)
 
-`github-trending` · `snapshot` · `ai-agent-analysis` · `contributors` ·
-`automation` · `python-3.13` · `github-actions`
-
-GeekTrend 每 2 小时记录一次 GitHub Trending 的不可变 JSON 快照。每次采集都使用
-GitHub 默认的 **All languages** 和 **Daily** 视图；采集器刻意不提供语言或时间范围过滤，
-让每份快照都代表 GitHub Trending 当时的默认公开状态。
-
 ## 为什么做 GeekTrend
 
 GitHub 项目里越来越常见 bot 和 AI agent 的贡献痕迹。在
