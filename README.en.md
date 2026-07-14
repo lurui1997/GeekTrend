@@ -13,23 +13,23 @@
 ![AI Agent Analysis](https://img.shields.io/badge/analysis-AI%20agent%20contributors-purple)
 ![GitHub Pages](https://img.shields.io/badge/report-GitHub%20Pages-0969da)
 
-GeekTrend captures GitHub Trending every two hours, saves immutable JSON
-snapshots, and analyzes which trending projects include AI agent contributors.
+GeekTrend fetches GitHub Trending every two hours, saves immutable snapshots,
+and analyzes AI agent contributor usage in trending repositories.
 
-Start with the live dashboard:
+The live dashboard is the best place to start:
 
 > [https://lurui1997.github.io/GeekTrend/](https://lurui1997.github.io/GeekTrend/)
 
-The dashboard shows:
+It shows the latest snapshot's:
 
-- the share of trending projects using AI agent contributors;
-- the agent contributor leaderboard;
+- AI agent project share;
+- agent contributor leaderboard;
 - inferred project-origin country/region distribution;
 - repository language, description, contributors, and analysis results.
 
-## Why GeekTrend
+## Why GeekTrend exists
 
-GitHub projects are seeing more visible bot and AI-agent contributions. On
+GitHub projects increasingly show traces of bot and AI agent contributions. On
 [GitHub Trending](https://github.com/trending/), this signal is especially
 interesting: trending repositories are where developers are actively building,
 shipping, and attracting attention right now.
@@ -42,8 +42,8 @@ the data a practical proxy for real developer agent selection: if `claude`,
 in current projects, it reflects tooling choices made in live development rather
 than survey answers or marketing claims.
 
-Each snapshot preserves the trending repositories shown at collection time and
-adds a best-effort contributor analysis:
+Each snapshot preserves the Trending repositories shown at collection time and
+adds best-effort contributor analysis:
 
 - whether any listed contributor is a known AI coding agent, such as `claude`,
   `codex`, `cursor`, `github-copilot`, or `copilot`;
@@ -82,9 +82,10 @@ The pie chart above mirrors the first analyzed live smoke run: 8 of 11 current
 Trending projects had a known AI agent contributor. Future snapshots store their
 own `ai_agent_project_count` and `ai_agent_project_ratio`.
 
-## Install and run
+## Run locally
 
-Python 3.13 is required. Create an isolated environment and install the fully pinned lock file:
+Python 3.13 is required. Create an isolated environment and install the locked
+dependencies:
 
 ```sh
 python3.13 -m venv .venv
@@ -92,7 +93,7 @@ python3.13 -m venv .venv
 python -m pip install -r requirements.lock
 ```
 
-Collect into the current directory, or select another root for a smoke test:
+Collect into the current repository, or use a temporary directory for a smoke test:
 
 ```sh
 python -m geektrend.cli
@@ -114,8 +115,8 @@ Run the deterministic, offline test suite with:
 python -m pytest -q
 ```
 
-For step-by-step operation, snapshot inspection commands, and troubleshooting,
-see [docs/USAGE.md](docs/USAGE.md).
+For more detailed commands, snapshot inspection, and troubleshooting, see
+[docs/USAGE.md](docs/USAGE.md).
 
 ## Data fields
 
@@ -180,9 +181,9 @@ the AI agent and origin fields. Treat each file as immutable historical data.
 
 ## Automation
 
-The `Capture GitHub Trending` Actions workflow is scheduled every two hours and
-can also be run manually from GitHub Actions. GitHub schedules are best effort,
-so a delayed or skipped run is not backfilled.
+The `Capture GitHub Trending` Actions workflow runs every two hours and can also
+be triggered manually from GitHub Actions. GitHub schedules are best effort, so
+delayed or skipped runs are not backfilled.
 
 The workflow:
 
@@ -201,7 +202,10 @@ be committed and pushed.
 
 ## Notes and constraints
 
-One concurrency group serializes runs without cancelling an in-progress collection. Publication retries a bounded number of push races, never overwrites or backfills an existing path, and treats every successfully published snapshot as immutable.
+One concurrency group serializes runs without cancelling an in-progress
+collection. Publication retries a bounded number of push races, never overwrites
+or backfills an existing path, and treats every successfully published snapshot
+as immutable.
 
 GitHub provides no official Trending API. This project parses the public
 Trending HTML, so GitHub markup changes can break collection; failures leave no
@@ -209,4 +213,6 @@ snapshot. Contributor enrichment uses public GitHub profile data and degrades to
 `unknown` when profile signals or API requests are unavailable. Tests use local
 fixtures and never require the network.
 
-The writer publishes atomically with a hard link to guarantee no-overwrite behavior. The output root and its temporary file must therefore be on a filesystem that supports hard links.
+The writer publishes atomically with a hard link to guarantee no-overwrite
+behavior. The output root and its temporary file must therefore be on a
+filesystem that supports hard links.
