@@ -1,5 +1,7 @@
 # GeekTrend
 
+默认中文 · [English](README.en.md)
+
 [![Capture GitHub Trending](https://github.com/lurui1997/GeekTrend/actions/workflows/snapshot.yml/badge.svg)](https://github.com/lurui1997/GeekTrend/actions/workflows/snapshot.yml)
 ![Python 3.13](https://img.shields.io/badge/Python-3.13-blue)
 ![GitHub Trending](https://img.shields.io/badge/source-GitHub%20Trending-24292f)
@@ -10,57 +12,52 @@
 `github-trending` · `snapshot` · `ai-agent-analysis` · `contributors` ·
 `automation` · `python-3.13` · `github-actions`
 
-GeekTrend records immutable JSON snapshots of GitHub Trending every two hours.
-Each collection uses GitHub's default **All languages** and **Daily** view; the
-collector intentionally exposes no language or time-range filters.
+GeekTrend 每 2 小时记录一次 GitHub Trending 的不可变 JSON 快照。每次采集都使用
+GitHub 默认的 **All languages** 和 **Daily** 视图；采集器刻意不提供语言或时间范围过滤，
+让每份快照都代表 GitHub Trending 当时的默认公开状态。
 
-## Why GeekTrend
+## 为什么做 GeekTrend
 
-GitHub projects are seeing more visible bot and AI-agent contributions. On
-[GitHub Trending](https://github.com/trending/), this signal is especially
-interesting: trending repositories are where developers are actively building,
-shipping, and attracting attention right now.
+GitHub 项目里越来越常见 bot 和 AI agent 的贡献痕迹。在
+[GitHub Trending](https://github.com/trending/) 上，这个信号尤其有价值：Trending
+项目代表开发者正在真实构建、发布、协作和获得关注的方向。
 
-GeekTrend turns that public activity into an **agent contribute leaderboard**.
-Instead of asking developers which coding agent they prefer, it watches which
-agents actually appear in contributor lists across trending projects. That makes
-the data a practical proxy for real developer agent selection: if `claude`,
-`codex`, `cursor`, `github-copilot`, or another agent is repeatedly showing up
-in current projects, it reflects tooling choices made in live development rather
-than survey answers or marketing claims.
+GeekTrend 把这些公开活动沉淀成一份 **agent contribute 榜**。它不是问开发者“你喜欢哪个
+coding agent”，而是观察哪些 agent 真实出现在热门项目的 contributor 列表里。也就是说，
+如果 `claude`、`codex`、`cursor`、`github-copilot` 或其他 agent 反复出现在当前项目中，
+这比问卷或营销口径更接近开发者真实的 agent 选型。
 
-Each snapshot preserves the trending repositories shown at collection time and
-adds a best-effort contributor analysis:
+每份快照都会保存当时的 Trending 仓库，并补充一组尽力而为的 contributor 分析：
 
-- whether any listed contributor is a known AI coding agent, such as `claude`,
-  `codex`, `cursor`, `github-copilot`, or `copilot`;
-- an inferred project origin country/region from public GitHub profile signals;
-- the share of projects in the snapshot that use an AI agent contributor.
+- 是否出现已知 AI coding agent contributor，例如 `claude`、`codex`、`cursor`、
+  `github-copilot` 或 `copilot`；
+- 根据公开 GitHub profile 信号推断项目来源国家/地区；
+- 统计当前快照中使用 AI agent contributor 的项目占比。
 
-## How It Works
+## 工作流程
 
 ```mermaid
 flowchart LR
-    A["GitHub Actions<br/>every 2 hours"] --> B["Fetch GitHub Trending<br/>All languages · Daily"]
-    B --> C["Parse repositories<br/>name · link · contributors · description · language"]
-    C --> D["Analyze contributors<br/>AI agent usage · origin signals"]
-    D --> E["Write immutable JSON<br/>UTC+08:00 path"]
-    E --> F["Commit one snapshot<br/>data/YYYY/MM/DD/*.json"]
+    A["GitHub Actions<br/>每 2 小时"] --> B["抓取 GitHub Trending<br/>All languages · Daily"]
+    B --> C["解析仓库<br/>名称 · 链接 · contributors · 描述 · 语言"]
+    C --> D["分析 contributors<br/>AI agent 使用 · 来源信号"]
+    D --> E["写入不可变 JSON<br/>UTC+08:00 路径"]
+    E --> F["提交单个快照<br/>data/YYYY/MM/DD/*.json"]
 ```
 
 ```mermaid
 pie title Snapshot AI Agent Adoption
-    "Uses AI agent contributor" : 8
-    "No AI agent contributor detected" : 3
+    "使用 AI agent contributor" : 8
+    "未检测到 AI agent contributor" : 3
 ```
 
-The pie chart above mirrors the first analyzed live smoke run: 8 of 11 current
-Trending projects had a known AI agent contributor. Future snapshots store their
-own `ai_agent_project_count` and `ai_agent_project_ratio`.
+上面的饼图来自第一次带分析能力的 live smoke run：当时 11 个 Trending 项目里，有 8 个项目
+检测到已知 AI agent contributor。之后每份快照都会保存自己的
+`ai_agent_project_count` 和 `ai_agent_project_ratio`。
 
-## Install and run
+## 安装与运行
 
-Python 3.13 is required. Create an isolated environment and install the fully pinned lock file:
+项目需要 Python 3.13。创建隔离环境并安装锁定依赖：
 
 ```sh
 python3.13 -m venv .venv
@@ -68,34 +65,36 @@ python3.13 -m venv .venv
 python -m pip install -r requirements.lock
 ```
 
-Collect into the current directory, or select another root for a smoke test:
+采集到当前仓库，或指定临时目录做 smoke test：
 
 ```sh
 python -m geektrend.cli
 python -m geektrend.cli --output-root /tmp/geektrend-smoke
 ```
 
-The command prints the relative path it created. Snapshots use UTC+08:00 time
-and live at `data/YYYY/MM/DD/YYYY-MM-DDTHH-MM-SS+08-00.json`.
+命令会输出创建的相对路径。快照使用 UTC+08:00 时间，路径格式为：
 
-To inspect the newest local snapshot:
+```text
+data/YYYY/MM/DD/YYYY-MM-DDTHH-MM-SS+08-00.json
+```
+
+查看本地最新快照：
 
 ```sh
 find data -type f -name '*.json' | sort | tail -1
 ```
 
-Run the deterministic, offline test suite with:
+运行离线测试：
 
 ```sh
 python -m pytest -q
 ```
 
-For step-by-step operation, snapshot inspection commands, and troubleshooting,
-see [docs/USAGE.md](docs/USAGE.md).
+更完整的操作步骤、快照查看命令和排障说明见 [docs/USAGE.md](docs/USAGE.md)。
 
-## Snapshot Format
+## 快照格式
 
-New snapshots have this shape:
+新快照结构如下：
 
 ```json
 {
@@ -126,63 +125,62 @@ New snapshots have this shape:
 }
 ```
 
-`fetched_at` is UTC+08:00 at whole-second precision. `repository_count` equals
-the length of `repositories`; repository and contributor URLs are canonical
-GitHub URLs. `contributors` is always an array, possibly empty. `description`
-and `primary_language` are nullable.
+`fetched_at` 使用 UTC+08:00，并精确到秒。`repository_count` 等于 `repositories` 的长度；
+仓库和 contributor URL 都是规范 GitHub URL。`contributors` 永远是数组，可以为空。
+`description` 和 `primary_language` 可以为 `null`。
 
-Contributor analysis is best-effort and uses public GitHub profile fields.
-`ai_agent_contributors` records known AI coding agent usernames such as
-`claude`, `codex`, `cursor`, `github-copilot`, and `copilot`; Dependabot is not
-counted as an AI coding agent. `origin_country` is an inferred project origin,
-not a claim about nationality. `origin_confidence` is `high` when the owner
-profile provides the signal, `medium` when multiple human contributors agree,
-`low` for a single non-owner signal, and `unknown` when no usable public signal
-is available. `ai_agent_project_ratio` is the share of repositories in the
-snapshot where `uses_ai_agent` is true.
+Contributor 分析使用公开 GitHub profile 字段，属于尽力而为。`ai_agent_contributors`
+记录已知 AI coding agent 用户名，例如 `claude`、`codex`、`cursor`、`github-copilot`
+和 `copilot`；Dependabot 不计为 AI coding agent。`origin_country` 是项目来源推断，
+不是 contributor 国籍声明。`origin_confidence` 的含义：
 
-Older snapshots created before contributor analysis was added may not contain
-the AI agent and origin fields. Treat each file as immutable historical data.
+- `high`：仓库 owner profile 提供来源信号；
+- `medium`：多个 human contributors 指向同一来源；
+- `low`：只有一个非 owner human contributor 提供可用信号；
+- `unknown`：没有可靠公开信号。
 
-### Analysis Fields
+旧快照是在 contributor 分析功能上线前生成的，可能没有 AI agent 和来源字段。请把每份快照都视为不可变历史数据。
 
-| Field | Level | Meaning |
+### 分析字段
+
+| 字段 | 层级 | 含义 |
 |---|---|---|
-| `ai_agent_contributors` | repository | Known AI coding agent contributor usernames found in the Trending card |
-| `uses_ai_agent` | repository | `true` when `ai_agent_contributors` is not empty |
-| `origin_country` | repository | Best-effort origin inferred from public GitHub profile signals |
-| `origin_confidence` | repository | `high`, `medium`, `low`, or `unknown` depending on evidence strength |
-| `origin_evidence` | repository | Short public-profile evidence used for the origin inference |
-| `ai_agent_project_count` | snapshot | Number of repositories where `uses_ai_agent` is `true` |
-| `ai_agent_project_ratio` | snapshot | `ai_agent_project_count / repository_count`, rounded to 4 decimals |
+| `ai_agent_contributors` | repository | Trending card 中检测到的已知 AI coding agent 用户名 |
+| `uses_ai_agent` | repository | 当 `ai_agent_contributors` 非空时为 `true` |
+| `origin_country` | repository | 根据公开 GitHub profile 信号推断的项目来源 |
+| `origin_confidence` | repository | `high`、`medium`、`low` 或 `unknown` |
+| `origin_evidence` | repository | 用于来源推断的简短公开 profile 证据 |
+| `ai_agent_project_count` | snapshot | `uses_ai_agent` 为 `true` 的仓库数量 |
+| `ai_agent_project_ratio` | snapshot | `ai_agent_project_count / repository_count`，保留 4 位小数 |
 
-## Automation
+## 自动化
 
-The `Capture GitHub Trending` Actions workflow is scheduled every two hours and
-can also be run manually from GitHub Actions. GitHub schedules are best effort,
-so a delayed or skipped run is not backfilled.
+`Capture GitHub Trending` GitHub Actions workflow 每 2 小时运行一次，也可以在 GitHub Actions
+页面手动触发。GitHub schedule 是 best effort，所以延迟或跳过的运行不会回填。
 
-The workflow:
+workflow 会：
 
-1. checks out the repository;
-2. installs the pinned Python dependencies;
-3. runs the offline test suite;
-4. collects the current GitHub Trending page;
-5. enriches contributors with GitHub profile analysis using `GITHUB_TOKEN`;
-6. commits exactly one new snapshot file back to the branch.
+1. checkout 仓库；
+2. 安装锁定的 Python 依赖；
+3. 运行离线测试；
+4. 采集当前 GitHub Trending 页面；
+5. 使用 `GITHUB_TOKEN` 补充 contributor profile 分析；
+6. 把一个新快照文件提交回分支。
 
-In the repository, select **Settings → Actions → General → Workflow permissions
-→ Read and write permissions** (`contents: write`) so a successful snapshot can
-be committed and pushed.
+为了让 workflow 能提交快照，需要在 GitHub 仓库里开启：
 
-## Operating Constraints
+```text
+Settings → Actions → General → Workflow permissions → Read and write permissions
+```
 
-One concurrency group serializes runs without cancelling an in-progress collection. Publication retries a bounded number of push races, never overwrites or backfills an existing path, and treats every successfully published snapshot as immutable.
+## 运行约束
 
-GitHub provides no official Trending API. This project parses the public
-Trending HTML, so GitHub markup changes can break collection; failures leave no
-snapshot. Contributor enrichment uses public GitHub profile data and degrades to
-`unknown` when profile signals or API requests are unavailable. Tests use local
-fixtures and never require the network.
+workflow 使用一个 concurrency group 串行化运行，不会取消正在执行的采集。发布步骤会有限重试 push
+竞争，但永远不会覆盖或回填已有快照路径；每个成功发布的快照都视为不可变数据。
 
-The writer publishes atomically with a hard link to guarantee no-overwrite behavior. The output root and its temporary file must therefore be on a filesystem that supports hard links.
+GitHub 没有官方 Trending API。本项目解析公开 Trending HTML，所以 GitHub markup 变化可能导致采集失败；
+失败时不会生成快照。Contributor enrichment 使用公开 GitHub profile 数据；当 profile 信号缺失或 API
+请求失败时，会降级为 `unknown`。测试使用本地 fixtures，不依赖网络。
+
+写入器使用 hard link 原子发布快照以保证 no-overwrite 行为。因此 output root 和临时文件必须位于支持
+hard link 的文件系统上。
