@@ -13,10 +13,9 @@
 ![AI Agent Analysis](https://img.shields.io/badge/analysis-AI%20agent%20contributors-purple)
 ![GitHub Pages](https://img.shields.io/badge/report-GitHub%20Pages-0969da)
 
-GeekTrend 每 2 小时抓取一次 GitHub Trending，保存不可变快照，并分析热门项目的
-AI agent contributor 使用情况。
+GeekTrend 每 2 小时抓取一次 GitHub Trending，保存不可变快照，并分析热门项目的 AI agent contributor 使用情况。
 
-最值得先看的入口是在线看板：
+在线看板：
 
 > [https://lurui1997.github.io/GeekTrend/](https://lurui1997.github.io/GeekTrend/)
 
@@ -49,13 +48,15 @@ coding agent”，而是观察哪些 agent 真实出现在热门项目的 contri
 
 | 你关心的问题 | GeekTrend 给出的答案 |
 |---|---|
-| 现在热门项目里有多少使用 AI agent？ | 看 `ai_agent_project_count` 和 `ai_agent_project_ratio` |
 | 哪些 agent 更常出现在 contributor 里？ | 看在线看板的 Agent 排行 |
-| 项目主要来自哪些国家/地区？ | 看来源分布图和 `origin_country` |
+| 项目主要来自哪些国家/地区？ | 看来源分布图和 `来源` |
 | 数据是否会自动更新？ | 会。采集 workflow 每 2 小时运行一次；成功发布快照后，Pages 看板自动重建 |
-| 原始数据在哪里？ | `data/YYYY/MM/DD/*.json` |
+| 原始数据保存在哪里？ | `data/YYYY/MM/DD/*.json` |
 
 ## 数据流程
+
+下面的饼图来自第一次带分析能力的 live smoke run：当时 11 个 Trending 项目里，有 8 个项目检测到已知 AI agent contributor。
+之后每份快照都会保存自己的 `ai_agent_project_count` 和 `ai_agent_project_ratio`。
 
 ```mermaid
 flowchart LR
@@ -73,9 +74,7 @@ pie title Snapshot AI Agent Adoption
     "未检测到 AI agent contributor" : 3
 ```
 
-上面的饼图来自第一次带分析能力的 live smoke run：当时 11 个 Trending 项目里，有 8 个项目
-检测到已知 AI agent contributor。之后每份快照都会保存自己的
-`ai_agent_project_count` 和 `ai_agent_project_ratio`。
+
 
 ## 本地运行
 
@@ -114,64 +113,6 @@ python -m pytest -q
 
 更完整的操作步骤、快照查看命令和排障说明见 [docs/USAGE.md](docs/USAGE.md)。
 
-## 数据字段
-
-新快照结构如下：
-
-```json
-{
-  "fetched_at": "2026-07-13T10:00:00+08:00",
-  "source_url": "https://github.com/trending/",
-  "repository_count": 1,
-  "ai_agent_project_count": 1,
-  "ai_agent_project_ratio": 1.0,
-  "repositories": [
-    {
-      "repository_name": "owner/repository",
-      "url": "https://github.com/owner/repository",
-      "contributors": [
-        {
-          "username": "octocat",
-          "url": "https://github.com/octocat"
-        }
-      ],
-      "description": null,
-      "primary_language": null,
-      "ai_agent_contributors": ["claude"],
-      "uses_ai_agent": true,
-      "origin_country": "United States",
-      "origin_confidence": "high",
-      "origin_evidence": ["owner: location=New York City, NY"]
-    }
-  ]
-}
-```
-
-`fetched_at` 使用 UTC+08:00，并精确到秒。`repository_count` 等于 `repositories` 的长度；
-仓库和 contributor URL 都是规范 GitHub URL。`contributors` 永远是数组，可以为空。
-`description` 和 `primary_language` 可以为 `null`。
-
-Contributor 分析使用公开 GitHub profile 字段，属于尽力而为。`ai_agent_contributors`
-记录已知 AI coding agent 用户名，例如 `claude`、`codex`、`cursor`、`github-copilot`
-和 `copilot`；Dependabot 不计为 AI coding agent。`origin_country` 是项目来源推断，
-不是 contributor 国籍声明。`origin_confidence` 的含义：
-
-- `high`：仓库 owner profile 提供来源信号；
-- `medium`：多个 human contributors 指向同一来源；
-- `low`：只有一个非 owner human contributor 提供可用信号；
-- `unknown`：没有可靠公开信号。
-
-旧快照是在 contributor 分析功能上线前生成的，可能没有 AI agent 和来源字段。请把每份快照都视为不可变历史数据。
-
-| 字段 | 层级 | 含义 |
-|---|---|---|
-| `ai_agent_contributors` | repository | Trending card 中检测到的已知 AI coding agent 用户名 |
-| `uses_ai_agent` | repository | 当 `ai_agent_contributors` 非空时为 `true` |
-| `origin_country` | repository | 根据公开 GitHub profile 信号推断的项目来源 |
-| `origin_confidence` | repository | `high`、`medium`、`low` 或 `unknown` |
-| `origin_evidence` | repository | 用于来源推断的简短公开 profile 证据 |
-| `ai_agent_project_count` | snapshot | `uses_ai_agent` 为 `true` 的仓库数量 |
-| `ai_agent_project_ratio` | snapshot | `ai_agent_project_count / repository_count`，保留 4 位小数 |
 
 ## 自动化
 
