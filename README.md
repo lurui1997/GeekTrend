@@ -2,6 +2,8 @@
 
 默认中文 · [English](README.en.md)
 
+[📊 打开在线数据看板](https://lurui1997.github.io/GeekTrend/) · [GitHub Trending](https://github.com/trending/) · [使用说明](docs/USAGE.md)
+
 [![Capture GitHub Trending](https://github.com/lurui1997/GeekTrend/actions/workflows/snapshot.yml/badge.svg)](https://github.com/lurui1997/GeekTrend/actions/workflows/snapshot.yml)
 [![Publish Pages Report](https://github.com/lurui1997/GeekTrend/actions/workflows/pages.yml/badge.svg)](https://github.com/lurui1997/GeekTrend/actions/workflows/pages.yml)
 ![Python 3.13](https://img.shields.io/badge/Python-3.13-blue)
@@ -10,6 +12,20 @@
 ![Timezone](https://img.shields.io/badge/timezone-UTC%2B08%3A00-orange)
 ![AI Agent Analysis](https://img.shields.io/badge/analysis-AI%20agent%20contributors-purple)
 ![GitHub Pages](https://img.shields.io/badge/report-GitHub%20Pages-0969da)
+
+GeekTrend 每 2 小时抓取一次 GitHub Trending，保存不可变快照，并分析热门项目的
+AI agent contributor 使用情况。
+
+最值得先看的入口是在线看板：
+
+> [https://lurui1997.github.io/GeekTrend/](https://lurui1997.github.io/GeekTrend/)
+
+看板会展示最新快照里的：
+
+- AI agent 项目占比；
+- Agent contributor 排行；
+- Trending 项目来源国家/地区分布；
+- 每个 Trending 仓库的语言、介绍、contributors 和分析结果。
 
 ## 为什么做 GeekTrend
 
@@ -29,10 +45,17 @@ coding agent”，而是观察哪些 agent 真实出现在热门项目的 contri
 - 根据公开 GitHub profile 信号推断项目来源国家/地区；
 - 统计当前快照中使用 AI agent contributor 的项目占比。
 
-## 工作流程
+## 快速理解
 
-[在线报表](https://lurui1997.github.io/GeekTrend/) 会展示最新快照的 AI agent 使用占比、
-agent 排行、项目来源分布和 Trending 项目明细。每次定时采集成功发布新快照后，Pages 报表会自动重新构建。
+| 你关心的问题 | GeekTrend 给出的答案 |
+|---|---|
+| 现在热门项目里有多少使用 AI agent？ | 看 `ai_agent_project_count` 和 `ai_agent_project_ratio` |
+| 哪些 agent 更常出现在 contributor 里？ | 看在线看板的 Agent 排行 |
+| 项目主要来自哪些国家/地区？ | 看来源分布图和 `origin_country` |
+| 数据是否会自动更新？ | 会。采集 workflow 每 2 小时运行一次；成功发布快照后，Pages 看板自动重建 |
+| 原始数据在哪里？ | `data/YYYY/MM/DD/*.json` |
+
+## 数据流程
 
 ```mermaid
 flowchart LR
@@ -54,7 +77,7 @@ pie title Snapshot AI Agent Adoption
 检测到已知 AI agent contributor。之后每份快照都会保存自己的
 `ai_agent_project_count` 和 `ai_agent_project_ratio`。
 
-## 安装与运行
+## 本地运行
 
 项目需要 Python 3.13。创建隔离环境并安装锁定依赖：
 
@@ -91,7 +114,7 @@ python -m pytest -q
 
 更完整的操作步骤、快照查看命令和排障说明见 [docs/USAGE.md](docs/USAGE.md)。
 
-## 快照格式
+## 数据字段
 
 新快照结构如下：
 
@@ -140,8 +163,6 @@ Contributor 分析使用公开 GitHub profile 字段，属于尽力而为。`ai_
 
 旧快照是在 contributor 分析功能上线前生成的，可能没有 AI agent 和来源字段。请把每份快照都视为不可变历史数据。
 
-### 分析字段
-
 | 字段 | 层级 | 含义 |
 |---|---|---|
 | `ai_agent_contributors` | repository | Trending card 中检测到的已知 AI coding agent 用户名 |
@@ -174,7 +195,7 @@ workflow 会：
 Settings → Actions → General → Workflow permissions → Read and write permissions
 ```
 
-## 运行约束
+## 注意事项
 
 workflow 使用一个 concurrency group 串行化运行，不会取消正在执行的采集。发布步骤会有限重试 push
 竞争，但永远不会覆盖或回填已有快照路径；每个成功发布的快照都视为不可变数据。

@@ -2,6 +2,8 @@
 
 [中文默认版](README.md) · English
 
+[📊 Open the live dashboard](https://lurui1997.github.io/GeekTrend/) · [GitHub Trending](https://github.com/trending/) · [Usage guide](docs/USAGE.md)
+
 [![Capture GitHub Trending](https://github.com/lurui1997/GeekTrend/actions/workflows/snapshot.yml/badge.svg)](https://github.com/lurui1997/GeekTrend/actions/workflows/snapshot.yml)
 [![Publish Pages Report](https://github.com/lurui1997/GeekTrend/actions/workflows/pages.yml/badge.svg)](https://github.com/lurui1997/GeekTrend/actions/workflows/pages.yml)
 ![Python 3.13](https://img.shields.io/badge/Python-3.13-blue)
@@ -10,6 +12,20 @@
 ![Timezone](https://img.shields.io/badge/timezone-UTC%2B08%3A00-orange)
 ![AI Agent Analysis](https://img.shields.io/badge/analysis-AI%20agent%20contributors-purple)
 ![GitHub Pages](https://img.shields.io/badge/report-GitHub%20Pages-0969da)
+
+GeekTrend captures GitHub Trending every two hours, saves immutable JSON
+snapshots, and analyzes which trending projects include AI agent contributors.
+
+Start with the live dashboard:
+
+> [https://lurui1997.github.io/GeekTrend/](https://lurui1997.github.io/GeekTrend/)
+
+The dashboard shows:
+
+- the share of trending projects using AI agent contributors;
+- the agent contributor leaderboard;
+- inferred project-origin country/region distribution;
+- repository language, description, contributors, and analysis results.
 
 ## Why GeekTrend
 
@@ -34,12 +50,17 @@ adds a best-effort contributor analysis:
 - an inferred project origin country/region from public GitHub profile signals;
 - the share of projects in the snapshot that use an AI agent contributor.
 
-## How It Works
+## Quick orientation
 
-The [live report](https://lurui1997.github.io/GeekTrend/) shows the latest AI
-agent adoption ratio, agent leaderboard, project-origin distribution, and
-repository details. After each scheduled snapshot is published, the GitHub Pages
-report is rebuilt automatically.
+| Question | Where GeekTrend answers it |
+|---|---|
+| How many trending projects use AI agents? | `ai_agent_project_count` and `ai_agent_project_ratio` |
+| Which agents appear most often? | Agent leaderboard on the live dashboard |
+| Where do projects appear to come from? | Origin distribution and `origin_country` |
+| Does the data update automatically? | Yes. Collection runs every 2 hours; Pages rebuilds after successful snapshots |
+| Where is the raw data? | `data/YYYY/MM/DD/*.json` |
+
+## Data flow
 
 ```mermaid
 flowchart LR
@@ -96,7 +117,7 @@ python -m pytest -q
 For step-by-step operation, snapshot inspection commands, and troubleshooting,
 see [docs/USAGE.md](docs/USAGE.md).
 
-## Snapshot Format
+## Data fields
 
 New snapshots have this shape:
 
@@ -147,8 +168,6 @@ snapshot where `uses_ai_agent` is true.
 Older snapshots created before contributor analysis was added may not contain
 the AI agent and origin fields. Treat each file as immutable historical data.
 
-### Analysis Fields
-
 | Field | Level | Meaning |
 |---|---|---|
 | `ai_agent_contributors` | repository | Known AI coding agent contributor usernames found in the Trending card |
@@ -180,7 +199,7 @@ In the repository, select **Settings → Actions → General → Workflow permis
 → Read and write permissions** (`contents: write`) so a successful snapshot can
 be committed and pushed.
 
-## Operating Constraints
+## Notes and constraints
 
 One concurrency group serializes runs without cancelling an in-progress collection. Publication retries a bounded number of push races, never overwrites or backfills an existing path, and treats every successfully published snapshot as immutable.
 
