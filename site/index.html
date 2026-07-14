@@ -3,70 +3,125 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>GeekTrend Agent Contribute 榜</title>
+    <meta
+      name="description"
+      content="GeekTrend tracks GitHub Trending snapshots and visualizes real AI agent contributor signals."
+    />
+    <title>GeekTrend Agent Contribute Radar</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="hero">
-      <nav>
-        <a href="https://github.com/lurui1997/GeekTrend">GitHub</a>
-        <a href="https://github.com/trending/">Trending</a>
+    <div class="noise" aria-hidden="true"></div>
+    <div class="grid-plane" aria-hidden="true"></div>
+
+    <header class="hero shell">
+      <nav class="command-bar" aria-label="站点导航">
+        <span class="terminal-mark">GT://signal-radar</span>
+        <div>
+          <a href="https://github.com/lurui1997/GeekTrend" rel="noreferrer">GitHub</a>
+          <a href="https://github.com/trending/" rel="noreferrer">Trending</a>
+          <a href="data/summary.json">Raw JSON</a>
+        </div>
       </nav>
-      <p class="eyebrow">GitHub Trending · 每 2 小时更新</p>
-      <h1>Agent Contribute 榜</h1>
-      <p class="lede">
-        用 GitHub Trending 的真实 contributor 数据，观察开发者正在选择哪些 AI coding agent。
-      </p>
+
+      <section class="hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">GitHub Trending · 每 2 小时采样 · UTC+08:00</p>
+          <h1>Agent Contribute Radar</h1>
+          <p class="lede">
+            从 GitHub Trending 的真实 contributor 轨迹里，捕捉开发者正在选择的 AI coding agent。
+          </p>
+          <div class="hero-actions" aria-label="关键入口">
+            <a class="primary-link" href="#repository-feed">查看项目情报流</a>
+            <a href="https://github.com/lurui1997/GeekTrend/tree/main/data" rel="noreferrer">浏览历史快照</a>
+          </div>
+        </div>
+
+        <aside class="signal-core" aria-label="最新 AI agent 使用占比">
+          <span class="scope-label">latest adoption signal</span>
+          <div class="radar" id="ratio-radar" style="--ratio: 0">
+            <div class="radar-sweep"></div>
+            <strong id="agent-ratio">-</strong>
+            <span>AI-agent projects</span>
+          </div>
+          <dl class="signal-meta">
+            <div>
+              <dt>Snapshot</dt>
+              <dd id="fetched-at">loading</dd>
+            </div>
+            <div>
+              <dt>Path</dt>
+              <dd id="latest-path">-</dd>
+            </div>
+          </dl>
+        </aside>
+      </section>
     </header>
 
-    <main>
-      <section class="cards" aria-label="最新统计">
-        <article class="card">
-          <span>快照时间</span>
-          <strong id="fetched-at">加载中</strong>
-        </article>
-        <article class="card">
-          <span>Trending 项目</span>
+    <main class="shell">
+      <section class="metrics" aria-label="最新统计">
+        <article class="metric-card">
+          <span>Trending repositories</span>
           <strong id="repo-count">-</strong>
+          <small>当前快照样本量</small>
         </article>
-        <article class="card">
-          <span>使用 AI agent</span>
+        <article class="metric-card hot">
+          <span>Agent-active repos</span>
           <strong id="agent-count">-</strong>
+          <small>检测到 AI agent contributor</small>
         </article>
-        <article class="card">
-          <span>使用占比</span>
-          <strong id="agent-ratio">-</strong>
+        <article class="metric-card">
+          <span>Snapshots tracked</span>
+          <strong id="snapshot-count">-</strong>
+          <small>不可变历史样本</small>
+        </article>
+        <article class="metric-card">
+          <span>Dominant agent</span>
+          <strong id="top-agent">-</strong>
+          <small>最新快照出现次数最高</small>
         </article>
       </section>
 
-      <section class="grid">
-        <article class="panel">
+      <section class="analysis-grid">
+        <article class="panel panel-wide">
           <div class="panel-header">
-            <h2>AI agent 使用趋势</h2>
-            <span id="snapshot-count"></span>
+            <div>
+              <p class="panel-kicker">time series</p>
+              <h2>AI agent adoption trend</h2>
+            </div>
+            <span>last 12 snapshots</span>
           </div>
           <div id="history-chart" class="bar-chart"></div>
         </article>
 
         <article class="panel">
           <div class="panel-header">
-            <h2>Agent 排行</h2>
+            <div>
+              <p class="panel-kicker">leaderboard</p>
+              <h2>Agent signal rank</h2>
+            </div>
           </div>
           <div id="agent-chart" class="bar-chart"></div>
         </article>
 
         <article class="panel">
           <div class="panel-header">
-            <h2>项目来源分布</h2>
+            <div>
+              <p class="panel-kicker">origin inference</p>
+              <h2>Project origin distribution</h2>
+            </div>
           </div>
           <div id="country-chart" class="bar-chart"></div>
         </article>
       </section>
 
-      <section class="panel">
+      <section class="panel repository-panel" id="repository-feed">
         <div class="panel-header">
-          <h2>最新 Trending 项目</h2>
-          <span id="latest-path"></span>
+          <div>
+            <p class="panel-kicker">repository feed</p>
+            <h2>Latest Trending signals</h2>
+          </div>
+          <span>AI agent 命中项会被高亮</span>
         </div>
         <div class="table-wrap">
           <table>
@@ -85,7 +140,7 @@
       </section>
     </main>
 
-    <footer>
+    <footer class="shell">
       数据来自 GitHub Trending 公开页面与公开 GitHub profile。来源国家/地区为推断结果，不代表国籍声明。
     </footer>
 

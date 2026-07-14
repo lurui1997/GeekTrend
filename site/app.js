@@ -13,15 +13,25 @@ const text = (value, fallback = "unknown") => {
   return String(value);
 };
 
+const array = (value) => Array.isArray(value) ? value : [];
+
 const renderBars = (target, rows, labelKey, valueKey, formatter = String) => {
   const element = document.querySelector(target);
   element.innerHTML = "";
+  if (!rows.length) {
+    const empty = document.createElement("p");
+    empty.className = "empty-state";
+    empty.textContent = "No signal detected in this snapshot.";
+    element.appendChild(empty);
+    return;
+  }
   const max = Math.max(1, ...rows.map((row) => Number(row[valueKey]) || 0));
-  for (const row of rows) {
+  rows.forEach((row, index) => {
     const value = Number(row[valueKey]) || 0;
     const label = text(row[labelKey]);
     const item = document.createElement("div");
     item.className = "bar-row";
+    item.style.setProperty("--delay", `${index * 45}ms`);
 
     const labelElement = document.createElement("span");
     labelElement.className = "bar-label";
@@ -40,14 +50,18 @@ const renderBars = (target, rows, labelKey, valueKey, formatter = String) => {
 
     item.append(labelElement, track, strong);
     element.appendChild(item);
-  }
+  });
 };
 
 const renderTable = (repositories) => {
   const body = document.querySelector("#repo-table");
   body.innerHTML = "";
   for (const repo of repositories) {
+    const agentContributors = Array.isArray(repo.ai_agent_contributors)
+      ? repo.ai_agent_contributors
+      : [];
     const row = document.createElement("tr");
+    row.className = repo.uses_ai_agent ? "agent-hit" : "quiet-row";
     const nameCell = document.createElement("td");
     const link = document.createElement("a");
     link.href = text(repo.url, "#");
@@ -61,8 +75,8 @@ const renderTable = (repositories) => {
     languageCell.textContent = text(repo.primary_language);
 
     const agentCell = document.createElement("td");
-    if (repo.ai_agent_contributors.length) {
-      for (const agent of repo.ai_agent_contributors) {
+    if (agentContributors.length) {
+      for (const agent of agentContributors) {
         const pill = document.createElement("span");
         pill.className = "pill";
         pill.textContent = agent;
@@ -88,17 +102,29 @@ const main = async () => {
   if (!response.ok) throw new Error(`Failed to load summary: ${response.status}`);
   const summary = await response.json();
   const latest = summary.latest || {};
+  const history = array(summary.history);
+  const agentLeaderboard = array(summary.agent_leaderboard);
+  const countryDistribution = array(summary.country_distribution);
+  const latestRepositories = array(summary.latest_repositories);
+  const ratio = typeof latest.ai_agent_project_ratio === "number"
+    ? latest.ai_agent_project_ratio
+    : 0;
+  const topAgent = agentLeaderboard[0];
 
   document.querySelector("#fetched-at").textContent = latest.fetched_at || "n/a";
   document.querySelector("#repo-count").textContent = latest.repository_count ?? "n/a";
   document.querySelector("#agent-count").textContent = latest.ai_agent_project_count ?? "n/a";
-  document.querySelector("#agent-ratio").textContent = formatPercent(latest.ai_agent_project_ratio);
-  document.querySelector("#snapshot-count").textContent = `${summary.snapshot_count} snapshots`;
+  document.querySelector("#agent-ratio").textContent = formatPercent(ratio);
+  document.querySelector("#snapshot-count").textContent = summary.snapshot_count ?? "n/a";
   document.querySelector("#latest-path").textContent = summary.latest_snapshot_path || "";
+  document.querySelector("#top-agent").textContent = topAgent
+    ? `${topAgent.agent}`
+    : "none";
+  document.querySelector("#ratio-radar").style.setProperty("--ratio", ratio);
 
   renderBars(
     "#history-chart",
-    summary.history.slice(-12).map((row) => ({
+    history.slice(-12).map((row) => ({
       label: labelFromDate(row.fetched_at),
       ratio: typeof row.ai_agent_project_ratio === "number" ? row.ai_agent_project_ratio : 0,
     })),
@@ -106,9 +132,9 @@ const main = async () => {
     "ratio",
     formatPercent,
   );
-  renderBars("#agent-chart", summary.agent_leaderboard, "agent", "project_count");
-  renderBars("#country-chart", summary.country_distribution, "country", "project_count");
-  renderTable(summary.latest_repositories);
+  renderBars("#agent-chart", agentLeaderboard, "agent", "project_count");
+  renderBars("#country-chart", countryDistribution, "country", "project_count");
+  renderTable(latestRepositories);
 };
 
 main().catch((error) => {
