@@ -13,19 +13,6 @@
 ![AI Agent Analysis](https://img.shields.io/badge/analysis-AI%20agent%20contributors-purple)
 ![GitHub Pages](https://img.shields.io/badge/report-GitHub%20Pages-0969da)
 
-GeekTrend 每 2 小时抓取一次 GitHub Trending，保存不可变快照，并分析热门项目的 AI agent contributor 使用情况。
-
-在线看板：
-
-> [https://lurui1997.github.io/GeekTrend/](https://lurui1997.github.io/GeekTrend/)
-
-看板会展示最新快照里的：
-
-- AI agent 项目占比；
-- Agent contributor 排行；
-- Trending 项目来源国家/地区分布；
-- 每个 Trending 仓库的语言、介绍、contributors 和分析结果。
-
 ## 为什么做 GeekTrend
 
 GitHub 项目里越来越常见 bot 和 AI agent 的贡献痕迹。在
@@ -43,6 +30,19 @@ coding agent”，而是观察哪些 agent 真实出现在热门项目的 contri
   `github-copilot` 或 `copilot`；
 - 根据公开 GitHub profile 信号推断项目来源国家/地区；
 - 统计当前快照中使用 AI agent contributor 的项目占比。
+
+## GeekTrend 做了什么
+GeekTrend 每 2 小时抓取一次 GitHub Trending，保存不可变快照，并分析热门项目的 AI agent contributor 使用情况。在线看板：
+
+> [https://lurui1997.github.io/GeekTrend/](https://lurui1997.github.io/GeekTrend/)
+
+看板会展示最新快照里的：
+
+- AI agent 项目占比；
+- Agent contributor 排行；
+- Trending 项目来源国家/地区分布；
+- 每个 Trending 仓库的语言、介绍、contributors 和分析结果。
+
 
 ## 快速理解
 
