@@ -1,0 +1,458 @@
+{
+  "fetched_at": "2026-07-16T09:18:08+08:00",
+  "source_url": "https://github.com/trending/",
+  "repository_count": 13,
+  "ai_agent_project_count": 8,
+  "ai_agent_project_ratio": 0.6154,
+  "repositories": [
+    {
+      "repository_name": "OpenCut-app/OpenCut",
+      "url": "https://github.com/OpenCut-app/OpenCut",
+      "contributors": [
+        {
+          "username": "mazeincoding",
+          "url": "https://github.com/mazeincoding"
+        },
+        {
+          "username": "izadoesdev",
+          "url": "https://github.com/izadoesdev"
+        },
+        {
+          "username": "anwarulislam",
+          "url": "https://github.com/anwarulislam"
+        },
+        {
+          "username": "khanguyen74",
+          "url": "https://github.com/khanguyen74"
+        },
+        {
+          "username": "DevloperAmanSingh",
+          "url": "https://github.com/DevloperAmanSingh"
+        }
+      ],
+      "description": "The open-source CapCut alternative",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "Palestine",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "izadoesdev: location=Palestine"
+      ]
+    },
+    {
+      "repository_name": "Nutlope/hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
+      "contributors": [
+        {
+          "username": "Luffixos",
+          "url": "https://github.com/Luffixos"
+        },
+        {
+          "username": "Nutlope",
+          "url": "https://github.com/Nutlope"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "riccardogiorato",
+          "url": "https://github.com/riccardogiorato"
+        },
+        {
+          "username": "JaySmith502",
+          "url": "https://github.com/JaySmith502"
+        }
+      ],
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "primary_language": "CSS",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United States",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "Nutlope: location=New York City, NY"
+      ]
+    },
+    {
+      "repository_name": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "contributors": [
+        {
+          "username": "mattpocock",
+          "url": "https://github.com/mattpocock"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "gabimoncha",
+          "url": "https://github.com/gabimoncha"
+        }
+      ],
+      "description": "Skills for Real Engineers. Straight from my .claude directory.",
+      "primary_language": "Shell",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "moeru-ai/airi",
+      "url": "https://github.com/moeru-ai/airi",
+      "contributors": [
+        {
+          "username": "nekomeowww",
+          "url": "https://github.com/nekomeowww"
+        },
+        {
+          "username": "luoling8192",
+          "url": "https://github.com/luoling8192"
+        },
+        {
+          "username": "shinohara-rin",
+          "url": "https://github.com/shinohara-rin"
+        },
+        {
+          "username": "sumimakito",
+          "url": "https://github.com/sumimakito"
+        }
+      ],
+      "description": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "China",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "luoling8192: location=Shanghai"
+      ]
+    },
+    {
+      "repository_name": "Dicklesworthstone/destructive_command_guard",
+      "url": "https://github.com/Dicklesworthstone/destructive_command_guard",
+      "contributors": [
+        {
+          "username": "Dicklesworthstone",
+          "url": "https://github.com/Dicklesworthstone"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "codex",
+          "url": "https://github.com/codex"
+        }
+      ],
+      "description": "The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being executed by agents.",
+      "primary_language": "Rust",
+      "ai_agent_contributors": [
+        "claude",
+        "codex"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United States",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "Dicklesworthstone: bio=Building in NY"
+      ]
+    },
+    {
+      "repository_name": "HKUDS/Vibe-Trading",
+      "url": "https://github.com/HKUDS/Vibe-Trading",
+      "contributors": [
+        {
+          "username": "warren618",
+          "url": "https://github.com/warren618"
+        },
+        {
+          "username": "shadowinlife",
+          "url": "https://github.com/shadowinlife"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "Elfsa-Miranda",
+          "url": "https://github.com/Elfsa-Miranda"
+        },
+        {
+          "username": "Teerapat-Vatpitak",
+          "url": "https://github.com/Teerapat-Vatpitak"
+        }
+      ],
+      "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "China",
+      "origin_confidence": "medium",
+      "origin_evidence": [
+        "shadowinlife: location=Beijing",
+        "Elfsa-Miranda: company=South China Normal University"
+      ]
+    },
+    {
+      "repository_name": "openinterpreter/openinterpreter",
+      "url": "https://github.com/openinterpreter/openinterpreter",
+      "contributors": [
+        {
+          "username": "jif-oai",
+          "url": "https://github.com/jif-oai"
+        },
+        {
+          "username": "bolinfest",
+          "url": "https://github.com/bolinfest"
+        },
+        {
+          "username": "aibrahim-oai",
+          "url": "https://github.com/aibrahim-oai"
+        },
+        {
+          "username": "pakrym-oai",
+          "url": "https://github.com/pakrym-oai"
+        },
+        {
+          "username": "etraut-openai",
+          "url": "https://github.com/etraut-openai"
+        }
+      ],
+      "description": "A coding agent for low-cost models",
+      "primary_language": "Rust",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "HKUDS/DeepTutor",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "contributors": [
+        {
+          "username": "pancacake",
+          "url": "https://github.com/pancacake"
+        },
+        {
+          "username": "Pinkllow",
+          "url": "https://github.com/Pinkllow"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "tusharkhatriofficial",
+          "url": "https://github.com/tusharkhatriofficial"
+        }
+      ],
+      "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/ .",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "HenryNdubuaku/maths-cs-ai-compendium",
+      "url": "https://github.com/HenryNdubuaku/maths-cs-ai-compendium",
+      "contributors": [
+        {
+          "username": "HenryNdubuaku",
+          "url": "https://github.com/HenryNdubuaku"
+        },
+        {
+          "username": "KDachev4",
+          "url": "https://github.com/KDachev4"
+        },
+        {
+          "username": "shmWorks",
+          "url": "https://github.com/shmWorks"
+        },
+        {
+          "username": "nitturkaryash",
+          "url": "https://github.com/nitturkaryash"
+        },
+        {
+          "username": "cipherians",
+          "url": "https://github.com/cipherians"
+        }
+      ],
+      "description": "Become a cracked AI/ML Research Engineer",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "HenryNdubuaku: location=London"
+      ]
+    },
+    {
+      "repository_name": "Shubhamsaboo/awesome-llm-apps",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "contributors": [
+        {
+          "username": "Shubhamsaboo",
+          "url": "https://github.com/Shubhamsaboo"
+        },
+        {
+          "username": "Madhuvod",
+          "url": "https://github.com/Madhuvod"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "onestardao",
+          "url": "https://github.com/onestardao"
+        },
+        {
+          "username": "libw0430",
+          "url": "https://github.com/libw0430"
+        }
+      ],
+      "description": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "India",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "Madhuvod: location=blr"
+      ]
+    },
+    {
+      "repository_name": "coreyhaines31/marketingskills",
+      "url": "https://github.com/coreyhaines31/marketingskills",
+      "contributors": [
+        {
+          "username": "coreyhaines31",
+          "url": "https://github.com/coreyhaines31"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "njcameron",
+          "url": "https://github.com/njcameron"
+        },
+        {
+          "username": "Jiliac",
+          "url": "https://github.com/Jiliac"
+        },
+        {
+          "username": "basseko",
+          "url": "https://github.com/basseko"
+        }
+      ],
+      "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United States",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "coreyhaines31: location=San Diego"
+      ]
+    },
+    {
+      "repository_name": "YimMenu/YimMenuV2",
+      "url": "https://github.com/YimMenu/YimMenuV2",
+      "contributors": [
+        {
+          "username": "maybegreat48",
+          "url": "https://github.com/maybegreat48"
+        },
+        {
+          "username": "ShinyWasabi",
+          "url": "https://github.com/ShinyWasabi"
+        },
+        {
+          "username": "playday3008",
+          "url": "https://github.com/playday3008"
+        },
+        {
+          "username": "Mr-X-GTA",
+          "url": "https://github.com/Mr-X-GTA"
+        },
+        {
+          "username": "Deadlineem",
+          "url": "https://github.com/Deadlineem"
+        }
+      ],
+      "description": "Experimental menu for GTA 5: Enhanced",
+      "primary_language": "C++",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "hasaneyldrm/exercises-dataset",
+      "url": "https://github.com/hasaneyldrm/exercises-dataset",
+      "contributors": [
+        {
+          "username": "hasaneyldrm",
+          "url": "https://github.com/hasaneyldrm"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "anderboski",
+          "url": "https://github.com/anderboski"
+        },
+        {
+          "username": "wacko-io",
+          "url": "https://github.com/wacko-io"
+        },
+        {
+          "username": "alfredo0592",
+          "url": "https://github.com/alfredo0592"
+        }
+      ],
+      "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step instructions in 6 languages. The exercise data layer behind the LogPress app.",
+      "primary_language": "HTML",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "Turkey",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "hasaneyldrm: location=Istanbul"
+      ]
+    }
+  ]
+}
