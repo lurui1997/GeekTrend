@@ -1,0 +1,486 @@
+{
+  "fetched_at": "2026-07-18T17:13:57+08:00",
+  "source_url": "https://github.com/trending/",
+  "repository_count": 14,
+  "ai_agent_project_count": 7,
+  "ai_agent_project_ratio": 0.5,
+  "repositories": [
+    {
+      "repository_name": "codecrafters-io/build-your-own-x",
+      "url": "https://github.com/codecrafters-io/build-your-own-x",
+      "contributors": [
+        {
+          "username": "danistefanovic",
+          "url": "https://github.com/danistefanovic"
+        },
+        {
+          "username": "rohitpaulk",
+          "url": "https://github.com/rohitpaulk"
+        },
+        {
+          "username": "sarupbanskota",
+          "url": "https://github.com/sarupbanskota"
+        },
+        {
+          "username": "fake-rookie",
+          "url": "https://github.com/fake-rookie"
+        },
+        {
+          "username": "bauripalash",
+          "url": "https://github.com/bauripalash"
+        }
+      ],
+      "description": "Master programming by recreating your favorite technologies from scratch.",
+      "primary_language": "Markdown",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "PostHog/posthog",
+      "url": "https://github.com/PostHog/posthog",
+      "contributors": [
+        {
+          "username": "pauldambra",
+          "url": "https://github.com/pauldambra"
+        },
+        {
+          "username": "Twixes",
+          "url": "https://github.com/Twixes"
+        },
+        {
+          "username": "mariusandra",
+          "url": "https://github.com/mariusandra"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        }
+      ],
+      "description": "🦔 PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "pauldambra: location=Manchester, UK"
+      ]
+    },
+    {
+      "repository_name": "HenryNdubuaku/maths-cs-ai-compendium",
+      "url": "https://github.com/HenryNdubuaku/maths-cs-ai-compendium",
+      "contributors": [
+        {
+          "username": "HenryNdubuaku",
+          "url": "https://github.com/HenryNdubuaku"
+        },
+        {
+          "username": "KDachev4",
+          "url": "https://github.com/KDachev4"
+        },
+        {
+          "username": "shmWorks",
+          "url": "https://github.com/shmWorks"
+        },
+        {
+          "username": "nitturkaryash",
+          "url": "https://github.com/nitturkaryash"
+        },
+        {
+          "username": "MeGaurav4",
+          "url": "https://github.com/MeGaurav4"
+        }
+      ],
+      "description": "Become a cracked AI/ML Research Engineer",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "HenryNdubuaku: location=London"
+      ]
+    },
+    {
+      "repository_name": "Nutlope/hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
+      "contributors": [
+        {
+          "username": "Luffixos",
+          "url": "https://github.com/Luffixos"
+        },
+        {
+          "username": "Nutlope",
+          "url": "https://github.com/Nutlope"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "riccardogiorato",
+          "url": "https://github.com/riccardogiorato"
+        },
+        {
+          "username": "JaySmith502",
+          "url": "https://github.com/JaySmith502"
+        }
+      ],
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "primary_language": "CSS",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United States",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "Nutlope: location=New York City, NY"
+      ]
+    },
+    {
+      "repository_name": "github/copilot-sdk",
+      "url": "https://github.com/github/copilot-sdk",
+      "contributors": [
+        {
+          "username": "stephentoub",
+          "url": "https://github.com/stephentoub"
+        },
+        {
+          "username": "SteveSandersonMS",
+          "url": "https://github.com/SteveSandersonMS"
+        },
+        {
+          "username": "edburns",
+          "url": "https://github.com/edburns"
+        }
+      ],
+      "description": "Multi-platform SDK for integrating GitHub Copilot Agent into apps and services",
+      "primary_language": "Java",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "anthropics/cwc-workshops",
+      "url": "https://github.com/anthropics/cwc-workshops",
+      "contributors": [
+        {
+          "username": "michael-cohen-io",
+          "url": "https://github.com/michael-cohen-io"
+        },
+        {
+          "username": "jeffcurry-ant",
+          "url": "https://github.com/jeffcurry-ant"
+        },
+        {
+          "username": "mroknich",
+          "url": "https://github.com/mroknich"
+        },
+        {
+          "username": "felixfbecker",
+          "url": "https://github.com/felixfbecker"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        }
+      ],
+      "description": null,
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United States",
+      "origin_confidence": "medium",
+      "origin_evidence": [
+        "michael-cohen-io: location=New York, NYC",
+        "mroknich: location=New York"
+      ]
+    },
+    {
+      "repository_name": "PrismML-Eng/Bonsai-demo",
+      "url": "https://github.com/PrismML-Eng/Bonsai-demo",
+      "contributors": [
+        {
+          "username": "khosravipasha",
+          "url": "https://github.com/khosravipasha"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "bheyfitch",
+          "url": "https://github.com/bheyfitch"
+        }
+      ],
+      "description": "Bonsai Demo",
+      "primary_language": "Shell",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "protocolbuffers/protobuf",
+      "url": "https://github.com/protocolbuffers/protobuf",
+      "contributors": [
+        {
+          "username": "protobuf-github-bot",
+          "url": "https://github.com/protobuf-github-bot"
+        },
+        {
+          "username": "haberman",
+          "url": "https://github.com/haberman"
+        },
+        {
+          "username": "protobuf-team-bot",
+          "url": "https://github.com/protobuf-team-bot"
+        },
+        {
+          "username": "mkruskal-google",
+          "url": "https://github.com/mkruskal-google"
+        },
+        {
+          "username": "xfxyjwf",
+          "url": "https://github.com/xfxyjwf"
+        }
+      ],
+      "description": "Protocol Buffers - Google's data interchange format",
+      "primary_language": "C++",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "tirth8205/code-review-graph",
+      "url": "https://github.com/tirth8205/code-review-graph",
+      "contributors": [
+        {
+          "username": "tirth8205",
+          "url": "https://github.com/tirth8205"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "gzenz",
+          "url": "https://github.com/gzenz"
+        },
+        {
+          "username": "jaissebastian",
+          "url": "https://github.com/jaissebastian"
+        },
+        {
+          "username": "michael-denyer",
+          "url": "https://github.com/michael-denyer"
+        }
+      ],
+      "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "tirth8205: location=London"
+      ]
+    },
+    {
+      "repository_name": "docusealco/docuseal",
+      "url": "https://github.com/docusealco/docuseal",
+      "contributors": [
+        {
+          "username": "omohokcoj",
+          "url": "https://github.com/omohokcoj"
+        },
+        {
+          "username": "AlexBTurchyn",
+          "url": "https://github.com/AlexBTurchyn"
+        },
+        {
+          "username": "jbenguira",
+          "url": "https://github.com/jbenguira"
+        },
+        {
+          "username": "imchairmanm",
+          "url": "https://github.com/imchairmanm"
+        }
+      ],
+      "description": "Open source DocuSign alternative. Create, fill, and sign digital documents ✍️",
+      "primary_language": "Ruby",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "openinterpreter/openinterpreter",
+      "url": "https://github.com/openinterpreter/openinterpreter",
+      "contributors": [
+        {
+          "username": "jif-oai",
+          "url": "https://github.com/jif-oai"
+        },
+        {
+          "username": "bolinfest",
+          "url": "https://github.com/bolinfest"
+        },
+        {
+          "username": "aibrahim-oai",
+          "url": "https://github.com/aibrahim-oai"
+        },
+        {
+          "username": "pakrym-oai",
+          "url": "https://github.com/pakrym-oai"
+        },
+        {
+          "username": "etraut-openai",
+          "url": "https://github.com/etraut-openai"
+        }
+      ],
+      "description": "A coding agent for open models like Kimi K3",
+      "primary_language": "Rust",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "RyanCodrai/turbovec",
+      "url": "https://github.com/RyanCodrai/turbovec",
+      "contributors": [
+        {
+          "username": "RyanCodrai",
+          "url": "https://github.com/RyanCodrai"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "faysou",
+          "url": "https://github.com/faysou"
+        },
+        {
+          "username": "nicolas-geysse",
+          "url": "https://github.com/nicolas-geysse"
+        },
+        {
+          "username": "Pringled",
+          "url": "https://github.com/Pringled"
+        }
+      ],
+      "description": "A vector index built on TurboQuant, written in Rust with Python bindings",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "France",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "nicolas-geysse: location=France"
+      ]
+    },
+    {
+      "repository_name": "HKUDS/DeepTutor",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "contributors": [
+        {
+          "username": "pancacake",
+          "url": "https://github.com/pancacake"
+        },
+        {
+          "username": "Pinkllow",
+          "url": "https://github.com/Pinkllow"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "tusharkhatriofficial",
+          "url": "https://github.com/tusharkhatriofficial"
+        }
+      ],
+      "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/ .",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "OpenCut-app/OpenCut",
+      "url": "https://github.com/OpenCut-app/OpenCut",
+      "contributors": [
+        {
+          "username": "mazeincoding",
+          "url": "https://github.com/mazeincoding"
+        },
+        {
+          "username": "izadoesdev",
+          "url": "https://github.com/izadoesdev"
+        },
+        {
+          "username": "anwarulislam",
+          "url": "https://github.com/anwarulislam"
+        },
+        {
+          "username": "khanguyen74",
+          "url": "https://github.com/khanguyen74"
+        },
+        {
+          "username": "DevloperAmanSingh",
+          "url": "https://github.com/DevloperAmanSingh"
+        }
+      ],
+      "description": "The open-source CapCut alternative",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "Palestine",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "izadoesdev: location=Palestine"
+      ]
+    }
+  ]
+}
