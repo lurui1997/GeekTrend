@@ -1,0 +1,362 @@
+{
+  "fetched_at": "2026-07-19T02:41:57+08:00",
+  "source_url": "https://github.com/trending/",
+  "repository_count": 11,
+  "ai_agent_project_count": 6,
+  "ai_agent_project_ratio": 0.5455,
+  "repositories": [
+    {
+      "repository_name": "Robbyant/lingbot-map",
+      "url": "https://github.com/Robbyant/lingbot-map",
+      "contributors": [
+        {
+          "username": "LinZhuoChen",
+          "url": "https://github.com/LinZhuoChen"
+        },
+        {
+          "username": "justimyhxu",
+          "url": "https://github.com/justimyhxu"
+        }
+      ],
+      "description": "A feed-forward 3D foundation model for reconstructing scenes from streaming data",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "Hong Kong",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "justimyhxu: company=Stanford University; The Chinese University of Hong Kong; Zhejiang University"
+      ]
+    },
+    {
+      "repository_name": "apache/ossie",
+      "url": "https://github.com/apache/ossie",
+      "contributors": [
+        {
+          "username": "khush-bhatia",
+          "url": "https://github.com/khush-bhatia"
+        },
+        {
+          "username": "kurtStirewalt",
+          "url": "https://github.com/kurtStirewalt"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "karanasher",
+          "url": "https://github.com/karanasher"
+        },
+        {
+          "username": "sfc-gh-kbhatia",
+          "url": "https://github.com/sfc-gh-kbhatia"
+        }
+      ],
+      "description": "Apache Ossie, industry wide specification effort to standardize how we exchange semantic metadata across analytics, AI and BI platforms, providing a vendor neutral, single source of truth for semantic data",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "PostHog/posthog",
+      "url": "https://github.com/PostHog/posthog",
+      "contributors": [
+        {
+          "username": "pauldambra",
+          "url": "https://github.com/pauldambra"
+        },
+        {
+          "username": "Twixes",
+          "url": "https://github.com/Twixes"
+        },
+        {
+          "username": "mariusandra",
+          "url": "https://github.com/mariusandra"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        }
+      ],
+      "description": "🦔 PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "pauldambra: location=Manchester, UK"
+      ]
+    },
+    {
+      "repository_name": "ibelick/ui-skills",
+      "url": "https://github.com/ibelick/ui-skills",
+      "contributors": [
+        {
+          "username": "ibelick",
+          "url": "https://github.com/ibelick"
+        },
+        {
+          "username": "fernandezbaptiste",
+          "url": "https://github.com/fernandezbaptiste"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "saadeghi",
+          "url": "https://github.com/saadeghi"
+        },
+        {
+          "username": "arifszn",
+          "url": "https://github.com/arifszn"
+        }
+      ],
+      "description": "Skills for Design Engineers",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "France",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "ibelick: location=Paris"
+      ]
+    },
+    {
+      "repository_name": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "contributors": [
+        {
+          "username": "rohitg00",
+          "url": "https://github.com/rohitg00"
+        },
+        {
+          "username": "abhinav-m22",
+          "url": "https://github.com/abhinav-m22"
+        },
+        {
+          "username": "thereisnotime",
+          "url": "https://github.com/thereisnotime"
+        },
+        {
+          "username": "pzy0006",
+          "url": "https://github.com/pzy0006"
+        }
+      ],
+      "description": "Learn it. Build it. Ship it for others.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "rohitg00: location=UK"
+      ]
+    },
+    {
+      "repository_name": "tirth8205/code-review-graph",
+      "url": "https://github.com/tirth8205/code-review-graph",
+      "contributors": [
+        {
+          "username": "tirth8205",
+          "url": "https://github.com/tirth8205"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "gzenz",
+          "url": "https://github.com/gzenz"
+        },
+        {
+          "username": "jaissebastian",
+          "url": "https://github.com/jaissebastian"
+        },
+        {
+          "username": "michael-denyer",
+          "url": "https://github.com/michael-denyer"
+        }
+      ],
+      "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "tirth8205: location=London"
+      ]
+    },
+    {
+      "repository_name": "elder-plinius/G0DM0D3",
+      "url": "https://github.com/elder-plinius/G0DM0D3",
+      "contributors": [
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "elder-plinius",
+          "url": "https://github.com/elder-plinius"
+        }
+      ],
+      "description": "LIBERATED AI CHAT",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "lyogavin/airllm",
+      "url": "https://github.com/lyogavin/airllm",
+      "contributors": [
+        {
+          "username": "lyogavin",
+          "url": "https://github.com/lyogavin"
+        },
+        {
+          "username": "cursoragent",
+          "url": "https://github.com/cursoragent"
+        },
+        {
+          "username": "eltociear",
+          "url": "https://github.com/eltociear"
+        },
+        {
+          "username": "NavodPeiris",
+          "url": "https://github.com/NavodPeiris"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        }
+      ],
+      "description": "AirLLM 70B inference with single 4GB GPU",
+      "primary_language": "Jupyter Notebook",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "Japan",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "eltociear: location=Tokyo, Japan"
+      ]
+    },
+    {
+      "repository_name": "KnockOutEZ/wigolo",
+      "url": "https://github.com/KnockOutEZ/wigolo",
+      "contributors": [
+        {
+          "username": "KnockOutEZ",
+          "url": "https://github.com/KnockOutEZ"
+        },
+        {
+          "username": "YoshiTabletopGamer",
+          "url": "https://github.com/YoshiTabletopGamer"
+        },
+        {
+          "username": "gitcommit90",
+          "url": "https://github.com/gitcommit90"
+        }
+      ],
+      "description": "The go-to web for your AI coding agent — local-first search, fetch, crawl & research over MCP. No API keys, no cloud, $0/query. Public beta.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "Bangladesh",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "KnockOutEZ: location=Dhaka, Bangladesh"
+      ]
+    },
+    {
+      "repository_name": "codecrafters-io/build-your-own-x",
+      "url": "https://github.com/codecrafters-io/build-your-own-x",
+      "contributors": [
+        {
+          "username": "danistefanovic",
+          "url": "https://github.com/danistefanovic"
+        },
+        {
+          "username": "rohitpaulk",
+          "url": "https://github.com/rohitpaulk"
+        },
+        {
+          "username": "sarupbanskota",
+          "url": "https://github.com/sarupbanskota"
+        },
+        {
+          "username": "fake-rookie",
+          "url": "https://github.com/fake-rookie"
+        },
+        {
+          "username": "bauripalash",
+          "url": "https://github.com/bauripalash"
+        }
+      ],
+      "description": "Master programming by recreating your favorite technologies from scratch.",
+      "primary_language": "Markdown",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "MoonshotAI/kimi-cli",
+      "url": "https://github.com/MoonshotAI/kimi-cli",
+      "contributors": [
+        {
+          "username": "stdrc",
+          "url": "https://github.com/stdrc"
+        },
+        {
+          "username": "RealKai42",
+          "url": "https://github.com/RealKai42"
+        },
+        {
+          "username": "xxchan",
+          "url": "https://github.com/xxchan"
+        },
+        {
+          "username": "n-WN",
+          "url": "https://github.com/n-WN"
+        }
+      ],
+      "description": "Kimi Code CLI is your next CLI agent.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    }
+  ]
+}
