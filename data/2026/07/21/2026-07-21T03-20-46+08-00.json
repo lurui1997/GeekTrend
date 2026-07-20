@@ -1,0 +1,670 @@
+{
+  "fetched_at": "2026-07-21T03:20:46+08:00",
+  "source_url": "https://github.com/trending/",
+  "repository_count": 20,
+  "ai_agent_project_count": 10,
+  "ai_agent_project_ratio": 0.5,
+  "repositories": [
+    {
+      "repository_name": "tirth8205/code-review-graph",
+      "url": "https://github.com/tirth8205/code-review-graph",
+      "contributors": [
+        {
+          "username": "tirth8205",
+          "url": "https://github.com/tirth8205"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "gzenz",
+          "url": "https://github.com/gzenz"
+        },
+        {
+          "username": "jaissebastian",
+          "url": "https://github.com/jaissebastian"
+        },
+        {
+          "username": "michael-denyer",
+          "url": "https://github.com/michael-denyer"
+        }
+      ],
+      "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "tirth8205: location=London"
+      ]
+    },
+    {
+      "repository_name": "1jehuang/jcode",
+      "url": "https://github.com/1jehuang/jcode",
+      "contributors": [
+        {
+          "username": "1jehuang",
+          "url": "https://github.com/1jehuang"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "FabianAmherd",
+          "url": "https://github.com/FabianAmherd"
+        },
+        {
+          "username": "hongnoul",
+          "url": "https://github.com/hongnoul"
+        },
+        {
+          "username": "AlazBatu",
+          "url": "https://github.com/AlazBatu"
+        }
+      ],
+      "description": "The most intelligent agent harness for code",
+      "primary_language": "Rust",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "diegosouzapw/OmniRoute",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "contributors": [
+        {
+          "username": "diegosouzapw",
+          "url": "https://github.com/diegosouzapw"
+        },
+        {
+          "username": "oyi77",
+          "url": "https://github.com/oyi77"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "rdself",
+          "url": "https://github.com/rdself"
+        }
+      ],
+      "description": "Never stop coding. Free MIT AI gateway: one endpoint, 268+ providers (50+ free), 500+ models — Claude, GPT, Gemini, Kimi K3, GLM, DeepSeek. Works with Claude Code, Codex, Cursor, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, multimodal, Desktop/PWA. Built by 500+ contributors.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "rdself: location=United States"
+      ]
+    },
+    {
+      "repository_name": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "contributors": [
+        {
+          "username": "rohitg00",
+          "url": "https://github.com/rohitg00"
+        },
+        {
+          "username": "abhinav-m22",
+          "url": "https://github.com/abhinav-m22"
+        },
+        {
+          "username": "thereisnotime",
+          "url": "https://github.com/thereisnotime"
+        },
+        {
+          "username": "pzy0006",
+          "url": "https://github.com/pzy0006"
+        }
+      ],
+      "description": "Learn it. Build it. Ship it for others.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "rohitg00: location=UK"
+      ]
+    },
+    {
+      "repository_name": "msitarzewski/agency-agents",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "contributors": [
+        {
+          "username": "msitarzewski",
+          "url": "https://github.com/msitarzewski"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "epowelljr",
+          "url": "https://github.com/epowelljr"
+        },
+        {
+          "username": "4shil",
+          "url": "https://github.com/4shil"
+        },
+        {
+          "username": "hedonnn",
+          "url": "https://github.com/hedonnn"
+        }
+      ],
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "primary_language": "Shell",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "kvcache-ai/ktransformers",
+      "url": "https://github.com/kvcache-ai/ktransformers",
+      "contributors": [
+        {
+          "username": "Atream",
+          "url": "https://github.com/Atream"
+        },
+        {
+          "username": "KMSorSMS",
+          "url": "https://github.com/KMSorSMS"
+        },
+        {
+          "username": "Azure-Tang",
+          "url": "https://github.com/Azure-Tang"
+        },
+        {
+          "username": "ovowei",
+          "url": "https://github.com/ovowei"
+        },
+        {
+          "username": "qiyuxinlin",
+          "url": "https://github.com/qiyuxinlin"
+        }
+      ],
+      "description": "A Flexible Framework for Experiencing Heterogeneous LLM Inference/Fine-tune Optimizations",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "China",
+      "origin_confidence": "medium",
+      "origin_evidence": [
+        "Azure-Tang: location=Beijing",
+        "ovowei: location=Beijing"
+      ]
+    },
+    {
+      "repository_name": "jamiepine/voicebox",
+      "url": "https://github.com/jamiepine/voicebox",
+      "contributors": [
+        {
+          "username": "jamiepine",
+          "url": "https://github.com/jamiepine"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "tomasmach",
+          "url": "https://github.com/tomasmach"
+        },
+        {
+          "username": "mvanhorn",
+          "url": "https://github.com/mvanhorn"
+        },
+        {
+          "username": "selop",
+          "url": "https://github.com/selop"
+        }
+      ],
+      "description": "The open-source AI voice studio. Clone, dictate, create.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "topoteretes/cognee",
+      "url": "https://github.com/topoteretes/cognee",
+      "contributors": [
+        {
+          "username": "Vasilije1990",
+          "url": "https://github.com/Vasilije1990"
+        },
+        {
+          "username": "dexters1",
+          "url": "https://github.com/dexters1"
+        },
+        {
+          "username": "hajdul88",
+          "url": "https://github.com/hajdul88"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "borisarzentar",
+          "url": "https://github.com/borisarzentar"
+        }
+      ],
+      "description": "Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory across sessions with a self-hosted knowledge graph engine.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "Netherlands",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "borisarzentar: location=Amsterdam, Netherlands"
+      ]
+    },
+    {
+      "repository_name": "Robbyant/lingbot-map",
+      "url": "https://github.com/Robbyant/lingbot-map",
+      "contributors": [
+        {
+          "username": "LinZhuoChen",
+          "url": "https://github.com/LinZhuoChen"
+        },
+        {
+          "username": "justimyhxu",
+          "url": "https://github.com/justimyhxu"
+        }
+      ],
+      "description": "A feed-forward 3D foundation model for reconstructing scenes from streaming data",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "Hong Kong",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "justimyhxu: company=Stanford University; The Chinese University of Hong Kong; Zhejiang University"
+      ]
+    },
+    {
+      "repository_name": "every-app/open-seo",
+      "url": "https://github.com/every-app/open-seo",
+      "contributors": [
+        {
+          "username": "bensenescu",
+          "url": "https://github.com/bensenescu"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "bookingseo",
+          "url": "https://github.com/bookingseo"
+        },
+        {
+          "username": "mvanhorn",
+          "url": "https://github.com/mvanhorn"
+        },
+        {
+          "username": "mattmacrocket",
+          "url": "https://github.com/mattmacrocket"
+        }
+      ],
+      "description": "Open source alternative to Semrush and Ahrefs",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "MoonshotAI/kimi-cli",
+      "url": "https://github.com/MoonshotAI/kimi-cli",
+      "contributors": [
+        {
+          "username": "stdrc",
+          "url": "https://github.com/stdrc"
+        },
+        {
+          "username": "RealKai42",
+          "url": "https://github.com/RealKai42"
+        },
+        {
+          "username": "xxchan",
+          "url": "https://github.com/xxchan"
+        },
+        {
+          "username": "n-WN",
+          "url": "https://github.com/n-WN"
+        }
+      ],
+      "description": "Kimi Code CLI is your next CLI agent.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "AstrBotDevs/AstrBot",
+      "url": "https://github.com/AstrBotDevs/AstrBot",
+      "contributors": [
+        {
+          "username": "Soulter",
+          "url": "https://github.com/Soulter"
+        },
+        {
+          "username": "Raven95676",
+          "url": "https://github.com/Raven95676"
+        },
+        {
+          "username": "RC-CHN",
+          "url": "https://github.com/RC-CHN"
+        },
+        {
+          "username": "zouyonghe",
+          "url": "https://github.com/zouyonghe"
+        },
+        {
+          "username": "LIghtJUNction",
+          "url": "https://github.com/LIghtJUNction"
+        }
+      ],
+      "description": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "PrefectHQ/fastmcp",
+      "url": "https://github.com/PrefectHQ/fastmcp",
+      "contributors": [
+        {
+          "username": "jlowin",
+          "url": "https://github.com/jlowin"
+        },
+        {
+          "username": "strawgate",
+          "url": "https://github.com/strawgate"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "zzstoatzz",
+          "url": "https://github.com/zzstoatzz"
+        }
+      ],
+      "description": "🚀 The fast, Pythonic way to build MCP servers and clients.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "KnockOutEZ/wigolo",
+      "url": "https://github.com/KnockOutEZ/wigolo",
+      "contributors": [
+        {
+          "username": "KnockOutEZ",
+          "url": "https://github.com/KnockOutEZ"
+        },
+        {
+          "username": "YoshiTabletopGamer",
+          "url": "https://github.com/YoshiTabletopGamer"
+        },
+        {
+          "username": "gitcommit90",
+          "url": "https://github.com/gitcommit90"
+        }
+      ],
+      "description": "The go-to web for your AI coding agent — local-first search, fetch, crawl & research over MCP. No API keys, no cloud, $0/query. Public beta.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "Bangladesh",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "KnockOutEZ: location=Dhaka, Bangladesh"
+      ]
+    },
+    {
+      "repository_name": "tokio-rs/topcoat",
+      "url": "https://github.com/tokio-rs/topcoat",
+      "contributors": [
+        {
+          "username": "pikaju",
+          "url": "https://github.com/pikaju"
+        },
+        {
+          "username": "akoll",
+          "url": "https://github.com/akoll"
+        },
+        {
+          "username": "carllerche",
+          "url": "https://github.com/carllerche"
+        },
+        {
+          "username": "claymcleod",
+          "url": "https://github.com/claymcleod"
+        }
+      ],
+      "description": "A batteries-included framework for building web apps",
+      "primary_language": "Rust",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "iptv-org/iptv",
+      "url": "https://github.com/iptv-org/iptv",
+      "contributors": [
+        {
+          "username": "freearhey",
+          "url": "https://github.com/freearhey"
+        },
+        {
+          "username": "BellezaEmporium",
+          "url": "https://github.com/BellezaEmporium"
+        },
+        {
+          "username": "Dum4G",
+          "url": "https://github.com/Dum4G"
+        },
+        {
+          "username": "UltraHDR",
+          "url": "https://github.com/UltraHDR"
+        }
+      ],
+      "description": "Collection of publicly available IPTV channels from all over the world",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "France",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "BellezaEmporium: location=France"
+      ]
+    },
+    {
+      "repository_name": "oblien/openship",
+      "url": "https://github.com/oblien/openship",
+      "contributors": [
+        {
+          "username": "Hydralerne",
+          "url": "https://github.com/Hydralerne"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "rizwannur",
+          "url": "https://github.com/rizwannur"
+        },
+        {
+          "username": "inoguerols",
+          "url": "https://github.com/inoguerols"
+        },
+        {
+          "username": "shiv19",
+          "url": "https://github.com/shiv19"
+        }
+      ],
+      "description": "Self-hosted deployment platform",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "Bangladesh",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "rizwannur: location=Dhaka, Bangladesh"
+      ]
+    },
+    {
+      "repository_name": "microsoft/Ontology-Playground",
+      "url": "https://github.com/microsoft/Ontology-Playground",
+      "contributors": [
+        {
+          "username": "videlalvaro",
+          "url": "https://github.com/videlalvaro"
+        },
+        {
+          "username": "vaibhavius",
+          "url": "https://github.com/vaibhavius"
+        },
+        {
+          "username": "bbreugel",
+          "url": "https://github.com/bbreugel"
+        },
+        {
+          "username": "RaviChanduEdru",
+          "url": "https://github.com/RaviChanduEdru"
+        }
+      ],
+      "description": "Free, open-source web app for learning about ontologies and Microsoft Fabric IQ. Explore a catalogue of pre-built ontologies, design your own visually, export as RDF/XML, and share interactive diagrams. Zero backend, fully static.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "handy-computer/transcribe.cpp",
+      "url": "https://github.com/handy-computer/transcribe.cpp",
+      "contributors": [
+        {
+          "username": "cjpais",
+          "url": "https://github.com/cjpais"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        }
+      ],
+      "description": "ggml speech-to-text inference for 16+ model families",
+      "primary_language": "C++",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "moonshine-ai/moonshine",
+      "url": "https://github.com/moonshine-ai/moonshine",
+      "contributors": [
+        {
+          "username": "evmaki",
+          "url": "https://github.com/evmaki"
+        },
+        {
+          "username": "kylehowells",
+          "url": "https://github.com/kylehowells"
+        },
+        {
+          "username": "petewarden",
+          "url": "https://github.com/petewarden"
+        },
+        {
+          "username": "giovanninibarbosa",
+          "url": "https://github.com/giovanninibarbosa"
+        },
+        {
+          "username": "andimarafioti",
+          "url": "https://github.com/andimarafioti"
+        }
+      ],
+      "description": "Very low latency speech to text, intent recognition, and text to speech, for building voice agents and interfaces",
+      "primary_language": "C++",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    }
+  ]
+}
