@@ -1,0 +1,729 @@
+{
+  "fetched_at": "2026-07-21T19:40:28+08:00",
+  "source_url": "https://github.com/trending/",
+  "repository_count": 21,
+  "ai_agent_project_count": 10,
+  "ai_agent_project_ratio": 0.4762,
+  "repositories": [
+    {
+      "repository_name": "koala73/worldmonitor",
+      "url": "https://github.com/koala73/worldmonitor",
+      "contributors": [
+        {
+          "username": "koala73",
+          "url": "https://github.com/koala73"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "SebastienMelki",
+          "url": "https://github.com/SebastienMelki"
+        },
+        {
+          "username": "NewCoder3294",
+          "url": "https://github.com/NewCoder3294"
+        },
+        {
+          "username": "lspassos1",
+          "url": "https://github.com/lspassos1"
+        }
+      ],
+      "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "NewCoder3294: location=San Diego"
+      ]
+    },
+    {
+      "repository_name": "bojieli/ai-agent-book",
+      "url": "https://github.com/bojieli/ai-agent-book",
+      "contributors": [
+        {
+          "username": "bojieli",
+          "url": "https://github.com/bojieli"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "santhreal",
+          "url": "https://github.com/santhreal"
+        },
+        {
+          "username": "phaethix",
+          "url": "https://github.com/phaethix"
+        },
+        {
+          "username": "WeZZard",
+          "url": "https://github.com/WeZZard"
+        }
+      ],
+      "description": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "tirth8205/code-review-graph",
+      "url": "https://github.com/tirth8205/code-review-graph",
+      "contributors": [
+        {
+          "username": "tirth8205",
+          "url": "https://github.com/tirth8205"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "gzenz",
+          "url": "https://github.com/gzenz"
+        },
+        {
+          "username": "jaissebastian",
+          "url": "https://github.com/jaissebastian"
+        },
+        {
+          "username": "michael-denyer",
+          "url": "https://github.com/michael-denyer"
+        }
+      ],
+      "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "tirth8205: location=London"
+      ]
+    },
+    {
+      "repository_name": "ayghri/i-have-adhd",
+      "url": "https://github.com/ayghri/i-have-adhd",
+      "contributors": [
+        {
+          "username": "ayghri",
+          "url": "https://github.com/ayghri"
+        },
+        {
+          "username": "ojusave",
+          "url": "https://github.com/ojusave"
+        },
+        {
+          "username": "isatimur",
+          "url": "https://github.com/isatimur"
+        },
+        {
+          "username": "seonghobae",
+          "url": "https://github.com/seonghobae"
+        },
+        {
+          "username": "DeJayDev",
+          "url": "https://github.com/DeJayDev"
+        }
+      ],
+      "description": "A skill for your coding agent to stop it from burying the answer. ADHD-friendly output.",
+      "primary_language": null,
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "earthtojake/text-to-cad",
+      "url": "https://github.com/earthtojake/text-to-cad",
+      "contributors": [
+        {
+          "username": "earthtojake",
+          "url": "https://github.com/earthtojake"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "arronzhang",
+          "url": "https://github.com/arronzhang"
+        },
+        {
+          "username": "vasco3",
+          "url": "https://github.com/vasco3"
+        }
+      ],
+      "description": "A collection of agent skills for CAD, robotics and hardware design",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "1jehuang/jcode",
+      "url": "https://github.com/1jehuang/jcode",
+      "contributors": [
+        {
+          "username": "1jehuang",
+          "url": "https://github.com/1jehuang"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "FabianAmherd",
+          "url": "https://github.com/FabianAmherd"
+        },
+        {
+          "username": "hongnoul",
+          "url": "https://github.com/hongnoul"
+        },
+        {
+          "username": "AlazBatu",
+          "url": "https://github.com/AlazBatu"
+        }
+      ],
+      "description": "The most intelligent agent harness for code",
+      "primary_language": "Rust",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "oblien/openship",
+      "url": "https://github.com/oblien/openship",
+      "contributors": [
+        {
+          "username": "Hydralerne",
+          "url": "https://github.com/Hydralerne"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "rizwannur",
+          "url": "https://github.com/rizwannur"
+        },
+        {
+          "username": "inoguerols",
+          "url": "https://github.com/inoguerols"
+        },
+        {
+          "username": "Rajioba1",
+          "url": "https://github.com/Rajioba1"
+        }
+      ],
+      "description": "Self-hosted deployment platform",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "Bangladesh",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "rizwannur: location=Dhaka, Bangladesh"
+      ]
+    },
+    {
+      "repository_name": "AstrBotDevs/AstrBot",
+      "url": "https://github.com/AstrBotDevs/AstrBot",
+      "contributors": [
+        {
+          "username": "Soulter",
+          "url": "https://github.com/Soulter"
+        },
+        {
+          "username": "Raven95676",
+          "url": "https://github.com/Raven95676"
+        },
+        {
+          "username": "RC-CHN",
+          "url": "https://github.com/RC-CHN"
+        },
+        {
+          "username": "zouyonghe",
+          "url": "https://github.com/zouyonghe"
+        },
+        {
+          "username": "LIghtJUNction",
+          "url": "https://github.com/LIghtJUNction"
+        }
+      ],
+      "description": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "every-app/open-seo",
+      "url": "https://github.com/every-app/open-seo",
+      "contributors": [
+        {
+          "username": "bensenescu",
+          "url": "https://github.com/bensenescu"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "bookingseo",
+          "url": "https://github.com/bookingseo"
+        },
+        {
+          "username": "mvanhorn",
+          "url": "https://github.com/mvanhorn"
+        },
+        {
+          "username": "mattmacrocket",
+          "url": "https://github.com/mattmacrocket"
+        }
+      ],
+      "description": "Open source alternative to Semrush and Ahrefs",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "tradesdontlie/tradingview-mcp",
+      "url": "https://github.com/tradesdontlie/tradingview-mcp",
+      "contributors": [
+        {
+          "username": "tradesdontlie",
+          "url": "https://github.com/tradesdontlie"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "xxhanselxx-sudo",
+          "url": "https://github.com/xxhanselxx-sudo"
+        },
+        {
+          "username": "jawadtazi-dot",
+          "url": "https://github.com/jawadtazi-dot"
+        },
+        {
+          "username": "wowkin2",
+          "url": "https://github.com/wowkin2"
+        }
+      ],
+      "description": "AI-assisted TradingView chart analysis — connect Claude Code to your TradingView Desktop for personal workflow automation",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "wowkin2: location=Ukraine"
+      ]
+    },
+    {
+      "repository_name": "AlexsJones/llmfit",
+      "url": "https://github.com/AlexsJones/llmfit",
+      "contributors": [
+        {
+          "username": "AlexsJones",
+          "url": "https://github.com/AlexsJones"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "three-foxes-in-a-trenchcoat",
+          "url": "https://github.com/three-foxes-in-a-trenchcoat"
+        }
+      ],
+      "description": "Hundreds of models & providers. One command to find what runs on your hardware.",
+      "primary_language": "Rust",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "AlexsJones: location=London"
+      ]
+    },
+    {
+      "repository_name": "hyprwm/Hyprland",
+      "url": "https://github.com/hyprwm/Hyprland",
+      "contributors": [
+        {
+          "username": "vaxerski",
+          "url": "https://github.com/vaxerski"
+        },
+        {
+          "username": "fufexan",
+          "url": "https://github.com/fufexan"
+        },
+        {
+          "username": "gulafaran",
+          "url": "https://github.com/gulafaran"
+        },
+        {
+          "username": "MightyPlaza",
+          "url": "https://github.com/MightyPlaza"
+        },
+        {
+          "username": "UjinT34",
+          "url": "https://github.com/UjinT34"
+        }
+      ],
+      "description": "Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.",
+      "primary_language": "C++",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "chrislgarry/Apollo-11",
+      "url": "https://github.com/chrislgarry/Apollo-11",
+      "contributors": [
+        {
+          "username": "wopian",
+          "url": "https://github.com/wopian"
+        },
+        {
+          "username": "chrislgarry",
+          "url": "https://github.com/chrislgarry"
+        },
+        {
+          "username": "dwiyatci",
+          "url": "https://github.com/dwiyatci"
+        },
+        {
+          "username": "proudindiv",
+          "url": "https://github.com/proudindiv"
+        },
+        {
+          "username": "oldmud0",
+          "url": "https://github.com/oldmud0"
+        }
+      ],
+      "description": "Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules.",
+      "primary_language": "Assembly",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "chrislgarry: location=United States"
+      ]
+    },
+    {
+      "repository_name": "DioxusLabs/dioxus",
+      "url": "https://github.com/DioxusLabs/dioxus",
+      "contributors": [
+        {
+          "username": "jkelleyrtp",
+          "url": "https://github.com/jkelleyrtp"
+        },
+        {
+          "username": "ealmloff",
+          "url": "https://github.com/ealmloff"
+        },
+        {
+          "username": "mrxiaozhuox",
+          "url": "https://github.com/mrxiaozhuox"
+        },
+        {
+          "username": "DogeDark",
+          "url": "https://github.com/DogeDark"
+        },
+        {
+          "username": "rMazeiks",
+          "url": "https://github.com/rMazeiks"
+        }
+      ],
+      "description": "Fullstack app framework for web, desktop, and mobile.",
+      "primary_language": "Rust",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "DogeDark: location=Jonesboro, Indiana, USA"
+      ]
+    },
+    {
+      "repository_name": "langchain-ai/open_deep_research",
+      "url": "https://github.com/langchain-ai/open_deep_research",
+      "contributors": [
+        {
+          "username": "rlancemartin",
+          "url": "https://github.com/rlancemartin"
+        },
+        {
+          "username": "nhuang-lc",
+          "url": "https://github.com/nhuang-lc"
+        },
+        {
+          "username": "moritalous",
+          "url": "https://github.com/moritalous"
+        },
+        {
+          "username": "synergiator",
+          "url": "https://github.com/synergiator"
+        }
+      ],
+      "description": null,
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "diegosouzapw/OmniRoute",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "contributors": [
+        {
+          "username": "diegosouzapw",
+          "url": "https://github.com/diegosouzapw"
+        },
+        {
+          "username": "oyi77",
+          "url": "https://github.com/oyi77"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "rdself",
+          "url": "https://github.com/rdself"
+        }
+      ],
+      "description": "Never stop coding. Free MIT AI gateway: one endpoint, 268+ providers (50+ free), 500+ models — Claude, GPT, Gemini, Kimi K3, GLM, DeepSeek. Works with Claude Code, Codex, Cursor, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, multimodal, Desktop/PWA. Built by 500+ contributors.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "rdself: location=United States"
+      ]
+    },
+    {
+      "repository_name": "agegr/pi-web",
+      "url": "https://github.com/agegr/pi-web",
+      "contributors": [
+        {
+          "username": "agegr",
+          "url": "https://github.com/agegr"
+        },
+        {
+          "username": "lifu963",
+          "url": "https://github.com/lifu963"
+        },
+        {
+          "username": "fallleave",
+          "url": "https://github.com/fallleave"
+        },
+        {
+          "username": "zhudatou630",
+          "url": "https://github.com/zhudatou630"
+        },
+        {
+          "username": "Kabochar",
+          "url": "https://github.com/Kabochar"
+        }
+      ],
+      "description": "Web UI for the pi coding agent",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "agegr: location=United States"
+      ]
+    },
+    {
+      "repository_name": "schollz/croc",
+      "url": "https://github.com/schollz/croc",
+      "contributors": [
+        {
+          "username": "schollz",
+          "url": "https://github.com/schollz"
+        },
+        {
+          "username": "TheQueasle",
+          "url": "https://github.com/TheQueasle"
+        },
+        {
+          "username": "stefins",
+          "url": "https://github.com/stefins"
+        },
+        {
+          "username": "jolheiser",
+          "url": "https://github.com/jolheiser"
+        }
+      ],
+      "description": "Easily and securely send things from one computer to another 🐊 📦",
+      "primary_language": "Go",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "microsoft/Ontology-Playground",
+      "url": "https://github.com/microsoft/Ontology-Playground",
+      "contributors": [
+        {
+          "username": "videlalvaro",
+          "url": "https://github.com/videlalvaro"
+        },
+        {
+          "username": "vaibhavius",
+          "url": "https://github.com/vaibhavius"
+        },
+        {
+          "username": "bbreugel",
+          "url": "https://github.com/bbreugel"
+        },
+        {
+          "username": "RaviChanduEdru",
+          "url": "https://github.com/RaviChanduEdru"
+        }
+      ],
+      "description": "Free, open-source web app for learning about ontologies and Microsoft Fabric IQ. Explore a catalogue of pre-built ontologies, design your own visually, export as RDF/XML, and share interactive diagrams. Zero backend, fully static.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "dottxt-ai/outlines",
+      "url": "https://github.com/dottxt-ai/outlines",
+      "contributors": [
+        {
+          "username": "rlouf",
+          "url": "https://github.com/rlouf"
+        },
+        {
+          "username": "RobinPicard",
+          "url": "https://github.com/RobinPicard"
+        },
+        {
+          "username": "lapp0",
+          "url": "https://github.com/lapp0"
+        },
+        {
+          "username": "brandonwillard",
+          "url": "https://github.com/brandonwillard"
+        },
+        {
+          "username": "just-cameron",
+          "url": "https://github.com/just-cameron"
+        }
+      ],
+      "description": "Structured Outputs",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "France",
+      "origin_confidence": "medium",
+      "origin_evidence": [
+        "rlouf: location=Bourron-Marlotte, France",
+        "RobinPicard: location=Paris"
+      ]
+    },
+    {
+      "repository_name": "KnockOutEZ/wigolo",
+      "url": "https://github.com/KnockOutEZ/wigolo",
+      "contributors": [
+        {
+          "username": "KnockOutEZ",
+          "url": "https://github.com/KnockOutEZ"
+        },
+        {
+          "username": "YoshiTabletopGamer",
+          "url": "https://github.com/YoshiTabletopGamer"
+        },
+        {
+          "username": "gitcommit90",
+          "url": "https://github.com/gitcommit90"
+        }
+      ],
+      "description": "The go-to web for your AI coding agent — local-first search, fetch, crawl & research over MCP. No API keys, no cloud, $0/query. Public beta.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "Bangladesh",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "KnockOutEZ: location=Dhaka, Bangladesh"
+      ]
+    }
+  ]
+}
