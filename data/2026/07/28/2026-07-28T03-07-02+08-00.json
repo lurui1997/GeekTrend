@@ -1,0 +1,481 @@
+{
+  "fetched_at": "2026-07-28T03:07:02+08:00",
+  "source_url": "https://github.com/trending/",
+  "repository_count": 14,
+  "ai_agent_project_count": 7,
+  "ai_agent_project_ratio": 0.5,
+  "repositories": [
+    {
+      "repository_name": "permissionlesstech/bitchat",
+      "url": "https://github.com/permissionlesstech/bitchat",
+      "contributors": [
+        {
+          "username": "jackjackbits",
+          "url": "https://github.com/jackjackbits"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "qalandarov",
+          "url": "https://github.com/qalandarov"
+        },
+        {
+          "username": "actions-user",
+          "url": "https://github.com/actions-user"
+        },
+        {
+          "username": "callebtc",
+          "url": "https://github.com/callebtc"
+        }
+      ],
+      "description": "bluetooth mesh chat, IRC vibes",
+      "primary_language": "Swift",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "qalandarov: location=London, UK"
+      ]
+    },
+    {
+      "repository_name": "amnezia-vpn/amnezia-client",
+      "url": "https://github.com/amnezia-vpn/amnezia-client",
+      "contributors": [
+        {
+          "username": "pokamest",
+          "url": "https://github.com/pokamest"
+        },
+        {
+          "username": "Nethius",
+          "url": "https://github.com/Nethius"
+        },
+        {
+          "username": "albexk",
+          "url": "https://github.com/albexk"
+        },
+        {
+          "username": "outspace",
+          "url": "https://github.com/outspace"
+        },
+        {
+          "username": "vkamn",
+          "url": "https://github.com/vkamn"
+        }
+      ],
+      "description": "Amnezia VPN Client (Desktop+Mobile)",
+      "primary_language": "C++",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "moeru-ai/airi",
+      "url": "https://github.com/moeru-ai/airi",
+      "contributors": [
+        {
+          "username": "nekomeowww",
+          "url": "https://github.com/nekomeowww"
+        },
+        {
+          "username": "luoling8192",
+          "url": "https://github.com/luoling8192"
+        },
+        {
+          "username": "shinohara-rin",
+          "url": "https://github.com/shinohara-rin"
+        },
+        {
+          "username": "sumimakito",
+          "url": "https://github.com/sumimakito"
+        }
+      ],
+      "description": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "China",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "luoling8192: location=Shanghai"
+      ]
+    },
+    {
+      "repository_name": "yorukot/superfile",
+      "url": "https://github.com/yorukot/superfile",
+      "contributors": [
+        {
+          "username": "yorukot",
+          "url": "https://github.com/yorukot"
+        },
+        {
+          "username": "lazysegtree",
+          "url": "https://github.com/lazysegtree"
+        },
+        {
+          "username": "nonepork",
+          "url": "https://github.com/nonepork"
+        },
+        {
+          "username": "AnshumanNeon",
+          "url": "https://github.com/AnshumanNeon"
+        }
+      ],
+      "description": "Pretty fancy and modern terminal file manager",
+      "primary_language": "Go",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "NanmiCoder/MediaCrawler",
+      "url": "https://github.com/NanmiCoder/MediaCrawler",
+      "contributors": [
+        {
+          "username": "NanmiCoder",
+          "url": "https://github.com/NanmiCoder"
+        },
+        {
+          "username": "2513502304",
+          "url": "https://github.com/2513502304"
+        },
+        {
+          "username": "gaoxiaobei",
+          "url": "https://github.com/gaoxiaobei"
+        },
+        {
+          "username": "persist-1",
+          "url": "https://github.com/persist-1"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        }
+      ],
+      "description": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "contributors": [
+        {
+          "username": "pbakaus",
+          "url": "https://github.com/pbakaus"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "abdulwahabone",
+          "url": "https://github.com/abdulwahabone"
+        }
+      ],
+      "description": "The design language that makes your AI harness better at design.",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "shiyu-coder/Kronos",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "contributors": [
+        {
+          "username": "shiyu-coder",
+          "url": "https://github.com/shiyu-coder"
+        },
+        {
+          "username": "Luciferbobo",
+          "url": "https://github.com/Luciferbobo"
+        },
+        {
+          "username": "CharlesJ-ABu",
+          "url": "https://github.com/CharlesJ-ABu"
+        },
+        {
+          "username": "AnMakc",
+          "url": "https://github.com/AnMakc"
+        },
+        {
+          "username": "randyy179",
+          "url": "https://github.com/randyy179"
+        }
+      ],
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "Luciferbobo: location=Los Angeles, CA, USA"
+      ]
+    },
+    {
+      "repository_name": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "contributors": [
+        {
+          "username": "lizhengfeng101",
+          "url": "https://github.com/lizhengfeng101"
+        },
+        {
+          "username": "chethanuk",
+          "url": "https://github.com/chethanuk"
+        },
+        {
+          "username": "stay-foolish-forever",
+          "url": "https://github.com/stay-foolish-forever"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "MuoDoo",
+          "url": "https://github.com/MuoDoo"
+        }
+      ],
+      "description": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "primary_language": "Go",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "chethanuk: location=London"
+      ]
+    },
+    {
+      "repository_name": "jenkinsci/jenkins",
+      "url": "https://github.com/jenkinsci/jenkins",
+      "contributors": [
+        {
+          "username": "kohsuke",
+          "url": "https://github.com/kohsuke"
+        },
+        {
+          "username": "jglick",
+          "url": "https://github.com/jglick"
+        },
+        {
+          "username": "daniel-beck",
+          "url": "https://github.com/daniel-beck"
+        },
+        {
+          "username": "oleg-nenashev",
+          "url": "https://github.com/oleg-nenashev"
+        }
+      ],
+      "description": "Jenkins automation server",
+      "primary_language": "Java",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "bradautomates/claude-video",
+      "url": "https://github.com/bradautomates/claude-video",
+      "contributors": [
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "bradautomates",
+          "url": "https://github.com/bradautomates"
+        }
+      ],
+      "description": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "vudovn/ag-kit",
+      "url": "https://github.com/vudovn/ag-kit",
+      "contributors": [
+        {
+          "username": "vudovn",
+          "url": "https://github.com/vudovn"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "saineox",
+          "url": "https://github.com/saineox"
+        },
+        {
+          "username": "lucasgab2230",
+          "url": "https://github.com/lucasgab2230"
+        },
+        {
+          "username": "JoKenPo",
+          "url": "https://github.com/JoKenPo"
+        }
+      ],
+      "description": null,
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "apache/cassandra",
+      "url": "https://github.com/apache/cassandra",
+      "contributors": [
+        {
+          "username": "jbellis",
+          "url": "https://github.com/jbellis"
+        },
+        {
+          "username": "driftx",
+          "url": "https://github.com/driftx"
+        },
+        {
+          "username": "pcmanus",
+          "url": "https://github.com/pcmanus"
+        },
+        {
+          "username": "iamaleksey",
+          "url": "https://github.com/iamaleksey"
+        },
+        {
+          "username": "krummas",
+          "url": "https://github.com/krummas"
+        }
+      ],
+      "description": "Open source transactional distributed database. Linear scalability and proven fault-tolerance on commodity hardware or cloud infrastructure without compromising performance.",
+      "primary_language": "Java",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "iamaleksey: location=London"
+      ]
+    },
+    {
+      "repository_name": "mvanhorn/last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "contributors": [
+        {
+          "username": "mvanhorn",
+          "url": "https://github.com/mvanhorn"
+        },
+        {
+          "username": "tmchow",
+          "url": "https://github.com/tmchow"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "23241a6749",
+          "url": "https://github.com/23241a6749"
+        },
+        {
+          "username": "j-sperling",
+          "url": "https://github.com/j-sperling"
+        }
+      ],
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "ocornut/imgui",
+      "url": "https://github.com/ocornut/imgui",
+      "contributors": [
+        {
+          "username": "ocornut",
+          "url": "https://github.com/ocornut"
+        },
+        {
+          "username": "rokups",
+          "url": "https://github.com/rokups"
+        },
+        {
+          "username": "thedmd",
+          "url": "https://github.com/thedmd"
+        },
+        {
+          "username": "cfillion",
+          "url": "https://github.com/cfillion"
+        },
+        {
+          "username": "bkaradzic",
+          "url": "https://github.com/bkaradzic"
+        }
+      ],
+      "description": "Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies",
+      "primary_language": "C++",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "France",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "ocornut: location=Paris, France"
+      ]
+    }
+  ]
+}
