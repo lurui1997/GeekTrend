@@ -1,0 +1,414 @@
+{
+  "fetched_at": "2026-07-29T12:55:41+08:00",
+  "source_url": "https://github.com/trending/",
+  "repository_count": 13,
+  "ai_agent_project_count": 7,
+  "ai_agent_project_ratio": 0.5385,
+  "repositories": [
+    {
+      "repository_name": "pascalorg/editor",
+      "url": "https://github.com/pascalorg/editor",
+      "contributors": [
+        {
+          "username": "wass08",
+          "url": "https://github.com/wass08"
+        },
+        {
+          "username": "Aymericr",
+          "url": "https://github.com/Aymericr"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "sudhir9297",
+          "url": "https://github.com/sudhir9297"
+        },
+        {
+          "username": "open-pascal",
+          "url": "https://github.com/open-pascal"
+        }
+      ],
+      "description": "Create and share 3D architectural projects.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "jenkinsci/jenkins",
+      "url": "https://github.com/jenkinsci/jenkins",
+      "contributors": [
+        {
+          "username": "kohsuke",
+          "url": "https://github.com/kohsuke"
+        },
+        {
+          "username": "jglick",
+          "url": "https://github.com/jglick"
+        },
+        {
+          "username": "daniel-beck",
+          "url": "https://github.com/daniel-beck"
+        },
+        {
+          "username": "oleg-nenashev",
+          "url": "https://github.com/oleg-nenashev"
+        }
+      ],
+      "description": "Jenkins automation server",
+      "primary_language": "Java",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "moeru-ai/airi",
+      "url": "https://github.com/moeru-ai/airi",
+      "contributors": [
+        {
+          "username": "nekomeowww",
+          "url": "https://github.com/nekomeowww"
+        },
+        {
+          "username": "luoling8192",
+          "url": "https://github.com/luoling8192"
+        },
+        {
+          "username": "shinohara-rin",
+          "url": "https://github.com/shinohara-rin"
+        },
+        {
+          "username": "sumimakito",
+          "url": "https://github.com/sumimakito"
+        }
+      ],
+      "description": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "China",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "luoling8192: location=Shanghai"
+      ]
+    },
+    {
+      "repository_name": "andrewyng/aisuite",
+      "url": "https://github.com/andrewyng/aisuite",
+      "contributors": [
+        {
+          "username": "rohitprasad15",
+          "url": "https://github.com/rohitprasad15"
+        },
+        {
+          "username": "drp8226",
+          "url": "https://github.com/drp8226"
+        },
+        {
+          "username": "ksolo",
+          "url": "https://github.com/ksolo"
+        },
+        {
+          "username": "standsleeping",
+          "url": "https://github.com/standsleeping"
+        },
+        {
+          "username": "tavinashb",
+          "url": "https://github.com/tavinashb"
+        }
+      ],
+      "description": "Simple, unified interface to multiple Generative AI providers",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "contributors": [
+        {
+          "username": "affaan-m",
+          "url": "https://github.com/affaan-m"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "pangerlkr",
+          "url": "https://github.com/pangerlkr"
+        }
+      ],
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United States",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "affaan-m: location=NYC"
+      ]
+    },
+    {
+      "repository_name": "hello245m/free-stockdb",
+      "url": "https://github.com/hello245m/free-stockdb",
+      "contributors": [
+        {
+          "username": "hello245m",
+          "url": "https://github.com/hello245m"
+        },
+        {
+          "username": "cursoragent",
+          "url": "https://github.com/cursoragent"
+        },
+        {
+          "username": "AudreyEthan",
+          "url": "https://github.com/AudreyEthan"
+        }
+      ],
+      "description": "面向 A 股日K、分钟K与ETF分钟数据的本地量化引擎，集成增量同步、本地缓存、复权、批量查询、回测与指标计算。",
+      "primary_language": "HTML",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "huggingface/speech-to-speech",
+      "url": "https://github.com/huggingface/speech-to-speech",
+      "contributors": [
+        {
+          "username": "andimarafioti",
+          "url": "https://github.com/andimarafioti"
+        },
+        {
+          "username": "eustlb",
+          "url": "https://github.com/eustlb"
+        },
+        {
+          "username": "A-Mahla",
+          "url": "https://github.com/A-Mahla"
+        },
+        {
+          "username": "ylacombe",
+          "url": "https://github.com/ylacombe"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        }
+      ],
+      "description": "Build local voice agents with open-source models",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "France",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "eustlb: location=Paris, France"
+      ]
+    },
+    {
+      "repository_name": "virgiliojr94/book-to-skill",
+      "url": "https://github.com/virgiliojr94/book-to-skill",
+      "contributors": [
+        {
+          "username": "virgiliojr94",
+          "url": "https://github.com/virgiliojr94"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "dex0shubham",
+          "url": "https://github.com/dex0shubham"
+        },
+        {
+          "username": "Marcelluxx",
+          "url": "https://github.com/Marcelluxx"
+        }
+      ],
+      "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "Italy",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "Marcelluxx: location=Italy"
+      ]
+    },
+    {
+      "repository_name": "opengeos/GeoLibre",
+      "url": "https://github.com/opengeos/GeoLibre",
+      "contributors": [
+        {
+          "username": "giswqs",
+          "url": "https://github.com/giswqs"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        }
+      ],
+      "description": "A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data. It runs in the web browser, on the desktop, on mobile, and inside Jupyter notebooks.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "paperswithbacktest/awesome-systematic-trading",
+      "url": "https://github.com/paperswithbacktest/awesome-systematic-trading",
+      "contributors": [
+        {
+          "username": "edarchimbaud",
+          "url": "https://github.com/edarchimbaud"
+        },
+        {
+          "username": "jamesmunro",
+          "url": "https://github.com/jamesmunro"
+        },
+        {
+          "username": "ss18",
+          "url": "https://github.com/ss18"
+        },
+        {
+          "username": "leftys",
+          "url": "https://github.com/leftys"
+        },
+        {
+          "username": "iamjinlei",
+          "url": "https://github.com/iamjinlei"
+        }
+      ],
+      "description": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "jamesmunro: location=London, UK"
+      ]
+    },
+    {
+      "repository_name": "microsoft/agent-governance-toolkit",
+      "url": "https://github.com/microsoft/agent-governance-toolkit",
+      "contributors": [
+        {
+          "username": "imran-siddique",
+          "url": "https://github.com/imran-siddique"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "finnoybu",
+          "url": "https://github.com/finnoybu"
+        }
+      ],
+      "description": "AI Agent Governance Toolkit — Policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous AI agents. Covers 10/10 OWASP Agentic Top 10.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "finnoybu: bio=\"A journey of a thousand miles begins with a single step.\" - Lao Tzu"
+      ]
+    },
+    {
+      "repository_name": "yorukot/superfile",
+      "url": "https://github.com/yorukot/superfile",
+      "contributors": [
+        {
+          "username": "yorukot",
+          "url": "https://github.com/yorukot"
+        },
+        {
+          "username": "lazysegtree",
+          "url": "https://github.com/lazysegtree"
+        },
+        {
+          "username": "nonepork",
+          "url": "https://github.com/nonepork"
+        },
+        {
+          "username": "AnshumanNeon",
+          "url": "https://github.com/AnshumanNeon"
+        }
+      ],
+      "description": "Pretty fancy and modern terminal file manager",
+      "primary_language": "Go",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "bradautomates/claude-video",
+      "url": "https://github.com/bradautomates/claude-video",
+      "contributors": [
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "bradautomates",
+          "url": "https://github.com/bradautomates"
+        }
+      ],
+      "description": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    }
+  ]
+}
