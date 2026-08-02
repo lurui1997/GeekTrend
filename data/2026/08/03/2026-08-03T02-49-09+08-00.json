@@ -1,0 +1,516 @@
+{
+  "fetched_at": "2026-08-03T02:49:09+08:00",
+  "source_url": "https://github.com/trending/",
+  "repository_count": 15,
+  "ai_agent_project_count": 5,
+  "ai_agent_project_ratio": 0.3333,
+  "repositories": [
+    {
+      "repository_name": "microsoft/AI-For-Beginners",
+      "url": "https://github.com/microsoft/AI-For-Beginners",
+      "contributors": [
+        {
+          "username": "leestott",
+          "url": "https://github.com/leestott"
+        },
+        {
+          "username": "skytin1004",
+          "url": "https://github.com/skytin1004"
+        },
+        {
+          "username": "jlooper",
+          "url": "https://github.com/jlooper"
+        },
+        {
+          "username": "shwars",
+          "url": "https://github.com/shwars"
+        },
+        {
+          "username": "BethanyJep",
+          "url": "https://github.com/BethanyJep"
+        }
+      ],
+      "description": "12 Weeks, 24 Lessons, AI for All!",
+      "primary_language": "Jupyter Notebook",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "leestott: bio=Principal Cloud Advocate @ Microsoft / GitHub, Microsoft Core AI | Honorary Associate Professor University College London"
+      ]
+    },
+    {
+      "repository_name": "usekaneo/kaneo",
+      "url": "https://github.com/usekaneo/kaneo",
+      "contributors": [
+        {
+          "username": "andrejsshell",
+          "url": "https://github.com/andrejsshell"
+        },
+        {
+          "username": "tinsever",
+          "url": "https://github.com/tinsever"
+        },
+        {
+          "username": "randoneering",
+          "url": "https://github.com/randoneering"
+        }
+      ],
+      "description": "🎯 All you need. Nothing you don't. Open source project management that works for you, not against you.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "lyogavin/airllm",
+      "url": "https://github.com/lyogavin/airllm",
+      "contributors": [
+        {
+          "username": "lyogavin",
+          "url": "https://github.com/lyogavin"
+        },
+        {
+          "username": "cursoragent",
+          "url": "https://github.com/cursoragent"
+        },
+        {
+          "username": "eltociear",
+          "url": "https://github.com/eltociear"
+        },
+        {
+          "username": "NavodPeiris",
+          "url": "https://github.com/NavodPeiris"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        }
+      ],
+      "description": "AirLLM 70B inference with single 4GB GPU",
+      "primary_language": "Jupyter Notebook",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "Japan",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "eltociear: location=Tokyo, Japan"
+      ]
+    },
+    {
+      "repository_name": "iv-org/invidious",
+      "url": "https://github.com/iv-org/invidious",
+      "contributors": [
+        {
+          "username": "omarroth",
+          "url": "https://github.com/omarroth"
+        },
+        {
+          "username": "SamantazFox",
+          "url": "https://github.com/SamantazFox"
+        },
+        {
+          "username": "weblate",
+          "url": "https://github.com/weblate"
+        },
+        {
+          "username": "syeopite",
+          "url": "https://github.com/syeopite"
+        },
+        {
+          "username": "TheFrenchGhosty",
+          "url": "https://github.com/TheFrenchGhosty"
+        }
+      ],
+      "description": "Invidious is an alternative front-end to YouTube",
+      "primary_language": "Crystal",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "France",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "TheFrenchGhosty: location=Normandy, France"
+      ]
+    },
+    {
+      "repository_name": "codecrafters-io/build-your-own-x",
+      "url": "https://github.com/codecrafters-io/build-your-own-x",
+      "contributors": [
+        {
+          "username": "danistefanovic",
+          "url": "https://github.com/danistefanovic"
+        },
+        {
+          "username": "rohitpaulk",
+          "url": "https://github.com/rohitpaulk"
+        },
+        {
+          "username": "sarupbanskota",
+          "url": "https://github.com/sarupbanskota"
+        },
+        {
+          "username": "fake-rookie",
+          "url": "https://github.com/fake-rookie"
+        },
+        {
+          "username": "bauripalash",
+          "url": "https://github.com/bauripalash"
+        }
+      ],
+      "description": "Master programming by recreating your favorite technologies from scratch.",
+      "primary_language": "Markdown",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "zhaoxuya520/reverse-skill",
+      "url": "https://github.com/zhaoxuya520/reverse-skill",
+      "contributors": [
+        {
+          "username": "zhaoxuya520",
+          "url": "https://github.com/zhaoxuya520"
+        },
+        {
+          "username": "sakukir",
+          "url": "https://github.com/sakukir"
+        },
+        {
+          "username": "zhaoxuya",
+          "url": "https://github.com/zhaoxuya"
+        },
+        {
+          "username": "dhicoc",
+          "url": "https://github.com/dhicoc"
+        },
+        {
+          "username": "doublecurry",
+          "url": "https://github.com/doublecurry"
+        }
+      ],
+      "description": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
+      "primary_language": "PowerShell",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "different-ai/openwork",
+      "url": "https://github.com/different-ai/openwork",
+      "contributors": [
+        {
+          "username": "benjaminshafii",
+          "url": "https://github.com/benjaminshafii"
+        },
+        {
+          "username": "src-opn",
+          "url": "https://github.com/src-opn"
+        },
+        {
+          "username": "jcllobet",
+          "url": "https://github.com/jcllobet"
+        },
+        {
+          "username": "release-bot",
+          "url": "https://github.com/release-bot"
+        },
+        {
+          "username": "actions-user",
+          "url": "https://github.com/actions-user"
+        }
+      ],
+      "description": "The open-source alternative to Claude Cowork (powered by opencode)",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "microsoft/generative-ai-for-beginners",
+      "url": "https://github.com/microsoft/generative-ai-for-beginners",
+      "contributors": [
+        {
+          "username": "skytin1004",
+          "url": "https://github.com/skytin1004"
+        },
+        {
+          "username": "koreyspace",
+          "url": "https://github.com/koreyspace"
+        },
+        {
+          "username": "leestott",
+          "url": "https://github.com/leestott"
+        },
+        {
+          "username": "john0isaac",
+          "url": "https://github.com/john0isaac"
+        }
+      ],
+      "description": "21 Lessons, Get Started Building with Generative AI",
+      "primary_language": "Jupyter Notebook",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "leestott: bio=Principal Cloud Advocate @ Microsoft / GitHub, Microsoft Core AI | Honorary Associate Professor University College London"
+      ]
+    },
+    {
+      "repository_name": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "contributors": [
+        {
+          "username": "Panniantong",
+          "url": "https://github.com/Panniantong"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "nyxst4ck",
+          "url": "https://github.com/nyxst4ck"
+        },
+        {
+          "username": "kadaliao",
+          "url": "https://github.com/kadaliao"
+        },
+        {
+          "username": "hymansun",
+          "url": "https://github.com/hymansun"
+        }
+      ],
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "China",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "kadaliao: location=Beijing"
+      ]
+    },
+    {
+      "repository_name": "TencentCloud/TencentDB-Agent-Memory",
+      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+      "contributors": [
+        {
+          "username": "Maxwell-Code07",
+          "url": "https://github.com/Maxwell-Code07"
+        },
+        {
+          "username": "Yuntong8888",
+          "url": "https://github.com/Yuntong8888"
+        }
+      ],
+      "description": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "mvanhorn/last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "contributors": [
+        {
+          "username": "mvanhorn",
+          "url": "https://github.com/mvanhorn"
+        },
+        {
+          "username": "tmchow",
+          "url": "https://github.com/tmchow"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "23241a6749",
+          "url": "https://github.com/23241a6749"
+        },
+        {
+          "username": "j-sperling",
+          "url": "https://github.com/j-sperling"
+        }
+      ],
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "NomaDamas/k-skill",
+      "url": "https://github.com/NomaDamas/k-skill",
+      "contributors": [
+        {
+          "username": "vkehfdl1",
+          "url": "https://github.com/vkehfdl1"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "taeyoung1005",
+          "url": "https://github.com/taeyoung1005"
+        },
+        {
+          "username": "Mineru98",
+          "url": "https://github.com/Mineru98"
+        }
+      ],
+      "description": "한국인을 위한 스킬 모음집 - 에이전트를 한국인으로",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "Mineru98: location=South of Korea, Busan"
+      ]
+    },
+    {
+      "repository_name": "HarbourMasters/Lighthouse",
+      "url": "https://github.com/HarbourMasters/Lighthouse",
+      "contributors": [
+        {
+          "username": "Caladius",
+          "url": "https://github.com/Caladius"
+        },
+        {
+          "username": "JeodC",
+          "url": "https://github.com/JeodC"
+        },
+        {
+          "username": "scorched11",
+          "url": "https://github.com/scorched11"
+        },
+        {
+          "username": "Malkierian",
+          "url": "https://github.com/Malkierian"
+        },
+        {
+          "username": "Fredomato",
+          "url": "https://github.com/Fredomato"
+        }
+      ],
+      "description": null,
+      "primary_language": "C",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "antirez/ds4",
+      "url": "https://github.com/antirez/ds4",
+      "contributors": [
+        {
+          "username": "antirez",
+          "url": "https://github.com/antirez"
+        },
+        {
+          "username": "mitsuhiko",
+          "url": "https://github.com/mitsuhiko"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "jackygurui",
+          "url": "https://github.com/jackygurui"
+        },
+        {
+          "username": "cv",
+          "url": "https://github.com/cv"
+        }
+      ],
+      "description": "DeepSeek 4 Flash and PRO local inference engine for Metal, CUDA and ROCm",
+      "primary_language": "C",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "Italy",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "antirez: location=Catania, Sicily, Italy"
+      ]
+    },
+    {
+      "repository_name": "esengine/DeepSeek-Reasonix",
+      "url": "https://github.com/esengine/DeepSeek-Reasonix",
+      "contributors": [
+        {
+          "username": "SivanCola",
+          "url": "https://github.com/SivanCola"
+        },
+        {
+          "username": "esengine",
+          "url": "https://github.com/esengine"
+        },
+        {
+          "username": "ttmouse",
+          "url": "https://github.com/ttmouse"
+        },
+        {
+          "username": "lifu963",
+          "url": "https://github.com/lifu963"
+        },
+        {
+          "username": "cursoragent",
+          "url": "https://github.com/cursoragent"
+        }
+      ],
+      "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
+      "primary_language": "Go",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    }
+  ]
+}
