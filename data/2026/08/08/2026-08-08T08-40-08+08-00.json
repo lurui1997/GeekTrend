@@ -1,0 +1,551 @@
+{
+  "fetched_at": "2026-08-08T08:40:08+08:00",
+  "source_url": "https://github.com/trending/",
+  "repository_count": 17,
+  "ai_agent_project_count": 7,
+  "ai_agent_project_ratio": 0.4118,
+  "repositories": [
+    {
+      "repository_name": "PrimeIntellect-ai/prime-agent",
+      "url": "https://github.com/PrimeIntellect-ai/prime-agent",
+      "contributors": [
+        {
+          "username": "kevinjosethomas",
+          "url": "https://github.com/kevinjosethomas"
+        },
+        {
+          "username": "snimu",
+          "url": "https://github.com/snimu"
+        },
+        {
+          "username": "sethkarten",
+          "url": "https://github.com/sethkarten"
+        },
+        {
+          "username": "alexzhang13",
+          "url": "https://github.com/alexzhang13"
+        },
+        {
+          "username": "samsja",
+          "url": "https://github.com/samsja"
+        }
+      ],
+      "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "alexzhang13: location=NYC"
+      ]
+    },
+    {
+      "repository_name": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "contributors": [
+        {
+          "username": "addyosmani",
+          "url": "https://github.com/addyosmani"
+        },
+        {
+          "username": "nucliweb",
+          "url": "https://github.com/nucliweb"
+        },
+        {
+          "username": "federicobartoli",
+          "url": "https://github.com/federicobartoli"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "Liyuk",
+          "url": "https://github.com/Liyuk"
+        }
+      ],
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "cloudflare/computer",
+      "url": "https://github.com/cloudflare/computer",
+      "contributors": [
+        {
+          "username": "aron-cf",
+          "url": "https://github.com/aron-cf"
+        },
+        {
+          "username": "ndisidore",
+          "url": "https://github.com/ndisidore"
+        },
+        {
+          "username": "ghostwriternr",
+          "url": "https://github.com/ghostwriternr"
+        },
+        {
+          "username": "mattzcarey",
+          "url": "https://github.com/mattzcarey"
+        }
+      ],
+      "description": "Give your agent a computer 👾",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "medium",
+      "origin_evidence": [
+        "ghostwriternr: location=London, UK",
+        "mattzcarey: location=London, UK"
+      ]
+    },
+    {
+      "repository_name": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "contributors": [
+        {
+          "username": "mattpocock",
+          "url": "https://github.com/mattpocock"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "gabimoncha",
+          "url": "https://github.com/gabimoncha"
+        }
+      ],
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "primary_language": "Shell",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "contributors": [
+        {
+          "username": "obra",
+          "url": "https://github.com/obra"
+        },
+        {
+          "username": "arittr",
+          "url": "https://github.com/arittr"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "clkao",
+          "url": "https://github.com/clkao"
+        },
+        {
+          "username": "jjshanks",
+          "url": "https://github.com/jjshanks"
+        }
+      ],
+      "description": "An agentic skills framework & software development methodology that works.",
+      "primary_language": "Shell",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "goauthentik/authentik",
+      "url": "https://github.com/goauthentik/authentik",
+      "contributors": [
+        {
+          "username": "BeryJu",
+          "url": "https://github.com/BeryJu"
+        },
+        {
+          "username": "rissson",
+          "url": "https://github.com/rissson"
+        }
+      ],
+      "description": "The authentication glue you need.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "semantica-agi/semantica",
+      "url": "https://github.com/semantica-agi/semantica",
+      "contributors": [
+        {
+          "username": "KaifAhmad1",
+          "url": "https://github.com/KaifAhmad1"
+        },
+        {
+          "username": "Sameer6305",
+          "url": "https://github.com/Sameer6305"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "ZohaibHassan16",
+          "url": "https://github.com/ZohaibHassan16"
+        }
+      ],
+      "description": "Graph-Native Infrastructure for Context and Accountable AI Systems",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "666ghj/MiroFish",
+      "url": "https://github.com/666ghj/MiroFish",
+      "contributors": [
+        {
+          "username": "666ghj",
+          "url": "https://github.com/666ghj"
+        },
+        {
+          "username": "Ghostubborn",
+          "url": "https://github.com/Ghostubborn"
+        },
+        {
+          "username": "anupamme",
+          "url": "https://github.com/anupamme"
+        },
+        {
+          "username": "harshitanand",
+          "url": "https://github.com/harshitanand"
+        }
+      ],
+      "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "China",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "666ghj: location=Shanghai, China"
+      ]
+    },
+    {
+      "repository_name": "chenyme/grok2api",
+      "url": "https://github.com/chenyme/grok2api",
+      "contributors": [
+        {
+          "username": "chenyme",
+          "url": "https://github.com/chenyme"
+        },
+        {
+          "username": "piexian",
+          "url": "https://github.com/piexian"
+        },
+        {
+          "username": "lijirou12",
+          "url": "https://github.com/lijirou12"
+        },
+        {
+          "username": "Soein",
+          "url": "https://github.com/Soein"
+        },
+        {
+          "username": "Huan-zhaojun",
+          "url": "https://github.com/Huan-zhaojun"
+        }
+      ],
+      "description": "Multi-account API gateway for Grok Build, Grok Web, and Grok Console",
+      "primary_language": "Go",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "jdx/mise",
+      "url": "https://github.com/jdx/mise",
+      "contributors": [
+        {
+          "username": "jdx",
+          "url": "https://github.com/jdx"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "mise-en-dev",
+          "url": "https://github.com/mise-en-dev"
+        }
+      ],
+      "description": "dev tools, env vars, task runner",
+      "primary_language": "Rust",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "Significant-Gravitas/AutoGPT",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "contributors": [
+        {
+          "username": "Pwuts",
+          "url": "https://github.com/Pwuts"
+        },
+        {
+          "username": "majdyz",
+          "url": "https://github.com/majdyz"
+        },
+        {
+          "username": "Auto-GPT-Bot",
+          "url": "https://github.com/Auto-GPT-Bot"
+        },
+        {
+          "username": "ntindle",
+          "url": "https://github.com/ntindle"
+        },
+        {
+          "username": "Swiftyos",
+          "url": "https://github.com/Swiftyos"
+        }
+      ],
+      "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "google/guava",
+      "url": "https://github.com/google/guava",
+      "contributors": [
+        {
+          "username": "cpovirk",
+          "url": "https://github.com/cpovirk"
+        },
+        {
+          "username": "cgdecker",
+          "url": "https://github.com/cgdecker"
+        },
+        {
+          "username": "kluever",
+          "url": "https://github.com/kluever"
+        },
+        {
+          "username": "lowasser",
+          "url": "https://github.com/lowasser"
+        }
+      ],
+      "description": "Google core libraries for Java",
+      "primary_language": "Java",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "unclebob/swarm-forge",
+      "url": "https://github.com/unclebob/swarm-forge",
+      "contributors": [
+        {
+          "username": "unclebob",
+          "url": "https://github.com/unclebob"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "LupusDei",
+          "url": "https://github.com/LupusDei"
+        },
+        {
+          "username": "janschill",
+          "url": "https://github.com/janschill"
+        }
+      ],
+      "description": "A simple tool for coordinating several AI agents.",
+      "primary_language": "Clojure",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "denoland/celld",
+      "url": "https://github.com/denoland/celld",
+      "contributors": [
+        {
+          "username": "ry",
+          "url": "https://github.com/ry"
+        },
+        {
+          "username": "magurotuna",
+          "url": "https://github.com/magurotuna"
+        },
+        {
+          "username": "wperron",
+          "url": "https://github.com/wperron"
+        }
+      ],
+      "description": "self-hosted, distributed Durable Objects",
+      "primary_language": "Rust",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "Japan",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "magurotuna: location=Tokyo, Japan"
+      ]
+    },
+    {
+      "repository_name": "K2SOsint/Legendary_OSINT",
+      "url": "https://github.com/K2SOsint/Legendary_OSINT",
+      "contributors": [
+        {
+          "username": "K2SOsint",
+          "url": "https://github.com/K2SOsint"
+        },
+        {
+          "username": "alievinfo",
+          "url": "https://github.com/alievinfo"
+        },
+        {
+          "username": "stanfrbd",
+          "url": "https://github.com/stanfrbd"
+        }
+      ],
+      "description": "A list of OSINT tools & resources for (fraud-)investigators, CTI-analysts, KYC, AML and more.",
+      "primary_language": null,
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "pranshuparmar/witr",
+      "url": "https://github.com/pranshuparmar/witr",
+      "contributors": [
+        {
+          "username": "pranshuparmar",
+          "url": "https://github.com/pranshuparmar"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "chojs23",
+          "url": "https://github.com/chojs23"
+        },
+        {
+          "username": "gaod",
+          "url": "https://github.com/gaod"
+        }
+      ],
+      "description": "Why is this running? Trace any process, port, container, or file back to what started it - CLI + TUI.",
+      "primary_language": "Go",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "google/skills",
+      "url": "https://github.com/google/skills",
+      "contributors": [
+        {
+          "username": "cloud-ix-copybara",
+          "url": "https://github.com/cloud-ix-copybara"
+        },
+        {
+          "username": "holtskinner",
+          "url": "https://github.com/holtskinner"
+        },
+        {
+          "username": "martinvarelaj",
+          "url": "https://github.com/martinvarelaj"
+        },
+        {
+          "username": "helloeve",
+          "url": "https://github.com/helloeve"
+        },
+        {
+          "username": "jsondai",
+          "url": "https://github.com/jsondai"
+        }
+      ],
+      "description": "Agent Skills for Google products and technologies",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    }
+  ]
+}
