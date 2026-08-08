@@ -1,0 +1,376 @@
+{
+  "fetched_at": "2026-08-09T02:18:20+08:00",
+  "source_url": "https://github.com/trending/",
+  "repository_count": 12,
+  "ai_agent_project_count": 3,
+  "ai_agent_project_ratio": 0.25,
+  "repositories": [
+    {
+      "repository_name": "PrimeIntellect-ai/prime-agent",
+      "url": "https://github.com/PrimeIntellect-ai/prime-agent",
+      "contributors": [
+        {
+          "username": "kevinjosethomas",
+          "url": "https://github.com/kevinjosethomas"
+        },
+        {
+          "username": "snimu",
+          "url": "https://github.com/snimu"
+        },
+        {
+          "username": "sethkarten",
+          "url": "https://github.com/sethkarten"
+        },
+        {
+          "username": "alexzhang13",
+          "url": "https://github.com/alexzhang13"
+        },
+        {
+          "username": "samsja",
+          "url": "https://github.com/samsja"
+        }
+      ],
+      "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "alexzhang13: location=NYC"
+      ]
+    },
+    {
+      "repository_name": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "contributors": [
+        {
+          "username": "addyosmani",
+          "url": "https://github.com/addyosmani"
+        },
+        {
+          "username": "nucliweb",
+          "url": "https://github.com/nucliweb"
+        },
+        {
+          "username": "federicobartoli",
+          "url": "https://github.com/federicobartoli"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "Liyuk",
+          "url": "https://github.com/Liyuk"
+        }
+      ],
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "TapXWorld/ChinaTextbook",
+      "url": "https://github.com/TapXWorld/ChinaTextbook",
+      "contributors": [
+        {
+          "username": "TapXWorld",
+          "url": "https://github.com/TapXWorld"
+        },
+        {
+          "username": "keminshu",
+          "url": "https://github.com/keminshu"
+        }
+      ],
+      "description": "所有小初高、大学PDF教材。",
+      "primary_language": "Roff",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "google/skills",
+      "url": "https://github.com/google/skills",
+      "contributors": [
+        {
+          "username": "cloud-ix-copybara",
+          "url": "https://github.com/cloud-ix-copybara"
+        },
+        {
+          "username": "holtskinner",
+          "url": "https://github.com/holtskinner"
+        },
+        {
+          "username": "martinvarelaj",
+          "url": "https://github.com/martinvarelaj"
+        },
+        {
+          "username": "helloeve",
+          "url": "https://github.com/helloeve"
+        },
+        {
+          "username": "jsondai",
+          "url": "https://github.com/jsondai"
+        }
+      ],
+      "description": "Agent Skills for Google products and technologies",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "contributors": [
+        {
+          "username": "mattpocock",
+          "url": "https://github.com/mattpocock"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "gabimoncha",
+          "url": "https://github.com/gabimoncha"
+        }
+      ],
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "primary_language": "Shell",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "goauthentik/authentik",
+      "url": "https://github.com/goauthentik/authentik",
+      "contributors": [
+        {
+          "username": "BeryJu",
+          "url": "https://github.com/BeryJu"
+        },
+        {
+          "username": "rissson",
+          "url": "https://github.com/rissson"
+        }
+      ],
+      "description": "The authentication glue you need.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "contributors": [
+        {
+          "username": "Yijia-Xiao",
+          "url": "https://github.com/Yijia-Xiao"
+        },
+        {
+          "username": "EdwardoSunny",
+          "url": "https://github.com/EdwardoSunny"
+        },
+        {
+          "username": "CadeYu",
+          "url": "https://github.com/CadeYu"
+        },
+        {
+          "username": "luohy15",
+          "url": "https://github.com/luohy15"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        }
+      ],
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "EdwardoSunny: location=San Diego, CA"
+      ]
+    },
+    {
+      "repository_name": "google/guava",
+      "url": "https://github.com/google/guava",
+      "contributors": [
+        {
+          "username": "cpovirk",
+          "url": "https://github.com/cpovirk"
+        },
+        {
+          "username": "cgdecker",
+          "url": "https://github.com/cgdecker"
+        },
+        {
+          "username": "kluever",
+          "url": "https://github.com/kluever"
+        },
+        {
+          "username": "lowasser",
+          "url": "https://github.com/lowasser"
+        }
+      ],
+      "description": "Google core libraries for Java",
+      "primary_language": "Java",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "LadybirdBrowser/ladybird",
+      "url": "https://github.com/LadybirdBrowser/ladybird",
+      "contributors": [
+        {
+          "username": "awesomekling",
+          "url": "https://github.com/awesomekling"
+        },
+        {
+          "username": "trflynn89",
+          "url": "https://github.com/trflynn89"
+        },
+        {
+          "username": "AtkinsSJ",
+          "url": "https://github.com/AtkinsSJ"
+        },
+        {
+          "username": "linusg",
+          "url": "https://github.com/linusg"
+        },
+        {
+          "username": "kalenikaliaksandr",
+          "url": "https://github.com/kalenikaliaksandr"
+        }
+      ],
+      "description": "Truly independent web browser",
+      "primary_language": "C++",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "medium",
+      "origin_evidence": [
+        "AtkinsSJ: location=Norwich, UK",
+        "linusg: location=London, UK"
+      ]
+    },
+    {
+      "repository_name": "denoland/celld",
+      "url": "https://github.com/denoland/celld",
+      "contributors": [
+        {
+          "username": "ry",
+          "url": "https://github.com/ry"
+        },
+        {
+          "username": "magurotuna",
+          "url": "https://github.com/magurotuna"
+        },
+        {
+          "username": "wperron",
+          "url": "https://github.com/wperron"
+        }
+      ],
+      "description": "self-hosted, distributed Durable Objects",
+      "primary_language": "Rust",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "Japan",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "magurotuna: location=Tokyo, Japan"
+      ]
+    },
+    {
+      "repository_name": "litu54/DevOps-Interview-Guide",
+      "url": "https://github.com/litu54/DevOps-Interview-Guide",
+      "contributors": [
+        {
+          "username": "litu54",
+          "url": "https://github.com/litu54"
+        },
+        {
+          "username": "iam-veeramalla",
+          "url": "https://github.com/iam-veeramalla"
+        },
+        {
+          "username": "TahirAkhlaq",
+          "url": "https://github.com/TahirAkhlaq"
+        },
+        {
+          "username": "chauhanniks",
+          "url": "https://github.com/chauhanniks"
+        }
+      ],
+      "description": "DevOps Interview Guide",
+      "primary_language": null,
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "India",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "litu54: location=Bangalore"
+      ]
+    },
+    {
+      "repository_name": "bannedbook/fanqiang",
+      "url": "https://github.com/bannedbook/fanqiang",
+      "contributors": [
+        {
+          "username": "bannedbook",
+          "url": "https://github.com/bannedbook"
+        },
+        {
+          "username": "crazyetiii",
+          "url": "https://github.com/crazyetiii"
+        }
+      ],
+      "description": "翻墙-科学上网",
+      "primary_language": "Kotlin",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    }
+  ]
+}
