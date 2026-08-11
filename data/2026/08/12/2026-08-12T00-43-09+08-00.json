@@ -1,0 +1,638 @@
+{
+  "fetched_at": "2026-08-12T00:43:09+08:00",
+  "source_url": "https://github.com/trending/",
+  "repository_count": 18,
+  "ai_agent_project_count": 9,
+  "ai_agent_project_ratio": 0.5,
+  "repositories": [
+    {
+      "repository_name": "cathrynlavery/diagram-design",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "contributors": [
+        {
+          "username": "cathrynlavery",
+          "url": "https://github.com/cathrynlavery"
+        },
+        {
+          "username": "web-flow",
+          "url": "https://github.com/web-flow"
+        },
+        {
+          "username": "ActArtech",
+          "url": "https://github.com/ActArtech"
+        },
+        {
+          "username": "aristide",
+          "url": "https://github.com/aristide"
+        },
+        {
+          "username": "ssyting1",
+          "url": "https://github.com/ssyting1"
+        }
+      ],
+      "description": "29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
+      "primary_language": "HTML",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "msitarzewski/agency-agents",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "contributors": [
+        {
+          "username": "msitarzewski",
+          "url": "https://github.com/msitarzewski"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "epowelljr",
+          "url": "https://github.com/epowelljr"
+        },
+        {
+          "username": "4shil",
+          "url": "https://github.com/4shil"
+        },
+        {
+          "username": "Hotragn",
+          "url": "https://github.com/Hotragn"
+        }
+      ],
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "primary_language": "Shell",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "semantica-agi/semantica",
+      "url": "https://github.com/semantica-agi/semantica",
+      "contributors": [
+        {
+          "username": "KaifAhmad1",
+          "url": "https://github.com/KaifAhmad1"
+        },
+        {
+          "username": "Sameer6305",
+          "url": "https://github.com/Sameer6305"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "ZohaibHassan16",
+          "url": "https://github.com/ZohaibHassan16"
+        }
+      ],
+      "description": "Graph-Native Infrastructure for Context and Accountable AI Systems",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "nvm-sh/nvm",
+      "url": "https://github.com/nvm-sh/nvm",
+      "contributors": [
+        {
+          "username": "ljharb",
+          "url": "https://github.com/ljharb"
+        },
+        {
+          "username": "PeterDaveHello",
+          "url": "https://github.com/PeterDaveHello"
+        },
+        {
+          "username": "creationix",
+          "url": "https://github.com/creationix"
+        },
+        {
+          "username": "koenpunt",
+          "url": "https://github.com/koenpunt"
+        },
+        {
+          "username": "lukechilds",
+          "url": "https://github.com/lukechilds"
+        }
+      ],
+      "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions",
+      "primary_language": "Shell",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "creationix: location=Mountainburg, AR, USA"
+      ]
+    },
+    {
+      "repository_name": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "contributors": [
+        {
+          "username": "addyosmani",
+          "url": "https://github.com/addyosmani"
+        },
+        {
+          "username": "nucliweb",
+          "url": "https://github.com/nucliweb"
+        },
+        {
+          "username": "federicobartoli",
+          "url": "https://github.com/federicobartoli"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "Liyuk",
+          "url": "https://github.com/Liyuk"
+        }
+      ],
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "ZhuLinsen/daily_stock_analysis",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "contributors": [
+        {
+          "username": "ZhuLinsen",
+          "url": "https://github.com/ZhuLinsen"
+        },
+        {
+          "username": "massif-01",
+          "url": "https://github.com/massif-01"
+        },
+        {
+          "username": "freesme",
+          "url": "https://github.com/freesme"
+        },
+        {
+          "username": "Activer007",
+          "url": "https://github.com/Activer007"
+        },
+        {
+          "username": "birdxs",
+          "url": "https://github.com/birdxs"
+        }
+      ],
+      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "vitali87/code-graph-rag",
+      "url": "https://github.com/vitali87/code-graph-rag",
+      "contributors": [
+        {
+          "username": "vitali87",
+          "url": "https://github.com/vitali87"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "ZuebeyirEser",
+          "url": "https://github.com/ZuebeyirEser"
+        }
+      ],
+      "description": "The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "vitali87: location=London"
+      ]
+    },
+    {
+      "repository_name": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "contributors": [
+        {
+          "username": "rlancemartin",
+          "url": "https://github.com/rlancemartin"
+        },
+        {
+          "username": "klazuka",
+          "url": "https://github.com/klazuka"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "ericharmeling",
+          "url": "https://github.com/ericharmeling"
+        },
+        {
+          "username": "maheshmurag",
+          "url": "https://github.com/maheshmurag"
+        }
+      ],
+      "description": "Public repository for Agent Skills",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "ericharmeling: location=Brooklyn, NY"
+      ]
+    },
+    {
+      "repository_name": "3b1b/manim",
+      "url": "https://github.com/3b1b/manim",
+      "contributors": [
+        {
+          "username": "3b1b",
+          "url": "https://github.com/3b1b"
+        },
+        {
+          "username": "TonyCrane",
+          "url": "https://github.com/TonyCrane"
+        },
+        {
+          "username": "bhbr",
+          "url": "https://github.com/bhbr"
+        },
+        {
+          "username": "YishiMichael",
+          "url": "https://github.com/YishiMichael"
+        },
+        {
+          "username": "eulertour",
+          "url": "https://github.com/eulertour"
+        }
+      ],
+      "description": "Animation engine for explanatory math videos",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "China",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "YishiMichael: location=Shanghai, China"
+      ]
+    },
+    {
+      "repository_name": "HKUDS/DeepTutor",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "contributors": [
+        {
+          "username": "pancacake",
+          "url": "https://github.com/pancacake"
+        },
+        {
+          "username": "Pinkllow",
+          "url": "https://github.com/Pinkllow"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "tusharkhatriofficial",
+          "url": "https://github.com/tusharkhatriofficial"
+        }
+      ],
+      "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/ .",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "stablyai/orca",
+      "url": "https://github.com/stablyai/orca",
+      "contributors": [
+        {
+          "username": "nwparker",
+          "url": "https://github.com/nwparker"
+        },
+        {
+          "username": "orca-ide",
+          "url": "https://github.com/orca-ide"
+        },
+        {
+          "username": "AmethystLiang",
+          "url": "https://github.com/AmethystLiang"
+        },
+        {
+          "username": "brennanb2025",
+          "url": "https://github.com/brennanb2025"
+        },
+        {
+          "username": "Jinwoo-H",
+          "url": "https://github.com/Jinwoo-H"
+        }
+      ],
+      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "AmethystLiang: location=United States"
+      ]
+    },
+    {
+      "repository_name": "paperclipai/paperclip",
+      "url": "https://github.com/paperclipai/paperclip",
+      "contributors": [
+        {
+          "username": "cryppadotta",
+          "url": "https://github.com/cryppadotta"
+        },
+        {
+          "username": "Paperclip-Paperclip",
+          "url": "https://github.com/Paperclip-Paperclip"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "devinfoley",
+          "url": "https://github.com/devinfoley"
+        },
+        {
+          "username": "forgottendev",
+          "url": "https://github.com/forgottendev"
+        }
+      ],
+      "description": "The open-source app everyone uses to manage agents at work",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "huggingface/transformers",
+      "url": "https://github.com/huggingface/transformers",
+      "contributors": [
+        {
+          "username": "sgugger",
+          "url": "https://github.com/sgugger"
+        },
+        {
+          "username": "ydshieh",
+          "url": "https://github.com/ydshieh"
+        },
+        {
+          "username": "thomwolf",
+          "url": "https://github.com/thomwolf"
+        },
+        {
+          "username": "LysandreJik",
+          "url": "https://github.com/LysandreJik"
+        },
+        {
+          "username": "patrickvonplaten",
+          "url": "https://github.com/patrickvonplaten"
+        }
+      ],
+      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "France",
+      "origin_confidence": "medium",
+      "origin_evidence": [
+        "ydshieh: location=Paris",
+        "LysandreJik: location=Paris"
+      ]
+    },
+    {
+      "repository_name": "harveyai/harvey-labs",
+      "url": "https://github.com/harveyai/harvey-labs",
+      "contributors": [
+        {
+          "username": "spencerp",
+          "url": "https://github.com/spencerp"
+        },
+        {
+          "username": "JulioPereyra93",
+          "url": "https://github.com/JulioPereyra93"
+        },
+        {
+          "username": "ngrupen",
+          "url": "https://github.com/ngrupen"
+        },
+        {
+          "username": "calvinqi",
+          "url": "https://github.com/calvinqi"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        }
+      ],
+      "description": "A benchmark built to evaluate and improve agent capabilities for supporting legal work.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "jaywcjlove/awesome-mac",
+      "url": "https://github.com/jaywcjlove/awesome-mac",
+      "contributors": [
+        {
+          "username": "jaywcjlove",
+          "url": "https://github.com/jaywcjlove"
+        },
+        {
+          "username": "alichtman",
+          "url": "https://github.com/alichtman"
+        },
+        {
+          "username": "xcv58",
+          "url": "https://github.com/xcv58"
+        },
+        {
+          "username": "heldev",
+          "url": "https://github.com/heldev"
+        }
+      ],
+      "description": " This project is dedicated to collecting high-quality macOS software and organizing them systematically by different categories for easy search and use.",
+      "primary_language": "Swift",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "heldev: location=New York"
+      ]
+    },
+    {
+      "repository_name": "calesthio/OpenMontage",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "contributors": [
+        {
+          "username": "calesthio",
+          "url": "https://github.com/calesthio"
+        },
+        {
+          "username": "0xDevNinja",
+          "url": "https://github.com/0xDevNinja"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "yiyabo",
+          "url": "https://github.com/yiyabo"
+        },
+        {
+          "username": "xucailiang",
+          "url": "https://github.com/xucailiang"
+        }
+      ],
+      "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "Hong Kong",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "yiyabo: location=The Chinese University of Hong Kong"
+      ]
+    },
+    {
+      "repository_name": "practical-tutorials/project-based-learning",
+      "url": "https://github.com/practical-tutorials/project-based-learning",
+      "contributors": [
+        {
+          "username": "tuvtran",
+          "url": "https://github.com/tuvtran"
+        },
+        {
+          "username": "sayands",
+          "url": "https://github.com/sayands"
+        },
+        {
+          "username": "enkeyz",
+          "url": "https://github.com/enkeyz"
+        },
+        {
+          "username": "bobeff",
+          "url": "https://github.com/bobeff"
+        },
+        {
+          "username": "olucode",
+          "url": "https://github.com/olucode"
+        }
+      ],
+      "description": "Curated list of project-based tutorials",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "PrimeIntellect-ai/prime-agent",
+      "url": "https://github.com/PrimeIntellect-ai/prime-agent",
+      "contributors": [
+        {
+          "username": "kevinjosethomas",
+          "url": "https://github.com/kevinjosethomas"
+        },
+        {
+          "username": "snimu",
+          "url": "https://github.com/snimu"
+        },
+        {
+          "username": "sethkarten",
+          "url": "https://github.com/sethkarten"
+        },
+        {
+          "username": "alexzhang13",
+          "url": "https://github.com/alexzhang13"
+        },
+        {
+          "username": "samsja",
+          "url": "https://github.com/samsja"
+        }
+      ],
+      "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "alexzhang13: location=NYC"
+      ]
+    }
+  ]
+}
