@@ -1,0 +1,602 @@
+{
+  "fetched_at": "2026-08-12T20:38:13+08:00",
+  "source_url": "https://github.com/trending/",
+  "repository_count": 17,
+  "ai_agent_project_count": 5,
+  "ai_agent_project_ratio": 0.2941,
+  "repositories": [
+    {
+      "repository_name": "cathrynlavery/diagram-design",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "contributors": [
+        {
+          "username": "cathrynlavery",
+          "url": "https://github.com/cathrynlavery"
+        },
+        {
+          "username": "mvanhorn",
+          "url": "https://github.com/mvanhorn"
+        },
+        {
+          "username": "web-flow",
+          "url": "https://github.com/web-flow"
+        },
+        {
+          "username": "parveen0029",
+          "url": "https://github.com/parveen0029"
+        },
+        {
+          "username": "daanmlab",
+          "url": "https://github.com/daanmlab"
+        }
+      ],
+      "description": "29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
+      "primary_language": "HTML",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "macro-inc/macro",
+      "url": "https://github.com/macro-inc/macro",
+      "contributors": [
+        {
+          "username": "whutchinson98",
+          "url": "https://github.com/whutchinson98"
+        },
+        {
+          "username": "gbirman",
+          "url": "https://github.com/gbirman"
+        },
+        {
+          "username": "synoet",
+          "url": "https://github.com/synoet"
+        },
+        {
+          "username": "sedson",
+          "url": "https://github.com/sedson"
+        },
+        {
+          "username": "evanhutnik",
+          "url": "https://github.com/evanhutnik"
+        }
+      ],
+      "description": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
+      "primary_language": "Rust",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "medium",
+      "origin_evidence": [
+        "synoet: location=New York",
+        "sedson: location=NYC"
+      ]
+    },
+    {
+      "repository_name": "semantica-agi/semantica",
+      "url": "https://github.com/semantica-agi/semantica",
+      "contributors": [
+        {
+          "username": "KaifAhmad1",
+          "url": "https://github.com/KaifAhmad1"
+        },
+        {
+          "username": "Sameer6305",
+          "url": "https://github.com/Sameer6305"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "ZohaibHassan16",
+          "url": "https://github.com/ZohaibHassan16"
+        }
+      ],
+      "description": "Graph-Native Infrastructure for Context and Accountable AI Systems",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "stablyai/orca",
+      "url": "https://github.com/stablyai/orca",
+      "contributors": [
+        {
+          "username": "nwparker",
+          "url": "https://github.com/nwparker"
+        },
+        {
+          "username": "orca-ide",
+          "url": "https://github.com/orca-ide"
+        },
+        {
+          "username": "AmethystLiang",
+          "url": "https://github.com/AmethystLiang"
+        },
+        {
+          "username": "brennanb2025",
+          "url": "https://github.com/brennanb2025"
+        },
+        {
+          "username": "Jinwoo-H",
+          "url": "https://github.com/Jinwoo-H"
+        }
+      ],
+      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "AmethystLiang: location=United States"
+      ]
+    },
+    {
+      "repository_name": "msitarzewski/agency-agents",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "contributors": [
+        {
+          "username": "msitarzewski",
+          "url": "https://github.com/msitarzewski"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "epowelljr",
+          "url": "https://github.com/epowelljr"
+        },
+        {
+          "username": "4shil",
+          "url": "https://github.com/4shil"
+        },
+        {
+          "username": "Hotragn",
+          "url": "https://github.com/Hotragn"
+        }
+      ],
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "primary_language": "Shell",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "shiyu-coder/Kronos",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "contributors": [
+        {
+          "username": "shiyu-coder",
+          "url": "https://github.com/shiyu-coder"
+        },
+        {
+          "username": "Luciferbobo",
+          "url": "https://github.com/Luciferbobo"
+        },
+        {
+          "username": "CharlesJ-ABu",
+          "url": "https://github.com/CharlesJ-ABu"
+        },
+        {
+          "username": "AnMakc",
+          "url": "https://github.com/AnMakc"
+        },
+        {
+          "username": "randyy179",
+          "url": "https://github.com/randyy179"
+        }
+      ],
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "Luciferbobo: location=Los Angeles, CA, USA"
+      ]
+    },
+    {
+      "repository_name": "NanmiCoder/MediaCrawler",
+      "url": "https://github.com/NanmiCoder/MediaCrawler",
+      "contributors": [
+        {
+          "username": "NanmiCoder",
+          "url": "https://github.com/NanmiCoder"
+        },
+        {
+          "username": "2513502304",
+          "url": "https://github.com/2513502304"
+        },
+        {
+          "username": "gaoxiaobei",
+          "url": "https://github.com/gaoxiaobei"
+        },
+        {
+          "username": "persist-1",
+          "url": "https://github.com/persist-1"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        }
+      ],
+      "description": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "hugohe3/ppt-master",
+      "url": "https://github.com/hugohe3/ppt-master",
+      "contributors": [
+        {
+          "username": "hugohe3",
+          "url": "https://github.com/hugohe3"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "WodenJay",
+          "url": "https://github.com/WodenJay"
+        },
+        {
+          "username": "shenqili",
+          "url": "https://github.com/shenqili"
+        },
+        {
+          "username": "shandianchengzi",
+          "url": "https://github.com/shandianchengzi"
+        }
+      ],
+      "description": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "infiniflow/ragflow",
+      "url": "https://github.com/infiniflow/ragflow",
+      "contributors": [
+        {
+          "username": "cike8899",
+          "url": "https://github.com/cike8899"
+        },
+        {
+          "username": "KevinHuSh",
+          "url": "https://github.com/KevinHuSh"
+        },
+        {
+          "username": "JinHai-CN",
+          "url": "https://github.com/JinHai-CN"
+        },
+        {
+          "username": "writinwaters",
+          "url": "https://github.com/writinwaters"
+        },
+        {
+          "username": "yuzhichang",
+          "url": "https://github.com/yuzhichang"
+        }
+      ],
+      "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+      "primary_language": "Go",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "China",
+      "origin_confidence": "medium",
+      "origin_evidence": [
+        "cike8899: location=shanghai",
+        "KevinHuSh: location=Shanghai, China",
+        "JinHai-CN: location=Shanghai"
+      ]
+    },
+    {
+      "repository_name": "paperclipai/paperclip",
+      "url": "https://github.com/paperclipai/paperclip",
+      "contributors": [
+        {
+          "username": "cryppadotta",
+          "url": "https://github.com/cryppadotta"
+        },
+        {
+          "username": "Paperclip-Paperclip",
+          "url": "https://github.com/Paperclip-Paperclip"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "devinfoley",
+          "url": "https://github.com/devinfoley"
+        },
+        {
+          "username": "forgottendev",
+          "url": "https://github.com/forgottendev"
+        }
+      ],
+      "description": "The open-source app everyone uses to manage agents at work",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "NVIDIA-NeMo/Switchyard",
+      "url": "https://github.com/NVIDIA-NeMo/Switchyard",
+      "contributors": [
+        {
+          "username": "nachiketb-nvidia",
+          "url": "https://github.com/nachiketb-nvidia"
+        },
+        {
+          "username": "elyasmnvidian",
+          "url": "https://github.com/elyasmnvidian"
+        },
+        {
+          "username": "grahamking",
+          "url": "https://github.com/grahamking"
+        },
+        {
+          "username": "ayushag-nv",
+          "url": "https://github.com/ayushag-nv"
+        },
+        {
+          "username": "ryan-lempka",
+          "url": "https://github.com/ryan-lempka"
+        }
+      ],
+      "description": null,
+      "primary_language": "Rust",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "ZuodaoTech/everyone-can-use-english",
+      "url": "https://github.com/ZuodaoTech/everyone-can-use-english",
+      "contributors": [
+        {
+          "username": "an-lee",
+          "url": "https://github.com/an-lee"
+        },
+        {
+          "username": "xiaolai",
+          "url": "https://github.com/xiaolai"
+        },
+        {
+          "username": "lyricat",
+          "url": "https://github.com/lyricat"
+        },
+        {
+          "username": "zgw010",
+          "url": "https://github.com/zgw010"
+        },
+        {
+          "username": "divisey",
+          "url": "https://github.com/divisey"
+        }
+      ],
+      "description": "人人都能用英语",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "China",
+      "origin_confidence": "medium",
+      "origin_evidence": [
+        "xiaolai: location=beijing",
+        "divisey: location=shanghai"
+      ]
+    },
+    {
+      "repository_name": "smicallef/spiderfoot",
+      "url": "https://github.com/smicallef/spiderfoot",
+      "contributors": [
+        {
+          "username": "smicallef",
+          "url": "https://github.com/smicallef"
+        },
+        {
+          "username": "bcoles",
+          "url": "https://github.com/bcoles"
+        },
+        {
+          "username": "krishnasism",
+          "url": "https://github.com/krishnasism"
+        },
+        {
+          "username": "amrawadk",
+          "url": "https://github.com/amrawadk"
+        },
+        {
+          "username": "leotrubach",
+          "url": "https://github.com/leotrubach"
+        }
+      ],
+      "description": "SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "amrawadk: location=London, UK"
+      ]
+    },
+    {
+      "repository_name": "localsend/localsend",
+      "url": "https://github.com/localsend/localsend",
+      "contributors": [
+        {
+          "username": "Tienisto",
+          "url": "https://github.com/Tienisto"
+        },
+        {
+          "username": "sergd88",
+          "url": "https://github.com/sergd88"
+        },
+        {
+          "username": "ShlomoCode",
+          "url": "https://github.com/ShlomoCode"
+        },
+        {
+          "username": "TheGB0077",
+          "url": "https://github.com/TheGB0077"
+        },
+        {
+          "username": "gidano",
+          "url": "https://github.com/gidano"
+        }
+      ],
+      "description": "An open-source cross-platform alternative to AirDrop",
+      "primary_language": "Dart",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "Lightricks/LTX-2",
+      "url": "https://github.com/Lightricks/LTX-2",
+      "contributors": [
+        {
+          "username": "michaellightricks",
+          "url": "https://github.com/michaellightricks"
+        },
+        {
+          "username": "AlexeyKravtsov1987",
+          "url": "https://github.com/AlexeyKravtsov1987"
+        }
+      ],
+      "description": "Official Python inference and LoRA trainer package for the LTX-2 audio–video generative model.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "embabel/embabel-agent",
+      "url": "https://github.com/embabel/embabel-agent",
+      "contributors": [
+        {
+          "username": "johnsonr",
+          "url": "https://github.com/johnsonr"
+        },
+        {
+          "username": "alexheifetz",
+          "url": "https://github.com/alexheifetz"
+        },
+        {
+          "username": "igordayen",
+          "url": "https://github.com/igordayen"
+        },
+        {
+          "username": "jasperblues",
+          "url": "https://github.com/jasperblues"
+        },
+        {
+          "username": "poutsma",
+          "url": "https://github.com/poutsma"
+        }
+      ],
+      "description": "Agent framework for the JVM. Pronounced Em-BAY-bel /ɛmˈbeɪbəl/",
+      "primary_language": "Kotlin",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "alexheifetz: location=New York, NY"
+      ]
+    },
+    {
+      "repository_name": "cactus-compute/needle",
+      "url": "https://github.com/cactus-compute/needle",
+      "contributors": [
+        {
+          "username": "HenryNdubuaku",
+          "url": "https://github.com/HenryNdubuaku"
+        },
+        {
+          "username": "ncylich",
+          "url": "https://github.com/ncylich"
+        },
+        {
+          "username": "kar-m",
+          "url": "https://github.com/kar-m"
+        },
+        {
+          "username": "justinl66",
+          "url": "https://github.com/justinl66"
+        },
+        {
+          "username": "jakmro",
+          "url": "https://github.com/jakmro"
+        }
+      ],
+      "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "HenryNdubuaku: location=London"
+      ]
+    }
+  ]
+}
