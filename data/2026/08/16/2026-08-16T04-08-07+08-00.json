@@ -1,0 +1,464 @@
+{
+  "fetched_at": "2026-08-16T04:08:07+08:00",
+  "source_url": "https://github.com/trending/",
+  "repository_count": 13,
+  "ai_agent_project_count": 5,
+  "ai_agent_project_ratio": 0.3846,
+  "repositories": [
+    {
+      "repository_name": "cordiverse/cordis",
+      "url": "https://github.com/cordiverse/cordis",
+      "contributors": [
+        {
+          "username": "shigma",
+          "url": "https://github.com/shigma"
+        },
+        {
+          "username": "Hieuzest",
+          "url": "https://github.com/Hieuzest"
+        },
+        {
+          "username": "undefined-moe",
+          "url": "https://github.com/undefined-moe"
+        },
+        {
+          "username": "CyanChanges",
+          "url": "https://github.com/CyanChanges"
+        },
+        {
+          "username": "imccyu",
+          "url": "https://github.com/imccyu"
+        }
+      ],
+      "description": "Meta-Framework of Spatiotemporal Composability",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "China",
+      "origin_confidence": "medium",
+      "origin_evidence": [
+        "shigma: location=Beijing, China",
+        "undefined-moe: location=Shanghai, China"
+      ]
+    },
+    {
+      "repository_name": "cathrynlavery/diagram-design",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "contributors": [
+        {
+          "username": "cathrynlavery",
+          "url": "https://github.com/cathrynlavery"
+        },
+        {
+          "username": "parveen0029",
+          "url": "https://github.com/parveen0029"
+        },
+        {
+          "username": "mvanhorn",
+          "url": "https://github.com/mvanhorn"
+        },
+        {
+          "username": "web-flow",
+          "url": "https://github.com/web-flow"
+        },
+        {
+          "username": "Mr-Neutr0n",
+          "url": "https://github.com/Mr-Neutr0n"
+        }
+      ],
+      "description": "29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
+      "primary_language": "HTML",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "cursor/plugins",
+      "url": "https://github.com/cursor/plugins",
+      "contributors": [
+        {
+          "username": "poteto",
+          "url": "https://github.com/poteto"
+        },
+        {
+          "username": "cursoragent",
+          "url": "https://github.com/cursoragent"
+        },
+        {
+          "username": "ericzakariasson",
+          "url": "https://github.com/ericzakariasson"
+        },
+        {
+          "username": "n2parko",
+          "url": "https://github.com/n2parko"
+        },
+        {
+          "username": "SamSokolin",
+          "url": "https://github.com/SamSokolin"
+        }
+      ],
+      "description": "Cursor plugin specification and official plugins",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "SamSokolin: location=New York, NY"
+      ]
+    },
+    {
+      "repository_name": "cactus-compute/needle",
+      "url": "https://github.com/cactus-compute/needle",
+      "contributors": [
+        {
+          "username": "HenryNdubuaku",
+          "url": "https://github.com/HenryNdubuaku"
+        },
+        {
+          "username": "ncylich",
+          "url": "https://github.com/ncylich"
+        },
+        {
+          "username": "kar-m",
+          "url": "https://github.com/kar-m"
+        },
+        {
+          "username": "justinl66",
+          "url": "https://github.com/justinl66"
+        },
+        {
+          "username": "jakmro",
+          "url": "https://github.com/jakmro"
+        }
+      ],
+      "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "HenryNdubuaku: location=London"
+      ]
+    },
+    {
+      "repository_name": "unslothai/unsloth",
+      "url": "https://github.com/unslothai/unsloth",
+      "contributors": [
+        {
+          "username": "danielhanchen",
+          "url": "https://github.com/danielhanchen"
+        },
+        {
+          "username": "shimmyshimmer",
+          "url": "https://github.com/shimmyshimmer"
+        },
+        {
+          "username": "wasimysaid",
+          "url": "https://github.com/wasimysaid"
+        },
+        {
+          "username": "Datta0",
+          "url": "https://github.com/Datta0"
+        }
+      ],
+      "description": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "India",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "Datta0: location=Hyderbad/Bangalore, India"
+      ]
+    },
+    {
+      "repository_name": "public-apis/public-apis",
+      "url": "https://github.com/public-apis/public-apis",
+      "contributors": [
+        {
+          "username": "matheusfelipeog",
+          "url": "https://github.com/matheusfelipeog"
+        },
+        {
+          "username": "davemachado",
+          "url": "https://github.com/davemachado"
+        },
+        {
+          "username": "ArindamOSS",
+          "url": "https://github.com/ArindamOSS"
+        },
+        {
+          "username": "pawelborkar",
+          "url": "https://github.com/pawelborkar"
+        },
+        {
+          "username": "jbrooksuk",
+          "url": "https://github.com/jbrooksuk"
+        }
+      ],
+      "description": "A collective list of free APIs",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "davemachado: location=United States"
+      ]
+    },
+    {
+      "repository_name": "MakazhanAlpamys/Soup",
+      "url": "https://github.com/MakazhanAlpamys/Soup",
+      "contributors": [
+        {
+          "username": "MakazhanAlpamys",
+          "url": "https://github.com/MakazhanAlpamys"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "Deadpool2000",
+          "url": "https://github.com/Deadpool2000"
+        },
+        {
+          "username": "CODING-DARSH",
+          "url": "https://github.com/CODING-DARSH"
+        },
+        {
+          "username": "AmirF194",
+          "url": "https://github.com/AmirF194"
+        }
+      ],
+      "description": "Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "github/spec-kit",
+      "url": "https://github.com/github/spec-kit",
+      "contributors": [
+        {
+          "username": "localden",
+          "url": "https://github.com/localden"
+        },
+        {
+          "username": "mnriem",
+          "url": "https://github.com/mnriem"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        }
+      ],
+      "description": "💫 Toolkit to help you get started with Spec-Driven Development",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "megadose/holehe",
+      "url": "https://github.com/megadose/holehe",
+      "contributors": [
+        {
+          "username": "megadose",
+          "url": "https://github.com/megadose"
+        },
+        {
+          "username": "Eriys",
+          "url": "https://github.com/Eriys"
+        },
+        {
+          "username": "novitae",
+          "url": "https://github.com/novitae"
+        },
+        {
+          "username": "mxrch",
+          "url": "https://github.com/mxrch"
+        },
+        {
+          "username": "byt3loss",
+          "url": "https://github.com/byt3loss"
+        }
+      ],
+      "description": "holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "France",
+      "origin_confidence": "medium",
+      "origin_evidence": [
+        "novitae: location=France",
+        "mxrch: location=France"
+      ]
+    },
+    {
+      "repository_name": "altic-dev/FluidVoice",
+      "url": "https://github.com/altic-dev/FluidVoice",
+      "contributors": [
+        {
+          "username": "altic-dev",
+          "url": "https://github.com/altic-dev"
+        },
+        {
+          "username": "grohith327",
+          "url": "https://github.com/grohith327"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "postoso",
+          "url": "https://github.com/postoso"
+        },
+        {
+          "username": "BarathwajAnandan",
+          "url": "https://github.com/BarathwajAnandan"
+        }
+      ],
+      "description": "Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. A local Wispr Flow alternative. ⭐ helps a ton :) Windows & iOS waitlist open. Linux soon.",
+      "primary_language": "Swift",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "ToolJet/ToolJet",
+      "url": "https://github.com/ToolJet/ToolJet",
+      "contributors": [
+        {
+          "username": "johnsoncherian",
+          "url": "https://github.com/johnsoncherian"
+        },
+        {
+          "username": "adishM98",
+          "url": "https://github.com/adishM98"
+        },
+        {
+          "username": "Navaneeth-pk",
+          "url": "https://github.com/Navaneeth-pk"
+        },
+        {
+          "username": "gsmithun4",
+          "url": "https://github.com/gsmithun4"
+        },
+        {
+          "username": "arpitnath",
+          "url": "https://github.com/arpitnath"
+        }
+      ],
+      "description": "ToolJet is the open-source foundation of ToolJet AI - the enterprise app generation platform for building internal tools, dashboard, business applications, workflows and AI agents 🚀",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "India",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "adishM98: location=Bangalore"
+      ]
+    },
+    {
+      "repository_name": "HKUDS/CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "contributors": [
+        {
+          "username": "yuh-yang",
+          "url": "https://github.com/yuh-yang"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "AiMiDi",
+          "url": "https://github.com/AiMiDi"
+        },
+        {
+          "username": "omerarslan0",
+          "url": "https://github.com/omerarslan0"
+        },
+        {
+          "username": "hito0512",
+          "url": "https://github.com/hito0512"
+        }
+      ],
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "Hong Kong",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "yuh-yang: location=Hong Kong"
+      ]
+    },
+    {
+      "repository_name": "citrolabs/ego-lite",
+      "url": "https://github.com/citrolabs/ego-lite",
+      "contributors": [
+        {
+          "username": "section9-lab",
+          "url": "https://github.com/section9-lab"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "WUXM5",
+          "url": "https://github.com/WUXM5"
+        },
+        {
+          "username": "aute",
+          "url": "https://github.com/aute"
+        },
+        {
+          "username": "braxtonROSE4",
+          "url": "https://github.com/braxtonROSE4"
+        }
+      ],
+      "description": "The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "braxtonROSE4: location=SF, USA"
+      ]
+    }
+  ]
+}
