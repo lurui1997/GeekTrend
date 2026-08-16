@@ -1,0 +1,253 @@
+{
+  "fetched_at": "2026-08-17T06:08:03+08:00",
+  "source_url": "https://github.com/trending/",
+  "repository_count": 7,
+  "ai_agent_project_count": 1,
+  "ai_agent_project_ratio": 0.1429,
+  "repositories": [
+    {
+      "repository_name": "cordiverse/cordis",
+      "url": "https://github.com/cordiverse/cordis",
+      "contributors": [
+        {
+          "username": "shigma",
+          "url": "https://github.com/shigma"
+        },
+        {
+          "username": "Hieuzest",
+          "url": "https://github.com/Hieuzest"
+        },
+        {
+          "username": "undefined-moe",
+          "url": "https://github.com/undefined-moe"
+        },
+        {
+          "username": "CyanChanges",
+          "url": "https://github.com/CyanChanges"
+        },
+        {
+          "username": "imccyu",
+          "url": "https://github.com/imccyu"
+        }
+      ],
+      "description": "Meta-Framework of Spatiotemporal Composability",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "China",
+      "origin_confidence": "medium",
+      "origin_evidence": [
+        "shigma: location=Beijing, China",
+        "undefined-moe: location=Shanghai, China"
+      ]
+    },
+    {
+      "repository_name": "basecamp/omarchy",
+      "url": "https://github.com/basecamp/omarchy",
+      "contributors": [
+        {
+          "username": "dhh",
+          "url": "https://github.com/dhh"
+        },
+        {
+          "username": "ryanrhughes",
+          "url": "https://github.com/ryanrhughes"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "tahayvr",
+          "url": "https://github.com/tahayvr"
+        },
+        {
+          "username": "pomartel",
+          "url": "https://github.com/pomartel"
+        }
+      ],
+      "description": "Beautiful, Modern & Opinionated Linux",
+      "primary_language": "Shell",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "unslothai/unsloth",
+      "url": "https://github.com/unslothai/unsloth",
+      "contributors": [
+        {
+          "username": "danielhanchen",
+          "url": "https://github.com/danielhanchen"
+        },
+        {
+          "username": "shimmyshimmer",
+          "url": "https://github.com/shimmyshimmer"
+        },
+        {
+          "username": "wasimysaid",
+          "url": "https://github.com/wasimysaid"
+        },
+        {
+          "username": "Datta0",
+          "url": "https://github.com/Datta0"
+        }
+      ],
+      "description": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "India",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "Datta0: location=Hyderbad/Bangalore, India"
+      ]
+    },
+    {
+      "repository_name": "OpenCut-app/OpenCut",
+      "url": "https://github.com/OpenCut-app/OpenCut",
+      "contributors": [
+        {
+          "username": "mazeincoding",
+          "url": "https://github.com/mazeincoding"
+        },
+        {
+          "username": "izadoesdev",
+          "url": "https://github.com/izadoesdev"
+        },
+        {
+          "username": "anwarulislam",
+          "url": "https://github.com/anwarulislam"
+        },
+        {
+          "username": "khanguyen74",
+          "url": "https://github.com/khanguyen74"
+        },
+        {
+          "username": "DevloperAmanSingh",
+          "url": "https://github.com/DevloperAmanSingh"
+        }
+      ],
+      "description": "The open-source CapCut alternative",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "Palestine",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "izadoesdev: location=Palestine"
+      ]
+    },
+    {
+      "repository_name": "public-apis/public-apis",
+      "url": "https://github.com/public-apis/public-apis",
+      "contributors": [
+        {
+          "username": "matheusfelipeog",
+          "url": "https://github.com/matheusfelipeog"
+        },
+        {
+          "username": "davemachado",
+          "url": "https://github.com/davemachado"
+        },
+        {
+          "username": "ArindamOSS",
+          "url": "https://github.com/ArindamOSS"
+        },
+        {
+          "username": "pawelborkar",
+          "url": "https://github.com/pawelborkar"
+        },
+        {
+          "username": "jbrooksuk",
+          "url": "https://github.com/jbrooksuk"
+        }
+      ],
+      "description": "A collective list of free APIs",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "davemachado: location=United States"
+      ]
+    },
+    {
+      "repository_name": "ToolJet/ToolJet",
+      "url": "https://github.com/ToolJet/ToolJet",
+      "contributors": [
+        {
+          "username": "johnsoncherian",
+          "url": "https://github.com/johnsoncherian"
+        },
+        {
+          "username": "adishM98",
+          "url": "https://github.com/adishM98"
+        },
+        {
+          "username": "Navaneeth-pk",
+          "url": "https://github.com/Navaneeth-pk"
+        },
+        {
+          "username": "gsmithun4",
+          "url": "https://github.com/gsmithun4"
+        },
+        {
+          "username": "arpitnath",
+          "url": "https://github.com/arpitnath"
+        }
+      ],
+      "description": "ToolJet is the open-source foundation of ToolJet AI - the enterprise app generation platform for building internal tools, dashboard, business applications, workflows and AI agents 🚀",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "India",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "adishM98: location=Bangalore"
+      ]
+    },
+    {
+      "repository_name": "cactus-compute/needle",
+      "url": "https://github.com/cactus-compute/needle",
+      "contributors": [
+        {
+          "username": "HenryNdubuaku",
+          "url": "https://github.com/HenryNdubuaku"
+        },
+        {
+          "username": "ncylich",
+          "url": "https://github.com/ncylich"
+        },
+        {
+          "username": "kar-m",
+          "url": "https://github.com/kar-m"
+        },
+        {
+          "username": "justinl66",
+          "url": "https://github.com/justinl66"
+        },
+        {
+          "username": "jakmro",
+          "url": "https://github.com/jakmro"
+        }
+      ],
+      "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "HenryNdubuaku: location=London"
+      ]
+    }
+  ]
+}
