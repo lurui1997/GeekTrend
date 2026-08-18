@@ -1,0 +1,385 @@
+{
+  "fetched_at": "2026-08-18T16:20:11+08:00",
+  "source_url": "https://github.com/trending/",
+  "repository_count": 11,
+  "ai_agent_project_count": 7,
+  "ai_agent_project_ratio": 0.6364,
+  "repositories": [
+    {
+      "repository_name": "harry0703/MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "contributors": [
+        {
+          "username": "harry0703",
+          "url": "https://github.com/harry0703"
+        },
+        {
+          "username": "yyhhyyyyyy",
+          "url": "https://github.com/yyhhyyyyyy"
+        },
+        {
+          "username": "vuisme",
+          "url": "https://github.com/vuisme"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "pcbntt",
+          "url": "https://github.com/pcbntt"
+        }
+      ],
+      "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "usestrix/strix",
+      "url": "https://github.com/usestrix/strix",
+      "contributors": [
+        {
+          "username": "0xallam",
+          "url": "https://github.com/0xallam"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "bearsyankees",
+          "url": "https://github.com/bearsyankees"
+        }
+      ],
+      "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "nautechsystems/nautilus_trader",
+      "url": "https://github.com/nautechsystems/nautilus_trader",
+      "contributors": [
+        {
+          "username": "cjdsellers",
+          "url": "https://github.com/cjdsellers"
+        },
+        {
+          "username": "limx0",
+          "url": "https://github.com/limx0"
+        },
+        {
+          "username": "filipmacek",
+          "url": "https://github.com/filipmacek"
+        },
+        {
+          "username": "faysou",
+          "url": "https://github.com/faysou"
+        },
+        {
+          "username": "davidsblom",
+          "url": "https://github.com/davidsblom"
+        }
+      ],
+      "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
+      "primary_language": "Rust",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "akitaonrails/ai-memory",
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "contributors": [
+        {
+          "username": "akitaonrails",
+          "url": "https://github.com/akitaonrails"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "djalmajr",
+          "url": "https://github.com/djalmajr"
+        },
+        {
+          "username": "wblech",
+          "url": "https://github.com/wblech"
+        },
+        {
+          "username": "rthiago",
+          "url": "https://github.com/rthiago"
+        }
+      ],
+      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "primary_language": "Rust",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "mukul975/Anthropic-Cybersecurity-Skills",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "contributors": [
+        {
+          "username": "mukul975",
+          "url": "https://github.com/mukul975"
+        },
+        {
+          "username": "valorisa",
+          "url": "https://github.com/valorisa"
+        },
+        {
+          "username": "juliosuas",
+          "url": "https://github.com/juliosuas"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "andrewibrah",
+          "url": "https://github.com/andrewibrah"
+        }
+      ],
+      "description": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "France",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "valorisa: location=France"
+      ]
+    },
+    {
+      "repository_name": "AlexsJones/llmfit",
+      "url": "https://github.com/AlexsJones/llmfit",
+      "contributors": [
+        {
+          "username": "AlexsJones",
+          "url": "https://github.com/AlexsJones"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "three-foxes-in-a-trenchcoat",
+          "url": "https://github.com/three-foxes-in-a-trenchcoat"
+        }
+      ],
+      "description": "Hundreds of models & providers. One command to find what runs on your hardware.",
+      "primary_language": "Rust",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "AlexsJones: location=London"
+      ]
+    },
+    {
+      "repository_name": "santifer/career-ops",
+      "url": "https://github.com/santifer/career-ops",
+      "contributors": [
+        {
+          "username": "santifer",
+          "url": "https://github.com/santifer"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "Schlaflied",
+          "url": "https://github.com/Schlaflied"
+        },
+        {
+          "username": "Scott-Emberson",
+          "url": "https://github.com/Scott-Emberson"
+        },
+        {
+          "username": "abankar1",
+          "url": "https://github.com/abankar1"
+        }
+      ],
+      "description": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "abankar1: location=USA"
+      ]
+    },
+    {
+      "repository_name": "jundot/omlx",
+      "url": "https://github.com/jundot/omlx",
+      "contributors": [
+        {
+          "username": "jundot",
+          "url": "https://github.com/jundot"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "cfbraun",
+          "url": "https://github.com/cfbraun"
+        },
+        {
+          "username": "JimStenstrom",
+          "url": "https://github.com/JimStenstrom"
+        }
+      ],
+      "description": "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "immich-app/immich",
+      "url": "https://github.com/immich-app/immich",
+      "contributors": [
+        {
+          "username": "alextran1502",
+          "url": "https://github.com/alextran1502"
+        },
+        {
+          "username": "jrasm91",
+          "url": "https://github.com/jrasm91"
+        },
+        {
+          "username": "danieldietzler",
+          "url": "https://github.com/danieldietzler"
+        },
+        {
+          "username": "shenlong-tanwen",
+          "url": "https://github.com/shenlong-tanwen"
+        }
+      ],
+      "description": "High performance self-hosted photo and video management solution.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "alextran1502: location=United States"
+      ]
+    },
+    {
+      "repository_name": "cordiverse/cordis",
+      "url": "https://github.com/cordiverse/cordis",
+      "contributors": [
+        {
+          "username": "shigma",
+          "url": "https://github.com/shigma"
+        },
+        {
+          "username": "Hieuzest",
+          "url": "https://github.com/Hieuzest"
+        },
+        {
+          "username": "undefined-moe",
+          "url": "https://github.com/undefined-moe"
+        },
+        {
+          "username": "CyanChanges",
+          "url": "https://github.com/CyanChanges"
+        },
+        {
+          "username": "imccyu",
+          "url": "https://github.com/imccyu"
+        }
+      ],
+      "description": "Meta-Framework of Spatiotemporal Composability",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "China",
+      "origin_confidence": "medium",
+      "origin_evidence": [
+        "shigma: location=Beijing, China",
+        "undefined-moe: location=Shanghai, China"
+      ]
+    },
+    {
+      "repository_name": "agalwood/Motrix",
+      "url": "https://github.com/agalwood/Motrix",
+      "contributors": [
+        {
+          "username": "agalwood",
+          "url": "https://github.com/agalwood"
+        },
+        {
+          "username": "shatyuka",
+          "url": "https://github.com/shatyuka"
+        },
+        {
+          "username": "dicarne",
+          "url": "https://github.com/dicarne"
+        },
+        {
+          "username": "kant",
+          "url": "https://github.com/kant"
+        },
+        {
+          "username": "Raistlin916",
+          "url": "https://github.com/Raistlin916"
+        }
+      ],
+      "description": "A full-featured download manager.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    }
+  ]
+}
