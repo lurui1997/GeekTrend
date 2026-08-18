@@ -1,0 +1,472 @@
+{
+  "fetched_at": "2026-08-19T04:09:44+08:00",
+  "source_url": "https://github.com/trending/",
+  "repository_count": 13,
+  "ai_agent_project_count": 8,
+  "ai_agent_project_ratio": 0.6154,
+  "repositories": [
+    {
+      "repository_name": "harry0703/MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "contributors": [
+        {
+          "username": "harry0703",
+          "url": "https://github.com/harry0703"
+        },
+        {
+          "username": "yyhhyyyyyy",
+          "url": "https://github.com/yyhhyyyyyy"
+        },
+        {
+          "username": "vuisme",
+          "url": "https://github.com/vuisme"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "pcbntt",
+          "url": "https://github.com/pcbntt"
+        }
+      ],
+      "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "chaitanyagiri/munder-difflin",
+      "url": "https://github.com/chaitanyagiri/munder-difflin",
+      "contributors": [
+        {
+          "username": "chaitanyagiri",
+          "url": "https://github.com/chaitanyagiri"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "pdurlej",
+          "url": "https://github.com/pdurlej"
+        },
+        {
+          "username": "qschmick",
+          "url": "https://github.com/qschmick"
+        }
+      ],
+      "description": "local multi-agent harness",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "qschmick: location=United States"
+      ]
+    },
+    {
+      "repository_name": "akitaonrails/ai-memory",
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "contributors": [
+        {
+          "username": "akitaonrails",
+          "url": "https://github.com/akitaonrails"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "djalmajr",
+          "url": "https://github.com/djalmajr"
+        },
+        {
+          "username": "wblech",
+          "url": "https://github.com/wblech"
+        },
+        {
+          "username": "rthiago",
+          "url": "https://github.com/rthiago"
+        }
+      ],
+      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "primary_language": "Rust",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "volcengine/OpenViking",
+      "url": "https://github.com/volcengine/OpenViking",
+      "contributors": [
+        {
+          "username": "qin-ctx",
+          "url": "https://github.com/qin-ctx"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "zhoujh01",
+          "url": "https://github.com/zhoujh01"
+        },
+        {
+          "username": "ZaynJarvis",
+          "url": "https://github.com/ZaynJarvis"
+        },
+        {
+          "username": "r266-tech",
+          "url": "https://github.com/r266-tech"
+        }
+      ],
+      "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "China",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "qin-ctx: location=beijing"
+      ]
+    },
+    {
+      "repository_name": "mukul975/Anthropic-Cybersecurity-Skills",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "contributors": [
+        {
+          "username": "mukul975",
+          "url": "https://github.com/mukul975"
+        },
+        {
+          "username": "valorisa",
+          "url": "https://github.com/valorisa"
+        },
+        {
+          "username": "juliosuas",
+          "url": "https://github.com/juliosuas"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "andrewibrah",
+          "url": "https://github.com/andrewibrah"
+        }
+      ],
+      "description": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "France",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "valorisa: location=France"
+      ]
+    },
+    {
+      "repository_name": "public-apis/public-apis",
+      "url": "https://github.com/public-apis/public-apis",
+      "contributors": [
+        {
+          "username": "matheusfelipeog",
+          "url": "https://github.com/matheusfelipeog"
+        },
+        {
+          "username": "davemachado",
+          "url": "https://github.com/davemachado"
+        },
+        {
+          "username": "ArindamOSS",
+          "url": "https://github.com/ArindamOSS"
+        },
+        {
+          "username": "pawelborkar",
+          "url": "https://github.com/pawelborkar"
+        },
+        {
+          "username": "jbrooksuk",
+          "url": "https://github.com/jbrooksuk"
+        }
+      ],
+      "description": "A collective list of free APIs",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "davemachado: location=United States"
+      ]
+    },
+    {
+      "repository_name": "basecamp/omarchy",
+      "url": "https://github.com/basecamp/omarchy",
+      "contributors": [
+        {
+          "username": "dhh",
+          "url": "https://github.com/dhh"
+        },
+        {
+          "username": "ryanrhughes",
+          "url": "https://github.com/ryanrhughes"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "tahayvr",
+          "url": "https://github.com/tahayvr"
+        },
+        {
+          "username": "pomartel",
+          "url": "https://github.com/pomartel"
+        }
+      ],
+      "description": "Beautiful, Modern & Opinionated Linux",
+      "primary_language": "Shell",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "agalwood/Motrix",
+      "url": "https://github.com/agalwood/Motrix",
+      "contributors": [
+        {
+          "username": "agalwood",
+          "url": "https://github.com/agalwood"
+        },
+        {
+          "username": "shatyuka",
+          "url": "https://github.com/shatyuka"
+        },
+        {
+          "username": "dicarne",
+          "url": "https://github.com/dicarne"
+        },
+        {
+          "username": "kant",
+          "url": "https://github.com/kant"
+        },
+        {
+          "username": "Raistlin916",
+          "url": "https://github.com/Raistlin916"
+        }
+      ],
+      "description": "A full-featured download manager.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "NawfalMotii79/PLFM_RADAR",
+      "url": "https://github.com/NawfalMotii79/PLFM_RADAR",
+      "contributors": [
+        {
+          "username": "JJassonn69",
+          "url": "https://github.com/JJassonn69"
+        },
+        {
+          "username": "NawfalMotii79",
+          "url": "https://github.com/NawfalMotii79"
+        },
+        {
+          "username": "joyshmitz",
+          "url": "https://github.com/joyshmitz"
+        },
+        {
+          "username": "shaun0927",
+          "url": "https://github.com/shaun0927"
+        },
+        {
+          "username": "3aLaee",
+          "url": "https://github.com/3aLaee"
+        }
+      ],
+      "description": "Open-source, low-cost 10.5 GHz PLFM phased array RADAR system",
+      "primary_language": "PLSQL",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "Morocco",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "NawfalMotii79: location=Casablanca, MOROCCO"
+      ]
+    },
+    {
+      "repository_name": "jundot/omlx",
+      "url": "https://github.com/jundot/omlx",
+      "contributors": [
+        {
+          "username": "jundot",
+          "url": "https://github.com/jundot"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "cfbraun",
+          "url": "https://github.com/cfbraun"
+        },
+        {
+          "username": "JimStenstrom",
+          "url": "https://github.com/JimStenstrom"
+        }
+      ],
+      "description": "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "bojieli/ai-agent-book",
+      "url": "https://github.com/bojieli/ai-agent-book",
+      "contributors": [
+        {
+          "username": "bojieli",
+          "url": "https://github.com/bojieli"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "santhreal",
+          "url": "https://github.com/santhreal"
+        },
+        {
+          "username": "whanyu1212",
+          "url": "https://github.com/whanyu1212"
+        },
+        {
+          "username": "thejesh23",
+          "url": "https://github.com/thejesh23"
+        }
+      ],
+      "description": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "genlayerlabs/genlayer-project-boilerplate",
+      "url": "https://github.com/genlayerlabs/genlayer-project-boilerplate",
+      "contributors": [
+        {
+          "username": "cristiam86",
+          "url": "https://github.com/cristiam86"
+        },
+        {
+          "username": "MuncleUscles",
+          "url": "https://github.com/MuncleUscles"
+        },
+        {
+          "username": "danieljrc888",
+          "url": "https://github.com/danieljrc888"
+        },
+        {
+          "username": "albert-mr",
+          "url": "https://github.com/albert-mr"
+        },
+        {
+          "username": "JoaquinBN",
+          "url": "https://github.com/JoaquinBN"
+        }
+      ],
+      "description": null,
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "OpenCut-app/OpenCut",
+      "url": "https://github.com/OpenCut-app/OpenCut",
+      "contributors": [
+        {
+          "username": "mazeincoding",
+          "url": "https://github.com/mazeincoding"
+        },
+        {
+          "username": "izadoesdev",
+          "url": "https://github.com/izadoesdev"
+        },
+        {
+          "username": "anwarulislam",
+          "url": "https://github.com/anwarulislam"
+        },
+        {
+          "username": "khanguyen74",
+          "url": "https://github.com/khanguyen74"
+        },
+        {
+          "username": "DevloperAmanSingh",
+          "url": "https://github.com/DevloperAmanSingh"
+        }
+      ],
+      "description": "The open-source CapCut alternative",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "Palestine",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "izadoesdev: location=Palestine"
+      ]
+    }
+  ]
+}
