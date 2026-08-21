@@ -1,0 +1,558 @@
+{
+  "fetched_at": "2026-08-22T04:11:20+08:00",
+  "source_url": "https://github.com/trending/",
+  "repository_count": 16,
+  "ai_agent_project_count": 10,
+  "ai_agent_project_ratio": 0.625,
+  "repositories": [
+    {
+      "repository_name": "modular/modular",
+      "url": "https://github.com/modular/modular",
+      "contributors": [
+        {
+          "username": "abduld",
+          "url": "https://github.com/abduld"
+        },
+        {
+          "username": "lattner",
+          "url": "https://github.com/lattner"
+        },
+        {
+          "username": "JoeLoser",
+          "url": "https://github.com/JoeLoser"
+        },
+        {
+          "username": "keith",
+          "url": "https://github.com/keith"
+        },
+        {
+          "username": "atomicapple0",
+          "url": "https://github.com/atomicapple0"
+        }
+      ],
+      "description": "The Modular Platform (includes MAX & Mojo)",
+      "primary_language": "Mojo",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "lattner: location=Bay Area, California, USA"
+      ]
+    },
+    {
+      "repository_name": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "contributors": [
+        {
+          "username": "mattpocock",
+          "url": "https://github.com/mattpocock"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "gabimoncha",
+          "url": "https://github.com/gabimoncha"
+        }
+      ],
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "primary_language": "Shell",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "AprilNEA/OpenLogi",
+      "url": "https://github.com/AprilNEA/OpenLogi",
+      "contributors": [
+        {
+          "username": "AprilNEA",
+          "url": "https://github.com/AprilNEA"
+        },
+        {
+          "username": "davidbudnick",
+          "url": "https://github.com/davidbudnick"
+        },
+        {
+          "username": "cserby",
+          "url": "https://github.com/cserby"
+        },
+        {
+          "username": "tagawa0525",
+          "url": "https://github.com/tagawa0525"
+        }
+      ],
+      "description": "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
+      "primary_language": "Rust",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "Japan",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "tagawa0525: location=Japan"
+      ]
+    },
+    {
+      "repository_name": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "contributors": [
+        {
+          "username": "obra",
+          "url": "https://github.com/obra"
+        },
+        {
+          "username": "arittr",
+          "url": "https://github.com/arittr"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "clkao",
+          "url": "https://github.com/clkao"
+        },
+        {
+          "username": "jjshanks",
+          "url": "https://github.com/jjshanks"
+        }
+      ],
+      "description": "An agentic skills framework & software development methodology that works.",
+      "primary_language": "Shell",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "cursor/plugins",
+      "url": "https://github.com/cursor/plugins",
+      "contributors": [
+        {
+          "username": "poteto",
+          "url": "https://github.com/poteto"
+        },
+        {
+          "username": "cursoragent",
+          "url": "https://github.com/cursoragent"
+        },
+        {
+          "username": "ericzakariasson",
+          "url": "https://github.com/ericzakariasson"
+        },
+        {
+          "username": "n2parko",
+          "url": "https://github.com/n2parko"
+        },
+        {
+          "username": "SamSokolin",
+          "url": "https://github.com/SamSokolin"
+        }
+      ],
+      "description": "Cursor plugin specification and official plugins",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "SamSokolin: location=New York, NY"
+      ]
+    },
+    {
+      "repository_name": "santifer/career-ops",
+      "url": "https://github.com/santifer/career-ops",
+      "contributors": [
+        {
+          "username": "santifer",
+          "url": "https://github.com/santifer"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "Schlaflied",
+          "url": "https://github.com/Schlaflied"
+        },
+        {
+          "username": "Scott-Emberson",
+          "url": "https://github.com/Scott-Emberson"
+        },
+        {
+          "username": "abankar1",
+          "url": "https://github.com/abankar1"
+        }
+      ],
+      "description": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "abankar1: location=USA"
+      ]
+    },
+    {
+      "repository_name": "harry0703/MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "contributors": [
+        {
+          "username": "harry0703",
+          "url": "https://github.com/harry0703"
+        },
+        {
+          "username": "yyhhyyyyyy",
+          "url": "https://github.com/yyhhyyyyyy"
+        },
+        {
+          "username": "vuisme",
+          "url": "https://github.com/vuisme"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "pcbntt",
+          "url": "https://github.com/pcbntt"
+        }
+      ],
+      "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "agent-substrate/substrate",
+      "url": "https://github.com/agent-substrate/substrate",
+      "contributors": [
+        {
+          "username": "BenTheElder",
+          "url": "https://github.com/BenTheElder"
+        },
+        {
+          "username": "juli4n",
+          "url": "https://github.com/juli4n"
+        },
+        {
+          "username": "HavenXia",
+          "url": "https://github.com/HavenXia"
+        },
+        {
+          "username": "thockin",
+          "url": "https://github.com/thockin"
+        },
+        {
+          "username": "mesutoezdil",
+          "url": "https://github.com/mesutoezdil"
+        }
+      ],
+      "description": "Agent Substrate: the core system",
+      "primary_language": "Go",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "thockin: location=United States"
+      ]
+    },
+    {
+      "repository_name": "chaitanyagiri/munder-difflin",
+      "url": "https://github.com/chaitanyagiri/munder-difflin",
+      "contributors": [
+        {
+          "username": "chaitanyagiri",
+          "url": "https://github.com/chaitanyagiri"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "pdurlej",
+          "url": "https://github.com/pdurlej"
+        },
+        {
+          "username": "qschmick",
+          "url": "https://github.com/qschmick"
+        }
+      ],
+      "description": "local multi-agent harness",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "qschmick: location=United States"
+      ]
+    },
+    {
+      "repository_name": "PostHog/posthog",
+      "url": "https://github.com/PostHog/posthog",
+      "contributors": [
+        {
+          "username": "pauldambra",
+          "url": "https://github.com/pauldambra"
+        },
+        {
+          "username": "Twixes",
+          "url": "https://github.com/Twixes"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "Gilbert09",
+          "url": "https://github.com/Gilbert09"
+        }
+      ],
+      "description": "🦔 PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "medium",
+      "origin_evidence": [
+        "pauldambra: location=Manchester, UK",
+        "Gilbert09: location=London"
+      ]
+    },
+    {
+      "repository_name": "mahlernim/google-timeline-visualizer",
+      "url": "https://github.com/mahlernim/google-timeline-visualizer",
+      "contributors": [
+        {
+          "username": "mahlernim",
+          "url": "https://github.com/mahlernim"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "petercpg",
+          "url": "https://github.com/petercpg"
+        },
+        {
+          "username": "fede1608",
+          "url": "https://github.com/fede1608"
+        },
+        {
+          "username": "Irishsmurf",
+          "url": "https://github.com/Irishsmurf"
+        }
+      ],
+      "description": "Visualize your year in travel using your Google Location History (Timeline) data",
+      "primary_language": "Kotlin",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "volcengine/OpenViking",
+      "url": "https://github.com/volcengine/OpenViking",
+      "contributors": [
+        {
+          "username": "qin-ctx",
+          "url": "https://github.com/qin-ctx"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "zhoujh01",
+          "url": "https://github.com/zhoujh01"
+        },
+        {
+          "username": "ZaynJarvis",
+          "url": "https://github.com/ZaynJarvis"
+        },
+        {
+          "username": "r266-tech",
+          "url": "https://github.com/r266-tech"
+        }
+      ],
+      "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "China",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "qin-ctx: location=beijing"
+      ]
+    },
+    {
+      "repository_name": "JuliusBrussee/caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "contributors": [
+        {
+          "username": "JuliusBrussee",
+          "url": "https://github.com/JuliusBrussee"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "sebastianbreguel",
+          "url": "https://github.com/sebastianbreguel"
+        },
+        {
+          "username": "vraj00222",
+          "url": "https://github.com/vraj00222"
+        }
+      ],
+      "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+      "primary_language": "Go",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "Netherlands",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "JuliusBrussee: location=Netherlands"
+      ]
+    },
+    {
+      "repository_name": "makeplane/plane",
+      "url": "https://github.com/makeplane/plane",
+      "contributors": [
+        {
+          "username": "anmolsinghbhatia",
+          "url": "https://github.com/anmolsinghbhatia"
+        },
+        {
+          "username": "aaryan610",
+          "url": "https://github.com/aaryan610"
+        },
+        {
+          "username": "pablohashescobar",
+          "url": "https://github.com/pablohashescobar"
+        },
+        {
+          "username": "sriramveeraghanta",
+          "url": "https://github.com/sriramveeraghanta"
+        },
+        {
+          "username": "NarayanBavisetti",
+          "url": "https://github.com/NarayanBavisetti"
+        }
+      ],
+      "description": "🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "Tencent/AI-Infra-Guard",
+      "url": "https://github.com/Tencent/AI-Infra-Guard",
+      "contributors": [
+        {
+          "username": "boy-hack",
+          "url": "https://github.com/boy-hack"
+        },
+        {
+          "username": "aigsec",
+          "url": "https://github.com/aigsec"
+        },
+        {
+          "username": "rocie799",
+          "url": "https://github.com/rocie799"
+        },
+        {
+          "username": "zonalalala",
+          "url": "https://github.com/zonalalala"
+        },
+        {
+          "username": "y3oZ",
+          "url": "https://github.com/y3oZ"
+        }
+      ],
+      "description": "A full-stack AI Red Teaming platform securing AI ecosystems via Agent Scan, Skills Scan, MCP scan, AI Infra scan and LLM jailbreak evaluation.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "RyanCodrai/turbovec",
+      "url": "https://github.com/RyanCodrai/turbovec",
+      "contributors": [
+        {
+          "username": "RyanCodrai",
+          "url": "https://github.com/RyanCodrai"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "faysou",
+          "url": "https://github.com/faysou"
+        }
+      ],
+      "description": "A vector index built on TurboQuant, written in Rust with Python bindings",
+      "primary_language": "Rust",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    }
+  ]
+}
