@@ -1,0 +1,563 @@
+{
+  "fetched_at": "2026-08-25T22:32:41+08:00",
+  "source_url": "https://github.com/trending/",
+  "repository_count": 16,
+  "ai_agent_project_count": 11,
+  "ai_agent_project_ratio": 0.6875,
+  "repositories": [
+    {
+      "repository_name": "freestylefly/awesome-gpt-image-2",
+      "url": "https://github.com/freestylefly/awesome-gpt-image-2",
+      "contributors": [
+        {
+          "username": "freestylefly",
+          "url": "https://github.com/freestylefly"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "ImgBotApp",
+          "url": "https://github.com/ImgBotApp"
+        },
+        {
+          "username": "LengShangbai",
+          "url": "https://github.com/LengShangbai"
+        },
+        {
+          "username": "sscodeai",
+          "url": "https://github.com/sscodeai"
+        }
+      ],
+      "description": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "Japan",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "sscodeai: location=Japan"
+      ]
+    },
+    {
+      "repository_name": "anthropics/claude-plugins-community",
+      "url": "https://github.com/anthropics/claude-plugins-community",
+      "contributors": [
+        {
+          "username": "bryan-anthropic",
+          "url": "https://github.com/bryan-anthropic"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "tobinsouth",
+          "url": "https://github.com/tobinsouth"
+        },
+        {
+          "username": "ThariqS",
+          "url": "https://github.com/ThariqS"
+        }
+      ],
+      "description": "Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "MadsLorentzen/ai-job-search",
+      "url": "https://github.com/MadsLorentzen/ai-job-search",
+      "contributors": [
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "MadsLorentzen",
+          "url": "https://github.com/MadsLorentzen"
+        },
+        {
+          "username": "ayobamiseun",
+          "url": "https://github.com/ayobamiseun"
+        },
+        {
+          "username": "oscarbol09",
+          "url": "https://github.com/oscarbol09"
+        },
+        {
+          "username": "LeoWinston-9596",
+          "url": "https://github.com/LeoWinston-9596"
+        }
+      ],
+      "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "apache/maka",
+      "url": "https://github.com/apache/maka",
+      "contributors": [
+        {
+          "username": "jackwener",
+          "url": "https://github.com/jackwener"
+        },
+        {
+          "username": "Astro-Han",
+          "url": "https://github.com/Astro-Han"
+        },
+        {
+          "username": "likun666661",
+          "url": "https://github.com/likun666661"
+        },
+        {
+          "username": "M4n5ter",
+          "url": "https://github.com/M4n5ter"
+        },
+        {
+          "username": "hqhq1025",
+          "url": "https://github.com/hqhq1025"
+        }
+      ],
+      "description": "Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "China",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "hqhq1025: location=Beijing, China"
+      ]
+    },
+    {
+      "repository_name": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "contributors": [
+        {
+          "username": "Yijia-Xiao",
+          "url": "https://github.com/Yijia-Xiao"
+        },
+        {
+          "username": "EdwardoSunny",
+          "url": "https://github.com/EdwardoSunny"
+        },
+        {
+          "username": "CadeYu",
+          "url": "https://github.com/CadeYu"
+        },
+        {
+          "username": "luohy15",
+          "url": "https://github.com/luohy15"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        }
+      ],
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "EdwardoSunny: location=San Diego, CA"
+      ]
+    },
+    {
+      "repository_name": "AgriciDaniel/claude-obsidian",
+      "url": "https://github.com/AgriciDaniel/claude-obsidian",
+      "contributors": [
+        {
+          "username": "AgriciDaniel",
+          "url": "https://github.com/AgriciDaniel"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        }
+      ],
+      "description": "Self-organizing AI second brain for Obsidian + Claude Code. Drop any source and Claude reads, links, and files it into one connected knowledge graph of plain Markdown you own. AI note-taking, personal knowledge management (PKM), and an open-source Notion alternative. Based on Karpathy's LLM Wiki pattern.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "contributors": [
+        {
+          "username": "rohitg00",
+          "url": "https://github.com/rohitg00"
+        },
+        {
+          "username": "abhinav-m22",
+          "url": "https://github.com/abhinav-m22"
+        },
+        {
+          "username": "thereisnotime",
+          "url": "https://github.com/thereisnotime"
+        },
+        {
+          "username": "thejesh23",
+          "url": "https://github.com/thejesh23"
+        }
+      ],
+      "description": "Learn it. Build it. Ship it for others.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "rohitg00: location=UK"
+      ]
+    },
+    {
+      "repository_name": "tinyhumansai/openhuman",
+      "url": "https://github.com/tinyhumansai/openhuman",
+      "contributors": [
+        {
+          "username": "senamakel",
+          "url": "https://github.com/senamakel"
+        },
+        {
+          "username": "medullabot",
+          "url": "https://github.com/medullabot"
+        },
+        {
+          "username": "graycyrus",
+          "url": "https://github.com/graycyrus"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "M3gA-Mind",
+          "url": "https://github.com/M3gA-Mind"
+        }
+      ],
+      "description": "Your Personal AI super intelligence. A brain that builds a local-first memory of your life, a fantastic orchestrator of agent fleets and workflows, and a deep researcher.",
+      "primary_language": "Rust",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "medullabot: location=United States of America"
+      ]
+    },
+    {
+      "repository_name": "basecamp/omarchy",
+      "url": "https://github.com/basecamp/omarchy",
+      "contributors": [
+        {
+          "username": "dhh",
+          "url": "https://github.com/dhh"
+        },
+        {
+          "username": "ryanrhughes",
+          "url": "https://github.com/ryanrhughes"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "omarchybot",
+          "url": "https://github.com/omarchybot"
+        },
+        {
+          "username": "tahayvr",
+          "url": "https://github.com/tahayvr"
+        }
+      ],
+      "description": "Beautiful, Modern & Opinionated Linux",
+      "primary_language": "Shell",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "Shubhamsaboo/awesome-llm-apps",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "contributors": [
+        {
+          "username": "Shubhamsaboo",
+          "url": "https://github.com/Shubhamsaboo"
+        },
+        {
+          "username": "Madhuvod",
+          "url": "https://github.com/Madhuvod"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "onestardao",
+          "url": "https://github.com/onestardao"
+        },
+        {
+          "username": "thejesh23",
+          "url": "https://github.com/thejesh23"
+        }
+      ],
+      "description": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "India",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "Madhuvod: location=blr"
+      ]
+    },
+    {
+      "repository_name": "multica-ai/andrej-karpathy-skills",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "contributors": [
+        {
+          "username": "forrestchang",
+          "url": "https://github.com/forrestchang"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "back1ply",
+          "url": "https://github.com/back1ply"
+        },
+        {
+          "username": "herobrine19",
+          "url": "https://github.com/herobrine19"
+        },
+        {
+          "username": "szkocot",
+          "url": "https://github.com/szkocot"
+        }
+      ],
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "primary_language": null,
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "openai/codex",
+      "url": "https://github.com/openai/codex",
+      "contributors": [
+        {
+          "username": "jif-oai",
+          "url": "https://github.com/jif-oai"
+        },
+        {
+          "username": "bolinfest",
+          "url": "https://github.com/bolinfest"
+        },
+        {
+          "username": "aibrahim-oai",
+          "url": "https://github.com/aibrahim-oai"
+        },
+        {
+          "username": "etraut-openai",
+          "url": "https://github.com/etraut-openai"
+        },
+        {
+          "username": "pakrym-oai",
+          "url": "https://github.com/pakrym-oai"
+        }
+      ],
+      "description": "Lightweight coding agent that runs in your terminal",
+      "primary_language": "Rust",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "marin-community/marin",
+      "url": "https://github.com/marin-community/marin",
+      "contributors": [
+        {
+          "username": "dlwh",
+          "url": "https://github.com/dlwh"
+        },
+        {
+          "username": "rjpower",
+          "url": "https://github.com/rjpower"
+        },
+        {
+          "username": "BabyChouSr",
+          "url": "https://github.com/BabyChouSr"
+        },
+        {
+          "username": "abhinavg4",
+          "url": "https://github.com/abhinavg4"
+        },
+        {
+          "username": "ravwojdyla",
+          "url": "https://github.com/ravwojdyla"
+        }
+      ],
+      "description": "Open-source framework for the research and development of foundation models.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "contributors": [
+        {
+          "username": "DietrichGebert",
+          "url": "https://github.com/DietrichGebert"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "Lakshya77089",
+          "url": "https://github.com/Lakshya77089"
+        },
+        {
+          "username": "ousamabenyounes",
+          "url": "https://github.com/ousamabenyounes"
+        },
+        {
+          "username": "dhedhialy",
+          "url": "https://github.com/dhedhialy"
+        }
+      ],
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "France",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "ousamabenyounes: location=France / Paris"
+      ]
+    },
+    {
+      "repository_name": "anthropics/claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "contributors": [
+        {
+          "username": "bryan-anthropic",
+          "url": "https://github.com/bryan-anthropic"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "tobinsouth",
+          "url": "https://github.com/tobinsouth"
+        },
+        {
+          "username": "k6l3",
+          "url": "https://github.com/k6l3"
+        }
+      ],
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "asciimoo/hister",
+      "url": "https://github.com/asciimoo/hister",
+      "contributors": [
+        {
+          "username": "asciimoo",
+          "url": "https://github.com/asciimoo"
+        },
+        {
+          "username": "4evy",
+          "url": "https://github.com/4evy"
+        },
+        {
+          "username": "ISSOtm",
+          "url": "https://github.com/ISSOtm"
+        },
+        {
+          "username": "Shadowbee27",
+          "url": "https://github.com/Shadowbee27"
+        }
+      ],
+      "description": "Your own search engine",
+      "primary_language": "Go",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "France",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "ISSOtm: location=France"
+      ]
+    }
+  ]
+}
