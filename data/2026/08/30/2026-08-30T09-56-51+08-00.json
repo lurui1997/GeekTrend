@@ -1,0 +1,660 @@
+{
+  "fetched_at": "2026-08-30T09:56:51+08:00",
+  "source_url": "https://github.com/trending/",
+  "repository_count": 19,
+  "ai_agent_project_count": 12,
+  "ai_agent_project_ratio": 0.6316,
+  "repositories": [
+    {
+      "repository_name": "tt-a1i/archify",
+      "url": "https://github.com/tt-a1i/archify",
+      "contributors": [
+        {
+          "username": "tt-a1i",
+          "url": "https://github.com/tt-a1i"
+        },
+        {
+          "username": "sunsunsun-java",
+          "url": "https://github.com/sunsunsun-java"
+        },
+        {
+          "username": "YunyueLi",
+          "url": "https://github.com/YunyueLi"
+        },
+        {
+          "username": "cursoragent",
+          "url": "https://github.com/cursoragent"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        }
+      ],
+      "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "China",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "YunyueLi: location=Shanghai, China"
+      ]
+    },
+    {
+      "repository_name": "bilawalsidhu/gods-eye-view",
+      "url": "https://github.com/bilawalsidhu/gods-eye-view",
+      "contributors": [
+        {
+          "username": "bilawalsidhu",
+          "url": "https://github.com/bilawalsidhu"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        }
+      ],
+      "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "K-Dense-AI/scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "contributors": [
+        {
+          "username": "TKassis",
+          "url": "https://github.com/TKassis"
+        },
+        {
+          "username": "cursoragent",
+          "url": "https://github.com/cursoragent"
+        },
+        {
+          "username": "borealBytes",
+          "url": "https://github.com/borealBytes"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        }
+      ],
+      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "tailscale/tailcat",
+      "url": "https://github.com/tailscale/tailcat",
+      "contributors": [
+        {
+          "username": "bradfitz",
+          "url": "https://github.com/bradfitz"
+        },
+        {
+          "username": "danderson",
+          "url": "https://github.com/danderson"
+        },
+        {
+          "username": "andrew-d",
+          "url": "https://github.com/andrew-d"
+        },
+        {
+          "username": "raggi",
+          "url": "https://github.com/raggi"
+        },
+        {
+          "username": "jwhited",
+          "url": "https://github.com/jwhited"
+        }
+      ],
+      "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
+      "primary_language": "Go",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "THU-MAIC/OpenMAIC",
+      "url": "https://github.com/THU-MAIC/OpenMAIC",
+      "contributors": [
+        {
+          "username": "wyuc",
+          "url": "https://github.com/wyuc"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "cosarah",
+          "url": "https://github.com/cosarah"
+        },
+        {
+          "username": "YizukiAme",
+          "url": "https://github.com/YizukiAme"
+        },
+        {
+          "username": "ly-wang19",
+          "url": "https://github.com/ly-wang19"
+        }
+      ],
+      "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "China",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "cosarah: location=Beijing"
+      ]
+    },
+    {
+      "repository_name": "p-e-w/heretic",
+      "url": "https://github.com/p-e-w/heretic",
+      "contributors": [
+        {
+          "username": "p-e-w",
+          "url": "https://github.com/p-e-w"
+        },
+        {
+          "username": "Vinay-Umrethe",
+          "url": "https://github.com/Vinay-Umrethe"
+        },
+        {
+          "username": "anrp",
+          "url": "https://github.com/anrp"
+        },
+        {
+          "username": "spikymoth",
+          "url": "https://github.com/spikymoth"
+        }
+      ],
+      "description": "Fully automatic censorship removal for language models",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "bigskysoftware/htmx",
+      "url": "https://github.com/bigskysoftware/htmx",
+      "contributors": [
+        {
+          "username": "1cg",
+          "url": "https://github.com/1cg"
+        },
+        {
+          "username": "bencroker",
+          "url": "https://github.com/bencroker"
+        },
+        {
+          "username": "benpate",
+          "url": "https://github.com/benpate"
+        },
+        {
+          "username": "alexpetros",
+          "url": "https://github.com/alexpetros"
+        },
+        {
+          "username": "Telroshan",
+          "url": "https://github.com/Telroshan"
+        }
+      ],
+      "description": "</> htmx - high power tools for HTML",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "medium",
+      "origin_evidence": [
+        "benpate: location=Colorado, USA",
+        "alexpetros: location=New York, New York"
+      ]
+    },
+    {
+      "repository_name": "JetBrains/go-modern-guidelines",
+      "url": "https://github.com/JetBrains/go-modern-guidelines",
+      "contributors": [
+        {
+          "username": "simpletonDL",
+          "url": "https://github.com/simpletonDL"
+        },
+        {
+          "username": "nikitakuchur",
+          "url": "https://github.com/nikitakuchur"
+        },
+        {
+          "username": "Splatjov",
+          "url": "https://github.com/Splatjov"
+        },
+        {
+          "username": "raeperd",
+          "url": "https://github.com/raeperd"
+        },
+        {
+          "username": "endigma",
+          "url": "https://github.com/endigma"
+        }
+      ],
+      "description": "Help AI coding agents write modern Go",
+      "primary_language": "Go",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "ComposioHQ/awesome-claude-skills",
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "contributors": [
+        {
+          "username": "Prat011",
+          "url": "https://github.com/Prat011"
+        },
+        {
+          "username": "sohamganatra",
+          "url": "https://github.com/sohamganatra"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "sanjay3290",
+          "url": "https://github.com/sanjay3290"
+        },
+        {
+          "username": "mellson",
+          "url": "https://github.com/mellson"
+        }
+      ],
+      "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "calesthio/OpenMontage",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "contributors": [
+        {
+          "username": "calesthio",
+          "url": "https://github.com/calesthio"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "0xDevNinja",
+          "url": "https://github.com/0xDevNinja"
+        },
+        {
+          "username": "yiyabo",
+          "url": "https://github.com/yiyabo"
+        },
+        {
+          "username": "xucailiang",
+          "url": "https://github.com/xucailiang"
+        }
+      ],
+      "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "Hong Kong",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "yiyabo: location=The Chinese University of Hong Kong"
+      ]
+    },
+    {
+      "repository_name": "every-app/open-seo",
+      "url": "https://github.com/every-app/open-seo",
+      "contributors": [
+        {
+          "username": "bensenescu",
+          "url": "https://github.com/bensenescu"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "jeremypenguin-max",
+          "url": "https://github.com/jeremypenguin-max"
+        },
+        {
+          "username": "bookingseo",
+          "url": "https://github.com/bookingseo"
+        },
+        {
+          "username": "mvanhorn",
+          "url": "https://github.com/mvanhorn"
+        }
+      ],
+      "description": "Open source alternative to Semrush and Ahrefs",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "Osmantic/ODS",
+      "url": "https://github.com/Osmantic/ODS",
+      "contributors": [
+        {
+          "username": "Lightheartdevs",
+          "url": "https://github.com/Lightheartdevs"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "yasinBursali",
+          "url": "https://github.com/yasinBursali"
+        },
+        {
+          "username": "gabsprogrammer",
+          "url": "https://github.com/gabsprogrammer"
+        },
+        {
+          "username": "SSignall",
+          "url": "https://github.com/SSignall"
+        }
+      ],
+      "description": "Turn your PC, Mac, or Linux box into an AI server. LLM inference, chat UI, voice, agents, workflows, RAG, and image generation.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "Lightheartdevs: location=Philadelphia, PA, USA"
+      ]
+    },
+    {
+      "repository_name": "abi/screenshot-to-code",
+      "url": "https://github.com/abi/screenshot-to-code",
+      "contributors": [
+        {
+          "username": "abi",
+          "url": "https://github.com/abi"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "clean99",
+          "url": "https://github.com/clean99"
+        },
+        {
+          "username": "kachbit",
+          "url": "https://github.com/kachbit"
+        }
+      ],
+      "description": "Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "anthropics/claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "contributors": [
+        {
+          "username": "bryan-anthropic",
+          "url": "https://github.com/bryan-anthropic"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "tobinsouth",
+          "url": "https://github.com/tobinsouth"
+        },
+        {
+          "username": "k6l3",
+          "url": "https://github.com/k6l3"
+        }
+      ],
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "google/googletest",
+      "url": "https://github.com/google/googletest",
+      "contributors": [
+        {
+          "username": "gennadiycivil",
+          "url": "https://github.com/gennadiycivil"
+        },
+        {
+          "username": "derekmauro",
+          "url": "https://github.com/derekmauro"
+        },
+        {
+          "username": "kuzkry",
+          "url": "https://github.com/kuzkry"
+        },
+        {
+          "username": "copybara-github",
+          "url": "https://github.com/copybara-github"
+        }
+      ],
+      "description": "GoogleTest - Google Testing and Mocking Framework",
+      "primary_language": "C++",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "medium",
+      "origin_evidence": [
+        "gennadiycivil: location=New York",
+        "derekmauro: location=New York, NY"
+      ]
+    },
+    {
+      "repository_name": "actions/checkout",
+      "url": "https://github.com/actions/checkout",
+      "contributors": [
+        {
+          "username": "ericsciple",
+          "url": "https://github.com/ericsciple"
+        },
+        {
+          "username": "cory-miller",
+          "url": "https://github.com/cory-miller"
+        },
+        {
+          "username": "jww3",
+          "url": "https://github.com/jww3"
+        },
+        {
+          "username": "thboop",
+          "url": "https://github.com/thboop"
+        }
+      ],
+      "description": "Action for checking out a repo",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "kaifcodec/user-scanner",
+      "url": "https://github.com/kaifcodec/user-scanner",
+      "contributors": [
+        {
+          "username": "kaifcodec",
+          "url": "https://github.com/kaifcodec"
+        },
+        {
+          "username": "brunolm",
+          "url": "https://github.com/brunolm"
+        },
+        {
+          "username": "VamatoHD",
+          "url": "https://github.com/VamatoHD"
+        },
+        {
+          "username": "json-hunter07",
+          "url": "https://github.com/json-hunter07"
+        },
+        {
+          "username": "kristoisberg",
+          "url": "https://github.com/kristoisberg"
+        }
+      ],
+      "description": "🕵️‍♂️ (2-in-1) Email & Username OSINT suite for deep data extraction just from a single Email/Username. Analyzes 455+ actively maintained scan vectors (175+ email / 280+ username) for security research, investigations, and digital footprinting.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "contributors": [
+        {
+          "username": "addyosmani",
+          "url": "https://github.com/addyosmani"
+        },
+        {
+          "username": "nucliweb",
+          "url": "https://github.com/nucliweb"
+        },
+        {
+          "username": "federicobartoli",
+          "url": "https://github.com/federicobartoli"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "Liyuk",
+          "url": "https://github.com/Liyuk"
+        }
+      ],
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "workweave/router",
+      "url": "https://github.com/workweave/router",
+      "contributors": [
+        {
+          "username": "steventohme",
+          "url": "https://github.com/steventohme"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "aminsamir45",
+          "url": "https://github.com/aminsamir45"
+        },
+        {
+          "username": "a-churchill",
+          "url": "https://github.com/a-churchill"
+        }
+      ],
+      "description": "Model router for agentic systems. Routes every prompt to the right model in <50ms. Cut costs 40-70% with just an endpoint change.",
+      "primary_language": "Go",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    }
+  ]
+}
