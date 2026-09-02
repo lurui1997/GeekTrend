@@ -1,0 +1,497 @@
+{
+  "fetched_at": "2026-09-02T14:30:46+08:00",
+  "source_url": "https://github.com/trending/",
+  "repository_count": 14,
+  "ai_agent_project_count": 9,
+  "ai_agent_project_ratio": 0.6429,
+  "repositories": [
+    {
+      "repository_name": "Gitlawb/openclaude",
+      "url": "https://github.com/Gitlawb/openclaude",
+      "contributors": [
+        {
+          "username": "kevincodex1",
+          "url": "https://github.com/kevincodex1"
+        },
+        {
+          "username": "chioarub",
+          "url": "https://github.com/chioarub"
+        },
+        {
+          "username": "jatmn",
+          "url": "https://github.com/jatmn"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "0xfandom",
+          "url": "https://github.com/0xfandom"
+        }
+      ],
+      "description": "runs anywhere. uses anything",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "Imbad0202/academic-research-skills",
+      "url": "https://github.com/Imbad0202/academic-research-skills",
+      "contributors": [
+        {
+          "username": "Imbad0202",
+          "url": "https://github.com/Imbad0202"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "2023Anita",
+          "url": "https://github.com/2023Anita"
+        },
+        {
+          "username": "madtriceps",
+          "url": "https://github.com/madtriceps"
+        },
+        {
+          "username": "ktao732084-arch",
+          "url": "https://github.com/ktao732084-arch"
+        }
+      ],
+      "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "THU-MAIC/OpenMAIC",
+      "url": "https://github.com/THU-MAIC/OpenMAIC",
+      "contributors": [
+        {
+          "username": "wyuc",
+          "url": "https://github.com/wyuc"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "cosarah",
+          "url": "https://github.com/cosarah"
+        },
+        {
+          "username": "YizukiAme",
+          "url": "https://github.com/YizukiAme"
+        },
+        {
+          "username": "ly-wang19",
+          "url": "https://github.com/ly-wang19"
+        }
+      ],
+      "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "China",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "cosarah: location=Beijing"
+      ]
+    },
+    {
+      "repository_name": "iv-org/invidious",
+      "url": "https://github.com/iv-org/invidious",
+      "contributors": [
+        {
+          "username": "omarroth",
+          "url": "https://github.com/omarroth"
+        },
+        {
+          "username": "SamantazFox",
+          "url": "https://github.com/SamantazFox"
+        },
+        {
+          "username": "weblate",
+          "url": "https://github.com/weblate"
+        },
+        {
+          "username": "syeopite",
+          "url": "https://github.com/syeopite"
+        },
+        {
+          "username": "TheFrenchGhosty",
+          "url": "https://github.com/TheFrenchGhosty"
+        }
+      ],
+      "description": "Invidious is an alternative front-end to YouTube",
+      "primary_language": "Crystal",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "France",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "TheFrenchGhosty: location=Normandy, France"
+      ]
+    },
+    {
+      "repository_name": "jingyaogong/minimind",
+      "url": "https://github.com/jingyaogong/minimind",
+      "contributors": [
+        {
+          "username": "jingyaogong",
+          "url": "https://github.com/jingyaogong"
+        },
+        {
+          "username": "iomgaa-ycz",
+          "url": "https://github.com/iomgaa-ycz"
+        },
+        {
+          "username": "readlnh",
+          "url": "https://github.com/readlnh"
+        },
+        {
+          "username": "wangzhaode",
+          "url": "https://github.com/wangzhaode"
+        },
+        {
+          "username": "TKiteRunner",
+          "url": "https://github.com/TKiteRunner"
+        }
+      ],
+      "description": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "China",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "wangzhaode: location=Beijing"
+      ]
+    },
+    {
+      "repository_name": "3b1b/manim",
+      "url": "https://github.com/3b1b/manim",
+      "contributors": [
+        {
+          "username": "3b1b",
+          "url": "https://github.com/3b1b"
+        },
+        {
+          "username": "TonyCrane",
+          "url": "https://github.com/TonyCrane"
+        },
+        {
+          "username": "bhbr",
+          "url": "https://github.com/bhbr"
+        },
+        {
+          "username": "YishiMichael",
+          "url": "https://github.com/YishiMichael"
+        },
+        {
+          "username": "eulertour",
+          "url": "https://github.com/eulertour"
+        }
+      ],
+      "description": "Animation engine for explanatory math videos",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "China",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "YishiMichael: location=Shanghai, China"
+      ]
+    },
+    {
+      "repository_name": "firecrawl/pdf-inspector",
+      "url": "https://github.com/firecrawl/pdf-inspector",
+      "contributors": [
+        {
+          "username": "abimaelmartell",
+          "url": "https://github.com/abimaelmartell"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "cursoragent",
+          "url": "https://github.com/cursoragent"
+        },
+        {
+          "username": "rth",
+          "url": "https://github.com/rth"
+        },
+        {
+          "username": "MADENIYOU",
+          "url": "https://github.com/MADENIYOU"
+        }
+      ],
+      "description": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
+      "primary_language": "Rust",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "France",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "rth: location=Paris, France"
+      ]
+    },
+    {
+      "repository_name": "browser-use/video-use",
+      "url": "https://github.com/browser-use/video-use",
+      "contributors": [
+        {
+          "username": "gregpr07",
+          "url": "https://github.com/gregpr07"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "ShawnPana",
+          "url": "https://github.com/ShawnPana"
+        },
+        {
+          "username": "sidorovanthon",
+          "url": "https://github.com/sidorovanthon"
+        },
+        {
+          "username": "antoinersx",
+          "url": "https://github.com/antoinersx"
+        }
+      ],
+      "description": "Edit videos with coding agents",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "K-Dense-AI/scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "contributors": [
+        {
+          "username": "TKassis",
+          "url": "https://github.com/TKassis"
+        },
+        {
+          "username": "cursoragent",
+          "url": "https://github.com/cursoragent"
+        },
+        {
+          "username": "borealBytes",
+          "url": "https://github.com/borealBytes"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        }
+      ],
+      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "handsomestWei/patent-disclosure-skill",
+      "url": "https://github.com/handsomestWei/patent-disclosure-skill",
+      "contributors": [
+        {
+          "username": "handsomestWei",
+          "url": "https://github.com/handsomestWei"
+        },
+        {
+          "username": "xiaofengShi",
+          "url": "https://github.com/xiaofengShi"
+        },
+        {
+          "username": "dajiaohuang",
+          "url": "https://github.com/dajiaohuang"
+        },
+        {
+          "username": "917Dhj",
+          "url": "https://github.com/917Dhj"
+        }
+      ],
+      "description": "中国专利.skill：专利点挖掘与交底书（发明/实用/外观）编写，通俗解读专利，嗅探政策动向，辅助审查答复。",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "China",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "xiaofengShi: location=Beijing"
+      ]
+    },
+    {
+      "repository_name": "VoltAgent/awesome-design-md",
+      "url": "https://github.com/VoltAgent/awesome-design-md",
+      "contributors": [
+        {
+          "username": "necatiozmen",
+          "url": "https://github.com/necatiozmen"
+        },
+        {
+          "username": "omeraplak",
+          "url": "https://github.com/omeraplak"
+        },
+        {
+          "username": "doanbactam",
+          "url": "https://github.com/doanbactam"
+        },
+        {
+          "username": "LeeDoYup",
+          "url": "https://github.com/LeeDoYup"
+        }
+      ],
+      "description": "A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.",
+      "primary_language": null,
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "LeeDoYup: location=New York"
+      ]
+    },
+    {
+      "repository_name": "averygan/reclip",
+      "url": "https://github.com/averygan/reclip",
+      "contributors": [
+        {
+          "username": "averygan",
+          "url": "https://github.com/averygan"
+        },
+        {
+          "username": "jouls0217",
+          "url": "https://github.com/jouls0217"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "AmanoSpica",
+          "url": "https://github.com/AmanoSpica"
+        }
+      ],
+      "description": "Download videos from almost any website. Lightweight, self-hosted media downloader with a clean web UI.",
+      "primary_language": "HTML",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "Japan",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "AmanoSpica: location=Japan"
+      ]
+    },
+    {
+      "repository_name": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "contributors": [
+        {
+          "username": "affaan-m",
+          "url": "https://github.com/affaan-m"
+        },
+        {
+          "username": "haelyra",
+          "url": "https://github.com/haelyra"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "pangerlkr",
+          "url": "https://github.com/pangerlkr"
+        }
+      ],
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United States",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "affaan-m: location=NYC"
+      ]
+    },
+    {
+      "repository_name": "unclecode/crawl4ai",
+      "url": "https://github.com/unclecode/crawl4ai",
+      "contributors": [
+        {
+          "username": "unclecode",
+          "url": "https://github.com/unclecode"
+        },
+        {
+          "username": "ntohidi",
+          "url": "https://github.com/ntohidi"
+        },
+        {
+          "username": "aravindkarnam",
+          "url": "https://github.com/aravindkarnam"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "SohamKukreti",
+          "url": "https://github.com/SohamKukreti"
+        }
+      ],
+      "description": "🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    }
+  ]
+}
