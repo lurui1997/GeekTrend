@@ -1,0 +1,561 @@
+{
+  "fetched_at": "2026-09-09T01:37:24+08:00",
+  "source_url": "https://github.com/trending/",
+  "repository_count": 16,
+  "ai_agent_project_count": 10,
+  "ai_agent_project_ratio": 0.625,
+  "repositories": [
+    {
+      "repository_name": "ayghri/i-have-adhd",
+      "url": "https://github.com/ayghri/i-have-adhd",
+      "contributors": [
+        {
+          "username": "ayghri",
+          "url": "https://github.com/ayghri"
+        },
+        {
+          "username": "thejesh23",
+          "url": "https://github.com/thejesh23"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "SillyDark",
+          "url": "https://github.com/SillyDark"
+        },
+        {
+          "username": "commie70",
+          "url": "https://github.com/commie70"
+        }
+      ],
+      "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "cathrynlavery/diagram-design",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "contributors": [
+        {
+          "username": "cathrynlavery",
+          "url": "https://github.com/cathrynlavery"
+        },
+        {
+          "username": "parveen0029",
+          "url": "https://github.com/parveen0029"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "mvanhorn",
+          "url": "https://github.com/mvanhorn"
+        },
+        {
+          "username": "web-flow",
+          "url": "https://github.com/web-flow"
+        }
+      ],
+      "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "primary_language": "HTML",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "openai/skills",
+      "url": "https://github.com/openai/skills",
+      "contributors": [
+        {
+          "username": "dkundel-openai",
+          "url": "https://github.com/dkundel-openai"
+        },
+        {
+          "username": "gverma-openai",
+          "url": "https://github.com/gverma-openai"
+        },
+        {
+          "username": "vb-openai",
+          "url": "https://github.com/vb-openai"
+        },
+        {
+          "username": "ae-openai",
+          "url": "https://github.com/ae-openai"
+        },
+        {
+          "username": "quuu",
+          "url": "https://github.com/quuu"
+        }
+      ],
+      "description": "Skills Catalog for Codex",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "contributors": [
+        {
+          "username": "affaan-m",
+          "url": "https://github.com/affaan-m"
+        },
+        {
+          "username": "haelyra",
+          "url": "https://github.com/haelyra"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "pangerlkr",
+          "url": "https://github.com/pangerlkr"
+        }
+      ],
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United States",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "affaan-m: location=NYC"
+      ]
+    },
+    {
+      "repository_name": "heygen-com/hyperframes",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "contributors": [
+        {
+          "username": "miguel-heygen",
+          "url": "https://github.com/miguel-heygen"
+        },
+        {
+          "username": "vanceingalls",
+          "url": "https://github.com/vanceingalls"
+        },
+        {
+          "username": "jrusso1020",
+          "url": "https://github.com/jrusso1020"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "ukimsanov",
+          "url": "https://github.com/ukimsanov"
+        }
+      ],
+      "description": "Write HTML. Render video. Built for agents.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "jrusso1020: location=Ft. Lauderdale, Florida -> New York, New York"
+      ]
+    },
+    {
+      "repository_name": "coreyhaines31/marketingskills",
+      "url": "https://github.com/coreyhaines31/marketingskills",
+      "contributors": [
+        {
+          "username": "coreyhaines31",
+          "url": "https://github.com/coreyhaines31"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "njcameron",
+          "url": "https://github.com/njcameron"
+        },
+        {
+          "username": "Jiliac",
+          "url": "https://github.com/Jiliac"
+        },
+        {
+          "username": "basseko",
+          "url": "https://github.com/basseko"
+        }
+      ],
+      "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United States",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "coreyhaines31: location=San Diego"
+      ]
+    },
+    {
+      "repository_name": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "contributors": [
+        {
+          "username": "obra",
+          "url": "https://github.com/obra"
+        },
+        {
+          "username": "arittr",
+          "url": "https://github.com/arittr"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "clkao",
+          "url": "https://github.com/clkao"
+        },
+        {
+          "username": "jjshanks",
+          "url": "https://github.com/jjshanks"
+        }
+      ],
+      "description": "An agentic skills framework & software development methodology that works.",
+      "primary_language": "Shell",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "multica-ai/andrej-karpathy-skills",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "contributors": [
+        {
+          "username": "forrestchang",
+          "url": "https://github.com/forrestchang"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "back1ply",
+          "url": "https://github.com/back1ply"
+        },
+        {
+          "username": "herobrine19",
+          "url": "https://github.com/herobrine19"
+        },
+        {
+          "username": "szkocot",
+          "url": "https://github.com/szkocot"
+        }
+      ],
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "primary_language": null,
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "microsoft/markitdown",
+      "url": "https://github.com/microsoft/markitdown",
+      "contributors": [
+        {
+          "username": "afourney",
+          "url": "https://github.com/afourney"
+        },
+        {
+          "username": "gagb",
+          "url": "https://github.com/gagb"
+        },
+        {
+          "username": "sugatoray",
+          "url": "https://github.com/sugatoray"
+        },
+        {
+          "username": "PetrAPConsulting",
+          "url": "https://github.com/PetrAPConsulting"
+        },
+        {
+          "username": "l-lumin",
+          "url": "https://github.com/l-lumin"
+        }
+      ],
+      "description": "Python tool for converting files and office documents to Markdown.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "sugatoray: location=Indiana, USA"
+      ]
+    },
+    {
+      "repository_name": "jo-inc/camofox-browser",
+      "url": "https://github.com/jo-inc/camofox-browser",
+      "contributors": [
+        {
+          "username": "skyfallsin",
+          "url": "https://github.com/skyfallsin"
+        },
+        {
+          "username": "mvanhorn",
+          "url": "https://github.com/mvanhorn"
+        },
+        {
+          "username": "epicsagas",
+          "url": "https://github.com/epicsagas"
+        },
+        {
+          "username": "leoneparise",
+          "url": "https://github.com/leoneparise"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        }
+      ],
+      "description": "Stealth headless browser for AI agents — bypass Cloudflare, bot detection, and anti-scraping. Drop-in Puppeteer/Playwright replacement.",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "MoonTechLab/LunaTV",
+      "url": "https://github.com/MoonTechLab/LunaTV",
+      "contributors": [
+        {
+          "username": "senshinya",
+          "url": "https://github.com/senshinya"
+        },
+        {
+          "username": "JohnsonRan",
+          "url": "https://github.com/JohnsonRan"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "1411430556",
+          "url": "https://github.com/1411430556"
+        }
+      ],
+      "description": "本项目采用 CC BY-NC-SA 协议，禁止任何商业化行为，任何衍生项目必须保留本项目地址并以相同协议开源",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "Japan",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "JohnsonRan: location=Japan"
+      ]
+    },
+    {
+      "repository_name": "browser-use/browser-use",
+      "url": "https://github.com/browser-use/browser-use",
+      "contributors": [
+        {
+          "username": "MagMueller",
+          "url": "https://github.com/MagMueller"
+        },
+        {
+          "username": "pirate",
+          "url": "https://github.com/pirate"
+        },
+        {
+          "username": "mertunsall",
+          "url": "https://github.com/mertunsall"
+        },
+        {
+          "username": "sauravpanda",
+          "url": "https://github.com/sauravpanda"
+        },
+        {
+          "username": "gregpr07",
+          "url": "https://github.com/gregpr07"
+        }
+      ],
+      "description": "🌐 Make websites accessible for AI agents. Automate tasks online with ease.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "mksglu/context-mode",
+      "url": "https://github.com/mksglu/context-mode",
+      "contributors": [
+        {
+          "username": "mksglu",
+          "url": "https://github.com/mksglu"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "ipedro",
+          "url": "https://github.com/ipedro"
+        },
+        {
+          "username": "ousamabenyounes",
+          "url": "https://github.com/ousamabenyounes"
+        }
+      ],
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "mksglu: location=London"
+      ]
+    },
+    {
+      "repository_name": "The-Swarm-Corporation/AutoHedge",
+      "url": "https://github.com/The-Swarm-Corporation/AutoHedge",
+      "contributors": [
+        {
+          "username": "kyegomez",
+          "url": "https://github.com/kyegomez"
+        }
+      ],
+      "description": "Build your autonomous hedge fund in minutes. AutoHedge harnesses the power of swarm intelligence and AI agents to automate market analysis, risk management, and trade execution.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "viarotel-org/escrcpy",
+      "url": "https://github.com/viarotel-org/escrcpy",
+      "contributors": [
+        {
+          "username": "viarotel",
+          "url": "https://github.com/viarotel"
+        },
+        {
+          "username": "reindex-ot",
+          "url": "https://github.com/reindex-ot"
+        },
+        {
+          "username": "dainamiter",
+          "url": "https://github.com/dainamiter"
+        },
+        {
+          "username": "salmanmkc",
+          "url": "https://github.com/salmanmkc"
+        },
+        {
+          "username": "ahmed-0011",
+          "url": "https://github.com/ahmed-0011"
+        }
+      ],
+      "description": "📱 Display and control your Android device graphically with scrcpy.",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "Japan",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "reindex-ot: location=Ibaraki-ken, Japan"
+      ]
+    },
+    {
+      "repository_name": "openai/plugins",
+      "url": "https://github.com/openai/plugins",
+      "contributors": [
+        {
+          "username": "cching-openai",
+          "url": "https://github.com/cching-openai"
+        },
+        {
+          "username": "ashwinm-oai",
+          "url": "https://github.com/ashwinm-oai"
+        },
+        {
+          "username": "Aismit",
+          "url": "https://github.com/Aismit"
+        },
+        {
+          "username": "vb-openai",
+          "url": "https://github.com/vb-openai"
+        },
+        {
+          "username": "gverma-openai",
+          "url": "https://github.com/gverma-openai"
+        }
+      ],
+      "description": "OpenAI Plugins",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    }
+  ]
+}
