@@ -1,0 +1,565 @@
+{
+  "fetched_at": "2026-09-11T01:21:14+08:00",
+  "source_url": "https://github.com/trending/",
+  "repository_count": 16,
+  "ai_agent_project_count": 14,
+  "ai_agent_project_ratio": 0.875,
+  "repositories": [
+    {
+      "repository_name": "ayghri/i-have-adhd",
+      "url": "https://github.com/ayghri/i-have-adhd",
+      "contributors": [
+        {
+          "username": "ayghri",
+          "url": "https://github.com/ayghri"
+        },
+        {
+          "username": "thejesh23",
+          "url": "https://github.com/thejesh23"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "SillyDark",
+          "url": "https://github.com/SillyDark"
+        },
+        {
+          "username": "commie70",
+          "url": "https://github.com/commie70"
+        }
+      ],
+      "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "bilawalsidhu/gods-eye-view",
+      "url": "https://github.com/bilawalsidhu/gods-eye-view",
+      "contributors": [
+        {
+          "username": "bilawalsidhu",
+          "url": "https://github.com/bilawalsidhu"
+        },
+        {
+          "username": "ethanstoner",
+          "url": "https://github.com/ethanstoner"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "yangsongsf",
+          "url": "https://github.com/yangsongsf"
+        },
+        {
+          "username": "prajwal-raj",
+          "url": "https://github.com/prajwal-raj"
+        }
+      ],
+      "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "prajwal-raj: company=CygnusAlpha"
+      ]
+    },
+    {
+      "repository_name": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "contributors": [
+        {
+          "username": "obra",
+          "url": "https://github.com/obra"
+        },
+        {
+          "username": "arittr",
+          "url": "https://github.com/arittr"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "clkao",
+          "url": "https://github.com/clkao"
+        },
+        {
+          "username": "jjshanks",
+          "url": "https://github.com/jjshanks"
+        }
+      ],
+      "description": "An agentic skills framework & software development methodology that works.",
+      "primary_language": "Shell",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "alsk1992/CloddsBot",
+      "url": "https://github.com/alsk1992/CloddsBot",
+      "contributors": [
+        {
+          "username": "alsk1992",
+          "url": "https://github.com/alsk1992"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "nox-oss",
+          "url": "https://github.com/nox-oss"
+        }
+      ],
+      "description": "Open Source AI trading agent that operates autonomously across 1000+ markets - Polymarket, Kalshi, Binance, Hyperliquid, Solana DEXs, 5 EVM chains. Scans for edge, executes instantly, manages risk while you sleep. Agent commerce protocol for machine-to-machine payments. Self-hosted. Built on Claude.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "Tencent/teamai-cli",
+      "url": "https://github.com/Tencent/teamai-cli",
+      "contributors": [
+        {
+          "username": "jeff-r2026",
+          "url": "https://github.com/jeff-r2026"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "m0Nst3r873",
+          "url": "https://github.com/m0Nst3r873"
+        },
+        {
+          "username": "cursoragent",
+          "url": "https://github.com/cursoragent"
+        },
+        {
+          "username": "Eyre921",
+          "url": "https://github.com/Eyre921"
+        }
+      ],
+      "description": "Make Every Team AI Native",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "AlexsJones/llmfit",
+      "url": "https://github.com/AlexsJones/llmfit",
+      "contributors": [
+        {
+          "username": "AlexsJones",
+          "url": "https://github.com/AlexsJones"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "three-foxes-in-a-trenchcoat",
+          "url": "https://github.com/three-foxes-in-a-trenchcoat"
+        }
+      ],
+      "description": "Hundreds of models & providers. One command to find what runs on your hardware.",
+      "primary_language": "Rust",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "AlexsJones: location=London"
+      ]
+    },
+    {
+      "repository_name": "liquidslr/system-design-notes",
+      "url": "https://github.com/liquidslr/system-design-notes",
+      "contributors": [
+        {
+          "username": "liquidslr",
+          "url": "https://github.com/liquidslr"
+        },
+        {
+          "username": "emmadonjo",
+          "url": "https://github.com/emmadonjo"
+        },
+        {
+          "username": "stym01",
+          "url": "https://github.com/stym01"
+        }
+      ],
+      "description": "Notes of the book System Desgin Interview - An Insider's Guide",
+      "primary_language": null,
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "liquidslr: location=New York"
+      ]
+    },
+    {
+      "repository_name": "cathrynlavery/diagram-design",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "contributors": [
+        {
+          "username": "cathrynlavery",
+          "url": "https://github.com/cathrynlavery"
+        },
+        {
+          "username": "parveen0029",
+          "url": "https://github.com/parveen0029"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "mvanhorn",
+          "url": "https://github.com/mvanhorn"
+        },
+        {
+          "username": "web-flow",
+          "url": "https://github.com/web-flow"
+        }
+      ],
+      "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "primary_language": "HTML",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "freestylefly/awesome-gpt-image-2",
+      "url": "https://github.com/freestylefly/awesome-gpt-image-2",
+      "contributors": [
+        {
+          "username": "freestylefly",
+          "url": "https://github.com/freestylefly"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "ImgBotApp",
+          "url": "https://github.com/ImgBotApp"
+        },
+        {
+          "username": "LengShangbai",
+          "url": "https://github.com/LengShangbai"
+        },
+        {
+          "username": "sscodeai",
+          "url": "https://github.com/sscodeai"
+        }
+      ],
+      "description": "Prompt as Code | GPT Image 2 / 2.5 提示词与案例库，530+ 个案例、20+ 套工业级模板与可复用 Skills，新增 2.5 同提示词对比专区，附完整提示词与生成记录，持续更新。",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "Japan",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "sscodeai: location=Japan"
+      ]
+    },
+    {
+      "repository_name": "armory3d/armorpaint",
+      "url": "https://github.com/armory3d/armorpaint",
+      "contributors": [
+        {
+          "username": "luboslenco",
+          "url": "https://github.com/luboslenco"
+        },
+        {
+          "username": "MathemanFlo",
+          "url": "https://github.com/MathemanFlo"
+        },
+        {
+          "username": "shiena",
+          "url": "https://github.com/shiena"
+        },
+        {
+          "username": "lidorY",
+          "url": "https://github.com/lidorY"
+        },
+        {
+          "username": "Xephobia",
+          "url": "https://github.com/Xephobia"
+        }
+      ],
+      "description": "Graphics Creation Tools",
+      "primary_language": "C",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "Japan",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "shiena: location=Tokyo, Japan"
+      ]
+    },
+    {
+      "repository_name": "diegosouzapw/OmniRoute",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "contributors": [
+        {
+          "username": "diegosouzapw",
+          "url": "https://github.com/diegosouzapw"
+        },
+        {
+          "username": "backryun",
+          "url": "https://github.com/backryun"
+        },
+        {
+          "username": "oyi77",
+          "url": "https://github.com/oyi77"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        }
+      ],
+      "description": "Never stop coding. Free MIT AI gateway: one endpoint, 352 providers (150+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 550+ contributors",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "JustVugg/colibri",
+      "url": "https://github.com/JustVugg/colibri",
+      "contributors": [
+        {
+          "username": "JustVugg",
+          "url": "https://github.com/JustVugg"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "ZacharyZcR",
+          "url": "https://github.com/ZacharyZcR"
+        },
+        {
+          "username": "monotophic",
+          "url": "https://github.com/monotophic"
+        },
+        {
+          "username": "steve-m",
+          "url": "https://github.com/steve-m"
+        }
+      ],
+      "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
+      "primary_language": "C",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "THU-MAIC/OpenMAIC",
+      "url": "https://github.com/THU-MAIC/OpenMAIC",
+      "contributors": [
+        {
+          "username": "wyuc",
+          "url": "https://github.com/wyuc"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "cosarah",
+          "url": "https://github.com/cosarah"
+        },
+        {
+          "username": "YizukiAme",
+          "url": "https://github.com/YizukiAme"
+        },
+        {
+          "username": "ly-wang19",
+          "url": "https://github.com/ly-wang19"
+        }
+      ],
+      "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "China",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "cosarah: location=Beijing"
+      ]
+    },
+    {
+      "repository_name": "nashsu/llm_wiki",
+      "url": "https://github.com/nashsu/llm_wiki",
+      "contributors": [
+        {
+          "username": "nashsu",
+          "url": "https://github.com/nashsu"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "skfan135",
+          "url": "https://github.com/skfan135"
+        },
+        {
+          "username": "AndrewDongminYoo",
+          "url": "https://github.com/AndrewDongminYoo"
+        },
+        {
+          "username": "chuenchen309",
+          "url": "https://github.com/chuenchen309"
+        }
+      ],
+      "description": "LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base — automatically. Instead of traditional RAG (retrieve-and-answer from scratch every time), the LLM incrementally builds and maintains a persistent wiki from your sources。",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "vercel-labs/skills",
+      "url": "https://github.com/vercel-labs/skills",
+      "contributors": [
+        {
+          "username": "quuu",
+          "url": "https://github.com/quuu"
+        },
+        {
+          "username": "huozhi",
+          "url": "https://github.com/huozhi"
+        },
+        {
+          "username": "jonathanhefner",
+          "url": "https://github.com/jonathanhefner"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        }
+      ],
+      "description": "The open agent skills tool - npx skills",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "vastsa/PI-Desktop",
+      "url": "https://github.com/vastsa/PI-Desktop",
+      "contributors": [
+        {
+          "username": "vastsa",
+          "url": "https://github.com/vastsa"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "Tioit-Wang",
+          "url": "https://github.com/Tioit-Wang"
+        },
+        {
+          "username": "yg2224",
+          "url": "https://github.com/yg2224"
+        },
+        {
+          "username": "BioYue",
+          "url": "https://github.com/BioYue"
+        }
+      ],
+      "description": "Local-first AI coding agent desktop: Electron + Rust host core + pi Agent Harness + user-installable plugins",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    }
+  ]
+}
