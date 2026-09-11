@@ -1,0 +1,569 @@
+{
+  "fetched_at": "2026-09-12T04:08:07+08:00",
+  "source_url": "https://github.com/trending/",
+  "repository_count": 16,
+  "ai_agent_project_count": 12,
+  "ai_agent_project_ratio": 0.75,
+  "repositories": [
+    {
+      "repository_name": "ayghri/i-have-adhd",
+      "url": "https://github.com/ayghri/i-have-adhd",
+      "contributors": [
+        {
+          "username": "ayghri",
+          "url": "https://github.com/ayghri"
+        },
+        {
+          "username": "thejesh23",
+          "url": "https://github.com/thejesh23"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "SillyDark",
+          "url": "https://github.com/SillyDark"
+        },
+        {
+          "username": "commie70",
+          "url": "https://github.com/commie70"
+        }
+      ],
+      "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "bilawalsidhu/gods-eye-view",
+      "url": "https://github.com/bilawalsidhu/gods-eye-view",
+      "contributors": [
+        {
+          "username": "bilawalsidhu",
+          "url": "https://github.com/bilawalsidhu"
+        },
+        {
+          "username": "samehkhamis",
+          "url": "https://github.com/samehkhamis"
+        },
+        {
+          "username": "Tom-Neverwinter",
+          "url": "https://github.com/Tom-Neverwinter"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "manjunath22466",
+          "url": "https://github.com/manjunath22466"
+        }
+      ],
+      "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "nab138/iloader",
+      "url": "https://github.com/nab138/iloader",
+      "contributors": [
+        {
+          "username": "nab138",
+          "url": "https://github.com/nab138"
+        },
+        {
+          "username": "okinaau",
+          "url": "https://github.com/okinaau"
+        },
+        {
+          "username": "baocreata",
+          "url": "https://github.com/baocreata"
+        },
+        {
+          "username": "se2crid",
+          "url": "https://github.com/se2crid"
+        },
+        {
+          "username": "CelloSerenity",
+          "url": "https://github.com/CelloSerenity"
+        }
+      ],
+      "description": "User friendly sideloader",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "CelloSerenity: location=United States"
+      ]
+    },
+    {
+      "repository_name": "melgarafael/DeskcommCRM",
+      "url": "https://github.com/melgarafael/DeskcommCRM",
+      "contributors": [
+        {
+          "username": "melgarafael",
+          "url": "https://github.com/melgarafael"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "jmpo",
+          "url": "https://github.com/jmpo"
+        },
+        {
+          "username": "JowaniOrantes",
+          "url": "https://github.com/JowaniOrantes"
+        },
+        {
+          "username": "rafaelmelgaco",
+          "url": "https://github.com/rafaelmelgaco"
+        }
+      ],
+      "description": "Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "vastsa/PI-Desktop",
+      "url": "https://github.com/vastsa/PI-Desktop",
+      "contributors": [
+        {
+          "username": "vastsa",
+          "url": "https://github.com/vastsa"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "Tioit-Wang",
+          "url": "https://github.com/Tioit-Wang"
+        },
+        {
+          "username": "yg2224",
+          "url": "https://github.com/yg2224"
+        },
+        {
+          "username": "BioYue",
+          "url": "https://github.com/BioYue"
+        }
+      ],
+      "description": "Local-first AI coding agent desktop: Electron + Rust host core + pi Agent Harness + user-installable plugins",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "armory3d/armorpaint",
+      "url": "https://github.com/armory3d/armorpaint",
+      "contributors": [
+        {
+          "username": "luboslenco",
+          "url": "https://github.com/luboslenco"
+        },
+        {
+          "username": "MathemanFlo",
+          "url": "https://github.com/MathemanFlo"
+        },
+        {
+          "username": "shiena",
+          "url": "https://github.com/shiena"
+        },
+        {
+          "username": "lidorY",
+          "url": "https://github.com/lidorY"
+        },
+        {
+          "username": "Xephobia",
+          "url": "https://github.com/Xephobia"
+        }
+      ],
+      "description": "Graphics Creation Tools",
+      "primary_language": "C",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "Japan",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "shiena: location=Tokyo, Japan"
+      ]
+    },
+    {
+      "repository_name": "alsk1992/CloddsBot",
+      "url": "https://github.com/alsk1992/CloddsBot",
+      "contributors": [
+        {
+          "username": "alsk1992",
+          "url": "https://github.com/alsk1992"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "dajiaohuang",
+          "url": "https://github.com/dajiaohuang"
+        },
+        {
+          "username": "nox-oss",
+          "url": "https://github.com/nox-oss"
+        }
+      ],
+      "description": "Open Source AI trading agent that operates autonomously across 1000+ markets - Polymarket, Kalshi, Binance, Hyperliquid, Solana DEXs, 5 EVM chains. Scans for edge, executes instantly, manages risk while you sleep. Agent commerce protocol for machine-to-machine payments. Self-hosted. Built on Claude.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "nashsu/llm_wiki",
+      "url": "https://github.com/nashsu/llm_wiki",
+      "contributors": [
+        {
+          "username": "nashsu",
+          "url": "https://github.com/nashsu"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "skfan135",
+          "url": "https://github.com/skfan135"
+        },
+        {
+          "username": "AndrewDongminYoo",
+          "url": "https://github.com/AndrewDongminYoo"
+        },
+        {
+          "username": "chuenchen309",
+          "url": "https://github.com/chuenchen309"
+        }
+      ],
+      "description": "LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base — automatically. Instead of traditional RAG (retrieve-and-answer from scratch every time), the LLM incrementally builds and maintains a persistent wiki from your sources。",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "contributors": [
+        {
+          "username": "obra",
+          "url": "https://github.com/obra"
+        },
+        {
+          "username": "arittr",
+          "url": "https://github.com/arittr"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "clkao",
+          "url": "https://github.com/clkao"
+        },
+        {
+          "username": "jjshanks",
+          "url": "https://github.com/jjshanks"
+        }
+      ],
+      "description": "An agentic skills framework & software development methodology that works.",
+      "primary_language": "Shell",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "Sonarr/Sonarr",
+      "url": "https://github.com/Sonarr/Sonarr",
+      "contributors": [
+        {
+          "username": "markus101",
+          "url": "https://github.com/markus101"
+        },
+        {
+          "username": "kayone",
+          "url": "https://github.com/kayone"
+        },
+        {
+          "username": "Taloth",
+          "url": "https://github.com/Taloth"
+        },
+        {
+          "username": "mynameisbogdan",
+          "url": "https://github.com/mynameisbogdan"
+        },
+        {
+          "username": "Qstick",
+          "url": "https://github.com/Qstick"
+        }
+      ],
+      "description": "Smart PVR for newsgroup and bittorrent users.",
+      "primary_language": "C#",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "jihe520/MathModelAgent",
+      "url": "https://github.com/jihe520/MathModelAgent",
+      "contributors": [
+        {
+          "username": "jihe520",
+          "url": "https://github.com/jihe520"
+        },
+        {
+          "username": "MuWinds",
+          "url": "https://github.com/MuWinds"
+        },
+        {
+          "username": "HP-Patience",
+          "url": "https://github.com/HP-Patience"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "YangChengyi-dev",
+          "url": "https://github.com/YangChengyi-dev"
+        }
+      ],
+      "description": "🤖📐专为数学建模设计的 Agent & skills ,自动完成数学建模，生成一份完整的可以直接提交的论文。 An Agent Designed for Mathematical Modeling ,Automatically complete mathmodel and generate a complete paper ready for submission.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "China",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "jihe520: location=Beijing,China"
+      ]
+    },
+    {
+      "repository_name": "p1neappleXpress/OpenFlux",
+      "url": "https://github.com/p1neappleXpress/OpenFlux",
+      "contributors": [
+        {
+          "username": "p1neappleXpress",
+          "url": "https://github.com/p1neappleXpress"
+        },
+        {
+          "username": "iamfinist",
+          "url": "https://github.com/iamfinist"
+        }
+      ],
+      "description": "Network stack research tool. TCP tunnel with pluggable transports.",
+      "primary_language": "Go",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "jordan-gibbs/hyperresearch",
+      "url": "https://github.com/jordan-gibbs/hyperresearch",
+      "contributors": [
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "polonuim210",
+          "url": "https://github.com/polonuim210"
+        },
+        {
+          "username": "jordan-gibbs",
+          "url": "https://github.com/jordan-gibbs"
+        },
+        {
+          "username": "fduple",
+          "url": "https://github.com/fduple"
+        },
+        {
+          "username": "synqing",
+          "url": "https://github.com/synqing"
+        }
+      ],
+      "description": "Agent-driven research knowledge base. Agents collect, search, and synthesize web research into a persistent, searchable wiki.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "alphaXiv/OpenResearch",
+      "url": "https://github.com/alphaXiv/OpenResearch",
+      "contributors": [
+        {
+          "username": "sox8502",
+          "url": "https://github.com/sox8502"
+        },
+        {
+          "username": "rehaanahmad2013",
+          "url": "https://github.com/rehaanahmad2013"
+        },
+        {
+          "username": "myles332",
+          "url": "https://github.com/myles332"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "dajiaohuang",
+          "url": "https://github.com/dajiaohuang"
+        }
+      ],
+      "description": "Run parallel research agents with any model",
+      "primary_language": "Rust",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "github/spec-kit",
+      "url": "https://github.com/github/spec-kit",
+      "contributors": [
+        {
+          "username": "mnriem",
+          "url": "https://github.com/mnriem"
+        },
+        {
+          "username": "localden",
+          "url": "https://github.com/localden"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        }
+      ],
+      "description": "💫 Toolkit to help you get started with Spec-Driven Development",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "pascalorg/editor",
+      "url": "https://github.com/pascalorg/editor",
+      "contributors": [
+        {
+          "username": "wass08",
+          "url": "https://github.com/wass08"
+        },
+        {
+          "username": "Aymericr",
+          "url": "https://github.com/Aymericr"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "sudhir9297",
+          "url": "https://github.com/sudhir9297"
+        },
+        {
+          "username": "open-pascal",
+          "url": "https://github.com/open-pascal"
+        }
+      ],
+      "description": "Open-source 3D architectural editor with a local CLI, MCP tools, and practical workflows for humans and AI agents.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    }
+  ]
+}
