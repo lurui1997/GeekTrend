@@ -1,0 +1,583 @@
+{
+  "fetched_at": "2026-09-18T20:24:52+08:00",
+  "source_url": "https://github.com/trending/",
+  "repository_count": 17,
+  "ai_agent_project_count": 8,
+  "ai_agent_project_ratio": 0.4706,
+  "repositories": [
+    {
+      "repository_name": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "contributors": [
+        {
+          "username": "literally-dan",
+          "url": "https://github.com/literally-dan"
+        },
+        {
+          "username": "CooperSheroy",
+          "url": "https://github.com/CooperSheroy"
+        },
+        {
+          "username": "kennysarnoski-jarvis",
+          "url": "https://github.com/kennysarnoski-jarvis"
+        }
+      ],
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "anthropics/claude-code",
+      "url": "https://github.com/anthropics/claude-code",
+      "contributors": [
+        {
+          "username": "actions-user",
+          "url": "https://github.com/actions-user"
+        },
+        {
+          "username": "poteat",
+          "url": "https://github.com/poteat"
+        },
+        {
+          "username": "bcherny",
+          "url": "https://github.com/bcherny"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "ant-kurt",
+          "url": "https://github.com/ant-kurt"
+        }
+      ],
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "contributors": [
+        {
+          "username": "lizhengfeng101",
+          "url": "https://github.com/lizhengfeng101"
+        },
+        {
+          "username": "wu21-web",
+          "url": "https://github.com/wu21-web"
+        },
+        {
+          "username": "chethanuk",
+          "url": "https://github.com/chethanuk"
+        },
+        {
+          "username": "stay-foolish-forever",
+          "url": "https://github.com/stay-foolish-forever"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        }
+      ],
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "primary_language": "Go",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "chethanuk: location=London"
+      ]
+    },
+    {
+      "repository_name": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "contributors": [
+        {
+          "username": "affaan-m",
+          "url": "https://github.com/affaan-m"
+        },
+        {
+          "username": "haelyra",
+          "url": "https://github.com/haelyra"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "pangerlkr",
+          "url": "https://github.com/pangerlkr"
+        }
+      ],
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United States",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "affaan-m: location=NYC"
+      ]
+    },
+    {
+      "repository_name": "Tencent/BrowserSkill",
+      "url": "https://github.com/Tencent/BrowserSkill",
+      "contributors": [
+        {
+          "username": "TencentXiaowei",
+          "url": "https://github.com/TencentXiaowei"
+        },
+        {
+          "username": "Ljy-0827",
+          "url": "https://github.com/Ljy-0827"
+        },
+        {
+          "username": "iuyo5678",
+          "url": "https://github.com/iuyo5678"
+        },
+        {
+          "username": "BB-fat",
+          "url": "https://github.com/BB-fat"
+        },
+        {
+          "username": "cursoragent",
+          "url": "https://github.com/cursoragent"
+        }
+      ],
+      "description": "Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "China",
+      "origin_confidence": "medium",
+      "origin_evidence": [
+        "Ljy-0827: location=Beijing",
+        "iuyo5678: location=Beijing",
+        "BB-fat: location=Beijing"
+      ]
+    },
+    {
+      "repository_name": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "contributors": [
+        {
+          "username": "addyosmani",
+          "url": "https://github.com/addyosmani"
+        },
+        {
+          "username": "nucliweb",
+          "url": "https://github.com/nucliweb"
+        },
+        {
+          "username": "federicobartoli",
+          "url": "https://github.com/federicobartoli"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "HMAKT99",
+          "url": "https://github.com/HMAKT99"
+        }
+      ],
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "TencentCloud/Octop",
+      "url": "https://github.com/TencentCloud/Octop",
+      "contributors": [
+        {
+          "username": "jubaoliang",
+          "url": "https://github.com/jubaoliang"
+        },
+        {
+          "username": "jubaoliang-tencent",
+          "url": "https://github.com/jubaoliang-tencent"
+        },
+        {
+          "username": "cursoragent",
+          "url": "https://github.com/cursoragent"
+        },
+        {
+          "username": "liukewia",
+          "url": "https://github.com/liukewia"
+        },
+        {
+          "username": "Pandakingxbc",
+          "url": "https://github.com/Pandakingxbc"
+        }
+      ],
+      "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "China",
+      "origin_confidence": "medium",
+      "origin_evidence": [
+        "jubaoliang: location=Beijing",
+        "Pandakingxbc: location=Beijing"
+      ]
+    },
+    {
+      "repository_name": "Fission-AI/OpenSpec",
+      "url": "https://github.com/Fission-AI/OpenSpec",
+      "contributors": [
+        {
+          "username": "TabishB",
+          "url": "https://github.com/TabishB"
+        },
+        {
+          "username": "clay-good",
+          "url": "https://github.com/clay-good"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        }
+      ],
+      "description": "Spec-driven development (SDD) for AI coding assistants.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "ankitects/anki",
+      "url": "https://github.com/ankitects/anki",
+      "contributors": [
+        {
+          "username": "dae",
+          "url": "https://github.com/dae"
+        },
+        {
+          "username": "hgiesel",
+          "url": "https://github.com/hgiesel"
+        },
+        {
+          "username": "RumovZ",
+          "url": "https://github.com/RumovZ"
+        },
+        {
+          "username": "abdnh",
+          "url": "https://github.com/abdnh"
+        },
+        {
+          "username": "Arthur-Milchior",
+          "url": "https://github.com/Arthur-Milchior"
+        }
+      ],
+      "description": "Anki is a smart spaced repetition flashcard program",
+      "primary_language": "Rust",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "France",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "Arthur-Milchior: location=Paris, France"
+      ]
+    },
+    {
+      "repository_name": "anthropics/knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "contributors": [
+        {
+          "username": "jordanecker-ant",
+          "url": "https://github.com/jordanecker-ant"
+        },
+        {
+          "username": "bryan-anthropic",
+          "url": "https://github.com/bryan-anthropic"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "mattpic-ant",
+          "url": "https://github.com/mattpic-ant"
+        }
+      ],
+      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "supermemoryai/supermemory",
+      "url": "https://github.com/supermemoryai/supermemory",
+      "contributors": [
+        {
+          "username": "Dhravya",
+          "url": "https://github.com/Dhravya"
+        },
+        {
+          "username": "MaheshtheDev",
+          "url": "https://github.com/MaheshtheDev"
+        },
+        {
+          "username": "yxshv",
+          "url": "https://github.com/yxshv"
+        },
+        {
+          "username": "CodeTorso",
+          "url": "https://github.com/CodeTorso"
+        },
+        {
+          "username": "ved015",
+          "url": "https://github.com/ved015"
+        }
+      ],
+      "description": "Memory and context engine + app that is extremely fast, scalable, and can be run fully locally. The Memory API for the AI era.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "tradesdontlie/tradingview-mcp",
+      "url": "https://github.com/tradesdontlie/tradingview-mcp",
+      "contributors": [
+        {
+          "username": "tradesdontlie",
+          "url": "https://github.com/tradesdontlie"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "xxhanselxx-sudo",
+          "url": "https://github.com/xxhanselxx-sudo"
+        },
+        {
+          "username": "jawadtazi-dot",
+          "url": "https://github.com/jawadtazi-dot"
+        },
+        {
+          "username": "wowkin2",
+          "url": "https://github.com/wowkin2"
+        }
+      ],
+      "description": "AI-assisted TradingView chart analysis — connect Claude Code to your TradingView Desktop for personal workflow automation",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "wowkin2: location=Ukraine"
+      ]
+    },
+    {
+      "repository_name": "rustfs/rustfs",
+      "url": "https://github.com/rustfs/rustfs",
+      "contributors": [
+        {
+          "username": "overtrue",
+          "url": "https://github.com/overtrue"
+        },
+        {
+          "username": "houseme",
+          "url": "https://github.com/houseme"
+        },
+        {
+          "username": "heihutu",
+          "url": "https://github.com/heihutu"
+        },
+        {
+          "username": "weisd",
+          "url": "https://github.com/weisd"
+        },
+        {
+          "username": "cxymds",
+          "url": "https://github.com/cxymds"
+        }
+      ],
+      "description": "RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.",
+      "primary_language": "Rust",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "supabase/supabase",
+      "url": "https://github.com/supabase/supabase",
+      "contributors": [
+        {
+          "username": "joshenlim",
+          "url": "https://github.com/joshenlim"
+        },
+        {
+          "username": "kiwicopple",
+          "url": "https://github.com/kiwicopple"
+        },
+        {
+          "username": "MildTomato",
+          "url": "https://github.com/MildTomato"
+        },
+        {
+          "username": "saltcod",
+          "url": "https://github.com/saltcod"
+        },
+        {
+          "username": "alaister",
+          "url": "https://github.com/alaister"
+        }
+      ],
+      "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "coder/coder",
+      "url": "https://github.com/coder/coder",
+      "contributors": [
+        {
+          "username": "kylecarbs",
+          "url": "https://github.com/kylecarbs"
+        },
+        {
+          "username": "mafredri",
+          "url": "https://github.com/mafredri"
+        },
+        {
+          "username": "johnstcn",
+          "url": "https://github.com/johnstcn"
+        },
+        {
+          "username": "Emyrk",
+          "url": "https://github.com/Emyrk"
+        }
+      ],
+      "description": "Secure environments for developers and their agents",
+      "primary_language": "Go",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "kylecarbs: location=New York, NY"
+      ]
+    },
+    {
+      "repository_name": "ahmedkhaleel2004/gitdiagram",
+      "url": "https://github.com/ahmedkhaleel2004/gitdiagram",
+      "contributors": [
+        {
+          "username": "ahmedkhaleel2004",
+          "url": "https://github.com/ahmedkhaleel2004"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "martin226",
+          "url": "https://github.com/martin226"
+        }
+      ],
+      "description": "Free, simple, fast interactive diagrams for any GitHub repository",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "martin226: location=nyc"
+      ]
+    },
+    {
+      "repository_name": "asciimoo/hister",
+      "url": "https://github.com/asciimoo/hister",
+      "contributors": [
+        {
+          "username": "asciimoo",
+          "url": "https://github.com/asciimoo"
+        },
+        {
+          "username": "4evy",
+          "url": "https://github.com/4evy"
+        },
+        {
+          "username": "ISSOtm",
+          "url": "https://github.com/ISSOtm"
+        },
+        {
+          "username": "Shadowbee27",
+          "url": "https://github.com/Shadowbee27"
+        }
+      ],
+      "description": "Your own search engine",
+      "primary_language": "Go",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "France",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "ISSOtm: location=France"
+      ]
+    }
+  ]
+}
