@@ -1,0 +1,415 @@
+{
+  "fetched_at": "2026-09-21T07:48:06+08:00",
+  "source_url": "https://github.com/trending/",
+  "repository_count": 13,
+  "ai_agent_project_count": 5,
+  "ai_agent_project_ratio": 0.3846,
+  "repositories": [
+    {
+      "repository_name": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "contributors": [
+        {
+          "username": "affaan-m",
+          "url": "https://github.com/affaan-m"
+        },
+        {
+          "username": "haelyra",
+          "url": "https://github.com/haelyra"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "pangerlkr",
+          "url": "https://github.com/pangerlkr"
+        }
+      ],
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United States",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "affaan-m: location=NYC"
+      ]
+    },
+    {
+      "repository_name": "BuilderIO/agent-native",
+      "url": "https://github.com/BuilderIO/agent-native",
+      "contributors": [
+        {
+          "username": "steve8708",
+          "url": "https://github.com/steve8708"
+        },
+        {
+          "username": "builderio-bot",
+          "url": "https://github.com/builderio-bot"
+        },
+        {
+          "username": "3mdistal",
+          "url": "https://github.com/3mdistal"
+        }
+      ],
+      "description": "A framework for building agentic apps",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "contributors": [
+        {
+          "username": "literally-dan",
+          "url": "https://github.com/literally-dan"
+        },
+        {
+          "username": "CooperSheroy",
+          "url": "https://github.com/CooperSheroy"
+        },
+        {
+          "username": "kennysarnoski-jarvis",
+          "url": "https://github.com/kennysarnoski-jarvis"
+        }
+      ],
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "trycua/cua",
+      "url": "https://github.com/trycua/cua",
+      "contributors": [
+        {
+          "username": "f-trycua",
+          "url": "https://github.com/f-trycua"
+        },
+        {
+          "username": "ddupont808",
+          "url": "https://github.com/ddupont808"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "r33drichards",
+          "url": "https://github.com/r33drichards"
+        }
+      ],
+      "description": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
+      "primary_language": "HTML",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "anthropics/financial-services",
+      "url": "https://github.com/anthropics/financial-services",
+      "contributors": [
+        {
+          "username": "mihilmy",
+          "url": "https://github.com/mihilmy"
+        },
+        {
+          "username": "cxyback",
+          "url": "https://github.com/cxyback"
+        },
+        {
+          "username": "manar-ant",
+          "url": "https://github.com/manar-ant"
+        },
+        {
+          "username": "tobinsouth",
+          "url": "https://github.com/tobinsouth"
+        },
+        {
+          "username": "viveknair",
+          "url": "https://github.com/viveknair"
+        }
+      ],
+      "description": null,
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "medium",
+      "origin_evidence": [
+        "mihilmy: location=NYC",
+        "viveknair: location=Williamsburg, Brooklyn, NYC"
+      ]
+    },
+    {
+      "repository_name": "paperless-ngx/paperless-ngx",
+      "url": "https://github.com/paperless-ngx/paperless-ngx",
+      "contributors": [
+        {
+          "username": "shamoon",
+          "url": "https://github.com/shamoon"
+        },
+        {
+          "username": "stumpylog",
+          "url": "https://github.com/stumpylog"
+        },
+        {
+          "username": "danielquinn",
+          "url": "https://github.com/danielquinn"
+        },
+        {
+          "username": "paperlessngx-bot",
+          "url": "https://github.com/paperlessngx-bot"
+        }
+      ],
+      "description": "A community-supported supercharged document management system: scan, index and archive all your documents",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "danielquinn: location=Cambridge, UK"
+      ]
+    },
+    {
+      "repository_name": "anthropics/claude-code",
+      "url": "https://github.com/anthropics/claude-code",
+      "contributors": [
+        {
+          "username": "actions-user",
+          "url": "https://github.com/actions-user"
+        },
+        {
+          "username": "poteat",
+          "url": "https://github.com/poteat"
+        },
+        {
+          "username": "bcherny",
+          "url": "https://github.com/bcherny"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "ant-kurt",
+          "url": "https://github.com/ant-kurt"
+        }
+      ],
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "mihail911/modern-software-dev-assignments",
+      "url": "https://github.com/mihail911/modern-software-dev-assignments",
+      "contributors": [
+        {
+          "username": "mihail911",
+          "url": "https://github.com/mihail911"
+        },
+        {
+          "username": "febielin",
+          "url": "https://github.com/febielin"
+        }
+      ],
+      "description": "Assignments for CS146S: The Modern Software Dev (Stanford University Fall 2026/2025)",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "higgsfield-ai/higgsfield",
+      "url": "https://github.com/higgsfield-ai/higgsfield",
+      "contributors": [
+        {
+          "username": "arpanetus",
+          "url": "https://github.com/arpanetus"
+        },
+        {
+          "username": "higgsfield",
+          "url": "https://github.com/higgsfield"
+        },
+        {
+          "username": "zxcjhg",
+          "url": "https://github.com/zxcjhg"
+        }
+      ],
+      "description": "Fault-tolerant, highly scalable GPU orchestration, and a machine learning framework designed for training models with billions to trillions of parameters",
+      "primary_language": "Jupyter Notebook",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "Open-Dev-Society/OpenStock",
+      "url": "https://github.com/Open-Dev-Society/OpenStock",
+      "contributors": [
+        {
+          "username": "ravixalgorithm",
+          "url": "https://github.com/ravixalgorithm"
+        },
+        {
+          "username": "keshav-005",
+          "url": "https://github.com/keshav-005"
+        },
+        {
+          "username": "nb-src",
+          "url": "https://github.com/nb-src"
+        },
+        {
+          "username": "chinnsenn",
+          "url": "https://github.com/chinnsenn"
+        }
+      ],
+      "description": "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "coder/coder",
+      "url": "https://github.com/coder/coder",
+      "contributors": [
+        {
+          "username": "kylecarbs",
+          "url": "https://github.com/kylecarbs"
+        },
+        {
+          "username": "mafredri",
+          "url": "https://github.com/mafredri"
+        },
+        {
+          "username": "johnstcn",
+          "url": "https://github.com/johnstcn"
+        },
+        {
+          "username": "Emyrk",
+          "url": "https://github.com/Emyrk"
+        }
+      ],
+      "description": "Secure environments for developers and their agents",
+      "primary_language": "Go",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "kylecarbs: location=New York, NY"
+      ]
+    },
+    {
+      "repository_name": "vercel-labs/json-render",
+      "url": "https://github.com/vercel-labs/json-render",
+      "contributors": [
+        {
+          "username": "ctate",
+          "url": "https://github.com/ctate"
+        },
+        {
+          "username": "Railly",
+          "url": "https://github.com/Railly"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "lucianfialho",
+          "url": "https://github.com/lucianfialho"
+        }
+      ],
+      "description": "The Generative UI framework",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "contributors": [
+        {
+          "username": "addyosmani",
+          "url": "https://github.com/addyosmani"
+        },
+        {
+          "username": "nucliweb",
+          "url": "https://github.com/nucliweb"
+        },
+        {
+          "username": "federicobartoli",
+          "url": "https://github.com/federicobartoli"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "ayobamiseun",
+          "url": "https://github.com/ayobamiseun"
+        }
+      ],
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    }
+  ]
+}
