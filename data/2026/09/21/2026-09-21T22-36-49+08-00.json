@@ -1,0 +1,391 @@
+{
+  "fetched_at": "2026-09-21T22:36:49+08:00",
+  "source_url": "https://github.com/trending/",
+  "repository_count": 12,
+  "ai_agent_project_count": 4,
+  "ai_agent_project_ratio": 0.3333,
+  "repositories": [
+    {
+      "repository_name": "BuilderIO/agent-native",
+      "url": "https://github.com/BuilderIO/agent-native",
+      "contributors": [
+        {
+          "username": "steve8708",
+          "url": "https://github.com/steve8708"
+        },
+        {
+          "username": "builderio-bot",
+          "url": "https://github.com/builderio-bot"
+        },
+        {
+          "username": "3mdistal",
+          "url": "https://github.com/3mdistal"
+        }
+      ],
+      "description": "A framework for building agentic apps",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "trycua/cua",
+      "url": "https://github.com/trycua/cua",
+      "contributors": [
+        {
+          "username": "f-trycua",
+          "url": "https://github.com/f-trycua"
+        },
+        {
+          "username": "ddupont808",
+          "url": "https://github.com/ddupont808"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "r33drichards",
+          "url": "https://github.com/r33drichards"
+        }
+      ],
+      "description": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
+      "primary_language": "HTML",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "Open-Dev-Society/OpenStock",
+      "url": "https://github.com/Open-Dev-Society/OpenStock",
+      "contributors": [
+        {
+          "username": "ravixalgorithm",
+          "url": "https://github.com/ravixalgorithm"
+        },
+        {
+          "username": "keshav-005",
+          "url": "https://github.com/keshav-005"
+        },
+        {
+          "username": "nb-src",
+          "url": "https://github.com/nb-src"
+        },
+        {
+          "username": "chinnsenn",
+          "url": "https://github.com/chinnsenn"
+        }
+      ],
+      "description": "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "akitaonrails/ai-memory",
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "contributors": [
+        {
+          "username": "akitaonrails",
+          "url": "https://github.com/akitaonrails"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "djalmajr",
+          "url": "https://github.com/djalmajr"
+        },
+        {
+          "username": "samirhvbr",
+          "url": "https://github.com/samirhvbr"
+        },
+        {
+          "username": "wblech",
+          "url": "https://github.com/wblech"
+        }
+      ],
+      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "primary_language": "Rust",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "coder/coder",
+      "url": "https://github.com/coder/coder",
+      "contributors": [
+        {
+          "username": "kylecarbs",
+          "url": "https://github.com/kylecarbs"
+        },
+        {
+          "username": "mafredri",
+          "url": "https://github.com/mafredri"
+        },
+        {
+          "username": "johnstcn",
+          "url": "https://github.com/johnstcn"
+        },
+        {
+          "username": "Emyrk",
+          "url": "https://github.com/Emyrk"
+        }
+      ],
+      "description": "Secure environments for developers and their agents",
+      "primary_language": "Go",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "kylecarbs: location=New York, NY"
+      ]
+    },
+    {
+      "repository_name": "anthropics/financial-services",
+      "url": "https://github.com/anthropics/financial-services",
+      "contributors": [
+        {
+          "username": "mihilmy",
+          "url": "https://github.com/mihilmy"
+        },
+        {
+          "username": "cxyback",
+          "url": "https://github.com/cxyback"
+        },
+        {
+          "username": "manar-ant",
+          "url": "https://github.com/manar-ant"
+        },
+        {
+          "username": "tobinsouth",
+          "url": "https://github.com/tobinsouth"
+        },
+        {
+          "username": "viveknair",
+          "url": "https://github.com/viveknair"
+        }
+      ],
+      "description": null,
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "medium",
+      "origin_evidence": [
+        "mihilmy: location=NYC",
+        "viveknair: location=Williamsburg, Brooklyn, NYC"
+      ]
+    },
+    {
+      "repository_name": "cloudflare/quiche",
+      "url": "https://github.com/cloudflare/quiche",
+      "contributors": [
+        {
+          "username": "ghedo",
+          "url": "https://github.com/ghedo"
+        },
+        {
+          "username": "traviscibot",
+          "url": "https://github.com/traviscibot"
+        },
+        {
+          "username": "LPardue",
+          "url": "https://github.com/LPardue"
+        },
+        {
+          "username": "antoniovicente",
+          "url": "https://github.com/antoniovicente"
+        }
+      ],
+      "description": "🥧 Savoury implementation of the QUIC transport protocol and HTTP/3",
+      "primary_language": "Rust",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "medium",
+      "origin_evidence": [
+        "ghedo: location=London",
+        "LPardue: location=London"
+      ]
+    },
+    {
+      "repository_name": "mvt-project/mvt",
+      "url": "https://github.com/mvt-project/mvt",
+      "contributors": [
+        {
+          "username": "botherder",
+          "url": "https://github.com/botherder"
+        },
+        {
+          "username": "DonnchaC",
+          "url": "https://github.com/DonnchaC"
+        },
+        {
+          "username": "Te-k",
+          "url": "https://github.com/Te-k"
+        },
+        {
+          "username": "besendorf",
+          "url": "https://github.com/besendorf"
+        }
+      ],
+      "description": "MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devices in order to find signs of a potential compromise.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "zhouxiaoka/autoclip",
+      "url": "https://github.com/zhouxiaoka/autoclip",
+      "contributors": [
+        {
+          "username": "zhouxiaoka",
+          "url": "https://github.com/zhouxiaoka"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "cursoragent",
+          "url": "https://github.com/cursoragent"
+        },
+        {
+          "username": "mitsa-ng",
+          "url": "https://github.com/mitsa-ng"
+        }
+      ],
+      "description": "AutoClip : AI-powered video clipping and highlight generation · 一款智能高光提取与剪辑的二创工具",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "China",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "zhouxiaoka: location=Shanghai, China"
+      ]
+    },
+    {
+      "repository_name": "ruanyf/weekly",
+      "url": "https://github.com/ruanyf/weekly",
+      "contributors": [
+        {
+          "username": "ruanyf",
+          "url": "https://github.com/ruanyf"
+        },
+        {
+          "username": "fanofxiaofeng",
+          "url": "https://github.com/fanofxiaofeng"
+        },
+        {
+          "username": "luhuadong",
+          "url": "https://github.com/luhuadong"
+        },
+        {
+          "username": "eltsai",
+          "url": "https://github.com/eltsai"
+        },
+        {
+          "username": "keepwow",
+          "url": "https://github.com/keepwow"
+        }
+      ],
+      "description": "科技爱好者周刊，每周五发布",
+      "primary_language": null,
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "China",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "ruanyf: location=Shanghai, China"
+      ]
+    },
+    {
+      "repository_name": "Crosstalk-Solutions/project-nomad",
+      "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+      "contributors": [
+        {
+          "username": "jakeaturner",
+          "url": "https://github.com/jakeaturner"
+        },
+        {
+          "username": "chriscrosstalk",
+          "url": "https://github.com/chriscrosstalk"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "cosmistack-bot",
+          "url": "https://github.com/cosmistack-bot"
+        }
+      ],
+      "description": "Project NOMAD is an offline-first knowledge and education server. Wikipedia, thousands of books, courses, maps, and optional local AI, all running on hardware you own with no internet required.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "yynxxxxx/Codex-X",
+      "url": "https://github.com/yynxxxxx/Codex-X",
+      "contributors": [
+        {
+          "username": "yynxxxxx",
+          "url": "https://github.com/yynxxxxx"
+        },
+        {
+          "username": "muzimu",
+          "url": "https://github.com/muzimu"
+        }
+      ],
+      "description": "OpenAI Codex 桌面端/CLI 的可视化管理工具，具有Provider/API 切换、会话同步、提示词注入、Skills/MCP 管理、TOML 配置可视化的跨平台工具。",
+      "primary_language": "Rust",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    }
+  ]
+}
