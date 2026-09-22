@@ -1,0 +1,282 @@
+{
+  "fetched_at": "2026-09-23T07:53:15+08:00",
+  "source_url": "https://github.com/trending/",
+  "repository_count": 8,
+  "ai_agent_project_count": 3,
+  "ai_agent_project_ratio": 0.375,
+  "repositories": [
+    {
+      "repository_name": "anthropics/financial-services",
+      "url": "https://github.com/anthropics/financial-services",
+      "contributors": [
+        {
+          "username": "mihilmy",
+          "url": "https://github.com/mihilmy"
+        },
+        {
+          "username": "cxyback",
+          "url": "https://github.com/cxyback"
+        },
+        {
+          "username": "manar-ant",
+          "url": "https://github.com/manar-ant"
+        },
+        {
+          "username": "tobinsouth",
+          "url": "https://github.com/tobinsouth"
+        },
+        {
+          "username": "viveknair",
+          "url": "https://github.com/viveknair"
+        }
+      ],
+      "description": null,
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "medium",
+      "origin_evidence": [
+        "mihilmy: location=NYC",
+        "viveknair: location=Williamsburg, Brooklyn, NYC"
+      ]
+    },
+    {
+      "repository_name": "agent-substrate/substrate",
+      "url": "https://github.com/agent-substrate/substrate",
+      "contributors": [
+        {
+          "username": "BenTheElder",
+          "url": "https://github.com/BenTheElder"
+        },
+        {
+          "username": "juli4n",
+          "url": "https://github.com/juli4n"
+        },
+        {
+          "username": "HavenXia",
+          "url": "https://github.com/HavenXia"
+        },
+        {
+          "username": "thockin",
+          "url": "https://github.com/thockin"
+        },
+        {
+          "username": "zoez7",
+          "url": "https://github.com/zoez7"
+        }
+      ],
+      "description": "Agent Substrate: the core system",
+      "primary_language": "Go",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "thockin: location=United States"
+      ]
+    },
+    {
+      "repository_name": "dream-num/univer",
+      "url": "https://github.com/dream-num/univer",
+      "contributors": [
+        {
+          "username": "jikkai",
+          "url": "https://github.com/jikkai"
+        },
+        {
+          "username": "DR-Univer",
+          "url": "https://github.com/DR-Univer"
+        },
+        {
+          "username": "wzhudev",
+          "url": "https://github.com/wzhudev"
+        },
+        {
+          "username": "Dushusir",
+          "url": "https://github.com/Dushusir"
+        },
+        {
+          "username": "wpxp123456",
+          "url": "https://github.com/wpxp123456"
+        }
+      ],
+      "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "China",
+      "origin_confidence": "medium",
+      "origin_evidence": [
+        "jikkai: location=Shanghai, China",
+        "wzhudev: location=Beijing",
+        "Dushusir: location=Shanghai"
+      ]
+    },
+    {
+      "repository_name": "davila7/claude-code-templates",
+      "url": "https://github.com/davila7/claude-code-templates",
+      "contributors": [
+        {
+          "username": "davila7",
+          "url": "https://github.com/davila7"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        }
+      ],
+      "description": "CLI tool for configuring and monitoring Claude Code",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United States",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "davila7: location=Grand Rapids, Michigan and New York"
+      ]
+    },
+    {
+      "repository_name": "google/ax",
+      "url": "https://github.com/google/ax",
+      "contributors": [
+        {
+          "username": "rakyll",
+          "url": "https://github.com/rakyll"
+        },
+        {
+          "username": "joycel-github",
+          "url": "https://github.com/joycel-github"
+        },
+        {
+          "username": "wjjclaud",
+          "url": "https://github.com/wjjclaud"
+        },
+        {
+          "username": "anj-s",
+          "url": "https://github.com/anj-s"
+        },
+        {
+          "username": "zbl94",
+          "url": "https://github.com/zbl94"
+        }
+      ],
+      "description": "Google's open agentic orchestration runtime",
+      "primary_language": "Go",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "mvt-project/mvt",
+      "url": "https://github.com/mvt-project/mvt",
+      "contributors": [
+        {
+          "username": "botherder",
+          "url": "https://github.com/botherder"
+        },
+        {
+          "username": "DonnchaC",
+          "url": "https://github.com/DonnchaC"
+        },
+        {
+          "username": "Te-k",
+          "url": "https://github.com/Te-k"
+        },
+        {
+          "username": "besendorf",
+          "url": "https://github.com/besendorf"
+        }
+      ],
+      "description": "MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devices in order to find signs of a potential compromise.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "superdesigndev/treg",
+      "url": "https://github.com/superdesigndev/treg",
+      "contributors": [
+        {
+          "username": "JayZeeDesign",
+          "url": "https://github.com/JayZeeDesign"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "stonexer",
+          "url": "https://github.com/stonexer"
+        },
+        {
+          "username": "unclecode",
+          "url": "https://github.com/unclecode"
+        },
+        {
+          "username": "shehjad-dev",
+          "url": "https://github.com/shehjad-dev"
+        }
+      ],
+      "description": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "Bangladesh",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "shehjad-dev: location=Dhaka, Bangladesh"
+      ]
+    },
+    {
+      "repository_name": "browser-use/video-use",
+      "url": "https://github.com/browser-use/video-use",
+      "contributors": [
+        {
+          "username": "gregpr07",
+          "url": "https://github.com/gregpr07"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "ShawnPana",
+          "url": "https://github.com/ShawnPana"
+        },
+        {
+          "username": "sidorovanthon",
+          "url": "https://github.com/sidorovanthon"
+        },
+        {
+          "username": "antoinersx",
+          "url": "https://github.com/antoinersx"
+        }
+      ],
+      "description": "Edit videos with coding agents",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    }
+  ]
+}
