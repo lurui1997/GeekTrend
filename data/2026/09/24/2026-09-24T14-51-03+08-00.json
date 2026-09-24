@@ -1,0 +1,575 @@
+{
+  "fetched_at": "2026-09-24T14:51:03+08:00",
+  "source_url": "https://github.com/trending/",
+  "repository_count": 17,
+  "ai_agent_project_count": 7,
+  "ai_agent_project_ratio": 0.4118,
+  "repositories": [
+    {
+      "repository_name": "anthropics/financial-services",
+      "url": "https://github.com/anthropics/financial-services",
+      "contributors": [
+        {
+          "username": "mihilmy",
+          "url": "https://github.com/mihilmy"
+        },
+        {
+          "username": "cxyback",
+          "url": "https://github.com/cxyback"
+        },
+        {
+          "username": "manar-ant",
+          "url": "https://github.com/manar-ant"
+        },
+        {
+          "username": "tobinsouth",
+          "url": "https://github.com/tobinsouth"
+        },
+        {
+          "username": "viveknair",
+          "url": "https://github.com/viveknair"
+        }
+      ],
+      "description": null,
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "medium",
+      "origin_evidence": [
+        "mihilmy: location=NYC",
+        "viveknair: location=Williamsburg, Brooklyn, NYC"
+      ]
+    },
+    {
+      "repository_name": "google/ax",
+      "url": "https://github.com/google/ax",
+      "contributors": [
+        {
+          "username": "rakyll",
+          "url": "https://github.com/rakyll"
+        },
+        {
+          "username": "joycel-github",
+          "url": "https://github.com/joycel-github"
+        },
+        {
+          "username": "wjjclaud",
+          "url": "https://github.com/wjjclaud"
+        },
+        {
+          "username": "anj-s",
+          "url": "https://github.com/anj-s"
+        },
+        {
+          "username": "zbl94",
+          "url": "https://github.com/zbl94"
+        }
+      ],
+      "description": "Google's open agentic orchestration runtime",
+      "primary_language": "Go",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "davila7/claude-code-templates",
+      "url": "https://github.com/davila7/claude-code-templates",
+      "contributors": [
+        {
+          "username": "davila7",
+          "url": "https://github.com/davila7"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        }
+      ],
+      "description": "CLI tool for configuring and monitoring Claude Code",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United States",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "davila7: location=Grand Rapids, Michigan and New York"
+      ]
+    },
+    {
+      "repository_name": "BuilderIO/agent-native",
+      "url": "https://github.com/BuilderIO/agent-native",
+      "contributors": [
+        {
+          "username": "steve8708",
+          "url": "https://github.com/steve8708"
+        },
+        {
+          "username": "builderio-bot",
+          "url": "https://github.com/builderio-bot"
+        },
+        {
+          "username": "3mdistal",
+          "url": "https://github.com/3mdistal"
+        }
+      ],
+      "description": "A framework for building agentic apps",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "contributors": [
+        {
+          "username": "obra",
+          "url": "https://github.com/obra"
+        },
+        {
+          "username": "arittr",
+          "url": "https://github.com/arittr"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "clkao",
+          "url": "https://github.com/clkao"
+        },
+        {
+          "username": "gaurav0107",
+          "url": "https://github.com/gaurav0107"
+        }
+      ],
+      "description": "An agentic skills framework & software development methodology that works.",
+      "primary_language": "Shell",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "dream-num/univer",
+      "url": "https://github.com/dream-num/univer",
+      "contributors": [
+        {
+          "username": "jikkai",
+          "url": "https://github.com/jikkai"
+        },
+        {
+          "username": "DR-Univer",
+          "url": "https://github.com/DR-Univer"
+        },
+        {
+          "username": "wzhudev",
+          "url": "https://github.com/wzhudev"
+        },
+        {
+          "username": "Dushusir",
+          "url": "https://github.com/Dushusir"
+        },
+        {
+          "username": "wpxp123456",
+          "url": "https://github.com/wpxp123456"
+        }
+      ],
+      "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "China",
+      "origin_confidence": "medium",
+      "origin_evidence": [
+        "jikkai: location=Shanghai, China",
+        "wzhudev: location=Beijing",
+        "Dushusir: location=Shanghai"
+      ]
+    },
+    {
+      "repository_name": "Open-Dev-Society/OpenStock",
+      "url": "https://github.com/Open-Dev-Society/OpenStock",
+      "contributors": [
+        {
+          "username": "ravixalgorithm",
+          "url": "https://github.com/ravixalgorithm"
+        },
+        {
+          "username": "keshav-005",
+          "url": "https://github.com/keshav-005"
+        },
+        {
+          "username": "nb-src",
+          "url": "https://github.com/nb-src"
+        },
+        {
+          "username": "chinnsenn",
+          "url": "https://github.com/chinnsenn"
+        }
+      ],
+      "description": "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "agent-substrate/substrate",
+      "url": "https://github.com/agent-substrate/substrate",
+      "contributors": [
+        {
+          "username": "BenTheElder",
+          "url": "https://github.com/BenTheElder"
+        },
+        {
+          "username": "juli4n",
+          "url": "https://github.com/juli4n"
+        },
+        {
+          "username": "HavenXia",
+          "url": "https://github.com/HavenXia"
+        },
+        {
+          "username": "thockin",
+          "url": "https://github.com/thockin"
+        },
+        {
+          "username": "zoez7",
+          "url": "https://github.com/zoez7"
+        }
+      ],
+      "description": "Agent Substrate: the core system",
+      "primary_language": "Go",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "thockin: location=United States"
+      ]
+    },
+    {
+      "repository_name": "strands-agents/harness-sdk",
+      "url": "https://github.com/strands-agents/harness-sdk",
+      "contributors": [
+        {
+          "username": "zastrowm",
+          "url": "https://github.com/zastrowm"
+        },
+        {
+          "username": "pgrayy",
+          "url": "https://github.com/pgrayy"
+        },
+        {
+          "username": "strands-agent",
+          "url": "https://github.com/strands-agent"
+        },
+        {
+          "username": "yonib05",
+          "url": "https://github.com/yonib05"
+        }
+      ],
+      "description": "Build an agent harness and control it end-to-end. Open-source SDK for production AI agents in Python & TypeScript - any model, any cloud.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "medium",
+      "origin_evidence": [
+        "zastrowm: location=New York",
+        "pgrayy: location=New York",
+        "yonib05: location=New York, NY"
+      ]
+    },
+    {
+      "repository_name": "HKUDS/CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "contributors": [
+        {
+          "username": "yuh-yang",
+          "url": "https://github.com/yuh-yang"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "AiMiDi",
+          "url": "https://github.com/AiMiDi"
+        },
+        {
+          "username": "omerarslan0",
+          "url": "https://github.com/omerarslan0"
+        },
+        {
+          "username": "hito0512",
+          "url": "https://github.com/hito0512"
+        }
+      ],
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "Hong Kong",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "yuh-yang: location=Hong Kong"
+      ]
+    },
+    {
+      "repository_name": "superdesigndev/treg",
+      "url": "https://github.com/superdesigndev/treg",
+      "contributors": [
+        {
+          "username": "JayZeeDesign",
+          "url": "https://github.com/JayZeeDesign"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "stonexer",
+          "url": "https://github.com/stonexer"
+        },
+        {
+          "username": "unclecode",
+          "url": "https://github.com/unclecode"
+        },
+        {
+          "username": "shehjad-dev",
+          "url": "https://github.com/shehjad-dev"
+        }
+      ],
+      "description": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "Bangladesh",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "shehjad-dev: location=Dhaka, Bangladesh"
+      ]
+    },
+    {
+      "repository_name": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "contributors": [
+        {
+          "username": "pbakaus",
+          "url": "https://github.com/pbakaus"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "abdulwahabone",
+          "url": "https://github.com/abdulwahabone"
+        },
+        {
+          "username": "cursoragent",
+          "url": "https://github.com/cursoragent"
+        }
+      ],
+      "description": "The design language that makes your AI harness better at design.",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "mvt-project/mvt",
+      "url": "https://github.com/mvt-project/mvt",
+      "contributors": [
+        {
+          "username": "botherder",
+          "url": "https://github.com/botherder"
+        },
+        {
+          "username": "DonnchaC",
+          "url": "https://github.com/DonnchaC"
+        },
+        {
+          "username": "Te-k",
+          "url": "https://github.com/Te-k"
+        },
+        {
+          "username": "besendorf",
+          "url": "https://github.com/besendorf"
+        }
+      ],
+      "description": "MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devices in order to find signs of a potential compromise.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "DeusData/codebase-memory-mcp",
+      "url": "https://github.com/DeusData/codebase-memory-mcp",
+      "contributors": [
+        {
+          "username": "DeusData",
+          "url": "https://github.com/DeusData"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "shanemccarron-maker",
+          "url": "https://github.com/shanemccarron-maker"
+        },
+        {
+          "username": "CaptainMittens",
+          "url": "https://github.com/CaptainMittens"
+        }
+      ],
+      "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+      "primary_language": "C",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "harry7557558/spirula-studio",
+      "url": "https://github.com/harry7557558/spirula-studio",
+      "contributors": [
+        {
+          "username": "harry7557558",
+          "url": "https://github.com/harry7557558"
+        },
+        {
+          "username": "MotivaCG",
+          "url": "https://github.com/MotivaCG"
+        },
+        {
+          "username": "debsahu",
+          "url": "https://github.com/debsahu"
+        },
+        {
+          "username": "tutudoudou",
+          "url": "https://github.com/tutudoudou"
+        },
+        {
+          "username": "ev5unleash",
+          "url": "https://github.com/ev5unleash"
+        }
+      ],
+      "description": "Cross-vendor 3D Gaussian Splatting trainer - video to splat to mesh, Vulkan or CUDA.",
+      "primary_language": "C++",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "browser-use/video-use",
+      "url": "https://github.com/browser-use/video-use",
+      "contributors": [
+        {
+          "username": "gregpr07",
+          "url": "https://github.com/gregpr07"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "ShawnPana",
+          "url": "https://github.com/ShawnPana"
+        },
+        {
+          "username": "sidorovanthon",
+          "url": "https://github.com/sidorovanthon"
+        },
+        {
+          "username": "antoinersx",
+          "url": "https://github.com/antoinersx"
+        }
+      ],
+      "description": "Edit videos with coding agents",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "TNT-Likely/PanWatch",
+      "url": "https://github.com/TNT-Likely/PanWatch",
+      "contributors": [
+        {
+          "username": "TNT-Likely",
+          "url": "https://github.com/TNT-Likely"
+        },
+        {
+          "username": "ContantLearn",
+          "url": "https://github.com/ContantLearn"
+        },
+        {
+          "username": "andyaa423",
+          "url": "https://github.com/andyaa423"
+        }
+      ],
+      "description": "盯盘侠 PanWatch · 自托管 AI 盯盘助手，集成 TradingAgents 多 Agent 投资决策 | A股/港股/美股实时监控、持仓管理、智能分析、全渠道推送",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "China",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "TNT-Likely: bio=Full-Stack / Agent / Frontend Engineer，Open to Remote / Hangzhou / Shanghai"
+      ]
+    }
+  ]
+}
