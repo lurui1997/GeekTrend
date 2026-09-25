@@ -1,0 +1,559 @@
+{
+  "fetched_at": "2026-09-26T06:52:39+08:00",
+  "source_url": "https://github.com/trending/",
+  "repository_count": 16,
+  "ai_agent_project_count": 10,
+  "ai_agent_project_ratio": 0.625,
+  "repositories": [
+    {
+      "repository_name": "paperclipai/paperclip",
+      "url": "https://github.com/paperclipai/paperclip",
+      "contributors": [
+        {
+          "username": "cryppadotta",
+          "url": "https://github.com/cryppadotta"
+        },
+        {
+          "username": "Paperclip-Paperclip",
+          "url": "https://github.com/Paperclip-Paperclip"
+        },
+        {
+          "username": "devinfoley",
+          "url": "https://github.com/devinfoley"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "nickyleach",
+          "url": "https://github.com/nickyleach"
+        }
+      ],
+      "description": "The open-source app everyone uses to manage agents at work",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "anthropics/claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "contributors": [
+        {
+          "username": "jordanecker-ant",
+          "url": "https://github.com/jordanecker-ant"
+        },
+        {
+          "username": "bryan-anthropic",
+          "url": "https://github.com/bryan-anthropic"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "tobinsouth",
+          "url": "https://github.com/tobinsouth"
+        }
+      ],
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "vectorize-io/hindsight",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "contributors": [
+        {
+          "username": "nicoloboschi",
+          "url": "https://github.com/nicoloboschi"
+        },
+        {
+          "username": "benfrank241",
+          "url": "https://github.com/benfrank241"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "r266-tech",
+          "url": "https://github.com/r266-tech"
+        },
+        {
+          "username": "cdbartholomew",
+          "url": "https://github.com/cdbartholomew"
+        }
+      ],
+      "description": "Hindsight: Agent Memory That Learns",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "Italy",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "nicoloboschi: location=Italy"
+      ]
+    },
+    {
+      "repository_name": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "contributors": [
+        {
+          "username": "obra",
+          "url": "https://github.com/obra"
+        },
+        {
+          "username": "arittr",
+          "url": "https://github.com/arittr"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "clkao",
+          "url": "https://github.com/clkao"
+        },
+        {
+          "username": "gaurav0107",
+          "url": "https://github.com/gaurav0107"
+        }
+      ],
+      "description": "An agentic skills framework & software development methodology that works.",
+      "primary_language": "Shell",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "contributors": [
+        {
+          "username": "mattpocock",
+          "url": "https://github.com/mattpocock"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "gabimoncha",
+          "url": "https://github.com/gabimoncha"
+        }
+      ],
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "primary_language": "Shell",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "dream-num/univer",
+      "url": "https://github.com/dream-num/univer",
+      "contributors": [
+        {
+          "username": "jikkai",
+          "url": "https://github.com/jikkai"
+        },
+        {
+          "username": "DR-Univer",
+          "url": "https://github.com/DR-Univer"
+        },
+        {
+          "username": "wzhudev",
+          "url": "https://github.com/wzhudev"
+        },
+        {
+          "username": "Dushusir",
+          "url": "https://github.com/Dushusir"
+        },
+        {
+          "username": "wpxp123456",
+          "url": "https://github.com/wpxp123456"
+        }
+      ],
+      "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "China",
+      "origin_confidence": "medium",
+      "origin_evidence": [
+        "jikkai: location=Shanghai, China",
+        "wzhudev: location=Beijing",
+        "Dushusir: location=Shanghai"
+      ]
+    },
+    {
+      "repository_name": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "contributors": [
+        {
+          "username": "rlancemartin",
+          "url": "https://github.com/rlancemartin"
+        },
+        {
+          "username": "klazuka",
+          "url": "https://github.com/klazuka"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "cj-ant",
+          "url": "https://github.com/cj-ant"
+        },
+        {
+          "username": "ericharmeling",
+          "url": "https://github.com/ericharmeling"
+        }
+      ],
+      "description": "Public repository for Agent Skills",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "ericharmeling: location=Brooklyn, NY"
+      ]
+    },
+    {
+      "repository_name": "androoAGI/starnet",
+      "url": "https://github.com/androoAGI/starnet",
+      "contributors": [
+        {
+          "username": "androoAGI",
+          "url": "https://github.com/androoAGI"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        }
+      ],
+      "description": "A living pixel-art station where real AI agents do real work. Local-first desktop agent harness - bring your own key, watch your crew actually run.",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "derv82/wifit3",
+      "url": "https://github.com/derv82/wifit3",
+      "contributors": [
+        {
+          "username": "derv82",
+          "url": "https://github.com/derv82"
+        },
+        {
+          "username": "xxcosita3czxx",
+          "url": "https://github.com/xxcosita3czxx"
+        },
+        {
+          "username": "laxdog",
+          "url": "https://github.com/laxdog"
+        },
+        {
+          "username": "pzlabuda",
+          "url": "https://github.com/pzlabuda"
+        },
+        {
+          "username": "francisuk1989",
+          "url": "https://github.com/francisuk1989"
+        }
+      ],
+      "description": "Wifite but USB-only & cross-platform.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "kelseyhightower/kubernetes-the-hard-way",
+      "url": "https://github.com/kelseyhightower/kubernetes-the-hard-way",
+      "contributors": [
+        {
+          "username": "kelseyhightower",
+          "url": "https://github.com/kelseyhightower"
+        },
+        {
+          "username": "ksingh7",
+          "url": "https://github.com/ksingh7"
+        },
+        {
+          "username": "elsonrodriguez",
+          "url": "https://github.com/elsonrodriguez"
+        },
+        {
+          "username": "amouat",
+          "url": "https://github.com/amouat"
+        },
+        {
+          "username": "0x5d",
+          "url": "https://github.com/0x5d"
+        }
+      ],
+      "description": "Bootstrap Kubernetes the hard way. No scripts.",
+      "primary_language": null,
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "contributors": [
+        {
+          "username": "rohitg00",
+          "url": "https://github.com/rohitg00"
+        },
+        {
+          "username": "abhinav-m22",
+          "url": "https://github.com/abhinav-m22"
+        },
+        {
+          "username": "thereisnotime",
+          "url": "https://github.com/thereisnotime"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        }
+      ],
+      "description": "Learn it. Build it. Ship it for others.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "rohitg00: location=UK"
+      ]
+    },
+    {
+      "repository_name": "shy3130/tick-stock-panel",
+      "url": "https://github.com/shy3130/tick-stock-panel",
+      "contributors": [
+        {
+          "username": "shy3130",
+          "url": "https://github.com/shy3130"
+        },
+        {
+          "username": "kevin9327",
+          "url": "https://github.com/kevin9327"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "thinkbuf",
+          "url": "https://github.com/thinkbuf"
+        },
+        {
+          "username": "intfoo",
+          "url": "https://github.com/intfoo"
+        }
+      ],
+      "description": "TSP自托管、零运维的 A 股「选股 + 监控 + 回测」量化工作台 | LLM能力驱使策略定制+个股分析+复盘 | 自由接入第三方数据源与个性化扩展数据 | 个人开源",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "google/ax",
+      "url": "https://github.com/google/ax",
+      "contributors": [
+        {
+          "username": "rakyll",
+          "url": "https://github.com/rakyll"
+        },
+        {
+          "username": "joycel-github",
+          "url": "https://github.com/joycel-github"
+        },
+        {
+          "username": "wjjclaud",
+          "url": "https://github.com/wjjclaud"
+        },
+        {
+          "username": "anj-s",
+          "url": "https://github.com/anj-s"
+        },
+        {
+          "username": "zbl94",
+          "url": "https://github.com/zbl94"
+        }
+      ],
+      "description": "Google's open agentic orchestration runtime",
+      "primary_language": "Go",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "NVIDIA/Model-Optimizer",
+      "url": "https://github.com/NVIDIA/Model-Optimizer",
+      "contributors": [
+        {
+          "username": "kevalmorabia97",
+          "url": "https://github.com/kevalmorabia97"
+        },
+        {
+          "username": "shengliangxu",
+          "url": "https://github.com/shengliangxu"
+        },
+        {
+          "username": "cjluo-nv",
+          "url": "https://github.com/cjluo-nv"
+        },
+        {
+          "username": "h-guo18",
+          "url": "https://github.com/h-guo18"
+        },
+        {
+          "username": "ajrasane",
+          "url": "https://github.com/ajrasane"
+        }
+      ],
+      "description": "A unified library of SOTA model optimization techniques like quantization, distillation, pruning, neural architecture search, speculative decoding, etc. It compresses deep learning models for downstream deployment frameworks like TensorRT-LLM, TensorRT, vLLM, etc. to optimize inference speed.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "contributors": [
+        {
+          "username": "pbakaus",
+          "url": "https://github.com/pbakaus"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "abdulwahabone",
+          "url": "https://github.com/abdulwahabone"
+        },
+        {
+          "username": "cursoragent",
+          "url": "https://github.com/cursoragent"
+        }
+      ],
+      "description": "The design language that makes your AI harness better at design.",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "openbao/openbao",
+      "url": "https://github.com/openbao/openbao",
+      "contributors": [
+        {
+          "username": "jefferai",
+          "url": "https://github.com/jefferai"
+        },
+        {
+          "username": "vishalnayak",
+          "url": "https://github.com/vishalnayak"
+        },
+        {
+          "username": "cipherboy",
+          "url": "https://github.com/cipherboy"
+        },
+        {
+          "username": "hc-github-team-secure-vault-core",
+          "url": "https://github.com/hc-github-team-secure-vault-core"
+        },
+        {
+          "username": "armon",
+          "url": "https://github.com/armon"
+        }
+      ],
+      "description": "OpenBao is a software solution to manage, store, and distribute sensitive data including secrets, certificates, and keys.",
+      "primary_language": "Go",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    }
+  ]
+}
