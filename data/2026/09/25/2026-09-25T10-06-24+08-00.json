@@ -1,0 +1,496 @@
+{
+  "fetched_at": "2026-09-25T10:06:24+08:00",
+  "source_url": "https://github.com/trending/",
+  "repository_count": 14,
+  "ai_agent_project_count": 6,
+  "ai_agent_project_ratio": 0.4286,
+  "repositories": [
+    {
+      "repository_name": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "contributors": [
+        {
+          "username": "rohitg00",
+          "url": "https://github.com/rohitg00"
+        },
+        {
+          "username": "abhinav-m22",
+          "url": "https://github.com/abhinav-m22"
+        },
+        {
+          "username": "thereisnotime",
+          "url": "https://github.com/thereisnotime"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        }
+      ],
+      "description": "Learn it. Build it. Ship it for others.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "rohitg00: location=UK"
+      ]
+    },
+    {
+      "repository_name": "vectorize-io/hindsight",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "contributors": [
+        {
+          "username": "nicoloboschi",
+          "url": "https://github.com/nicoloboschi"
+        },
+        {
+          "username": "benfrank241",
+          "url": "https://github.com/benfrank241"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "r266-tech",
+          "url": "https://github.com/r266-tech"
+        },
+        {
+          "username": "cdbartholomew",
+          "url": "https://github.com/cdbartholomew"
+        }
+      ],
+      "description": "Hindsight: Agent Memory That Learns",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "Italy",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "nicoloboschi: location=Italy"
+      ]
+    },
+    {
+      "repository_name": "dream-num/univer",
+      "url": "https://github.com/dream-num/univer",
+      "contributors": [
+        {
+          "username": "jikkai",
+          "url": "https://github.com/jikkai"
+        },
+        {
+          "username": "DR-Univer",
+          "url": "https://github.com/DR-Univer"
+        },
+        {
+          "username": "wzhudev",
+          "url": "https://github.com/wzhudev"
+        },
+        {
+          "username": "Dushusir",
+          "url": "https://github.com/Dushusir"
+        },
+        {
+          "username": "wpxp123456",
+          "url": "https://github.com/wpxp123456"
+        }
+      ],
+      "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "China",
+      "origin_confidence": "medium",
+      "origin_evidence": [
+        "jikkai: location=Shanghai, China",
+        "wzhudev: location=Beijing",
+        "Dushusir: location=Shanghai"
+      ]
+    },
+    {
+      "repository_name": "google/ax",
+      "url": "https://github.com/google/ax",
+      "contributors": [
+        {
+          "username": "rakyll",
+          "url": "https://github.com/rakyll"
+        },
+        {
+          "username": "joycel-github",
+          "url": "https://github.com/joycel-github"
+        },
+        {
+          "username": "wjjclaud",
+          "url": "https://github.com/wjjclaud"
+        },
+        {
+          "username": "anj-s",
+          "url": "https://github.com/anj-s"
+        },
+        {
+          "username": "zbl94",
+          "url": "https://github.com/zbl94"
+        }
+      ],
+      "description": "Google's open agentic orchestration runtime",
+      "primary_language": "Go",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "NVIDIA/Model-Optimizer",
+      "url": "https://github.com/NVIDIA/Model-Optimizer",
+      "contributors": [
+        {
+          "username": "kevalmorabia97",
+          "url": "https://github.com/kevalmorabia97"
+        },
+        {
+          "username": "shengliangxu",
+          "url": "https://github.com/shengliangxu"
+        },
+        {
+          "username": "cjluo-nv",
+          "url": "https://github.com/cjluo-nv"
+        },
+        {
+          "username": "h-guo18",
+          "url": "https://github.com/h-guo18"
+        },
+        {
+          "username": "ajrasane",
+          "url": "https://github.com/ajrasane"
+        }
+      ],
+      "description": "A unified library of SOTA model optimization techniques like quantization, distillation, pruning, neural architecture search, speculative decoding, etc. It compresses deep learning models for downstream deployment frameworks like TensorRT-LLM, TensorRT, vLLM, etc. to optimize inference speed.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "FxEmbed/FxEmbed",
+      "url": "https://github.com/FxEmbed/FxEmbed",
+      "contributors": [
+        {
+          "username": "dangeredwolf",
+          "url": "https://github.com/dangeredwolf"
+        },
+        {
+          "username": "cursoragent",
+          "url": "https://github.com/cursoragent"
+        },
+        {
+          "username": "Wazbat",
+          "url": "https://github.com/Wazbat"
+        }
+      ],
+      "description": "Fix X/Twitter and Bluesky embeds! Use multiple images, videos, polls, translations and more on Discord, Telegram and others",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "anthropics/financial-services",
+      "url": "https://github.com/anthropics/financial-services",
+      "contributors": [
+        {
+          "username": "mihilmy",
+          "url": "https://github.com/mihilmy"
+        },
+        {
+          "username": "cxyback",
+          "url": "https://github.com/cxyback"
+        },
+        {
+          "username": "manar-ant",
+          "url": "https://github.com/manar-ant"
+        },
+        {
+          "username": "tobinsouth",
+          "url": "https://github.com/tobinsouth"
+        },
+        {
+          "username": "viveknair",
+          "url": "https://github.com/viveknair"
+        }
+      ],
+      "description": null,
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "medium",
+      "origin_evidence": [
+        "mihilmy: location=NYC",
+        "viveknair: location=Williamsburg, Brooklyn, NYC"
+      ]
+    },
+    {
+      "repository_name": "HKUDS/CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "contributors": [
+        {
+          "username": "yuh-yang",
+          "url": "https://github.com/yuh-yang"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "AiMiDi",
+          "url": "https://github.com/AiMiDi"
+        },
+        {
+          "username": "omerarslan0",
+          "url": "https://github.com/omerarslan0"
+        },
+        {
+          "username": "hito0512",
+          "url": "https://github.com/hito0512"
+        }
+      ],
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "Hong Kong",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "yuh-yang: location=Hong Kong"
+      ]
+    },
+    {
+      "repository_name": "mvt-project/mvt",
+      "url": "https://github.com/mvt-project/mvt",
+      "contributors": [
+        {
+          "username": "botherder",
+          "url": "https://github.com/botherder"
+        },
+        {
+          "username": "DonnchaC",
+          "url": "https://github.com/DonnchaC"
+        },
+        {
+          "username": "Te-k",
+          "url": "https://github.com/Te-k"
+        },
+        {
+          "username": "besendorf",
+          "url": "https://github.com/besendorf"
+        }
+      ],
+      "description": "MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devices in order to find signs of a potential compromise.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "contributors": [
+        {
+          "username": "obra",
+          "url": "https://github.com/obra"
+        },
+        {
+          "username": "arittr",
+          "url": "https://github.com/arittr"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "clkao",
+          "url": "https://github.com/clkao"
+        },
+        {
+          "username": "gaurav0107",
+          "url": "https://github.com/gaurav0107"
+        }
+      ],
+      "description": "An agentic skills framework & software development methodology that works.",
+      "primary_language": "Shell",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "strands-agents/harness-sdk",
+      "url": "https://github.com/strands-agents/harness-sdk",
+      "contributors": [
+        {
+          "username": "zastrowm",
+          "url": "https://github.com/zastrowm"
+        },
+        {
+          "username": "pgrayy",
+          "url": "https://github.com/pgrayy"
+        },
+        {
+          "username": "strands-agent",
+          "url": "https://github.com/strands-agent"
+        },
+        {
+          "username": "yonib05",
+          "url": "https://github.com/yonib05"
+        }
+      ],
+      "description": "Build an agent harness and control it end-to-end. Open-source SDK for production AI agents in Python & TypeScript - any model, any cloud.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "medium",
+      "origin_evidence": [
+        "zastrowm: location=New York",
+        "pgrayy: location=New York",
+        "yonib05: location=New York, NY"
+      ]
+    },
+    {
+      "repository_name": "julyx10/lap",
+      "url": "https://github.com/julyx10/lap",
+      "contributors": [
+        {
+          "username": "julyx10",
+          "url": "https://github.com/julyx10"
+        },
+        {
+          "username": "baksohyeon",
+          "url": "https://github.com/baksohyeon"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "talynone",
+          "url": "https://github.com/talynone"
+        },
+        {
+          "username": "Dimmitrius",
+          "url": "https://github.com/Dimmitrius"
+        }
+      ],
+      "description": "An offline-first photo manager for large local libraries",
+      "primary_language": "Vue",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "superdesigndev/treg",
+      "url": "https://github.com/superdesigndev/treg",
+      "contributors": [
+        {
+          "username": "JayZeeDesign",
+          "url": "https://github.com/JayZeeDesign"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "stonexer",
+          "url": "https://github.com/stonexer"
+        },
+        {
+          "username": "unclecode",
+          "url": "https://github.com/unclecode"
+        },
+        {
+          "username": "shehjad-dev",
+          "url": "https://github.com/shehjad-dev"
+        }
+      ],
+      "description": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "Bangladesh",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "shehjad-dev: location=Dhaka, Bangladesh"
+      ]
+    },
+    {
+      "repository_name": "leejet/stable-diffusion.cpp",
+      "url": "https://github.com/leejet/stable-diffusion.cpp",
+      "contributors": [
+        {
+          "username": "leejet",
+          "url": "https://github.com/leejet"
+        },
+        {
+          "username": "wbruna",
+          "url": "https://github.com/wbruna"
+        },
+        {
+          "username": "stduhpf",
+          "url": "https://github.com/stduhpf"
+        },
+        {
+          "username": "fszontagh",
+          "url": "https://github.com/fszontagh"
+        },
+        {
+          "username": "rmatif",
+          "url": "https://github.com/rmatif"
+        }
+      ],
+      "description": "Diffusion model(SD,Flux,Wan,Qwen Image,Z-Image,...) inference in pure C/C++",
+      "primary_language": "C++",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    }
+  ]
+}
