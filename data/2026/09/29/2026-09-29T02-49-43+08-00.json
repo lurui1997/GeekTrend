@@ -1,0 +1,301 @@
+{
+  "fetched_at": "2026-09-29T02:49:43+08:00",
+  "source_url": "https://github.com/trending/",
+  "repository_count": 8,
+  "ai_agent_project_count": 4,
+  "ai_agent_project_ratio": 0.5,
+  "repositories": [
+    {
+      "repository_name": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "contributors": [
+        {
+          "username": "debpalash",
+          "url": "https://github.com/debpalash"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "kevin9327",
+          "url": "https://github.com/kevin9327"
+        },
+        {
+          "username": "jaketame",
+          "url": "https://github.com/jaketame"
+        },
+        {
+          "username": "velixio",
+          "url": "https://github.com/velixio"
+        }
+      ],
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "paperclipai/paperclip",
+      "url": "https://github.com/paperclipai/paperclip",
+      "contributors": [
+        {
+          "username": "cryppadotta",
+          "url": "https://github.com/cryppadotta"
+        },
+        {
+          "username": "Paperclip-Paperclip",
+          "url": "https://github.com/Paperclip-Paperclip"
+        },
+        {
+          "username": "devinfoley",
+          "url": "https://github.com/devinfoley"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "nickyleach",
+          "url": "https://github.com/nickyleach"
+        }
+      ],
+      "description": "The open-source app everyone uses to manage agents at work",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "vectorize-io/hindsight",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "contributors": [
+        {
+          "username": "nicoloboschi",
+          "url": "https://github.com/nicoloboschi"
+        },
+        {
+          "username": "benfrank241",
+          "url": "https://github.com/benfrank241"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "r266-tech",
+          "url": "https://github.com/r266-tech"
+        },
+        {
+          "username": "cdbartholomew",
+          "url": "https://github.com/cdbartholomew"
+        }
+      ],
+      "description": "Hindsight: Agent Memory That Learns",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "Italy",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "nicoloboschi: location=Italy"
+      ]
+    },
+    {
+      "repository_name": "NawfalMotii79/PLFM_RADAR",
+      "url": "https://github.com/NawfalMotii79/PLFM_RADAR",
+      "contributors": [
+        {
+          "username": "JJassonn69",
+          "url": "https://github.com/JJassonn69"
+        },
+        {
+          "username": "NawfalMotii79",
+          "url": "https://github.com/NawfalMotii79"
+        },
+        {
+          "username": "joyshmitz",
+          "url": "https://github.com/joyshmitz"
+        },
+        {
+          "username": "shaun0927",
+          "url": "https://github.com/shaun0927"
+        },
+        {
+          "username": "3aLaee",
+          "url": "https://github.com/3aLaee"
+        }
+      ],
+      "description": "Open-source, low-cost 10.5 GHz PLFM phased array RADAR system",
+      "primary_language": "PLSQL",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "Morocco",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "NawfalMotii79: location=Casablanca, MOROCCO"
+      ]
+    },
+    {
+      "repository_name": "cs341-illinois/coursebook",
+      "url": "https://github.com/cs341-illinois/coursebook",
+      "contributors": [
+        {
+          "username": "bhuvy2",
+          "url": "https://github.com/bhuvy2"
+        },
+        {
+          "username": "angrave",
+          "url": "https://github.com/angrave"
+        },
+        {
+          "username": "PradyumnaShome",
+          "url": "https://github.com/PradyumnaShome"
+        },
+        {
+          "username": "ekcom",
+          "url": "https://github.com/ekcom"
+        },
+        {
+          "username": "aneeshdurg",
+          "url": "https://github.com/aneeshdurg"
+        }
+      ],
+      "description": "Open Source Introductory Systems Programming Textbook for the University of Illinois",
+      "primary_language": "TeX",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "medium",
+      "origin_evidence": [
+        "bhuvy2: location=Illinois, United States",
+        "angrave: location=Urbana Illinois USA",
+        "PradyumnaShome: location=United States"
+      ]
+    },
+    {
+      "repository_name": "byoungd/up",
+      "url": "https://github.com/byoungd/up",
+      "contributors": [
+        {
+          "username": "byoungd",
+          "url": "https://github.com/byoungd"
+        },
+        {
+          "username": "fakesnow",
+          "url": "https://github.com/fakesnow"
+        },
+        {
+          "username": "holtenko",
+          "url": "https://github.com/holtenko"
+        },
+        {
+          "username": "WMXPY",
+          "url": "https://github.com/WMXPY"
+        },
+        {
+          "username": "overtrue",
+          "url": "https://github.com/overtrue"
+        }
+      ],
+      "description": "An advanced guide which might benefit you a lot 🎉 . 韩先凯的人生进阶指南 人生进阶指南 离谱的人生 人生进阶 AI学习 AI指南 韩先凯的AI学习指南 英语学习指南/英语学习教程/英语学习/学英语",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "China",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "holtenko: location=Shanghai China"
+      ]
+    },
+    {
+      "repository_name": "mvschwarz/openrig",
+      "url": "https://github.com/mvschwarz/openrig",
+      "contributors": [
+        {
+          "username": "mvschwarz",
+          "url": "https://github.com/mvschwarz"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "mattik",
+          "url": "https://github.com/mattik"
+        },
+        {
+          "username": "mvdpoel",
+          "url": "https://github.com/mvdpoel"
+        },
+        {
+          "username": "agentS",
+          "url": "https://github.com/agentS"
+        }
+      ],
+      "description": "Multi-agent harness that runs Claude Code and Codex together as one system",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "dream-num/univer",
+      "url": "https://github.com/dream-num/univer",
+      "contributors": [
+        {
+          "username": "jikkai",
+          "url": "https://github.com/jikkai"
+        },
+        {
+          "username": "DR-Univer",
+          "url": "https://github.com/DR-Univer"
+        },
+        {
+          "username": "wzhudev",
+          "url": "https://github.com/wzhudev"
+        },
+        {
+          "username": "Dushusir",
+          "url": "https://github.com/Dushusir"
+        },
+        {
+          "username": "wpxp123456",
+          "url": "https://github.com/wpxp123456"
+        }
+      ],
+      "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "China",
+      "origin_confidence": "medium",
+      "origin_evidence": [
+        "jikkai: location=Shanghai, China",
+        "wzhudev: location=Beijing",
+        "Dushusir: location=Shanghai"
+      ]
+    }
+  ]
+}
