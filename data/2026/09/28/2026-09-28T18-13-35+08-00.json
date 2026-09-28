@@ -1,0 +1,331 @@
+{
+  "fetched_at": "2026-09-28T18:13:35+08:00",
+  "source_url": "https://github.com/trending/",
+  "repository_count": 9,
+  "ai_agent_project_count": 6,
+  "ai_agent_project_ratio": 0.6667,
+  "repositories": [
+    {
+      "repository_name": "paperclipai/paperclip",
+      "url": "https://github.com/paperclipai/paperclip",
+      "contributors": [
+        {
+          "username": "cryppadotta",
+          "url": "https://github.com/cryppadotta"
+        },
+        {
+          "username": "Paperclip-Paperclip",
+          "url": "https://github.com/Paperclip-Paperclip"
+        },
+        {
+          "username": "devinfoley",
+          "url": "https://github.com/devinfoley"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "nickyleach",
+          "url": "https://github.com/nickyleach"
+        }
+      ],
+      "description": "The open-source app everyone uses to manage agents at work",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "vectorize-io/hindsight",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "contributors": [
+        {
+          "username": "nicoloboschi",
+          "url": "https://github.com/nicoloboschi"
+        },
+        {
+          "username": "benfrank241",
+          "url": "https://github.com/benfrank241"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "r266-tech",
+          "url": "https://github.com/r266-tech"
+        },
+        {
+          "username": "cdbartholomew",
+          "url": "https://github.com/cdbartholomew"
+        }
+      ],
+      "description": "Hindsight: Agent Memory That Learns",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "Italy",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "nicoloboschi: location=Italy"
+      ]
+    },
+    {
+      "repository_name": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "contributors": [
+        {
+          "username": "debpalash",
+          "url": "https://github.com/debpalash"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "kevin9327",
+          "url": "https://github.com/kevin9327"
+        },
+        {
+          "username": "jaketame",
+          "url": "https://github.com/jaketame"
+        },
+        {
+          "username": "velixio",
+          "url": "https://github.com/velixio"
+        }
+      ],
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "contributors": [
+        {
+          "username": "rohitg00",
+          "url": "https://github.com/rohitg00"
+        },
+        {
+          "username": "abhinav-m22",
+          "url": "https://github.com/abhinav-m22"
+        },
+        {
+          "username": "thereisnotime",
+          "url": "https://github.com/thereisnotime"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        }
+      ],
+      "description": "Learn it. Build it. Ship it for others.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "rohitg00: location=UK"
+      ]
+    },
+    {
+      "repository_name": "InfinityLoop1308/PipePipe",
+      "url": "https://github.com/InfinityLoop1308/PipePipe",
+      "contributors": [
+        {
+          "username": "InfinityLoop1308",
+          "url": "https://github.com/InfinityLoop1308"
+        },
+        {
+          "username": "wh201906",
+          "url": "https://github.com/wh201906"
+        },
+        {
+          "username": "Korb",
+          "url": "https://github.com/Korb"
+        },
+        {
+          "username": "Priveetee",
+          "url": "https://github.com/Priveetee"
+        },
+        {
+          "username": "yurtpage",
+          "url": "https://github.com/yurtpage"
+        }
+      ],
+      "description": "An open-source Android app to let you browse YouTube and other services freely.",
+      "primary_language": "Shell",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "vercel-labs/scriptc",
+      "url": "https://github.com/vercel-labs/scriptc",
+      "contributors": [
+        {
+          "username": "ctate",
+          "url": "https://github.com/ctate"
+        },
+        {
+          "username": "jimmyhmiller",
+          "url": "https://github.com/jimmyhmiller"
+        },
+        {
+          "username": "HagegeR",
+          "url": "https://github.com/HagegeR"
+        },
+        {
+          "username": "mmamedel",
+          "url": "https://github.com/mmamedel"
+        },
+        {
+          "username": "ryoppippi",
+          "url": "https://github.com/ryoppippi"
+        }
+      ],
+      "description": "TypeScript-to-Native Compiler",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "ryoppippi: location=UK"
+      ]
+    },
+    {
+      "repository_name": "mvschwarz/openrig",
+      "url": "https://github.com/mvschwarz/openrig",
+      "contributors": [
+        {
+          "username": "mvschwarz",
+          "url": "https://github.com/mvschwarz"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "mattik",
+          "url": "https://github.com/mattik"
+        },
+        {
+          "username": "mvdpoel",
+          "url": "https://github.com/mvdpoel"
+        },
+        {
+          "username": "agentS",
+          "url": "https://github.com/agentS"
+        }
+      ],
+      "description": "Multi-agent harness that runs Claude Code and Codex together as one system",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "dream-num/univer",
+      "url": "https://github.com/dream-num/univer",
+      "contributors": [
+        {
+          "username": "jikkai",
+          "url": "https://github.com/jikkai"
+        },
+        {
+          "username": "DR-Univer",
+          "url": "https://github.com/DR-Univer"
+        },
+        {
+          "username": "wzhudev",
+          "url": "https://github.com/wzhudev"
+        },
+        {
+          "username": "Dushusir",
+          "url": "https://github.com/Dushusir"
+        },
+        {
+          "username": "wpxp123456",
+          "url": "https://github.com/wpxp123456"
+        }
+      ],
+      "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "China",
+      "origin_confidence": "medium",
+      "origin_evidence": [
+        "jikkai: location=Shanghai, China",
+        "wzhudev: location=Beijing",
+        "Dushusir: location=Shanghai"
+      ]
+    },
+    {
+      "repository_name": "willfaust/Madeira",
+      "url": "https://github.com/willfaust/Madeira",
+      "contributors": [
+        {
+          "username": "willfaust",
+          "url": "https://github.com/willfaust"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "125hz",
+          "url": "https://github.com/125hz"
+        },
+        {
+          "username": "codex",
+          "url": "https://github.com/codex"
+        }
+      ],
+      "description": "Run x86-64 Windows PC games on jailed iOS via FEX-Emu + Wine + DXMT",
+      "primary_language": "C",
+      "ai_agent_contributors": [
+        "claude",
+        "codex"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    }
+  ]
+}
