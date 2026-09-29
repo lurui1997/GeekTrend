@@ -1,0 +1,504 @@
+{
+  "fetched_at": "2026-09-30T05:34:28+08:00",
+  "source_url": "https://github.com/trending/",
+  "repository_count": 14,
+  "ai_agent_project_count": 8,
+  "ai_agent_project_ratio": 0.5714,
+  "repositories": [
+    {
+      "repository_name": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "contributors": [
+        {
+          "username": "debpalash",
+          "url": "https://github.com/debpalash"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "kevin9327",
+          "url": "https://github.com/kevin9327"
+        },
+        {
+          "username": "jaketame",
+          "url": "https://github.com/jaketame"
+        },
+        {
+          "username": "velixio",
+          "url": "https://github.com/velixio"
+        }
+      ],
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "NVIDIA/OpenShell",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "contributors": [
+        {
+          "username": "drew",
+          "url": "https://github.com/drew"
+        },
+        {
+          "username": "johntmyers",
+          "url": "https://github.com/johntmyers"
+        },
+        {
+          "username": "pimlock",
+          "url": "https://github.com/pimlock"
+        },
+        {
+          "username": "miyoungc",
+          "url": "https://github.com/miyoungc"
+        },
+        {
+          "username": "elezar",
+          "url": "https://github.com/elezar"
+        }
+      ],
+      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+      "primary_language": "Rust",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "drew: location=San Diego, CA"
+      ]
+    },
+    {
+      "repository_name": "vectorize-io/hindsight",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "contributors": [
+        {
+          "username": "nicoloboschi",
+          "url": "https://github.com/nicoloboschi"
+        },
+        {
+          "username": "benfrank241",
+          "url": "https://github.com/benfrank241"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "r266-tech",
+          "url": "https://github.com/r266-tech"
+        },
+        {
+          "username": "cdbartholomew",
+          "url": "https://github.com/cdbartholomew"
+        }
+      ],
+      "description": "Hindsight: Agent Memory That Learns",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "Italy",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "nicoloboschi: location=Italy"
+      ]
+    },
+    {
+      "repository_name": "paperclipai/paperclip",
+      "url": "https://github.com/paperclipai/paperclip",
+      "contributors": [
+        {
+          "username": "cryppadotta",
+          "url": "https://github.com/cryppadotta"
+        },
+        {
+          "username": "Paperclip-Paperclip",
+          "url": "https://github.com/Paperclip-Paperclip"
+        },
+        {
+          "username": "devinfoley",
+          "url": "https://github.com/devinfoley"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "nickyleach",
+          "url": "https://github.com/nickyleach"
+        }
+      ],
+      "description": "The open-source app everyone uses to manage agents at work",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "t8y2/dbx",
+      "url": "https://github.com/t8y2/dbx",
+      "contributors": [
+        {
+          "username": "t8y2",
+          "url": "https://github.com/t8y2"
+        },
+        {
+          "username": "zipg",
+          "url": "https://github.com/zipg"
+        },
+        {
+          "username": "eryajf",
+          "url": "https://github.com/eryajf"
+        },
+        {
+          "username": "q396921921",
+          "url": "https://github.com/q396921921"
+        }
+      ],
+      "description": "25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP。",
+      "primary_language": "Rust",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "China",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "t8y2: company=Beijing"
+      ]
+    },
+    {
+      "repository_name": "mvschwarz/openrig",
+      "url": "https://github.com/mvschwarz/openrig",
+      "contributors": [
+        {
+          "username": "mvschwarz",
+          "url": "https://github.com/mvschwarz"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "mattik",
+          "url": "https://github.com/mattik"
+        },
+        {
+          "username": "dajiaohuang",
+          "url": "https://github.com/dajiaohuang"
+        },
+        {
+          "username": "mvdpoel",
+          "url": "https://github.com/mvdpoel"
+        }
+      ],
+      "description": "Multi-agent harness that runs Claude Code and Codex together as one system",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "oblien/openship",
+      "url": "https://github.com/oblien/openship",
+      "contributors": [
+        {
+          "username": "Hydralerne",
+          "url": "https://github.com/Hydralerne"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "Rish-it",
+          "url": "https://github.com/Rish-it"
+        },
+        {
+          "username": "shuvamk",
+          "url": "https://github.com/shuvamk"
+        },
+        {
+          "username": "DiogoDuart3",
+          "url": "https://github.com/DiogoDuart3"
+        }
+      ],
+      "description": "Self-hosted deployment platform",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "averygan/reclip",
+      "url": "https://github.com/averygan/reclip",
+      "contributors": [
+        {
+          "username": "averygan",
+          "url": "https://github.com/averygan"
+        },
+        {
+          "username": "jouls0217",
+          "url": "https://github.com/jouls0217"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "AmanoSpica",
+          "url": "https://github.com/AmanoSpica"
+        }
+      ],
+      "description": "Download videos from almost any website. Lightweight, self-hosted media downloader with a clean web UI.",
+      "primary_language": "HTML",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "Japan",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "AmanoSpica: location=Japan"
+      ]
+    },
+    {
+      "repository_name": "cs341-illinois/coursebook",
+      "url": "https://github.com/cs341-illinois/coursebook",
+      "contributors": [
+        {
+          "username": "bhuvy2",
+          "url": "https://github.com/bhuvy2"
+        },
+        {
+          "username": "angrave",
+          "url": "https://github.com/angrave"
+        },
+        {
+          "username": "PradyumnaShome",
+          "url": "https://github.com/PradyumnaShome"
+        },
+        {
+          "username": "ekcom",
+          "url": "https://github.com/ekcom"
+        },
+        {
+          "username": "aneeshdurg",
+          "url": "https://github.com/aneeshdurg"
+        }
+      ],
+      "description": "Open Source Introductory Systems Programming Textbook for the University of Illinois",
+      "primary_language": "TeX",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "medium",
+      "origin_evidence": [
+        "bhuvy2: location=Illinois, United States",
+        "angrave: location=Urbana Illinois USA",
+        "PradyumnaShome: location=United States"
+      ]
+    },
+    {
+      "repository_name": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "contributors": [
+        {
+          "username": "rohitg00",
+          "url": "https://github.com/rohitg00"
+        },
+        {
+          "username": "abhinav-m22",
+          "url": "https://github.com/abhinav-m22"
+        },
+        {
+          "username": "thereisnotime",
+          "url": "https://github.com/thereisnotime"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        }
+      ],
+      "description": "Learn it. Build it. Ship it for others.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "rohitg00: location=UK"
+      ]
+    },
+    {
+      "repository_name": "VectifyAI/PageIndex",
+      "url": "https://github.com/VectifyAI/PageIndex",
+      "contributors": [
+        {
+          "username": "rejojer",
+          "url": "https://github.com/rejojer"
+        },
+        {
+          "username": "zmtomorrow",
+          "url": "https://github.com/zmtomorrow"
+        },
+        {
+          "username": "BukeLy",
+          "url": "https://github.com/BukeLy"
+        },
+        {
+          "username": "S3DFX-CYBER",
+          "url": "https://github.com/S3DFX-CYBER"
+        },
+        {
+          "username": "KylinMountain",
+          "url": "https://github.com/KylinMountain"
+        }
+      ],
+      "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "zmtomorrow: location=London"
+      ]
+    },
+    {
+      "repository_name": "willfaust/Madeira",
+      "url": "https://github.com/willfaust/Madeira",
+      "contributors": [
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "willfaust",
+          "url": "https://github.com/willfaust"
+        },
+        {
+          "username": "125hz",
+          "url": "https://github.com/125hz"
+        },
+        {
+          "username": "codex",
+          "url": "https://github.com/codex"
+        }
+      ],
+      "description": "Run x86-64 Windows PC games on jailed iOS via FEX-Emu + Wine + DXMT",
+      "primary_language": "C",
+      "ai_agent_contributors": [
+        "claude",
+        "codex"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "dream-num/univer",
+      "url": "https://github.com/dream-num/univer",
+      "contributors": [
+        {
+          "username": "jikkai",
+          "url": "https://github.com/jikkai"
+        },
+        {
+          "username": "DR-Univer",
+          "url": "https://github.com/DR-Univer"
+        },
+        {
+          "username": "wzhudev",
+          "url": "https://github.com/wzhudev"
+        },
+        {
+          "username": "Dushusir",
+          "url": "https://github.com/Dushusir"
+        },
+        {
+          "username": "wpxp123456",
+          "url": "https://github.com/wpxp123456"
+        }
+      ],
+      "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "China",
+      "origin_confidence": "medium",
+      "origin_evidence": [
+        "jikkai: location=Shanghai, China",
+        "wzhudev: location=Beijing",
+        "Dushusir: location=Shanghai"
+      ]
+    },
+    {
+      "repository_name": "rakyll/hey",
+      "url": "https://github.com/rakyll/hey",
+      "contributors": [
+        {
+          "username": "rakyll",
+          "url": "https://github.com/rakyll"
+        },
+        {
+          "username": "mdakin",
+          "url": "https://github.com/mdakin"
+        },
+        {
+          "username": "jronak",
+          "url": "https://github.com/jronak"
+        },
+        {
+          "username": "pasc",
+          "url": "https://github.com/pasc"
+        },
+        {
+          "username": "keramidasceid",
+          "url": "https://github.com/keramidasceid"
+        }
+      ],
+      "description": "HTTP load generator, ApacheBench (ab) replacement",
+      "primary_language": "Go",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    }
+  ]
+}
