@@ -1,0 +1,603 @@
+{
+  "fetched_at": "2026-09-30T22:19:09+08:00",
+  "source_url": "https://github.com/trending/",
+  "repository_count": 17,
+  "ai_agent_project_count": 9,
+  "ai_agent_project_ratio": 0.5294,
+  "repositories": [
+    {
+      "repository_name": "NVIDIA/OpenShell",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "contributors": [
+        {
+          "username": "drew",
+          "url": "https://github.com/drew"
+        },
+        {
+          "username": "johntmyers",
+          "url": "https://github.com/johntmyers"
+        },
+        {
+          "username": "pimlock",
+          "url": "https://github.com/pimlock"
+        },
+        {
+          "username": "miyoungc",
+          "url": "https://github.com/miyoungc"
+        },
+        {
+          "username": "elezar",
+          "url": "https://github.com/elezar"
+        }
+      ],
+      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+      "primary_language": "Rust",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "drew: location=San Diego, CA"
+      ]
+    },
+    {
+      "repository_name": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "contributors": [
+        {
+          "username": "debpalash",
+          "url": "https://github.com/debpalash"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "kevin9327",
+          "url": "https://github.com/kevin9327"
+        },
+        {
+          "username": "jaketame",
+          "url": "https://github.com/jaketame"
+        },
+        {
+          "username": "velixio",
+          "url": "https://github.com/velixio"
+        }
+      ],
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "mvschwarz/openrig",
+      "url": "https://github.com/mvschwarz/openrig",
+      "contributors": [
+        {
+          "username": "mvschwarz",
+          "url": "https://github.com/mvschwarz"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "mattik",
+          "url": "https://github.com/mattik"
+        },
+        {
+          "username": "dajiaohuang",
+          "url": "https://github.com/dajiaohuang"
+        },
+        {
+          "username": "mvdpoel",
+          "url": "https://github.com/mvdpoel"
+        }
+      ],
+      "description": "Multi-agent harness that runs Claude Code and Codex together as one system",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "mksglu/context-mode",
+      "url": "https://github.com/mksglu/context-mode",
+      "contributors": [
+        {
+          "username": "mksglu",
+          "url": "https://github.com/mksglu"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "ipedro",
+          "url": "https://github.com/ipedro"
+        },
+        {
+          "username": "ousamabenyounes",
+          "url": "https://github.com/ousamabenyounes"
+        }
+      ],
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "mksglu: location=London"
+      ]
+    },
+    {
+      "repository_name": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "contributors": [
+        {
+          "username": "DietrichGebert",
+          "url": "https://github.com/DietrichGebert"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "Lakshya77089",
+          "url": "https://github.com/Lakshya77089"
+        },
+        {
+          "username": "ousamabenyounes",
+          "url": "https://github.com/ousamabenyounes"
+        },
+        {
+          "username": "dhedhialy",
+          "url": "https://github.com/dhedhialy"
+        }
+      ],
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "France",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "ousamabenyounes: location=France / Paris"
+      ]
+    },
+    {
+      "repository_name": "harry0703/MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "contributors": [
+        {
+          "username": "harry0703",
+          "url": "https://github.com/harry0703"
+        },
+        {
+          "username": "c020627",
+          "url": "https://github.com/c020627"
+        },
+        {
+          "username": "rudycelekli",
+          "url": "https://github.com/rudycelekli"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "yyhhyyyyyy",
+          "url": "https://github.com/yyhhyyyyyy"
+        }
+      ],
+      "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "openclaw/openclaw",
+      "url": "https://github.com/openclaw/openclaw",
+      "contributors": [
+        {
+          "username": "steipete",
+          "url": "https://github.com/steipete"
+        },
+        {
+          "username": "vincentkoc",
+          "url": "https://github.com/vincentkoc"
+        },
+        {
+          "username": "shakkernerd",
+          "url": "https://github.com/shakkernerd"
+        },
+        {
+          "username": "obviyus",
+          "url": "https://github.com/obviyus"
+        },
+        {
+          "username": "Takhoffman",
+          "url": "https://github.com/Takhoffman"
+        }
+      ],
+      "description": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "medium",
+      "origin_evidence": [
+        "steipete: location=London / San Francisco",
+        "shakkernerd: location=London"
+      ]
+    },
+    {
+      "repository_name": "ComposioHQ/awesome-claude-skills",
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "contributors": [
+        {
+          "username": "Prat011",
+          "url": "https://github.com/Prat011"
+        },
+        {
+          "username": "sohamganatra",
+          "url": "https://github.com/sohamganatra"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "sanjay3290",
+          "url": "https://github.com/sanjay3290"
+        },
+        {
+          "username": "mellson",
+          "url": "https://github.com/mellson"
+        }
+      ],
+      "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "contributors": [
+        {
+          "username": "mattpocock",
+          "url": "https://github.com/mattpocock"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "gabimoncha",
+          "url": "https://github.com/gabimoncha"
+        }
+      ],
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "primary_language": "Shell",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "heygen-com/hyperframes",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "contributors": [
+        {
+          "username": "miguel-heygen",
+          "url": "https://github.com/miguel-heygen"
+        },
+        {
+          "username": "vanceingalls",
+          "url": "https://github.com/vanceingalls"
+        },
+        {
+          "username": "jrusso1020",
+          "url": "https://github.com/jrusso1020"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "ukimsanov",
+          "url": "https://github.com/ukimsanov"
+        }
+      ],
+      "description": "Write HTML. Render video. Built for agents.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "jrusso1020: location=Ft. Lauderdale, Florida -> New York, New York"
+      ]
+    },
+    {
+      "repository_name": "firebase/firebase-ios-sdk",
+      "url": "https://github.com/firebase/firebase-ios-sdk",
+      "contributors": [
+        {
+          "username": "paulb777",
+          "url": "https://github.com/paulb777"
+        },
+        {
+          "username": "ncooke3",
+          "url": "https://github.com/ncooke3"
+        },
+        {
+          "username": "wilhuff",
+          "url": "https://github.com/wilhuff"
+        },
+        {
+          "username": "andrewheard",
+          "url": "https://github.com/andrewheard"
+        },
+        {
+          "username": "ryanwilson",
+          "url": "https://github.com/ryanwilson"
+        }
+      ],
+      "description": "Firebase SDK for Apple App Development",
+      "primary_language": "C++",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "modelcontextprotocol/servers",
+      "url": "https://github.com/modelcontextprotocol/servers",
+      "contributors": [
+        {
+          "username": "olaservo",
+          "url": "https://github.com/olaservo"
+        },
+        {
+          "username": "tadasant",
+          "url": "https://github.com/tadasant"
+        },
+        {
+          "username": "cliffhall",
+          "url": "https://github.com/cliffhall"
+        },
+        {
+          "username": "dsp-ant",
+          "url": "https://github.com/dsp-ant"
+        },
+        {
+          "username": "jspahrsummers",
+          "url": "https://github.com/jspahrsummers"
+        }
+      ],
+      "description": "Model Context Protocol Servers",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "jspahrsummers: location=United Kingdom"
+      ]
+    },
+    {
+      "repository_name": "byoungd/up",
+      "url": "https://github.com/byoungd/up",
+      "contributors": [
+        {
+          "username": "byoungd",
+          "url": "https://github.com/byoungd"
+        },
+        {
+          "username": "fakesnow",
+          "url": "https://github.com/fakesnow"
+        },
+        {
+          "username": "holtenko",
+          "url": "https://github.com/holtenko"
+        },
+        {
+          "username": "WMXPY",
+          "url": "https://github.com/WMXPY"
+        },
+        {
+          "username": "overtrue",
+          "url": "https://github.com/overtrue"
+        }
+      ],
+      "description": "An advanced guide which might benefit you a lot 🎉 . 韩先凯的人生进阶指南 人生进阶指南 离谱的人生 人生进阶 AI学习 AI指南 韩先凯的AI学习指南 英语学习指南/英语学习教程/英语学习/学英语",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "China",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "holtenko: location=Shanghai China"
+      ]
+    },
+    {
+      "repository_name": "colbymchenry/codegraph",
+      "url": "https://github.com/colbymchenry/codegraph",
+      "contributors": [
+        {
+          "username": "colbymchenry",
+          "url": "https://github.com/colbymchenry"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "maxmilian",
+          "url": "https://github.com/maxmilian"
+        },
+        {
+          "username": "omonien",
+          "url": "https://github.com/omonien"
+        }
+      ],
+      "description": "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, CoPilot, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
+      "primary_language": "C",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "t8y2/dbx",
+      "url": "https://github.com/t8y2/dbx",
+      "contributors": [
+        {
+          "username": "t8y2",
+          "url": "https://github.com/t8y2"
+        },
+        {
+          "username": "zipg",
+          "url": "https://github.com/zipg"
+        },
+        {
+          "username": "eryajf",
+          "url": "https://github.com/eryajf"
+        },
+        {
+          "username": "q396921921",
+          "url": "https://github.com/q396921921"
+        }
+      ],
+      "description": "25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP。",
+      "primary_language": "Rust",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "China",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "t8y2: company=Beijing"
+      ]
+    },
+    {
+      "repository_name": "NawfalMotii79/PLFM_RADAR",
+      "url": "https://github.com/NawfalMotii79/PLFM_RADAR",
+      "contributors": [
+        {
+          "username": "JJassonn69",
+          "url": "https://github.com/JJassonn69"
+        },
+        {
+          "username": "NawfalMotii79",
+          "url": "https://github.com/NawfalMotii79"
+        },
+        {
+          "username": "joyshmitz",
+          "url": "https://github.com/joyshmitz"
+        },
+        {
+          "username": "shaun0927",
+          "url": "https://github.com/shaun0927"
+        },
+        {
+          "username": "3aLaee",
+          "url": "https://github.com/3aLaee"
+        }
+      ],
+      "description": "Open-source, low-cost 10.5 GHz PLFM phased array RADAR system",
+      "primary_language": "PLSQL",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "Morocco",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "NawfalMotii79: location=Casablanca, MOROCCO"
+      ]
+    },
+    {
+      "repository_name": "VectifyAI/PageIndex",
+      "url": "https://github.com/VectifyAI/PageIndex",
+      "contributors": [
+        {
+          "username": "rejojer",
+          "url": "https://github.com/rejojer"
+        },
+        {
+          "username": "zmtomorrow",
+          "url": "https://github.com/zmtomorrow"
+        },
+        {
+          "username": "BukeLy",
+          "url": "https://github.com/BukeLy"
+        },
+        {
+          "username": "S3DFX-CYBER",
+          "url": "https://github.com/S3DFX-CYBER"
+        },
+        {
+          "username": "KylinMountain",
+          "url": "https://github.com/KylinMountain"
+        }
+      ],
+      "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "zmtomorrow: location=London"
+      ]
+    }
+  ]
+}
