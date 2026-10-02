@@ -1,0 +1,588 @@
+{
+  "fetched_at": "2026-10-03T04:12:10+08:00",
+  "source_url": "https://github.com/trending/",
+  "repository_count": 17,
+  "ai_agent_project_count": 12,
+  "ai_agent_project_ratio": 0.7059,
+  "repositories": [
+    {
+      "repository_name": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "contributors": [
+        {
+          "username": "Panniantong",
+          "url": "https://github.com/Panniantong"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "nyxst4ck",
+          "url": "https://github.com/nyxst4ck"
+        },
+        {
+          "username": "kadaliao",
+          "url": "https://github.com/kadaliao"
+        },
+        {
+          "username": "hymansun",
+          "url": "https://github.com/hymansun"
+        }
+      ],
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "China",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "kadaliao: location=Beijing"
+      ]
+    },
+    {
+      "repository_name": "JuliusBrussee/caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "contributors": [
+        {
+          "username": "JuliusBrussee",
+          "url": "https://github.com/JuliusBrussee"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "hunleyd",
+          "url": "https://github.com/hunleyd"
+        },
+        {
+          "username": "AmirF194",
+          "url": "https://github.com/AmirF194"
+        }
+      ],
+      "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
+      "primary_language": "Go",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "Netherlands",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "JuliusBrussee: location=Netherlands"
+      ]
+    },
+    {
+      "repository_name": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "contributors": [
+        {
+          "username": "obra",
+          "url": "https://github.com/obra"
+        },
+        {
+          "username": "arittr",
+          "url": "https://github.com/arittr"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "clkao",
+          "url": "https://github.com/clkao"
+        },
+        {
+          "username": "gaurav0107",
+          "url": "https://github.com/gaurav0107"
+        }
+      ],
+      "description": "An agentic skills framework & software development methodology that works.",
+      "primary_language": "Shell",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "contributors": [
+        {
+          "username": "DietrichGebert",
+          "url": "https://github.com/DietrichGebert"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "Lakshya77089",
+          "url": "https://github.com/Lakshya77089"
+        },
+        {
+          "username": "ousamabenyounes",
+          "url": "https://github.com/ousamabenyounes"
+        },
+        {
+          "username": "dhedhialy",
+          "url": "https://github.com/dhedhialy"
+        }
+      ],
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "France",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "ousamabenyounes: location=France / Paris"
+      ]
+    },
+    {
+      "repository_name": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "contributors": [
+        {
+          "username": "pbakaus",
+          "url": "https://github.com/pbakaus"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "abdulwahabone",
+          "url": "https://github.com/abdulwahabone"
+        },
+        {
+          "username": "cursoragent",
+          "url": "https://github.com/cursoragent"
+        }
+      ],
+      "description": "The design language that makes your AI harness better at design.",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "contributors": [
+        {
+          "username": "mattpocock",
+          "url": "https://github.com/mattpocock"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "gabimoncha",
+          "url": "https://github.com/gabimoncha"
+        }
+      ],
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "primary_language": "Shell",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "NVIDIA/OpenShell",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "contributors": [
+        {
+          "username": "drew",
+          "url": "https://github.com/drew"
+        },
+        {
+          "username": "johntmyers",
+          "url": "https://github.com/johntmyers"
+        },
+        {
+          "username": "pimlock",
+          "url": "https://github.com/pimlock"
+        },
+        {
+          "username": "miyoungc",
+          "url": "https://github.com/miyoungc"
+        },
+        {
+          "username": "elezar",
+          "url": "https://github.com/elezar"
+        }
+      ],
+      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+      "primary_language": "Rust",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "drew: location=San Diego, CA"
+      ]
+    },
+    {
+      "repository_name": "coreyhaines31/marketingskills",
+      "url": "https://github.com/coreyhaines31/marketingskills",
+      "contributors": [
+        {
+          "username": "coreyhaines31",
+          "url": "https://github.com/coreyhaines31"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "njcameron",
+          "url": "https://github.com/njcameron"
+        },
+        {
+          "username": "Jiliac",
+          "url": "https://github.com/Jiliac"
+        },
+        {
+          "username": "basseko",
+          "url": "https://github.com/basseko"
+        }
+      ],
+      "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United States",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "coreyhaines31: location=San Diego"
+      ]
+    },
+    {
+      "repository_name": "heygen-com/hyperframes",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "contributors": [
+        {
+          "username": "miguel-heygen",
+          "url": "https://github.com/miguel-heygen"
+        },
+        {
+          "username": "vanceingalls",
+          "url": "https://github.com/vanceingalls"
+        },
+        {
+          "username": "jrusso1020",
+          "url": "https://github.com/jrusso1020"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "ukimsanov",
+          "url": "https://github.com/ukimsanov"
+        }
+      ],
+      "description": "Write HTML. Render video. Built for agents.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "jrusso1020: location=Ft. Lauderdale, Florida -> New York, New York"
+      ]
+    },
+    {
+      "repository_name": "mksglu/context-mode",
+      "url": "https://github.com/mksglu/context-mode",
+      "contributors": [
+        {
+          "username": "mksglu",
+          "url": "https://github.com/mksglu"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "ipedro",
+          "url": "https://github.com/ipedro"
+        },
+        {
+          "username": "ousamabenyounes",
+          "url": "https://github.com/ousamabenyounes"
+        }
+      ],
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "mksglu: location=London"
+      ]
+    },
+    {
+      "repository_name": "google/skills",
+      "url": "https://github.com/google/skills",
+      "contributors": [
+        {
+          "username": "cloud-ix-copybara",
+          "url": "https://github.com/cloud-ix-copybara"
+        },
+        {
+          "username": "holtskinner",
+          "url": "https://github.com/holtskinner"
+        },
+        {
+          "username": "martinvarelaj",
+          "url": "https://github.com/martinvarelaj"
+        },
+        {
+          "username": "wangauone",
+          "url": "https://github.com/wangauone"
+        },
+        {
+          "username": "helloeve",
+          "url": "https://github.com/helloeve"
+        }
+      ],
+      "description": "Agent Skills for Google products and technologies",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "getsentry/sentry",
+      "url": "https://github.com/getsentry/sentry",
+      "contributors": [
+        {
+          "username": "dcramer",
+          "url": "https://github.com/dcramer"
+        },
+        {
+          "username": "evanpurkhiser",
+          "url": "https://github.com/evanpurkhiser"
+        },
+        {
+          "username": "scttcper",
+          "url": "https://github.com/scttcper"
+        },
+        {
+          "username": "markstory",
+          "url": "https://github.com/markstory"
+        },
+        {
+          "username": "billyvg",
+          "url": "https://github.com/billyvg"
+        }
+      ],
+      "description": "Developer-first error tracking and performance monitoring",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "evanpurkhiser: location=New York"
+      ]
+    },
+    {
+      "repository_name": "colbymchenry/codegraph",
+      "url": "https://github.com/colbymchenry/codegraph",
+      "contributors": [
+        {
+          "username": "colbymchenry",
+          "url": "https://github.com/colbymchenry"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "maxmilian",
+          "url": "https://github.com/maxmilian"
+        },
+        {
+          "username": "omonien",
+          "url": "https://github.com/omonien"
+        }
+      ],
+      "description": "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, CoPilot, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
+      "primary_language": "C",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "cursor/plugins",
+      "url": "https://github.com/cursor/plugins",
+      "contributors": [
+        {
+          "username": "cursoragent",
+          "url": "https://github.com/cursoragent"
+        },
+        {
+          "username": "poteto",
+          "url": "https://github.com/poteto"
+        },
+        {
+          "username": "minupalaniappan",
+          "url": "https://github.com/minupalaniappan"
+        },
+        {
+          "username": "ericzakariasson",
+          "url": "https://github.com/ericzakariasson"
+        },
+        {
+          "username": "roshansada",
+          "url": "https://github.com/roshansada"
+        }
+      ],
+      "description": "Cursor plugin specification and official plugins",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "mvschwarz/openrig",
+      "url": "https://github.com/mvschwarz/openrig",
+      "contributors": [
+        {
+          "username": "mvschwarz",
+          "url": "https://github.com/mvschwarz"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "rudycelekli",
+          "url": "https://github.com/rudycelekli"
+        },
+        {
+          "username": "dajiaohuang",
+          "url": "https://github.com/dajiaohuang"
+        },
+        {
+          "username": "korallis",
+          "url": "https://github.com/korallis"
+        }
+      ],
+      "description": "Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "Effect-TS/effect",
+      "url": "https://github.com/Effect-TS/effect",
+      "contributors": [
+        {
+          "username": "mikearnaldi",
+          "url": "https://github.com/mikearnaldi"
+        },
+        {
+          "username": "tim-smart",
+          "url": "https://github.com/tim-smart"
+        },
+        {
+          "username": "gcanti",
+          "url": "https://github.com/gcanti"
+        },
+        {
+          "username": "fubhy",
+          "url": "https://github.com/fubhy"
+        }
+      ],
+      "description": "Build production-ready applications in TypeScript",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "Italy",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "gcanti: location=Milan, Italy"
+      ]
+    },
+    {
+      "repository_name": "pablostanley/yoinks",
+      "url": "https://github.com/pablostanley/yoinks",
+      "contributors": [
+        {
+          "username": "pablostanley",
+          "url": "https://github.com/pablostanley"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        }
+      ],
+      "description": "yoink any video from your terminal. no shady ads.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    }
+  ]
+}
