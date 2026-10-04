@@ -1,0 +1,537 @@
+{
+  "fetched_at": "2026-10-05T04:33:01+08:00",
+  "source_url": "https://github.com/trending/",
+  "repository_count": 15,
+  "ai_agent_project_count": 11,
+  "ai_agent_project_ratio": 0.7333,
+  "repositories": [
+    {
+      "repository_name": "tester-army/e2e",
+      "url": "https://github.com/tester-army/e2e",
+      "contributors": [
+        {
+          "username": "okwasniewski",
+          "url": "https://github.com/okwasniewski"
+        },
+        {
+          "username": "kacperkapusciak",
+          "url": "https://github.com/kacperkapusciak"
+        },
+        {
+          "username": "szymonrybczak",
+          "url": "https://github.com/szymonrybczak"
+        },
+        {
+          "username": "DeryFerd",
+          "url": "https://github.com/DeryFerd"
+        }
+      ],
+      "description": "Next generation e2e testing framework for web and mobile apps.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "contributors": [
+        {
+          "username": "pbakaus",
+          "url": "https://github.com/pbakaus"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "abdulwahabone",
+          "url": "https://github.com/abdulwahabone"
+        },
+        {
+          "username": "cursoragent",
+          "url": "https://github.com/cursoragent"
+        }
+      ],
+      "description": "The design language that makes your AI harness better at design.",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "coreyhaines31/marketingskills",
+      "url": "https://github.com/coreyhaines31/marketingskills",
+      "contributors": [
+        {
+          "username": "coreyhaines31",
+          "url": "https://github.com/coreyhaines31"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "rudycelekli",
+          "url": "https://github.com/rudycelekli"
+        },
+        {
+          "username": "FekyBaz",
+          "url": "https://github.com/FekyBaz"
+        },
+        {
+          "username": "imMamdouhaboammar",
+          "url": "https://github.com/imMamdouhaboammar"
+        }
+      ],
+      "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United States",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "coreyhaines31: location=San Diego"
+      ]
+    },
+    {
+      "repository_name": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "contributors": [
+        {
+          "username": "DietrichGebert",
+          "url": "https://github.com/DietrichGebert"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "ousamabenyounes",
+          "url": "https://github.com/ousamabenyounes"
+        },
+        {
+          "username": "Lakshya77089",
+          "url": "https://github.com/Lakshya77089"
+        },
+        {
+          "username": "dhedhialy",
+          "url": "https://github.com/dhedhialy"
+        }
+      ],
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "France",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "ousamabenyounes: location=France / Paris"
+      ]
+    },
+    {
+      "repository_name": "earthtojake/text-to-cad",
+      "url": "https://github.com/earthtojake/text-to-cad",
+      "contributors": [
+        {
+          "username": "earthtojake",
+          "url": "https://github.com/earthtojake"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "warun7",
+          "url": "https://github.com/warun7"
+        }
+      ],
+      "description": "Give your agent CAD superpowers.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "contributors": [
+        {
+          "username": "Panniantong",
+          "url": "https://github.com/Panniantong"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "nyxst4ck",
+          "url": "https://github.com/nyxst4ck"
+        },
+        {
+          "username": "kadaliao",
+          "url": "https://github.com/kadaliao"
+        },
+        {
+          "username": "hymansun",
+          "url": "https://github.com/hymansun"
+        }
+      ],
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "China",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "kadaliao: location=Beijing"
+      ]
+    },
+    {
+      "repository_name": "getsentry/sentry",
+      "url": "https://github.com/getsentry/sentry",
+      "contributors": [
+        {
+          "username": "dcramer",
+          "url": "https://github.com/dcramer"
+        },
+        {
+          "username": "evanpurkhiser",
+          "url": "https://github.com/evanpurkhiser"
+        },
+        {
+          "username": "scttcper",
+          "url": "https://github.com/scttcper"
+        },
+        {
+          "username": "markstory",
+          "url": "https://github.com/markstory"
+        },
+        {
+          "username": "billyvg",
+          "url": "https://github.com/billyvg"
+        }
+      ],
+      "description": "Developer-first error tracking and performance monitoring",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "evanpurkhiser: location=New York"
+      ]
+    },
+    {
+      "repository_name": "calesthio/OpenMontage",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "contributors": [
+        {
+          "username": "calesthio",
+          "url": "https://github.com/calesthio"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "0xDevNinja",
+          "url": "https://github.com/0xDevNinja"
+        },
+        {
+          "username": "yiyabo",
+          "url": "https://github.com/yiyabo"
+        },
+        {
+          "username": "xucailiang",
+          "url": "https://github.com/xucailiang"
+        }
+      ],
+      "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "Hong Kong",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "yiyabo: location=The Chinese University of Hong Kong"
+      ]
+    },
+    {
+      "repository_name": "pingdotgg/t3code",
+      "url": "https://github.com/pingdotgg/t3code",
+      "contributors": [
+        {
+          "username": "juliusmarminge",
+          "url": "https://github.com/juliusmarminge"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "t3dotgg",
+          "url": "https://github.com/t3dotgg"
+        },
+        {
+          "username": "codex",
+          "url": "https://github.com/codex"
+        },
+        {
+          "username": "maria-rcks",
+          "url": "https://github.com/maria-rcks"
+        }
+      ],
+      "description": null,
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude",
+        "codex"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "caddyserver/caddy",
+      "url": "https://github.com/caddyserver/caddy",
+      "contributors": [
+        {
+          "username": "mholt",
+          "url": "https://github.com/mholt"
+        },
+        {
+          "username": "francislavoie",
+          "url": "https://github.com/francislavoie"
+        },
+        {
+          "username": "mohammed90",
+          "url": "https://github.com/mohammed90"
+        },
+        {
+          "username": "WeidiDeng",
+          "url": "https://github.com/WeidiDeng"
+        },
+        {
+          "username": "dunglas",
+          "url": "https://github.com/dunglas"
+        }
+      ],
+      "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
+      "primary_language": "Go",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "France",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "dunglas: location=Lille, France"
+      ]
+    },
+    {
+      "repository_name": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "contributors": [
+        {
+          "username": "addyosmani",
+          "url": "https://github.com/addyosmani"
+        },
+        {
+          "username": "nucliweb",
+          "url": "https://github.com/nucliweb"
+        },
+        {
+          "username": "federicobartoli",
+          "url": "https://github.com/federicobartoli"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "ayobamiseun",
+          "url": "https://github.com/ayobamiseun"
+        }
+      ],
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "contributors": [
+        {
+          "username": "thedotmack",
+          "url": "https://github.com/thedotmack"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "cursoragent",
+          "url": "https://github.com/cursoragent"
+        },
+        {
+          "username": "rodboev",
+          "url": "https://github.com/rodboev"
+        }
+      ],
+      "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "rodboev: location=NYC"
+      ]
+    },
+    {
+      "repository_name": "garrytan/gstack",
+      "url": "https://github.com/garrytan/gstack",
+      "contributors": [
+        {
+          "username": "garrytan",
+          "url": "https://github.com/garrytan"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "test22345",
+          "url": "https://github.com/test22345"
+        },
+        {
+          "username": "16francej",
+          "url": "https://github.com/16francej"
+        },
+        {
+          "username": "jbetala7",
+          "url": "https://github.com/jbetala7"
+        }
+      ],
+      "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "OpenCut-app/OpenCut",
+      "url": "https://github.com/OpenCut-app/OpenCut",
+      "contributors": [
+        {
+          "username": "mazeincoding",
+          "url": "https://github.com/mazeincoding"
+        },
+        {
+          "username": "izadoesdev",
+          "url": "https://github.com/izadoesdev"
+        },
+        {
+          "username": "anwarulislam",
+          "url": "https://github.com/anwarulislam"
+        },
+        {
+          "username": "khanguyen74",
+          "url": "https://github.com/khanguyen74"
+        },
+        {
+          "username": "DevloperAmanSingh",
+          "url": "https://github.com/DevloperAmanSingh"
+        }
+      ],
+      "description": "The open-source CapCut alternative",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "Palestine",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "izadoesdev: location=Palestine"
+      ]
+    },
+    {
+      "repository_name": "antirez/ds4",
+      "url": "https://github.com/antirez/ds4",
+      "contributors": [
+        {
+          "username": "antirez",
+          "url": "https://github.com/antirez"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "kyuz0",
+          "url": "https://github.com/kyuz0"
+        },
+        {
+          "username": "ivanfioravanti",
+          "url": "https://github.com/ivanfioravanti"
+        },
+        {
+          "username": "polymorf",
+          "url": "https://github.com/polymorf"
+        }
+      ],
+      "description": "DeepSeek 4 Flash and PRO local inference engine for Metal, CUDA and ROCm",
+      "primary_language": "C",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "Italy",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "antirez: location=Catania, Sicily, Italy"
+      ]
+    }
+  ]
+}
