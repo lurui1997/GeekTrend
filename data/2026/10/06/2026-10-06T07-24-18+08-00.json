@@ -1,0 +1,467 @@
+{
+  "fetched_at": "2026-10-06T07:24:18+08:00",
+  "source_url": "https://github.com/trending/",
+  "repository_count": 13,
+  "ai_agent_project_count": 9,
+  "ai_agent_project_ratio": 0.6923,
+  "repositories": [
+    {
+      "repository_name": "tester-army/e2e",
+      "url": "https://github.com/tester-army/e2e",
+      "contributors": [
+        {
+          "username": "okwasniewski",
+          "url": "https://github.com/okwasniewski"
+        },
+        {
+          "username": "kacperkapusciak",
+          "url": "https://github.com/kacperkapusciak"
+        },
+        {
+          "username": "szymonrybczak",
+          "url": "https://github.com/szymonrybczak"
+        },
+        {
+          "username": "DeryFerd",
+          "url": "https://github.com/DeryFerd"
+        }
+      ],
+      "description": "Next generation e2e testing framework for web and mobile apps.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "contributors": [
+        {
+          "username": "thedotmack",
+          "url": "https://github.com/thedotmack"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "cursoragent",
+          "url": "https://github.com/cursoragent"
+        },
+        {
+          "username": "rudycelekli",
+          "url": "https://github.com/rudycelekli"
+        },
+        {
+          "username": "rodboev",
+          "url": "https://github.com/rodboev"
+        }
+      ],
+      "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "rodboev: location=NYC"
+      ]
+    },
+    {
+      "repository_name": "earthtojake/text-to-cad",
+      "url": "https://github.com/earthtojake/text-to-cad",
+      "contributors": [
+        {
+          "username": "earthtojake",
+          "url": "https://github.com/earthtojake"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "warun7",
+          "url": "https://github.com/warun7"
+        }
+      ],
+      "description": "Give your agent CAD superpowers.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "pingdotgg/t3code",
+      "url": "https://github.com/pingdotgg/t3code",
+      "contributors": [
+        {
+          "username": "juliusmarminge",
+          "url": "https://github.com/juliusmarminge"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "t3dotgg",
+          "url": "https://github.com/t3dotgg"
+        },
+        {
+          "username": "codex",
+          "url": "https://github.com/codex"
+        },
+        {
+          "username": "maria-rcks",
+          "url": "https://github.com/maria-rcks"
+        }
+      ],
+      "description": null,
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude",
+        "codex"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "boykopovar/AnyPS5",
+      "url": "https://github.com/boykopovar/AnyPS5",
+      "contributors": [
+        {
+          "username": "boykopovar",
+          "url": "https://github.com/boykopovar"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "oneandonlydean",
+          "url": "https://github.com/oneandonlydean"
+        },
+        {
+          "username": "adriadam10",
+          "url": "https://github.com/adriadam10"
+        },
+        {
+          "username": "SamG-Coder",
+          "url": "https://github.com/SamG-Coder"
+        }
+      ],
+      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
+      "primary_language": "C++",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "contributors": [
+        {
+          "username": "Panniantong",
+          "url": "https://github.com/Panniantong"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "nyxst4ck",
+          "url": "https://github.com/nyxst4ck"
+        },
+        {
+          "username": "kadaliao",
+          "url": "https://github.com/kadaliao"
+        },
+        {
+          "username": "hymansun",
+          "url": "https://github.com/hymansun"
+        }
+      ],
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "China",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "kadaliao: location=Beijing"
+      ]
+    },
+    {
+      "repository_name": "calesthio/OpenMontage",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "contributors": [
+        {
+          "username": "calesthio",
+          "url": "https://github.com/calesthio"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "0xDevNinja",
+          "url": "https://github.com/0xDevNinja"
+        },
+        {
+          "username": "yiyabo",
+          "url": "https://github.com/yiyabo"
+        },
+        {
+          "username": "xucailiang",
+          "url": "https://github.com/xucailiang"
+        }
+      ],
+      "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "Hong Kong",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "yiyabo: location=The Chinese University of Hong Kong"
+      ]
+    },
+    {
+      "repository_name": "caddyserver/caddy",
+      "url": "https://github.com/caddyserver/caddy",
+      "contributors": [
+        {
+          "username": "mholt",
+          "url": "https://github.com/mholt"
+        },
+        {
+          "username": "francislavoie",
+          "url": "https://github.com/francislavoie"
+        },
+        {
+          "username": "mohammed90",
+          "url": "https://github.com/mohammed90"
+        },
+        {
+          "username": "WeidiDeng",
+          "url": "https://github.com/WeidiDeng"
+        },
+        {
+          "username": "dunglas",
+          "url": "https://github.com/dunglas"
+        }
+      ],
+      "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
+      "primary_language": "Go",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "France",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "dunglas: location=Lille, France"
+      ]
+    },
+    {
+      "repository_name": "DuarteSantos8/openGym",
+      "url": "https://github.com/DuarteSantos8/openGym",
+      "contributors": [
+        {
+          "username": "DuarteSantos8",
+          "url": "https://github.com/DuarteSantos8"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "kurktchiev",
+          "url": "https://github.com/kurktchiev"
+        },
+        {
+          "username": "sgoendoer",
+          "url": "https://github.com/sgoendoer"
+        },
+        {
+          "username": "Space-Hermes",
+          "url": "https://github.com/Space-Hermes"
+        }
+      ],
+      "description": "Self-hosted gym & body-weight tracker — plan routines, log workouts (supersets, warm-ups, cardio), see which muscles are trained, fatigued or detrained, import from FitNotes/Strong/Hevy, passkey login. Your data, your server.",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "cloudflare/cloudflare-os",
+      "url": "https://github.com/cloudflare/cloudflare-os",
+      "contributors": [
+        {
+          "username": "kentonv",
+          "url": "https://github.com/kentonv"
+        },
+        {
+          "username": "ndisidore",
+          "url": "https://github.com/ndisidore"
+        },
+        {
+          "username": "jonesphillip",
+          "url": "https://github.com/jonesphillip"
+        },
+        {
+          "username": "bjesus",
+          "url": "https://github.com/bjesus"
+        },
+        {
+          "username": "Maximo-Guk",
+          "url": "https://github.com/Maximo-Guk"
+        }
+      ],
+      "description": "Agent workspace built on Cloudflare Workers for creating documents, building apps, and running agents with your company’s context and systems.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "Stremio/stremio-web",
+      "url": "https://github.com/Stremio/stremio-web",
+      "contributors": [
+        {
+          "username": "kKaskak",
+          "url": "https://github.com/kKaskak"
+        },
+        {
+          "username": "tymmesyde",
+          "url": "https://github.com/tymmesyde"
+        },
+        {
+          "username": "nklhtv",
+          "url": "https://github.com/nklhtv"
+        },
+        {
+          "username": "swetlasg",
+          "url": "https://github.com/swetlasg"
+        },
+        {
+          "username": "Botsy",
+          "url": "https://github.com/Botsy"
+        }
+      ],
+      "description": "Stremio - Freedom to Stream",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "France",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "tymmesyde: location=France"
+      ]
+    },
+    {
+      "repository_name": "msitarzewski/agency-agents",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "contributors": [
+        {
+          "username": "msitarzewski",
+          "url": "https://github.com/msitarzewski"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "rudycelekli",
+          "url": "https://github.com/rudycelekli"
+        },
+        {
+          "username": "epowelljr",
+          "url": "https://github.com/epowelljr"
+        },
+        {
+          "username": "Hotragn",
+          "url": "https://github.com/Hotragn"
+        }
+      ],
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "primary_language": "Shell",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "M-Abozaid/esp32-c3-adblock",
+      "url": "https://github.com/M-Abozaid/esp32-c3-adblock",
+      "contributors": [
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "M-Abozaid",
+          "url": "https://github.com/M-Abozaid"
+        },
+        {
+          "username": "tomorrow56",
+          "url": "https://github.com/tomorrow56"
+        },
+        {
+          "username": "L4Ph",
+          "url": "https://github.com/L4Ph"
+        }
+      ],
+      "description": "Pi-hole-class DNS ad-blocker on a $2 ESP32-C3 (no PSRAM): 537k domains as 40-bit FNV-1a hashes in flash, binary-searched. UDP DNS sinkhole + web dashboard. https://youtube.com/shorts/RaxszOUMi8E?feature=share",
+      "primary_language": "C++",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "Japan",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "tomorrow56: location=Japan"
+      ]
+    }
+  ]
+}
