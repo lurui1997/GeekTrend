@@ -1,0 +1,313 @@
+{
+  "fetched_at": "2026-10-09T18:57:39+08:00",
+  "source_url": "https://github.com/trending/",
+  "repository_count": 9,
+  "ai_agent_project_count": 6,
+  "ai_agent_project_ratio": 0.6667,
+  "repositories": [
+    {
+      "repository_name": "boykopovar/AnyPS5",
+      "url": "https://github.com/boykopovar/AnyPS5",
+      "contributors": [
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "boykopovar",
+          "url": "https://github.com/boykopovar"
+        },
+        {
+          "username": "oneandonlydean",
+          "url": "https://github.com/oneandonlydean"
+        },
+        {
+          "username": "adriadam10",
+          "url": "https://github.com/adriadam10"
+        },
+        {
+          "username": "SamG-Coder",
+          "url": "https://github.com/SamG-Coder"
+        }
+      ],
+      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
+      "primary_language": "C++",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "cathrynlavery/diagram-design",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "contributors": [
+        {
+          "username": "cathrynlavery",
+          "url": "https://github.com/cathrynlavery"
+        },
+        {
+          "username": "parveen0029",
+          "url": "https://github.com/parveen0029"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "mvanhorn",
+          "url": "https://github.com/mvanhorn"
+        }
+      ],
+      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 42 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "primary_language": "HTML",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "morluto/rea",
+      "url": "https://github.com/morluto/rea",
+      "contributors": [
+        {
+          "username": "morluto",
+          "url": "https://github.com/morluto"
+        },
+        {
+          "username": "N0zoM1z0",
+          "url": "https://github.com/N0zoM1z0"
+        },
+        {
+          "username": "kaoru0822-kitauji",
+          "url": "https://github.com/kaoru0822-kitauji"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "rudycelekli",
+          "url": "https://github.com/rudycelekli"
+        }
+      ],
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "contributors": [
+        {
+          "username": "mattpocock",
+          "url": "https://github.com/mattpocock"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "gabimoncha",
+          "url": "https://github.com/gabimoncha"
+        }
+      ],
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "primary_language": "Shell",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "contributors": [
+        {
+          "username": "thedotmack",
+          "url": "https://github.com/thedotmack"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "rudycelekli",
+          "url": "https://github.com/rudycelekli"
+        },
+        {
+          "username": "cursoragent",
+          "url": "https://github.com/cursoragent"
+        },
+        {
+          "username": "rodboev",
+          "url": "https://github.com/rodboev"
+        }
+      ],
+      "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "rodboev: location=NYC"
+      ]
+    },
+    {
+      "repository_name": "EpicGames/raddebugger",
+      "url": "https://github.com/EpicGames/raddebugger",
+      "contributors": [
+        {
+          "username": "ryanfleury",
+          "url": "https://github.com/ryanfleury"
+        },
+        {
+          "username": "NikitaSmith057",
+          "url": "https://github.com/NikitaSmith057"
+        },
+        {
+          "username": "mmozeiko",
+          "url": "https://github.com/mmozeiko"
+        },
+        {
+          "username": "NikitaAtEpic",
+          "url": "https://github.com/NikitaAtEpic"
+        },
+        {
+          "username": "andreymlv",
+          "url": "https://github.com/andreymlv"
+        }
+      ],
+      "description": "A native, user-mode, multi-process, graphical debugger.",
+      "primary_language": "C",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "medium",
+      "origin_evidence": [
+        "ryanfleury: location=Washington, USA",
+        "NikitaSmith057: location=Washington, USA"
+      ]
+    },
+    {
+      "repository_name": "anthropics/knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "contributors": [
+        {
+          "username": "jordanecker-ant",
+          "url": "https://github.com/jordanecker-ant"
+        },
+        {
+          "username": "bryan-anthropic",
+          "url": "https://github.com/bryan-anthropic"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "mattpic-ant",
+          "url": "https://github.com/mattpic-ant"
+        }
+      ],
+      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "storytold/artcraft",
+      "url": "https://github.com/storytold/artcraft",
+      "contributors": [
+        {
+          "username": "echelon",
+          "url": "https://github.com/echelon"
+        },
+        {
+          "username": "bflatastic",
+          "url": "https://github.com/bflatastic"
+        },
+        {
+          "username": "ArEnSc",
+          "url": "https://github.com/ArEnSc"
+        },
+        {
+          "username": "wilwong",
+          "url": "https://github.com/wilwong"
+        },
+        {
+          "username": "Quicksticks-oss",
+          "url": "https://github.com/Quicksticks-oss"
+        }
+      ],
+      "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
+      "primary_language": "Rust",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "Thailand",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "bflatastic: location=Bangkok, Thailand"
+      ]
+    },
+    {
+      "repository_name": "liquidslr/system-design-notes",
+      "url": "https://github.com/liquidslr/system-design-notes",
+      "contributors": [
+        {
+          "username": "liquidslr",
+          "url": "https://github.com/liquidslr"
+        },
+        {
+          "username": "emmadonjo",
+          "url": "https://github.com/emmadonjo"
+        },
+        {
+          "username": "stym01",
+          "url": "https://github.com/stym01"
+        }
+      ],
+      "description": "Notes of the book System Desgin Interview - An Insider's Guide",
+      "primary_language": null,
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "liquidslr: location=New York"
+      ]
+    }
+  ]
+}
