@@ -1,0 +1,372 @@
+{
+  "fetched_at": "2026-10-10T01:36:34+08:00",
+  "source_url": "https://github.com/trending/",
+  "repository_count": 11,
+  "ai_agent_project_count": 7,
+  "ai_agent_project_ratio": 0.6364,
+  "repositories": [
+    {
+      "repository_name": "morluto/rea",
+      "url": "https://github.com/morluto/rea",
+      "contributors": [
+        {
+          "username": "morluto",
+          "url": "https://github.com/morluto"
+        },
+        {
+          "username": "N0zoM1z0",
+          "url": "https://github.com/N0zoM1z0"
+        },
+        {
+          "username": "kaoru0822-kitauji",
+          "url": "https://github.com/kaoru0822-kitauji"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "rudycelekli",
+          "url": "https://github.com/rudycelekli"
+        }
+      ],
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "boykopovar/AnyPS5",
+      "url": "https://github.com/boykopovar/AnyPS5",
+      "contributors": [
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "boykopovar",
+          "url": "https://github.com/boykopovar"
+        },
+        {
+          "username": "oneandonlydean",
+          "url": "https://github.com/oneandonlydean"
+        },
+        {
+          "username": "adriadam10",
+          "url": "https://github.com/adriadam10"
+        },
+        {
+          "username": "SamG-Coder",
+          "url": "https://github.com/SamG-Coder"
+        }
+      ],
+      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
+      "primary_language": "C++",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "contributors": [
+        {
+          "username": "mattpocock",
+          "url": "https://github.com/mattpocock"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "gabimoncha",
+          "url": "https://github.com/gabimoncha"
+        }
+      ],
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "primary_language": "Shell",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "cathrynlavery/diagram-design",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "contributors": [
+        {
+          "username": "cathrynlavery",
+          "url": "https://github.com/cathrynlavery"
+        },
+        {
+          "username": "parveen0029",
+          "url": "https://github.com/parveen0029"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "mvanhorn",
+          "url": "https://github.com/mvanhorn"
+        }
+      ],
+      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 42 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "primary_language": "HTML",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "contributors": [
+        {
+          "username": "lizhengfeng101",
+          "url": "https://github.com/lizhengfeng101"
+        },
+        {
+          "username": "wu21-web",
+          "url": "https://github.com/wu21-web"
+        },
+        {
+          "username": "chethanuk",
+          "url": "https://github.com/chethanuk"
+        },
+        {
+          "username": "stay-foolish-forever",
+          "url": "https://github.com/stay-foolish-forever"
+        },
+        {
+          "username": "Qiyuanqiii",
+          "url": "https://github.com/Qiyuanqiii"
+        }
+      ],
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "primary_language": "Go",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "chethanuk: location=London"
+      ]
+    },
+    {
+      "repository_name": "anthropics/knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "contributors": [
+        {
+          "username": "jordanecker-ant",
+          "url": "https://github.com/jordanecker-ant"
+        },
+        {
+          "username": "bryan-anthropic",
+          "url": "https://github.com/bryan-anthropic"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "mattpic-ant",
+          "url": "https://github.com/mattpic-ant"
+        }
+      ],
+      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "BerriAI/litellm",
+      "url": "https://github.com/BerriAI/litellm",
+      "contributors": [
+        {
+          "username": "ishaan-jaff",
+          "url": "https://github.com/ishaan-jaff"
+        },
+        {
+          "username": "mateo-berri",
+          "url": "https://github.com/mateo-berri"
+        },
+        {
+          "username": "yuneng-berri",
+          "url": "https://github.com/yuneng-berri"
+        },
+        {
+          "username": "Sameerlite",
+          "url": "https://github.com/Sameerlite"
+        }
+      ],
+      "description": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "contributors": [
+        {
+          "username": "addyosmani",
+          "url": "https://github.com/addyosmani"
+        },
+        {
+          "username": "nucliweb",
+          "url": "https://github.com/nucliweb"
+        },
+        {
+          "username": "federicobartoli",
+          "url": "https://github.com/federicobartoli"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "ayobamiseun",
+          "url": "https://github.com/ayobamiseun"
+        }
+      ],
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "storytold/artcraft",
+      "url": "https://github.com/storytold/artcraft",
+      "contributors": [
+        {
+          "username": "echelon",
+          "url": "https://github.com/echelon"
+        },
+        {
+          "username": "bflatastic",
+          "url": "https://github.com/bflatastic"
+        },
+        {
+          "username": "ArEnSc",
+          "url": "https://github.com/ArEnSc"
+        },
+        {
+          "username": "wilwong",
+          "url": "https://github.com/wilwong"
+        },
+        {
+          "username": "Quicksticks-oss",
+          "url": "https://github.com/Quicksticks-oss"
+        }
+      ],
+      "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
+      "primary_language": "Rust",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "Thailand",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "bflatastic: location=Bangkok, Thailand"
+      ]
+    },
+    {
+      "repository_name": "Robbyant/lingbot-map",
+      "url": "https://github.com/Robbyant/lingbot-map",
+      "contributors": [
+        {
+          "username": "LinZhuoChen",
+          "url": "https://github.com/LinZhuoChen"
+        },
+        {
+          "username": "justimyhxu",
+          "url": "https://github.com/justimyhxu"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        }
+      ],
+      "description": "[ECCV 2026 Best Paper Award Candidate] LingBot-Map: Geometric Context Transformer for Streaming 3D Reconstruction",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "Hong Kong",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "justimyhxu: company=Hong Kong Universit of Science and Technology; Stanford University; The Chinese University of Hong Kong; Zhejiang University"
+      ]
+    },
+    {
+      "repository_name": "twostraws/SwiftUI-Agent-Skill",
+      "url": "https://github.com/twostraws/SwiftUI-Agent-Skill",
+      "contributors": [
+        {
+          "username": "twostraws",
+          "url": "https://github.com/twostraws"
+        },
+        {
+          "username": "GLinnik21",
+          "url": "https://github.com/GLinnik21"
+        },
+        {
+          "username": "Jeehut",
+          "url": "https://github.com/Jeehut"
+        }
+      ],
+      "description": "SwiftUI agent skill for Claude Code, Codex, and other AI tools.",
+      "primary_language": null,
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "twostraws: location=Bath, UK"
+      ]
+    }
+  ]
+}
