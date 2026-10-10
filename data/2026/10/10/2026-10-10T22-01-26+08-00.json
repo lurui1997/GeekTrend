@@ -1,0 +1,461 @@
+{
+  "fetched_at": "2026-10-10T22:01:26+08:00",
+  "source_url": "https://github.com/trending/",
+  "repository_count": 13,
+  "ai_agent_project_count": 8,
+  "ai_agent_project_ratio": 0.6154,
+  "repositories": [
+    {
+      "repository_name": "morluto/rea",
+      "url": "https://github.com/morluto/rea",
+      "contributors": [
+        {
+          "username": "morluto",
+          "url": "https://github.com/morluto"
+        },
+        {
+          "username": "N0zoM1z0",
+          "url": "https://github.com/N0zoM1z0"
+        },
+        {
+          "username": "kaoru0822-kitauji",
+          "url": "https://github.com/kaoru0822-kitauji"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "rudycelekli",
+          "url": "https://github.com/rudycelekli"
+        }
+      ],
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "boykopovar/AnyPS5",
+      "url": "https://github.com/boykopovar/AnyPS5",
+      "contributors": [
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "boykopovar",
+          "url": "https://github.com/boykopovar"
+        },
+        {
+          "username": "oneandonlydean",
+          "url": "https://github.com/oneandonlydean"
+        },
+        {
+          "username": "adriadam10",
+          "url": "https://github.com/adriadam10"
+        },
+        {
+          "username": "SamG-Coder",
+          "url": "https://github.com/SamG-Coder"
+        }
+      ],
+      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
+      "primary_language": "C++",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "storytold/artcraft",
+      "url": "https://github.com/storytold/artcraft",
+      "contributors": [
+        {
+          "username": "echelon",
+          "url": "https://github.com/echelon"
+        },
+        {
+          "username": "bflatastic",
+          "url": "https://github.com/bflatastic"
+        },
+        {
+          "username": "ArEnSc",
+          "url": "https://github.com/ArEnSc"
+        },
+        {
+          "username": "wilwong",
+          "url": "https://github.com/wilwong"
+        },
+        {
+          "username": "Quicksticks-oss",
+          "url": "https://github.com/Quicksticks-oss"
+        }
+      ],
+      "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
+      "primary_language": "Rust",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "Thailand",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "bflatastic: location=Bangkok, Thailand"
+      ]
+    },
+    {
+      "repository_name": "cathrynlavery/diagram-design",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "contributors": [
+        {
+          "username": "cathrynlavery",
+          "url": "https://github.com/cathrynlavery"
+        },
+        {
+          "username": "parveen0029",
+          "url": "https://github.com/parveen0029"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "mvanhorn",
+          "url": "https://github.com/mvanhorn"
+        }
+      ],
+      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "primary_language": "HTML",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "mksglu/context-mode",
+      "url": "https://github.com/mksglu/context-mode",
+      "contributors": [
+        {
+          "username": "mksglu",
+          "url": "https://github.com/mksglu"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "ipedro",
+          "url": "https://github.com/ipedro"
+        },
+        {
+          "username": "ousamabenyounes",
+          "url": "https://github.com/ousamabenyounes"
+        }
+      ],
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "mksglu: location=London"
+      ]
+    },
+    {
+      "repository_name": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "contributors": [
+        {
+          "username": "mattpocock",
+          "url": "https://github.com/mattpocock"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "gabimoncha",
+          "url": "https://github.com/gabimoncha"
+        }
+      ],
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "primary_language": "Shell",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "flutter/flutter",
+      "url": "https://github.com/flutter/flutter",
+      "contributors": [
+        {
+          "username": "skia-flutter-autoroll",
+          "url": "https://github.com/skia-flutter-autoroll"
+        },
+        {
+          "username": "engine-flutter-autoroll",
+          "url": "https://github.com/engine-flutter-autoroll"
+        },
+        {
+          "username": "abarth",
+          "url": "https://github.com/abarth"
+        },
+        {
+          "username": "Hixie",
+          "url": "https://github.com/Hixie"
+        },
+        {
+          "username": "jason-simmons",
+          "url": "https://github.com/jason-simmons"
+        }
+      ],
+      "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
+      "primary_language": "Dart",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "tensorflow/tensorflow",
+      "url": "https://github.com/tensorflow/tensorflow",
+      "contributors": [
+        {
+          "username": "tensorflower-gardener",
+          "url": "https://github.com/tensorflower-gardener"
+        },
+        {
+          "username": "ezhulenev",
+          "url": "https://github.com/ezhulenev"
+        },
+        {
+          "username": "akuegel",
+          "url": "https://github.com/akuegel"
+        },
+        {
+          "username": "hawkinsp",
+          "url": "https://github.com/hawkinsp"
+        },
+        {
+          "username": "mihaimaruseac",
+          "url": "https://github.com/mihaimaruseac"
+        }
+      ],
+      "description": "An Open Source Machine Learning Framework for Everyone",
+      "primary_language": "C++",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "hugohe3/ppt-master",
+      "url": "https://github.com/hugohe3/ppt-master",
+      "contributors": [
+        {
+          "username": "hugohe3",
+          "url": "https://github.com/hugohe3"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "shenqili",
+          "url": "https://github.com/shenqili"
+        },
+        {
+          "username": "WodenJay",
+          "url": "https://github.com/WodenJay"
+        },
+        {
+          "username": "kevindesuyo",
+          "url": "https://github.com/kevindesuyo"
+        }
+      ],
+      "description": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "Japan",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "kevindesuyo: location=Japan"
+      ]
+    },
+    {
+      "repository_name": "pytorch/pytorch",
+      "url": "https://github.com/pytorch/pytorch",
+      "contributors": [
+        {
+          "username": "pytorchmergebot",
+          "url": "https://github.com/pytorchmergebot"
+        },
+        {
+          "username": "malfet",
+          "url": "https://github.com/malfet"
+        },
+        {
+          "username": "ezyang",
+          "url": "https://github.com/ezyang"
+        },
+        {
+          "username": "zou3519",
+          "url": "https://github.com/zou3519"
+        },
+        {
+          "username": "cyyever",
+          "url": "https://github.com/cyyever"
+        }
+      ],
+      "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "ezyang: location=New York, NY"
+      ]
+    },
+    {
+      "repository_name": "huggingface/transformers",
+      "url": "https://github.com/huggingface/transformers",
+      "contributors": [
+        {
+          "username": "sgugger",
+          "url": "https://github.com/sgugger"
+        },
+        {
+          "username": "ydshieh",
+          "url": "https://github.com/ydshieh"
+        },
+        {
+          "username": "thomwolf",
+          "url": "https://github.com/thomwolf"
+        },
+        {
+          "username": "LysandreJik",
+          "url": "https://github.com/LysandreJik"
+        },
+        {
+          "username": "patrickvonplaten",
+          "url": "https://github.com/patrickvonplaten"
+        }
+      ],
+      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "France",
+      "origin_confidence": "medium",
+      "origin_evidence": [
+        "ydshieh: location=Paris",
+        "LysandreJik: location=Paris"
+      ]
+    },
+    {
+      "repository_name": "anthropics/knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "contributors": [
+        {
+          "username": "jordanecker-ant",
+          "url": "https://github.com/jordanecker-ant"
+        },
+        {
+          "username": "bryan-anthropic",
+          "url": "https://github.com/bryan-anthropic"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "mattpic-ant",
+          "url": "https://github.com/mattpic-ant"
+        }
+      ],
+      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "multica-ai/andrej-karpathy-skills",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "contributors": [
+        {
+          "username": "forrestchang",
+          "url": "https://github.com/forrestchang"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "back1ply",
+          "url": "https://github.com/back1ply"
+        },
+        {
+          "username": "herobrine19",
+          "url": "https://github.com/herobrine19"
+        },
+        {
+          "username": "szkocot",
+          "url": "https://github.com/szkocot"
+        }
+      ],
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "primary_language": null,
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    }
+  ]
+}
