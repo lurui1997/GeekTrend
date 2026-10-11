@@ -1,0 +1,295 @@
+{
+  "fetched_at": "2026-10-12T05:07:58+08:00",
+  "source_url": "https://github.com/trending/",
+  "repository_count": 8,
+  "ai_agent_project_count": 5,
+  "ai_agent_project_ratio": 0.625,
+  "repositories": [
+    {
+      "repository_name": "morluto/rea",
+      "url": "https://github.com/morluto/rea",
+      "contributors": [
+        {
+          "username": "morluto",
+          "url": "https://github.com/morluto"
+        },
+        {
+          "username": "N0zoM1z0",
+          "url": "https://github.com/N0zoM1z0"
+        },
+        {
+          "username": "kaoru0822-kitauji",
+          "url": "https://github.com/kaoru0822-kitauji"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "rudycelekli",
+          "url": "https://github.com/rudycelekli"
+        }
+      ],
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "boykopovar/AnyPS5",
+      "url": "https://github.com/boykopovar/AnyPS5",
+      "contributors": [
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "adriadam10",
+          "url": "https://github.com/adriadam10"
+        },
+        {
+          "username": "oneandonlydean",
+          "url": "https://github.com/oneandonlydean"
+        },
+        {
+          "username": "boykopovar",
+          "url": "https://github.com/boykopovar"
+        },
+        {
+          "username": "MarcZX100",
+          "url": "https://github.com/MarcZX100"
+        }
+      ],
+      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
+      "primary_language": "C++",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "storytold/artcraft",
+      "url": "https://github.com/storytold/artcraft",
+      "contributors": [
+        {
+          "username": "echelon",
+          "url": "https://github.com/echelon"
+        },
+        {
+          "username": "bflatastic",
+          "url": "https://github.com/bflatastic"
+        },
+        {
+          "username": "ArEnSc",
+          "url": "https://github.com/ArEnSc"
+        },
+        {
+          "username": "wilwong",
+          "url": "https://github.com/wilwong"
+        },
+        {
+          "username": "Quicksticks-oss",
+          "url": "https://github.com/Quicksticks-oss"
+        }
+      ],
+      "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
+      "primary_language": "Rust",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "Thailand",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "bflatastic: location=Bangkok, Thailand"
+      ]
+    },
+    {
+      "repository_name": "cathrynlavery/diagram-design",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "contributors": [
+        {
+          "username": "cathrynlavery",
+          "url": "https://github.com/cathrynlavery"
+        },
+        {
+          "username": "parveen0029",
+          "url": "https://github.com/parveen0029"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "mvanhorn",
+          "url": "https://github.com/mvanhorn"
+        }
+      ],
+      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "primary_language": "HTML",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "bilawalsidhu/gods-eye-view",
+      "url": "https://github.com/bilawalsidhu/gods-eye-view",
+      "contributors": [
+        {
+          "username": "samehkhamis",
+          "url": "https://github.com/samehkhamis"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "asturksever",
+          "url": "https://github.com/asturksever"
+        },
+        {
+          "username": "bilawalsidhu",
+          "url": "https://github.com/bilawalsidhu"
+        },
+        {
+          "username": "manjunath22466",
+          "url": "https://github.com/manjunath22466"
+        }
+      ],
+      "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "asturksever: location=London"
+      ]
+    },
+    {
+      "repository_name": "pytorch/pytorch",
+      "url": "https://github.com/pytorch/pytorch",
+      "contributors": [
+        {
+          "username": "pytorchmergebot",
+          "url": "https://github.com/pytorchmergebot"
+        },
+        {
+          "username": "malfet",
+          "url": "https://github.com/malfet"
+        },
+        {
+          "username": "ezyang",
+          "url": "https://github.com/ezyang"
+        },
+        {
+          "username": "zou3519",
+          "url": "https://github.com/zou3519"
+        },
+        {
+          "username": "cyyever",
+          "url": "https://github.com/cyyever"
+        }
+      ],
+      "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "ezyang: location=New York, NY"
+      ]
+    },
+    {
+      "repository_name": "lyogavin/airllm",
+      "url": "https://github.com/lyogavin/airllm",
+      "contributors": [
+        {
+          "username": "lyogavin",
+          "url": "https://github.com/lyogavin"
+        },
+        {
+          "username": "cursoragent",
+          "url": "https://github.com/cursoragent"
+        },
+        {
+          "username": "eltociear",
+          "url": "https://github.com/eltociear"
+        },
+        {
+          "username": "NavodPeiris",
+          "url": "https://github.com/NavodPeiris"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        }
+      ],
+      "description": "AirLLM 70B inference with single 4GB GPU",
+      "primary_language": "Jupyter Notebook",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "Japan",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "eltociear: location=Tokyo, Japan"
+      ]
+    },
+    {
+      "repository_name": "chrislgarry/Apollo-11",
+      "url": "https://github.com/chrislgarry/Apollo-11",
+      "contributors": [
+        {
+          "username": "wopian",
+          "url": "https://github.com/wopian"
+        },
+        {
+          "username": "chrislgarry",
+          "url": "https://github.com/chrislgarry"
+        },
+        {
+          "username": "dwiyatci",
+          "url": "https://github.com/dwiyatci"
+        },
+        {
+          "username": "proudindiv",
+          "url": "https://github.com/proudindiv"
+        },
+        {
+          "username": "oldmud0",
+          "url": "https://github.com/oldmud0"
+        }
+      ],
+      "description": "Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules.",
+      "primary_language": "Assembly",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "chrislgarry: location=United States"
+      ]
+    }
+  ]
+}
