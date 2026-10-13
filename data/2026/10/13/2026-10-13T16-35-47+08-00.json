@@ -1,0 +1,326 @@
+{
+  "fetched_at": "2026-10-13T16:35:47+08:00",
+  "source_url": "https://github.com/trending/",
+  "repository_count": 9,
+  "ai_agent_project_count": 6,
+  "ai_agent_project_ratio": 0.6667,
+  "repositories": [
+    {
+      "repository_name": "morluto/rea",
+      "url": "https://github.com/morluto/rea",
+      "contributors": [
+        {
+          "username": "morluto",
+          "url": "https://github.com/morluto"
+        },
+        {
+          "username": "N0zoM1z0",
+          "url": "https://github.com/N0zoM1z0"
+        },
+        {
+          "username": "kaoru0822-kitauji",
+          "url": "https://github.com/kaoru0822-kitauji"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "rudycelekli",
+          "url": "https://github.com/rudycelekli"
+        }
+      ],
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "bilawalsidhu/gods-eye-view",
+      "url": "https://github.com/bilawalsidhu/gods-eye-view",
+      "contributors": [
+        {
+          "username": "samehkhamis",
+          "url": "https://github.com/samehkhamis"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "asturksever",
+          "url": "https://github.com/asturksever"
+        },
+        {
+          "username": "bilawalsidhu",
+          "url": "https://github.com/bilawalsidhu"
+        },
+        {
+          "username": "manjunath22466",
+          "url": "https://github.com/manjunath22466"
+        }
+      ],
+      "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "asturksever: location=London"
+      ]
+    },
+    {
+      "repository_name": "mksglu/context-mode",
+      "url": "https://github.com/mksglu/context-mode",
+      "contributors": [
+        {
+          "username": "mksglu",
+          "url": "https://github.com/mksglu"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "ipedro",
+          "url": "https://github.com/ipedro"
+        },
+        {
+          "username": "ousamabenyounes",
+          "url": "https://github.com/ousamabenyounes"
+        }
+      ],
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "mksglu: location=London"
+      ]
+    },
+    {
+      "repository_name": "storytold/artcraft",
+      "url": "https://github.com/storytold/artcraft",
+      "contributors": [
+        {
+          "username": "echelon",
+          "url": "https://github.com/echelon"
+        },
+        {
+          "username": "bflatastic",
+          "url": "https://github.com/bflatastic"
+        },
+        {
+          "username": "ArEnSc",
+          "url": "https://github.com/ArEnSc"
+        },
+        {
+          "username": "wilwong",
+          "url": "https://github.com/wilwong"
+        },
+        {
+          "username": "Quicksticks-oss",
+          "url": "https://github.com/Quicksticks-oss"
+        }
+      ],
+      "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
+      "primary_language": "Rust",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "Thailand",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "bflatastic: location=Bangkok, Thailand"
+      ]
+    },
+    {
+      "repository_name": "open-webui/open-webui",
+      "url": "https://github.com/open-webui/open-webui",
+      "contributors": [
+        {
+          "username": "tjbck",
+          "url": "https://github.com/tjbck"
+        },
+        {
+          "username": "Classic298",
+          "url": "https://github.com/Classic298"
+        },
+        {
+          "username": "silentoplayz",
+          "url": "https://github.com/silentoplayz"
+        },
+        {
+          "username": "cheahjs",
+          "url": "https://github.com/cheahjs"
+        },
+        {
+          "username": "ShirasawaSama",
+          "url": "https://github.com/ShirasawaSama"
+        }
+      ],
+      "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "cheahjs: location=United Kingdom"
+      ]
+    },
+    {
+      "repository_name": "cathrynlavery/diagram-design",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "contributors": [
+        {
+          "username": "cathrynlavery",
+          "url": "https://github.com/cathrynlavery"
+        },
+        {
+          "username": "parveen0029",
+          "url": "https://github.com/parveen0029"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "mvanhorn",
+          "url": "https://github.com/mvanhorn"
+        }
+      ],
+      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "primary_language": "HTML",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "lyogavin/airllm",
+      "url": "https://github.com/lyogavin/airllm",
+      "contributors": [
+        {
+          "username": "lyogavin",
+          "url": "https://github.com/lyogavin"
+        },
+        {
+          "username": "cursoragent",
+          "url": "https://github.com/cursoragent"
+        },
+        {
+          "username": "eltociear",
+          "url": "https://github.com/eltociear"
+        },
+        {
+          "username": "NavodPeiris",
+          "url": "https://github.com/NavodPeiris"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        }
+      ],
+      "description": "AirLLM 2.8T LLM inference with single 4GB GPU",
+      "primary_language": "Jupyter Notebook",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "Japan",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "eltociear: location=Tokyo, Japan"
+      ]
+    },
+    {
+      "repository_name": "microsoft/BitNet",
+      "url": "https://github.com/microsoft/BitNet",
+      "contributors": [
+        {
+          "username": "potassiummmm",
+          "url": "https://github.com/potassiummmm"
+        },
+        {
+          "username": "tsong-ms",
+          "url": "https://github.com/tsong-ms"
+        },
+        {
+          "username": "younesbelkada",
+          "url": "https://github.com/younesbelkada"
+        },
+        {
+          "username": "isHuangXin",
+          "url": "https://github.com/isHuangXin"
+        },
+        {
+          "username": "XsquirrelC",
+          "url": "https://github.com/XsquirrelC"
+        }
+      ],
+      "description": "Official inference framework for 1-bit LLMs",
+      "primary_language": "C++",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "China",
+      "origin_confidence": "medium",
+      "origin_evidence": [
+        "potassiummmm: location=Beijing China",
+        "isHuangXin: location=Shanghai, China (UTC+8)",
+        "XsquirrelC: location=800 Dongchuan Road, Shanghai, China"
+      ]
+    },
+    {
+      "repository_name": "Alishahryar1/free-claude-code",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "contributors": [
+        {
+          "username": "Alishahryar1",
+          "url": "https://github.com/Alishahryar1"
+        },
+        {
+          "username": "cursoragent",
+          "url": "https://github.com/cursoragent"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "Tanishq-1",
+          "url": "https://github.com/Tanishq-1"
+        }
+      ],
+      "description": "Use Claude Code, Codex, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    }
+  ]
+}
