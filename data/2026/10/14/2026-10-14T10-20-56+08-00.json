@@ -1,0 +1,327 @@
+{
+  "fetched_at": "2026-10-14T10:20:56+08:00",
+  "source_url": "https://github.com/trending/",
+  "repository_count": 9,
+  "ai_agent_project_count": 7,
+  "ai_agent_project_ratio": 0.7778,
+  "repositories": [
+    {
+      "repository_name": "morluto/rea",
+      "url": "https://github.com/morluto/rea",
+      "contributors": [
+        {
+          "username": "morluto",
+          "url": "https://github.com/morluto"
+        },
+        {
+          "username": "N0zoM1z0",
+          "url": "https://github.com/N0zoM1z0"
+        },
+        {
+          "username": "kaoru0822-kitauji",
+          "url": "https://github.com/kaoru0822-kitauji"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "rudycelekli",
+          "url": "https://github.com/rudycelekli"
+        }
+      ],
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "bilawalsidhu/gods-eye-view",
+      "url": "https://github.com/bilawalsidhu/gods-eye-view",
+      "contributors": [
+        {
+          "username": "samehkhamis",
+          "url": "https://github.com/samehkhamis"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "asturksever",
+          "url": "https://github.com/asturksever"
+        },
+        {
+          "username": "bilawalsidhu",
+          "url": "https://github.com/bilawalsidhu"
+        },
+        {
+          "username": "manjunath22466",
+          "url": "https://github.com/manjunath22466"
+        }
+      ],
+      "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "asturksever: location=London"
+      ]
+    },
+    {
+      "repository_name": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "contributors": [
+        {
+          "username": "debpalash",
+          "url": "https://github.com/debpalash"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "velixio",
+          "url": "https://github.com/velixio"
+        },
+        {
+          "username": "kevin9327",
+          "url": "https://github.com/kevin9327"
+        },
+        {
+          "username": "jaketame",
+          "url": "https://github.com/jaketame"
+        }
+      ],
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "mksglu/context-mode",
+      "url": "https://github.com/mksglu/context-mode",
+      "contributors": [
+        {
+          "username": "mksglu",
+          "url": "https://github.com/mksglu"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "ipedro",
+          "url": "https://github.com/ipedro"
+        },
+        {
+          "username": "ousamabenyounes",
+          "url": "https://github.com/ousamabenyounes"
+        }
+      ],
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "mksglu: location=London"
+      ]
+    },
+    {
+      "repository_name": "cathrynlavery/diagram-design",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "contributors": [
+        {
+          "username": "cathrynlavery",
+          "url": "https://github.com/cathrynlavery"
+        },
+        {
+          "username": "rudycelekli",
+          "url": "https://github.com/rudycelekli"
+        },
+        {
+          "username": "parveen0029",
+          "url": "https://github.com/parveen0029"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        }
+      ],
+      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "primary_language": "HTML",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "vercel-labs/skills",
+      "url": "https://github.com/vercel-labs/skills",
+      "contributors": [
+        {
+          "username": "quuu",
+          "url": "https://github.com/quuu"
+        },
+        {
+          "username": "huozhi",
+          "url": "https://github.com/huozhi"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "jonathanhefner",
+          "url": "https://github.com/jonathanhefner"
+        }
+      ],
+      "description": "The open agent skills tool - npx skills",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "lyogavin/airllm",
+      "url": "https://github.com/lyogavin/airllm",
+      "contributors": [
+        {
+          "username": "lyogavin",
+          "url": "https://github.com/lyogavin"
+        },
+        {
+          "username": "cursoragent",
+          "url": "https://github.com/cursoragent"
+        },
+        {
+          "username": "eltociear",
+          "url": "https://github.com/eltociear"
+        },
+        {
+          "username": "NavodPeiris",
+          "url": "https://github.com/NavodPeiris"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        }
+      ],
+      "description": "AirLLM 2.8T LLM inference with single 4GB GPU",
+      "primary_language": "Jupyter Notebook",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "Japan",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "eltociear: location=Tokyo, Japan"
+      ]
+    },
+    {
+      "repository_name": "storytold/artcraft",
+      "url": "https://github.com/storytold/artcraft",
+      "contributors": [
+        {
+          "username": "echelon",
+          "url": "https://github.com/echelon"
+        },
+        {
+          "username": "bflatastic",
+          "url": "https://github.com/bflatastic"
+        },
+        {
+          "username": "ArEnSc",
+          "url": "https://github.com/ArEnSc"
+        },
+        {
+          "username": "wilwong",
+          "url": "https://github.com/wilwong"
+        },
+        {
+          "username": "Quicksticks-oss",
+          "url": "https://github.com/Quicksticks-oss"
+        }
+      ],
+      "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
+      "primary_language": "Rust",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "Thailand",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "bflatastic: location=Bangkok, Thailand"
+      ]
+    },
+    {
+      "repository_name": "xtool-org/xtool",
+      "url": "https://github.com/xtool-org/xtool",
+      "contributors": [
+        {
+          "username": "kabiroberai",
+          "url": "https://github.com/kabiroberai"
+        },
+        {
+          "username": "reklis",
+          "url": "https://github.com/reklis"
+        },
+        {
+          "username": "erikbdev",
+          "url": "https://github.com/erikbdev"
+        },
+        {
+          "username": "mvanhorn",
+          "url": "https://github.com/mvanhorn"
+        },
+        {
+          "username": "pawlowskialex",
+          "url": "https://github.com/pawlowskialex"
+        }
+      ],
+      "description": "Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM on Linux, Windows, macOS.",
+      "primary_language": "Swift",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "medium",
+      "origin_evidence": [
+        "reklis: location=USA",
+        "pawlowskialex: location=New York"
+      ]
+    }
+  ]
+}
