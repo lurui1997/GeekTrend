@@ -1,0 +1,430 @@
+{
+  "fetched_at": "2026-10-14T22:44:41+08:00",
+  "source_url": "https://github.com/trending/",
+  "repository_count": 12,
+  "ai_agent_project_count": 6,
+  "ai_agent_project_ratio": 0.5,
+  "repositories": [
+    {
+      "repository_name": "morluto/rea",
+      "url": "https://github.com/morluto/rea",
+      "contributors": [
+        {
+          "username": "morluto",
+          "url": "https://github.com/morluto"
+        },
+        {
+          "username": "N0zoM1z0",
+          "url": "https://github.com/N0zoM1z0"
+        },
+        {
+          "username": "kaoru0822-kitauji",
+          "url": "https://github.com/kaoru0822-kitauji"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "rudycelekli",
+          "url": "https://github.com/rudycelekli"
+        }
+      ],
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "contributors": [
+        {
+          "username": "debpalash",
+          "url": "https://github.com/debpalash"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "velixio",
+          "url": "https://github.com/velixio"
+        },
+        {
+          "username": "kevin9327",
+          "url": "https://github.com/kevin9327"
+        },
+        {
+          "username": "jaketame",
+          "url": "https://github.com/jaketame"
+        }
+      ],
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "mksglu/context-mode",
+      "url": "https://github.com/mksglu/context-mode",
+      "contributors": [
+        {
+          "username": "mksglu",
+          "url": "https://github.com/mksglu"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "ipedro",
+          "url": "https://github.com/ipedro"
+        },
+        {
+          "username": "ousamabenyounes",
+          "url": "https://github.com/ousamabenyounes"
+        }
+      ],
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "mksglu: location=London"
+      ]
+    },
+    {
+      "repository_name": "nvm-sh/nvm",
+      "url": "https://github.com/nvm-sh/nvm",
+      "contributors": [
+        {
+          "username": "ljharb",
+          "url": "https://github.com/ljharb"
+        },
+        {
+          "username": "PeterDaveHello",
+          "url": "https://github.com/PeterDaveHello"
+        },
+        {
+          "username": "creationix",
+          "url": "https://github.com/creationix"
+        },
+        {
+          "username": "koenpunt",
+          "url": "https://github.com/koenpunt"
+        },
+        {
+          "username": "lukechilds",
+          "url": "https://github.com/lukechilds"
+        }
+      ],
+      "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.",
+      "primary_language": "Shell",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "creationix: location=Mountainburg, AR, USA"
+      ]
+    },
+    {
+      "repository_name": "K-Dense-AI/scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "contributors": [
+        {
+          "username": "timothykassis",
+          "url": "https://github.com/timothykassis"
+        },
+        {
+          "username": "cursoragent",
+          "url": "https://github.com/cursoragent"
+        },
+        {
+          "username": "borealBytes",
+          "url": "https://github.com/borealBytes"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        }
+      ],
+      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "HKUDS/CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "contributors": [
+        {
+          "username": "yuh-yang",
+          "url": "https://github.com/yuh-yang"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "AiMiDi",
+          "url": "https://github.com/AiMiDi"
+        },
+        {
+          "username": "omerarslan0",
+          "url": "https://github.com/omerarslan0"
+        },
+        {
+          "username": "hito0512",
+          "url": "https://github.com/hito0512"
+        }
+      ],
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "Hong Kong",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "yuh-yang: location=Hong Kong"
+      ]
+    },
+    {
+      "repository_name": "ifixai-ai/iFixAi",
+      "url": "https://github.com/ifixai-ai/iFixAi",
+      "contributors": [
+        {
+          "username": "rudycelekli",
+          "url": "https://github.com/rudycelekli"
+        },
+        {
+          "username": "n-papaioannou",
+          "url": "https://github.com/n-papaioannou"
+        },
+        {
+          "username": "stefyi-4355",
+          "url": "https://github.com/stefyi-4355"
+        },
+        {
+          "username": "Sebabaian",
+          "url": "https://github.com/Sebabaian"
+        }
+      ],
+      "description": "Independent Auditing of AI Agents. Run by human or the agent itself, to answer the most crucial question in the AI Agent Economy. Is the agent doing what is supposed to do? With iFixAi you can have this answer in less than 120 seconds.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "vxcontrol/pentagi",
+      "url": "https://github.com/vxcontrol/pentagi",
+      "contributors": [
+        {
+          "username": "sirozha",
+          "url": "https://github.com/sirozha"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "asdek",
+          "url": "https://github.com/asdek"
+        },
+        {
+          "username": "mason5052",
+          "url": "https://github.com/mason5052"
+        },
+        {
+          "username": "cursoragent",
+          "url": "https://github.com/cursoragent"
+        }
+      ],
+      "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+      "primary_language": "Go",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "mason5052: location=Georgia, USA"
+      ]
+    },
+    {
+      "repository_name": "rust-lang/rust",
+      "url": "https://github.com/rust-lang/rust",
+      "contributors": [
+        {
+          "username": "bors",
+          "url": "https://github.com/bors"
+        },
+        {
+          "username": "matthiaskrgr",
+          "url": "https://github.com/matthiaskrgr"
+        },
+        {
+          "username": "RalfJung",
+          "url": "https://github.com/RalfJung"
+        },
+        {
+          "username": "GuillaumeGomez",
+          "url": "https://github.com/GuillaumeGomez"
+        },
+        {
+          "username": "matklad",
+          "url": "https://github.com/matklad"
+        }
+      ],
+      "description": "Empowering everyone to build reliable and efficient software.",
+      "primary_language": "Rust",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "France",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "GuillaumeGomez: location=France"
+      ]
+    },
+    {
+      "repository_name": "xtool-org/xtool",
+      "url": "https://github.com/xtool-org/xtool",
+      "contributors": [
+        {
+          "username": "kabiroberai",
+          "url": "https://github.com/kabiroberai"
+        },
+        {
+          "username": "reklis",
+          "url": "https://github.com/reklis"
+        },
+        {
+          "username": "erikbdev",
+          "url": "https://github.com/erikbdev"
+        },
+        {
+          "username": "mvanhorn",
+          "url": "https://github.com/mvanhorn"
+        },
+        {
+          "username": "pawlowskialex",
+          "url": "https://github.com/pawlowskialex"
+        }
+      ],
+      "description": "Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM on Linux, Windows, macOS.",
+      "primary_language": "Swift",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "medium",
+      "origin_evidence": [
+        "reklis: location=USA",
+        "pawlowskialex: location=New York"
+      ]
+    },
+    {
+      "repository_name": "ntdevlabs/tiny11builder",
+      "url": "https://github.com/ntdevlabs/tiny11builder",
+      "contributors": [
+        {
+          "username": "ntdevlabs",
+          "url": "https://github.com/ntdevlabs"
+        },
+        {
+          "username": "Miiraak",
+          "url": "https://github.com/Miiraak"
+        },
+        {
+          "username": "Karl-WE",
+          "url": "https://github.com/Karl-WE"
+        },
+        {
+          "username": "szepeviktor",
+          "url": "https://github.com/szepeviktor"
+        },
+        {
+          "username": "eugenesan",
+          "url": "https://github.com/eugenesan"
+        }
+      ],
+      "description": "WinUI app for building smaller, customized Windows 11 images.",
+      "primary_language": "C#",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "NationalSecurityAgency/ghidra",
+      "url": "https://github.com/NationalSecurityAgency/ghidra",
+      "contributors": [
+        {
+          "username": "ryanmkurtz",
+          "url": "https://github.com/ryanmkurtz"
+        },
+        {
+          "username": "ghidra1",
+          "url": "https://github.com/ghidra1"
+        },
+        {
+          "username": "dragonmacher",
+          "url": "https://github.com/dragonmacher"
+        },
+        {
+          "username": "nsadeveloper789",
+          "url": "https://github.com/nsadeveloper789"
+        },
+        {
+          "username": "caheckman",
+          "url": "https://github.com/caheckman"
+        }
+      ],
+      "description": "Ghidra is a software reverse engineering (SRE) framework",
+      "primary_language": "Java",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    }
+  ]
+}
