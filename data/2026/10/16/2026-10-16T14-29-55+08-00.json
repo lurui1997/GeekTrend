@@ -1,0 +1,456 @@
+{
+  "fetched_at": "2026-10-16T14:29:55+08:00",
+  "source_url": "https://github.com/trending/",
+  "repository_count": 13,
+  "ai_agent_project_count": 10,
+  "ai_agent_project_ratio": 0.7692,
+  "repositories": [
+    {
+      "repository_name": "morluto/rea",
+      "url": "https://github.com/morluto/rea",
+      "contributors": [
+        {
+          "username": "morluto",
+          "url": "https://github.com/morluto"
+        },
+        {
+          "username": "N0zoM1z0",
+          "url": "https://github.com/N0zoM1z0"
+        },
+        {
+          "username": "kaoru0822-kitauji",
+          "url": "https://github.com/kaoru0822-kitauji"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "rudycelekli",
+          "url": "https://github.com/rudycelekli"
+        }
+      ],
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "anthropics/claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "contributors": [
+        {
+          "username": "jordanecker-ant",
+          "url": "https://github.com/jordanecker-ant"
+        },
+        {
+          "username": "bryan-anthropic",
+          "url": "https://github.com/bryan-anthropic"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "mhegazy",
+          "url": "https://github.com/mhegazy"
+        }
+      ],
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "K-Dense-AI/scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "contributors": [
+        {
+          "username": "timothykassis",
+          "url": "https://github.com/timothykassis"
+        },
+        {
+          "username": "cursoragent",
+          "url": "https://github.com/cursoragent"
+        },
+        {
+          "username": "borealBytes",
+          "url": "https://github.com/borealBytes"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        }
+      ],
+      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "JuliusBrussee/caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "contributors": [
+        {
+          "username": "JuliusBrussee",
+          "url": "https://github.com/JuliusBrussee"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "nikpushkarski",
+          "url": "https://github.com/nikpushkarski"
+        },
+        {
+          "username": "AmirF194",
+          "url": "https://github.com/AmirF194"
+        }
+      ],
+      "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
+      "primary_language": "Go",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "Netherlands",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "JuliusBrussee: location=Netherlands"
+      ]
+    },
+    {
+      "repository_name": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "contributors": [
+        {
+          "username": "debpalash",
+          "url": "https://github.com/debpalash"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "velixio",
+          "url": "https://github.com/velixio"
+        },
+        {
+          "username": "kevin9327",
+          "url": "https://github.com/kevin9327"
+        },
+        {
+          "username": "jaketame",
+          "url": "https://github.com/jaketame"
+        }
+      ],
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "contributors": [
+        {
+          "username": "obra",
+          "url": "https://github.com/obra"
+        },
+        {
+          "username": "arittr",
+          "url": "https://github.com/arittr"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "clkao",
+          "url": "https://github.com/clkao"
+        },
+        {
+          "username": "gaurav0107",
+          "url": "https://github.com/gaurav0107"
+        }
+      ],
+      "description": "An agentic skills framework & software development methodology that works.",
+      "primary_language": "Shell",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "ruvnet/ruflo",
+      "url": "https://github.com/ruvnet/ruflo",
+      "contributors": [
+        {
+          "username": "ruvnet",
+          "url": "https://github.com/ruvnet"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "rudycelekli",
+          "url": "https://github.com/rudycelekli"
+        },
+        {
+          "username": "proffesor-for-testing",
+          "url": "https://github.com/proffesor-for-testing"
+        }
+      ],
+      "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "mksglu/context-mode",
+      "url": "https://github.com/mksglu/context-mode",
+      "contributors": [
+        {
+          "username": "mksglu",
+          "url": "https://github.com/mksglu"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "ipedro",
+          "url": "https://github.com/ipedro"
+        },
+        {
+          "username": "ousamabenyounes",
+          "url": "https://github.com/ousamabenyounes"
+        }
+      ],
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "mksglu: location=London"
+      ]
+    },
+    {
+      "repository_name": "NationalSecurityAgency/ghidra",
+      "url": "https://github.com/NationalSecurityAgency/ghidra",
+      "contributors": [
+        {
+          "username": "ryanmkurtz",
+          "url": "https://github.com/ryanmkurtz"
+        },
+        {
+          "username": "ghidra1",
+          "url": "https://github.com/ghidra1"
+        },
+        {
+          "username": "dragonmacher",
+          "url": "https://github.com/dragonmacher"
+        },
+        {
+          "username": "nsadeveloper789",
+          "url": "https://github.com/nsadeveloper789"
+        },
+        {
+          "username": "caheckman",
+          "url": "https://github.com/caheckman"
+        }
+      ],
+      "description": "Ghidra is a software reverse engineering (SRE) framework",
+      "primary_language": "Java",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "contributors": [
+        {
+          "username": "affaan-m",
+          "url": "https://github.com/affaan-m"
+        },
+        {
+          "username": "haelyra",
+          "url": "https://github.com/haelyra"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "montjeffrey",
+          "url": "https://github.com/montjeffrey"
+        }
+      ],
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United States",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "affaan-m: location=NYC"
+      ]
+    },
+    {
+      "repository_name": "lightseekorg/tokenspeed",
+      "url": "https://github.com/lightseekorg/tokenspeed",
+      "contributors": [
+        {
+          "username": "lightseek-bot",
+          "url": "https://github.com/lightseek-bot"
+        },
+        {
+          "username": "antiagainst",
+          "url": "https://github.com/antiagainst"
+        },
+        {
+          "username": "nperrin-fr",
+          "url": "https://github.com/nperrin-fr"
+        },
+        {
+          "username": "longcat-ia-team",
+          "url": "https://github.com/longcat-ia-team"
+        },
+        {
+          "username": "borontion",
+          "url": "https://github.com/borontion"
+        }
+      ],
+      "description": "TokenSpeed is a speed-of-light LLM inference engine.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "xerj-org/xerj",
+      "url": "https://github.com/xerj-org/xerj",
+      "contributors": [
+        {
+          "username": "xerj-org",
+          "url": "https://github.com/xerj-org"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "buger",
+          "url": "https://github.com/buger"
+        },
+        {
+          "username": "Vinz2168",
+          "url": "https://github.com/Vinz2168"
+        },
+        {
+          "username": "thomas-villani",
+          "url": "https://github.com/thomas-villani"
+        }
+      ],
+      "description": "XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep and sed. One command indexes code, docs, logs and PDFs for search, RAG, security audits and agent memory, using 40x fewer tokens than grep. Elasticsearch compatible, so existing clients just work.",
+      "primary_language": "Rust",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "Turkey",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "buger: location=Istanbul"
+      ]
+    },
+    {
+      "repository_name": "LibreSpark/LibreTV",
+      "url": "https://github.com/LibreSpark/LibreTV",
+      "contributors": [
+        {
+          "username": "bestZwei",
+          "url": "https://github.com/bestZwei"
+        },
+        {
+          "username": "senshinya",
+          "url": "https://github.com/senshinya"
+        },
+        {
+          "username": "JohnsonRan",
+          "url": "https://github.com/JohnsonRan"
+        },
+        {
+          "username": "WLongSAMA",
+          "url": "https://github.com/WLongSAMA"
+        }
+      ],
+      "description": "一分钟搭建影视站，支持Docker等部署方式",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "Japan",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "JohnsonRan: location=Japan"
+      ]
+    }
+  ]
+}
