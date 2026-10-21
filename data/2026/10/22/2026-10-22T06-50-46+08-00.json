@@ -1,0 +1,424 @@
+{
+  "fetched_at": "2026-10-22T06:50:46+08:00",
+  "source_url": "https://github.com/trending/",
+  "repository_count": 12,
+  "ai_agent_project_count": 6,
+  "ai_agent_project_ratio": 0.5,
+  "repositories": [
+    {
+      "repository_name": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "contributors": [
+        {
+          "username": "literally-dan",
+          "url": "https://github.com/literally-dan"
+        },
+        {
+          "username": "CooperSheroy",
+          "url": "https://github.com/CooperSheroy"
+        },
+        {
+          "username": "kennysarnoski-jarvis",
+          "url": "https://github.com/kennysarnoski-jarvis"
+        }
+      ],
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "vllm-project/vllm",
+      "url": "https://github.com/vllm-project/vllm",
+      "contributors": [
+        {
+          "username": "DarkLight1337",
+          "url": "https://github.com/DarkLight1337"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "mgoin",
+          "url": "https://github.com/mgoin"
+        },
+        {
+          "username": "WoosukKwon",
+          "url": "https://github.com/WoosukKwon"
+        },
+        {
+          "username": "hmellor",
+          "url": "https://github.com/hmellor"
+        }
+      ],
+      "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "Hong Kong",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "DarkLight1337: location=Hong Kong"
+      ]
+    },
+    {
+      "repository_name": "stablyai/orca",
+      "url": "https://github.com/stablyai/orca",
+      "contributors": [
+        {
+          "username": "nwparker",
+          "url": "https://github.com/nwparker"
+        },
+        {
+          "username": "brennanb2025",
+          "url": "https://github.com/brennanb2025"
+        },
+        {
+          "username": "Jinwoo-H",
+          "url": "https://github.com/Jinwoo-H"
+        },
+        {
+          "username": "AmethystLiang",
+          "url": "https://github.com/AmethystLiang"
+        },
+        {
+          "username": "orca-ide",
+          "url": "https://github.com/orca-ide"
+        }
+      ],
+      "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "AmethystLiang: location=United States"
+      ]
+    },
+    {
+      "repository_name": "headroomlabs-ai/headroom",
+      "url": "https://github.com/headroomlabs-ai/headroom",
+      "contributors": [
+        {
+          "username": "chopratejas",
+          "url": "https://github.com/chopratejas"
+        },
+        {
+          "username": "JerrettDavis",
+          "url": "https://github.com/JerrettDavis"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "abhay-codes07",
+          "url": "https://github.com/abhay-codes07"
+        },
+        {
+          "username": "gglucass",
+          "url": "https://github.com/gglucass"
+        }
+      ],
+      "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "India",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "abhay-codes07: location=Bangalore"
+      ]
+    },
+    {
+      "repository_name": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "contributors": [
+        {
+          "username": "DietrichGebert",
+          "url": "https://github.com/DietrichGebert"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "ousamabenyounes",
+          "url": "https://github.com/ousamabenyounes"
+        },
+        {
+          "username": "Lakshya77089",
+          "url": "https://github.com/Lakshya77089"
+        },
+        {
+          "username": "dhedhialy",
+          "url": "https://github.com/dhedhialy"
+        }
+      ],
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "France",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "ousamabenyounes: location=France / Paris"
+      ]
+    },
+    {
+      "repository_name": "Comfy-Org/ComfyUI",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "contributors": [
+        {
+          "username": "comfyanonymous",
+          "url": "https://github.com/comfyanonymous"
+        },
+        {
+          "username": "bigcat88",
+          "url": "https://github.com/bigcat88"
+        },
+        {
+          "username": "pythongosssss",
+          "url": "https://github.com/pythongosssss"
+        },
+        {
+          "username": "comfyui-wiki",
+          "url": "https://github.com/comfyui-wiki"
+        },
+        {
+          "username": "rattus128",
+          "url": "https://github.com/rattus128"
+        }
+      ],
+      "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "supabase/supabase",
+      "url": "https://github.com/supabase/supabase",
+      "contributors": [
+        {
+          "username": "joshenlim",
+          "url": "https://github.com/joshenlim"
+        },
+        {
+          "username": "kiwicopple",
+          "url": "https://github.com/kiwicopple"
+        },
+        {
+          "username": "MildTomato",
+          "url": "https://github.com/MildTomato"
+        },
+        {
+          "username": "saltcod",
+          "url": "https://github.com/saltcod"
+        },
+        {
+          "username": "alaister",
+          "url": "https://github.com/alaister"
+        }
+      ],
+      "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "twentyhq/twenty",
+      "url": "https://github.com/twentyhq/twenty",
+      "contributors": [
+        {
+          "username": "charlesBochet",
+          "url": "https://github.com/charlesBochet"
+        },
+        {
+          "username": "FelixMalfait",
+          "url": "https://github.com/FelixMalfait"
+        },
+        {
+          "username": "bosiraphael",
+          "url": "https://github.com/bosiraphael"
+        },
+        {
+          "username": "Weiko",
+          "url": "https://github.com/Weiko"
+        }
+      ],
+      "description": "The open alternative to Salesforce, designed for AI.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "France",
+      "origin_confidence": "medium",
+      "origin_evidence": [
+        "charlesBochet: location=Paris",
+        "FelixMalfait: location=Paris / Marseille",
+        "bosiraphael: location=Paris"
+      ]
+    },
+    {
+      "repository_name": "shiyu-coder/Kronos",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "contributors": [
+        {
+          "username": "shiyu-coder",
+          "url": "https://github.com/shiyu-coder"
+        },
+        {
+          "username": "Luciferbobo",
+          "url": "https://github.com/Luciferbobo"
+        },
+        {
+          "username": "CharlesJ-ABu",
+          "url": "https://github.com/CharlesJ-ABu"
+        },
+        {
+          "username": "AnMakc",
+          "url": "https://github.com/AnMakc"
+        },
+        {
+          "username": "randyy179",
+          "url": "https://github.com/randyy179"
+        }
+      ],
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "Luciferbobo: location=Los Angeles, CA, USA"
+      ]
+    },
+    {
+      "repository_name": "strelov1/freehire",
+      "url": "https://github.com/strelov1/freehire",
+      "contributors": [
+        {
+          "username": "strelov1",
+          "url": "https://github.com/strelov1"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "gearsandcode",
+          "url": "https://github.com/gearsandcode"
+        }
+      ],
+      "description": "freehire — the open-source search engine for job seekers",
+      "primary_language": "Go",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "akitaonrails/ai-memory",
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "contributors": [
+        {
+          "username": "akitaonrails",
+          "url": "https://github.com/akitaonrails"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "viniciusdsandrade",
+          "url": "https://github.com/viniciusdsandrade"
+        },
+        {
+          "username": "djalmajr",
+          "url": "https://github.com/djalmajr"
+        },
+        {
+          "username": "everton-dgn",
+          "url": "https://github.com/everton-dgn"
+        }
+      ],
+      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "primary_language": "Rust",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "Graphify-Labs/graphify",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "contributors": [
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "safishamsi",
+          "url": "https://github.com/safishamsi"
+        },
+        {
+          "username": "ayushcodes10",
+          "url": "https://github.com/ayushcodes10"
+        },
+        {
+          "username": "rajatnagda45",
+          "url": "https://github.com/rajatnagda45"
+        },
+        {
+          "username": "abhay-codes07",
+          "url": "https://github.com/abhay-codes07"
+        }
+      ],
+      "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "India",
+      "origin_confidence": "medium",
+      "origin_evidence": [
+        "rajatnagda45: location=Bangalore, Karnataka",
+        "abhay-codes07: location=Bangalore"
+      ]
+    }
+  ]
+}
