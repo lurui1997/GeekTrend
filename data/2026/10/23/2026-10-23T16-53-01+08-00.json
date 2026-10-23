@@ -1,0 +1,305 @@
+{
+  "fetched_at": "2026-10-23T16:53:01+08:00",
+  "source_url": "https://github.com/trending/",
+  "repository_count": 9,
+  "ai_agent_project_count": 4,
+  "ai_agent_project_ratio": 0.4444,
+  "repositories": [
+    {
+      "repository_name": "php/php-src",
+      "url": "https://github.com/php/php-src",
+      "contributors": [
+        {
+          "username": "dstogov",
+          "url": "https://github.com/dstogov"
+        },
+        {
+          "username": "nikic",
+          "url": "https://github.com/nikic"
+        },
+        {
+          "username": "weltling",
+          "url": "https://github.com/weltling"
+        },
+        {
+          "username": "cmb69",
+          "url": "https://github.com/cmb69"
+        },
+        {
+          "username": "iliaal",
+          "url": "https://github.com/iliaal"
+        }
+      ],
+      "description": "The PHP Interpreter",
+      "primary_language": "C",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "anthropics/knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "contributors": [
+        {
+          "username": "jordanecker-ant",
+          "url": "https://github.com/jordanecker-ant"
+        },
+        {
+          "username": "bryan-anthropic",
+          "url": "https://github.com/bryan-anthropic"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "mattpic-ant",
+          "url": "https://github.com/mattpic-ant"
+        }
+      ],
+      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "contributors": [
+        {
+          "username": "DietrichGebert",
+          "url": "https://github.com/DietrichGebert"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "ousamabenyounes",
+          "url": "https://github.com/ousamabenyounes"
+        },
+        {
+          "username": "Lakshya77089",
+          "url": "https://github.com/Lakshya77089"
+        },
+        {
+          "username": "dhedhialy",
+          "url": "https://github.com/dhedhialy"
+        }
+      ],
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "France",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "ousamabenyounes: location=France / Paris"
+      ]
+    },
+    {
+      "repository_name": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "contributors": [
+        {
+          "username": "literally-dan",
+          "url": "https://github.com/literally-dan"
+        },
+        {
+          "username": "CooperSheroy",
+          "url": "https://github.com/CooperSheroy"
+        },
+        {
+          "username": "kennysarnoski-jarvis",
+          "url": "https://github.com/kennysarnoski-jarvis"
+        }
+      ],
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "Graphify-Labs/graphify",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "contributors": [
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "safishamsi",
+          "url": "https://github.com/safishamsi"
+        },
+        {
+          "username": "ayushcodes10",
+          "url": "https://github.com/ayushcodes10"
+        },
+        {
+          "username": "rajatnagda45",
+          "url": "https://github.com/rajatnagda45"
+        },
+        {
+          "username": "abhay-codes07",
+          "url": "https://github.com/abhay-codes07"
+        }
+      ],
+      "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "India",
+      "origin_confidence": "medium",
+      "origin_evidence": [
+        "rajatnagda45: location=Bangalore, Karnataka",
+        "abhay-codes07: location=Bangalore"
+      ]
+    },
+    {
+      "repository_name": "supabase/supabase",
+      "url": "https://github.com/supabase/supabase",
+      "contributors": [
+        {
+          "username": "joshenlim",
+          "url": "https://github.com/joshenlim"
+        },
+        {
+          "username": "kiwicopple",
+          "url": "https://github.com/kiwicopple"
+        },
+        {
+          "username": "MildTomato",
+          "url": "https://github.com/MildTomato"
+        },
+        {
+          "username": "saltcod",
+          "url": "https://github.com/saltcod"
+        },
+        {
+          "username": "alaister",
+          "url": "https://github.com/alaister"
+        }
+      ],
+      "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "fastapi/fastapi",
+      "url": "https://github.com/fastapi/fastapi",
+      "contributors": [
+        {
+          "username": "tiangolo",
+          "url": "https://github.com/tiangolo"
+        },
+        {
+          "username": "YuriiMotov",
+          "url": "https://github.com/YuriiMotov"
+        }
+      ],
+      "description": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "luongnv89/claude-howto",
+      "url": "https://github.com/luongnv89/claude-howto",
+      "contributors": [
+        {
+          "username": "luongnv89",
+          "url": "https://github.com/luongnv89"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "edocltd",
+          "url": "https://github.com/edocltd"
+        },
+        {
+          "username": "toanalien",
+          "url": "https://github.com/toanalien"
+        },
+        {
+          "username": "lzw-git-all",
+          "url": "https://github.com/lzw-git-all"
+        }
+      ],
+      "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "France",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "luongnv89: location=Paris, France"
+      ]
+    },
+    {
+      "repository_name": "Meloong-Git/PCL",
+      "url": "https://github.com/Meloong-Git/PCL",
+      "contributors": [
+        {
+          "username": "allMagicNB",
+          "url": "https://github.com/allMagicNB"
+        },
+        {
+          "username": "RyogiMutsuki",
+          "url": "https://github.com/RyogiMutsuki"
+        },
+        {
+          "username": "wyc-26",
+          "url": "https://github.com/wyc-26"
+        },
+        {
+          "username": "Pigeon0v0",
+          "url": "https://github.com/Pigeon0v0"
+        }
+      ],
+      "description": "Minecraft 启动器 Plain Craft Launcher（PCL）。",
+      "primary_language": "Visual Basic .NET",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    }
+  ]
+}
