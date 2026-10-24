@@ -1,0 +1,341 @@
+{
+  "fetched_at": "2026-10-25T01:03:02+08:00",
+  "source_url": "https://github.com/trending/",
+  "repository_count": 10,
+  "ai_agent_project_count": 5,
+  "ai_agent_project_ratio": 0.5,
+  "repositories": [
+    {
+      "repository_name": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "contributors": [
+        {
+          "username": "literally-dan",
+          "url": "https://github.com/literally-dan"
+        },
+        {
+          "username": "CooperSheroy",
+          "url": "https://github.com/CooperSheroy"
+        },
+        {
+          "username": "kennysarnoski-jarvis",
+          "url": "https://github.com/kennysarnoski-jarvis"
+        }
+      ],
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "NVIDIA/OpenShell",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "contributors": [
+        {
+          "username": "drew",
+          "url": "https://github.com/drew"
+        },
+        {
+          "username": "johntmyers",
+          "url": "https://github.com/johntmyers"
+        },
+        {
+          "username": "pimlock",
+          "url": "https://github.com/pimlock"
+        },
+        {
+          "username": "miyoungc",
+          "url": "https://github.com/miyoungc"
+        },
+        {
+          "username": "elezar",
+          "url": "https://github.com/elezar"
+        }
+      ],
+      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+      "primary_language": "Rust",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "drew: location=San Diego, CA"
+      ]
+    },
+    {
+      "repository_name": "aws/agent-toolkit-for-aws",
+      "url": "https://github.com/aws/agent-toolkit-for-aws",
+      "contributors": [
+        {
+          "username": "arnewouters",
+          "url": "https://github.com/arnewouters"
+        },
+        {
+          "username": "herosjourney",
+          "url": "https://github.com/herosjourney"
+        },
+        {
+          "username": "anasstahr",
+          "url": "https://github.com/anasstahr"
+        },
+        {
+          "username": "rshevchuk-git",
+          "url": "https://github.com/rshevchuk-git"
+        },
+        {
+          "username": "leon1418",
+          "url": "https://github.com/leon1418"
+        }
+      ],
+      "description": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "Netherlands",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "arnewouters: location=Amsterdam, Netherlands"
+      ]
+    },
+    {
+      "repository_name": "Nutlope/hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
+      "contributors": [
+        {
+          "username": "Luffixos",
+          "url": "https://github.com/Luffixos"
+        },
+        {
+          "username": "Nutlope",
+          "url": "https://github.com/Nutlope"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "riccardogiorato",
+          "url": "https://github.com/riccardogiorato"
+        },
+        {
+          "username": "JaySmith502",
+          "url": "https://github.com/JaySmith502"
+        }
+      ],
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "primary_language": "CSS",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United States",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "Nutlope: location=New York City, NY"
+      ]
+    },
+    {
+      "repository_name": "luongnv89/claude-howto",
+      "url": "https://github.com/luongnv89/claude-howto",
+      "contributors": [
+        {
+          "username": "luongnv89",
+          "url": "https://github.com/luongnv89"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "edocltd",
+          "url": "https://github.com/edocltd"
+        },
+        {
+          "username": "toanalien",
+          "url": "https://github.com/toanalien"
+        },
+        {
+          "username": "lzw-git-all",
+          "url": "https://github.com/lzw-git-all"
+        }
+      ],
+      "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "France",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "luongnv89: location=Paris, France"
+      ]
+    },
+    {
+      "repository_name": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "contributors": [
+        {
+          "username": "pbakaus",
+          "url": "https://github.com/pbakaus"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "abdulwahabone",
+          "url": "https://github.com/abdulwahabone"
+        },
+        {
+          "username": "cursoragent",
+          "url": "https://github.com/cursoragent"
+        }
+      ],
+      "description": "The design language that makes your AI harness better at design.",
+      "primary_language": "Rust",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "pollen-robotics/microduck",
+      "url": "https://github.com/pollen-robotics/microduck",
+      "contributors": [
+        {
+          "username": "pierre-rouanet",
+          "url": "https://github.com/pierre-rouanet"
+        },
+        {
+          "username": "apirrone",
+          "url": "https://github.com/apirrone"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "Drenayaz",
+          "url": "https://github.com/Drenayaz"
+        },
+        {
+          "username": "Nixxx19",
+          "url": "https://github.com/Nixxx19"
+        }
+      ],
+      "description": "A Tiny biped duck robot 🦆",
+      "primary_language": "Rust",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "google-gemini/gemini-cli",
+      "url": "https://github.com/google-gemini/gemini-cli",
+      "contributors": [
+        {
+          "username": "scidomino",
+          "url": "https://github.com/scidomino"
+        },
+        {
+          "username": "jacob314",
+          "url": "https://github.com/jacob314"
+        },
+        {
+          "username": "NTaylorMullen",
+          "url": "https://github.com/NTaylorMullen"
+        },
+        {
+          "username": "abhipatel12",
+          "url": "https://github.com/abhipatel12"
+        },
+        {
+          "username": "SandyTao520",
+          "url": "https://github.com/SandyTao520"
+        }
+      ],
+      "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "abhipatel12: location=New York, New York"
+      ]
+    },
+    {
+      "repository_name": "jbiaojerry/ebook-treasure-chest",
+      "url": "https://github.com/jbiaojerry/ebook-treasure-chest",
+      "contributors": [
+        {
+          "username": "jbiaojerry",
+          "url": "https://github.com/jbiaojerry"
+        }
+      ],
+      "description": "欢迎来到电子书下载宝库，一个汇聚了各类电子书下载链接的地方。无论你是喜欢阅读经典文学、经管励志、终身学习、职场创业、技术手册还是其他类型的书籍，这里都能满足你的需求。 该库涵盖了帆书app(原樊登读书)、微信读书、京东读书、喜马拉雅等读书app的大部分电子书。",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "makecindy/cindy",
+      "url": "https://github.com/makecindy/cindy",
+      "contributors": [
+        {
+          "username": "dashhuang",
+          "url": "https://github.com/dashhuang"
+        },
+        {
+          "username": "zqchris",
+          "url": "https://github.com/zqchris"
+        },
+        {
+          "username": "MagicLizi",
+          "url": "https://github.com/MagicLizi"
+        },
+        {
+          "username": "DavidShenXD",
+          "url": "https://github.com/DavidShenXD"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        }
+      ],
+      "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    }
+  ]
+}
