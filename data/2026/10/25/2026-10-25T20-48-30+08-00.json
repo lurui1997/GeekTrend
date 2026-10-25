@@ -1,0 +1,391 @@
+{
+  "fetched_at": "2026-10-25T20:48:30+08:00",
+  "source_url": "https://github.com/trending/",
+  "repository_count": 11,
+  "ai_agent_project_count": 10,
+  "ai_agent_project_ratio": 0.9091,
+  "repositories": [
+    {
+      "repository_name": "makecindy/cindy",
+      "url": "https://github.com/makecindy/cindy",
+      "contributors": [
+        {
+          "username": "dashhuang",
+          "url": "https://github.com/dashhuang"
+        },
+        {
+          "username": "zqchris",
+          "url": "https://github.com/zqchris"
+        },
+        {
+          "username": "MagicLizi",
+          "url": "https://github.com/MagicLizi"
+        },
+        {
+          "username": "DavidShenXD",
+          "url": "https://github.com/DavidShenXD"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        }
+      ],
+      "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "Nutlope/hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
+      "contributors": [
+        {
+          "username": "Luffixos",
+          "url": "https://github.com/Luffixos"
+        },
+        {
+          "username": "Nutlope",
+          "url": "https://github.com/Nutlope"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "riccardogiorato",
+          "url": "https://github.com/riccardogiorato"
+        },
+        {
+          "username": "JaySmith502",
+          "url": "https://github.com/JaySmith502"
+        }
+      ],
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "primary_language": "CSS",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United States",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "Nutlope: location=New York City, NY"
+      ]
+    },
+    {
+      "repository_name": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "contributors": [
+        {
+          "username": "debpalash",
+          "url": "https://github.com/debpalash"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "velixio",
+          "url": "https://github.com/velixio"
+        },
+        {
+          "username": "kevin9327",
+          "url": "https://github.com/kevin9327"
+        },
+        {
+          "username": "jaketame",
+          "url": "https://github.com/jaketame"
+        }
+      ],
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "contributors": [
+        {
+          "username": "pbakaus",
+          "url": "https://github.com/pbakaus"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "abdulwahabone",
+          "url": "https://github.com/abdulwahabone"
+        },
+        {
+          "username": "cursoragent",
+          "url": "https://github.com/cursoragent"
+        }
+      ],
+      "description": "The design language that makes your AI harness better at design.",
+      "primary_language": "Rust",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "pollen-robotics/microduck",
+      "url": "https://github.com/pollen-robotics/microduck",
+      "contributors": [
+        {
+          "username": "pierre-rouanet",
+          "url": "https://github.com/pierre-rouanet"
+        },
+        {
+          "username": "apirrone",
+          "url": "https://github.com/apirrone"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "Drenayaz",
+          "url": "https://github.com/Drenayaz"
+        },
+        {
+          "username": "Nixxx19",
+          "url": "https://github.com/Nixxx19"
+        }
+      ],
+      "description": "A Tiny biped duck robot 🦆",
+      "primary_language": "Rust",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "contributors": [
+        {
+          "username": "Yijia-Xiao",
+          "url": "https://github.com/Yijia-Xiao"
+        },
+        {
+          "username": "EdwardoSunny",
+          "url": "https://github.com/EdwardoSunny"
+        },
+        {
+          "username": "CadeYu",
+          "url": "https://github.com/CadeYu"
+        },
+        {
+          "username": "luohy15",
+          "url": "https://github.com/luohy15"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        }
+      ],
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "EdwardoSunny: location=San Diego, CA"
+      ]
+    },
+    {
+      "repository_name": "Renhuai123/ziwei-doushu",
+      "url": "https://github.com/Renhuai123/ziwei-doushu",
+      "contributors": [
+        {
+          "username": "Renhuai123",
+          "url": "https://github.com/Renhuai123"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "Renhuai",
+          "url": "https://github.com/Renhuai"
+        },
+        {
+          "username": "sakura168899-debug",
+          "url": "https://github.com/sakura168899-debug"
+        }
+      ],
+      "description": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "JetBrains/thinkrail",
+      "url": "https://github.com/JetBrains/thinkrail",
+      "contributors": [
+        {
+          "username": "rsolmano",
+          "url": "https://github.com/rsolmano"
+        },
+        {
+          "username": "danyaberezun",
+          "url": "https://github.com/danyaberezun"
+        },
+        {
+          "username": "OLavrik",
+          "url": "https://github.com/OLavrik"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "SBOne-Kenobi",
+          "url": "https://github.com/SBOne-Kenobi"
+        }
+      ],
+      "description": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "coollabsio/coolify",
+      "url": "https://github.com/coollabsio/coolify",
+      "contributors": [
+        {
+          "username": "andrasbacsai",
+          "url": "https://github.com/andrasbacsai"
+        },
+        {
+          "username": "peaklabs-dev",
+          "url": "https://github.com/peaklabs-dev"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "ShadowArcanist",
+          "url": "https://github.com/ShadowArcanist"
+        }
+      ],
+      "description": "An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 360+ one-click services on your own servers.",
+      "primary_language": "PHP",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "contributors": [
+        {
+          "username": "literally-dan",
+          "url": "https://github.com/literally-dan"
+        },
+        {
+          "username": "CooperSheroy",
+          "url": "https://github.com/CooperSheroy"
+        },
+        {
+          "username": "kennysarnoski-jarvis",
+          "url": "https://github.com/kennysarnoski-jarvis"
+        }
+      ],
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "AgriciDaniel/claude-seo",
+      "url": "https://github.com/AgriciDaniel/claude-seo",
+      "contributors": [
+        {
+          "username": "AgriciDaniel",
+          "url": "https://github.com/AgriciDaniel"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "Nordalux",
+          "url": "https://github.com/Nordalux"
+        },
+        {
+          "username": "codex",
+          "url": "https://github.com/codex"
+        }
+      ],
+      "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude",
+        "codex"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    }
+  ]
+}
