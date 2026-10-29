@@ -1,0 +1,492 @@
+{
+  "fetched_at": "2026-10-29T15:43:51+08:00",
+  "source_url": "https://github.com/trending/",
+  "repository_count": 14,
+  "ai_agent_project_count": 10,
+  "ai_agent_project_ratio": 0.7143,
+  "repositories": [
+    {
+      "repository_name": "JetBrains/thinkrail",
+      "url": "https://github.com/JetBrains/thinkrail",
+      "contributors": [
+        {
+          "username": "rsolmano",
+          "url": "https://github.com/rsolmano"
+        },
+        {
+          "username": "danyaberezun",
+          "url": "https://github.com/danyaberezun"
+        },
+        {
+          "username": "OLavrik",
+          "url": "https://github.com/OLavrik"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "SBOne-Kenobi",
+          "url": "https://github.com/SBOne-Kenobi"
+        }
+      ],
+      "description": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "elayadesign/ai-design-skills",
+      "url": "https://github.com/elayadesign/ai-design-skills",
+      "contributors": [
+        {
+          "username": "elayadesign",
+          "url": "https://github.com/elayadesign"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        }
+      ],
+      "description": null,
+      "primary_language": null,
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "contributors": [
+        {
+          "username": "obra",
+          "url": "https://github.com/obra"
+        },
+        {
+          "username": "arittr",
+          "url": "https://github.com/arittr"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "clkao",
+          "url": "https://github.com/clkao"
+        },
+        {
+          "username": "arimu1",
+          "url": "https://github.com/arimu1"
+        }
+      ],
+      "description": "An agentic skills framework & software development methodology that works.",
+      "primary_language": "Shell",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "HKUDS/DeepTutor",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "contributors": [
+        {
+          "username": "pancacake",
+          "url": "https://github.com/pancacake"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "Pinkllow",
+          "url": "https://github.com/Pinkllow"
+        },
+        {
+          "username": "evan188199-tech",
+          "url": "https://github.com/evan188199-tech"
+        }
+      ],
+      "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/ .",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "macro-inc/macro",
+      "url": "https://github.com/macro-inc/macro",
+      "contributors": [
+        {
+          "username": "gbirman",
+          "url": "https://github.com/gbirman"
+        },
+        {
+          "username": "whutchinson98",
+          "url": "https://github.com/whutchinson98"
+        },
+        {
+          "username": "synoet",
+          "url": "https://github.com/synoet"
+        },
+        {
+          "username": "sedson",
+          "url": "https://github.com/sedson"
+        },
+        {
+          "username": "peterchinman",
+          "url": "https://github.com/peterchinman"
+        }
+      ],
+      "description": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
+      "primary_language": "Rust",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "medium",
+      "origin_evidence": [
+        "synoet: location=New York",
+        "sedson: location=NYC"
+      ]
+    },
+    {
+      "repository_name": "Nutlope/hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
+      "contributors": [
+        {
+          "username": "Luffixos",
+          "url": "https://github.com/Luffixos"
+        },
+        {
+          "username": "Nutlope",
+          "url": "https://github.com/Nutlope"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "riccardogiorato",
+          "url": "https://github.com/riccardogiorato"
+        },
+        {
+          "username": "JaySmith502",
+          "url": "https://github.com/JaySmith502"
+        }
+      ],
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "primary_language": "CSS",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United States",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "Nutlope: location=New York City, NY"
+      ]
+    },
+    {
+      "repository_name": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "contributors": [
+        {
+          "username": "pbakaus",
+          "url": "https://github.com/pbakaus"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "abdulwahabone",
+          "url": "https://github.com/abdulwahabone"
+        },
+        {
+          "username": "cursoragent",
+          "url": "https://github.com/cursoragent"
+        }
+      ],
+      "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+      "primary_language": "Rust",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "makecindy/cindy",
+      "url": "https://github.com/makecindy/cindy",
+      "contributors": [
+        {
+          "username": "dashhuang",
+          "url": "https://github.com/dashhuang"
+        },
+        {
+          "username": "zqchris",
+          "url": "https://github.com/zqchris"
+        },
+        {
+          "username": "MagicLizi",
+          "url": "https://github.com/MagicLizi"
+        },
+        {
+          "username": "DavidShenXD",
+          "url": "https://github.com/DavidShenXD"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        }
+      ],
+      "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "nightly-labs/openbot",
+      "url": "https://github.com/nightly-labs/openbot",
+      "contributors": [
+        {
+          "username": "NorbertBodziony",
+          "url": "https://github.com/NorbertBodziony"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "Sniezka1927",
+          "url": "https://github.com/Sniezka1927"
+        },
+        {
+          "username": "nrb-dev",
+          "url": "https://github.com/nrb-dev"
+        },
+        {
+          "username": "aniruddhaadak80",
+          "url": "https://github.com/aniruddhaadak80"
+        }
+      ],
+      "description": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "togg53192-cmd/jailbreaks",
+      "url": "https://github.com/togg53192-cmd/jailbreaks",
+      "contributors": [
+        {
+          "username": "togg53192-cmd",
+          "url": "https://github.com/togg53192-cmd"
+        },
+        {
+          "username": "raghavraut",
+          "url": "https://github.com/raghavraut"
+        },
+        {
+          "username": "metalim",
+          "url": "https://github.com/metalim"
+        },
+        {
+          "username": "reblox01",
+          "url": "https://github.com/reblox01"
+        }
+      ],
+      "description": "LIST OF ALL MY JAILBREAKS",
+      "primary_language": null,
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "Morocco",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "reblox01: location=Casablanca, Morocco"
+      ]
+    },
+    {
+      "repository_name": "hmjz100/LinkSwift",
+      "url": "https://github.com/hmjz100/LinkSwift",
+      "contributors": [
+        {
+          "username": "hmjz100",
+          "url": "https://github.com/hmjz100"
+        },
+        {
+          "username": "MisaLiu",
+          "url": "https://github.com/MisaLiu"
+        },
+        {
+          "username": "Night-stars-1",
+          "url": "https://github.com/Night-stars-1"
+        },
+        {
+          "username": "sherlocknieh",
+          "url": "https://github.com/sherlocknieh"
+        },
+        {
+          "username": "DeepslateQAQ",
+          "url": "https://github.com/DeepslateQAQ"
+        }
+      ],
+      "description": "一个基于 JavaScript 的网盘文件下载地址获取工具。基于【网盘直链下载助手】修改 ，支持 百度网盘 / 阿里云盘 / 中国移动云盘 / 天翼云盘 / 迅雷云盘 / 夸克网盘 / UC网盘 / 123云盘 八大网盘",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "expo/skills",
+      "url": "https://github.com/expo/skills",
+      "contributors": [
+        {
+          "username": "EvanBacon",
+          "url": "https://github.com/EvanBacon"
+        },
+        {
+          "username": "Kudo",
+          "url": "https://github.com/Kudo"
+        },
+        {
+          "username": "gwdp",
+          "url": "https://github.com/gwdp"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "ide",
+          "url": "https://github.com/ide"
+        }
+      ],
+      "description": "A collection of AI agent skills for working with Expo projects and Expo Application Services",
+      "primary_language": "Shell",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "ruvnet/RuView",
+      "url": "https://github.com/ruvnet/RuView",
+      "contributors": [
+        {
+          "username": "ruvnet",
+          "url": "https://github.com/ruvnet"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "proffesor-for-testing",
+          "url": "https://github.com/proffesor-for-testing"
+        },
+        {
+          "username": "aepod",
+          "url": "https://github.com/aepod"
+        }
+      ],
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "primary_language": "Rust",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "xiaolai/the-craft-of-selfteaching",
+      "url": "https://github.com/xiaolai/the-craft-of-selfteaching",
+      "contributors": [
+        {
+          "username": "xiaolai",
+          "url": "https://github.com/xiaolai"
+        },
+        {
+          "username": "wpeiran",
+          "url": "https://github.com/wpeiran"
+        },
+        {
+          "username": "towerzju",
+          "url": "https://github.com/towerzju"
+        },
+        {
+          "username": "HarryYC",
+          "url": "https://github.com/HarryYC"
+        },
+        {
+          "username": "ljqbpm",
+          "url": "https://github.com/ljqbpm"
+        }
+      ],
+      "description": "One has no future if one couldn't teach themself.",
+      "primary_language": "Jupyter Notebook",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "China",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "xiaolai: location=beijing"
+      ]
+    }
+  ]
+}
