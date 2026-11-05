@@ -1,0 +1,493 @@
+{
+  "fetched_at": "2026-11-06T01:43:05+08:00",
+  "source_url": "https://github.com/trending/",
+  "repository_count": 15,
+  "ai_agent_project_count": 8,
+  "ai_agent_project_ratio": 0.5333,
+  "repositories": [
+    {
+      "repository_name": "NVIDIA/auto-ontology",
+      "url": "https://github.com/NVIDIA/auto-ontology",
+      "contributors": [
+        {
+          "username": "DinaLaptii",
+          "url": "https://github.com/DinaLaptii"
+        },
+        {
+          "username": "yuvalshkolar",
+          "url": "https://github.com/yuvalshkolar"
+        },
+        {
+          "username": "liavnave",
+          "url": "https://github.com/liavnave"
+        },
+        {
+          "username": "liofnv",
+          "url": "https://github.com/liofnv"
+        },
+        {
+          "username": "tomer-levin-nv",
+          "url": "https://github.com/tomer-levin-nv"
+        }
+      ],
+      "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "contributors": [
+        {
+          "username": "mattpocock",
+          "url": "https://github.com/mattpocock"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "gabimoncha",
+          "url": "https://github.com/gabimoncha"
+        }
+      ],
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "primary_language": "Shell",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "garrytan/gstack",
+      "url": "https://github.com/garrytan/gstack",
+      "contributors": [
+        {
+          "username": "garrytan",
+          "url": "https://github.com/garrytan"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "test22345",
+          "url": "https://github.com/test22345"
+        },
+        {
+          "username": "szsunyuan",
+          "url": "https://github.com/szsunyuan"
+        }
+      ],
+      "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "Usagi-org/ai-goofish-monitor",
+      "url": "https://github.com/Usagi-org/ai-goofish-monitor",
+      "contributors": [
+        {
+          "username": "dingyufei615",
+          "url": "https://github.com/dingyufei615"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "ijodion",
+          "url": "https://github.com/ijodion"
+        },
+        {
+          "username": "hurleychin",
+          "url": "https://github.com/hurleychin"
+        }
+      ],
+      "description": "基于 Playwright 和AI实现的闲鱼多任务实时/定时监控与智能分析系统，配备了功能完善的后台管理UI。帮助用户从闲鱼海量商品中，找到心仪产品。",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "China",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "hurleychin: location=China,Beijing"
+      ]
+    },
+    {
+      "repository_name": "D4Vinci/Scrapling",
+      "url": "https://github.com/D4Vinci/Scrapling",
+      "contributors": [
+        {
+          "username": "D4Vinci",
+          "url": "https://github.com/D4Vinci"
+        },
+        {
+          "username": "yetval",
+          "url": "https://github.com/yetval"
+        },
+        {
+          "username": "AbdullahY36",
+          "url": "https://github.com/AbdullahY36"
+        },
+        {
+          "username": "SulimanAbdulrazzaq",
+          "url": "https://github.com/SulimanAbdulrazzaq"
+        },
+        {
+          "username": "codex",
+          "url": "https://github.com/codex"
+        }
+      ],
+      "description": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "codex"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "yetval: location=NC, United States"
+      ]
+    },
+    {
+      "repository_name": "vercel-labs/agent-desktop",
+      "url": "https://github.com/vercel-labs/agent-desktop",
+      "contributors": [
+        {
+          "username": "lahfir",
+          "url": "https://github.com/lahfir"
+        },
+        {
+          "username": "ctate",
+          "url": "https://github.com/ctate"
+        }
+      ],
+      "description": "Computer use CLI for AI agents",
+      "primary_language": "Rust",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "lahfir: location=United States"
+      ]
+    },
+    {
+      "repository_name": "max-sixty/worktrunk",
+      "url": "https://github.com/max-sixty/worktrunk",
+      "contributors": [
+        {
+          "username": "max-sixty",
+          "url": "https://github.com/max-sixty"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "worktrunk-bot",
+          "url": "https://github.com/worktrunk-bot"
+        }
+      ],
+      "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+      "primary_language": "Rust",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "lz4/lz4",
+      "url": "https://github.com/lz4/lz4",
+      "contributors": [
+        {
+          "username": "Cyan4973",
+          "url": "https://github.com/Cyan4973"
+        },
+        {
+          "username": "inikep",
+          "url": "https://github.com/inikep"
+        },
+        {
+          "username": "t-mat",
+          "url": "https://github.com/t-mat"
+        },
+        {
+          "username": "felixhandte",
+          "url": "https://github.com/felixhandte"
+        }
+      ],
+      "description": "Extremely Fast Compression algorithm",
+      "primary_language": "C",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "medium",
+      "origin_evidence": [
+        "Cyan4973: location=Menlo Park, USA",
+        "felixhandte: location=New York. NY"
+      ]
+    },
+    {
+      "repository_name": "google/skills",
+      "url": "https://github.com/google/skills",
+      "contributors": [
+        {
+          "username": "cloud-ix-copybara",
+          "url": "https://github.com/cloud-ix-copybara"
+        },
+        {
+          "username": "holtskinner",
+          "url": "https://github.com/holtskinner"
+        },
+        {
+          "username": "martinvarelaj",
+          "url": "https://github.com/martinvarelaj"
+        },
+        {
+          "username": "helloeve",
+          "url": "https://github.com/helloeve"
+        },
+        {
+          "username": "wangauone",
+          "url": "https://github.com/wangauone"
+        }
+      ],
+      "description": "Agent Skills for Google products and technologies",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "vercel-labs/agent-browser",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "contributors": [
+        {
+          "username": "ctate",
+          "url": "https://github.com/ctate"
+        },
+        {
+          "username": "Railly",
+          "url": "https://github.com/Railly"
+        },
+        {
+          "username": "lahfir",
+          "url": "https://github.com/lahfir"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        }
+      ],
+      "description": "Browser automation CLI for AI agents",
+      "primary_language": "Rust",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "lahfir: location=United States"
+      ]
+    },
+    {
+      "repository_name": "scenario-labs/skills",
+      "url": "https://github.com/scenario-labs/skills",
+      "contributors": [
+        {
+          "username": "hervenivon",
+          "url": "https://github.com/hervenivon"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "codex",
+          "url": "https://github.com/codex"
+        },
+        {
+          "username": "edemaistre",
+          "url": "https://github.com/edemaistre"
+        }
+      ],
+      "description": "Get production-ready images, video, audio, and 3D from any AI agent: skills that pick the right model, price before spending, and keep characters and brands consistent through the Scenario MCP, plus expert teams that drive Blender, Maya, ZBrush, Unreal, and Unity.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude",
+        "codex"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "France",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "hervenivon: location=Paris"
+      ]
+    },
+    {
+      "repository_name": "ConardLi/garden-skills",
+      "url": "https://github.com/ConardLi/garden-skills",
+      "contributors": [
+        {
+          "username": "ConardLi",
+          "url": "https://github.com/ConardLi"
+        },
+        {
+          "username": "cursoragent",
+          "url": "https://github.com/cursoragent"
+        },
+        {
+          "username": "eltociear",
+          "url": "https://github.com/eltociear"
+        }
+      ],
+      "description": "ConardLi's open-source Skills collection, featuring web design, knowledge retrieval, image generation, and more.",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "China",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "ConardLi: location=BeiJing"
+      ]
+    },
+    {
+      "repository_name": "microsoft/VibeVoice",
+      "url": "https://github.com/microsoft/VibeVoice",
+      "contributors": [
+        {
+          "username": "YaoyaoChang",
+          "url": "https://github.com/YaoyaoChang"
+        },
+        {
+          "username": "pengzhiliang",
+          "url": "https://github.com/pengzhiliang"
+        },
+        {
+          "username": "MSLDCherryPick",
+          "url": "https://github.com/MSLDCherryPick"
+        },
+        {
+          "username": "jsoref",
+          "url": "https://github.com/jsoref"
+        }
+      ],
+      "description": "Open-Source Frontier Voice AI",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "China",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "pengzhiliang: location=Beijing,China"
+      ]
+    },
+    {
+      "repository_name": "floci-io/floci",
+      "url": "https://github.com/floci-io/floci",
+      "contributors": [
+        {
+          "username": "hectorvent",
+          "url": "https://github.com/hectorvent"
+        },
+        {
+          "username": "pgermosen",
+          "url": "https://github.com/pgermosen"
+        },
+        {
+          "username": "AndreKurait",
+          "url": "https://github.com/AndreKurait"
+        },
+        {
+          "username": "okinaka",
+          "url": "https://github.com/okinaka"
+        },
+        {
+          "username": "exoego",
+          "url": "https://github.com/exoego"
+        }
+      ],
+      "description": "Light, fluffy, and always free - The AWS Local Emulator alternative",
+      "primary_language": "Java",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "Japan",
+      "origin_confidence": "medium",
+      "origin_evidence": [
+        "okinaka: location=Tokyo, Japan",
+        "exoego: location=Japan"
+      ]
+    },
+    {
+      "repository_name": "JiaFeiMiao-K-Cat/DiscImageStudio",
+      "url": "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio",
+      "contributors": [
+        {
+          "username": "JiaFeiMiao-K-Cat",
+          "url": "https://github.com/JiaFeiMiao-K-Cat"
+        },
+        {
+          "username": "Catho168",
+          "url": "https://github.com/Catho168"
+        },
+        {
+          "username": "eltociear",
+          "url": "https://github.com/eltociear"
+        },
+        {
+          "username": "keremuysal",
+          "url": "https://github.com/keremuysal"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        }
+      ],
+      "description": null,
+      "primary_language": "C#",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "Japan",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "eltociear: location=Tokyo, Japan"
+      ]
+    }
+  ]
+}
