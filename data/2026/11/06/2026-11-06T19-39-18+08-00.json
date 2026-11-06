@@ -1,0 +1,614 @@
+{
+  "fetched_at": "2026-11-06T19:39:18+08:00",
+  "source_url": "https://github.com/trending/",
+  "repository_count": 18,
+  "ai_agent_project_count": 1,
+  "ai_agent_project_ratio": 0.0556,
+  "repositories": [
+    {
+      "repository_name": "zed-industries/zed",
+      "url": "https://github.com/zed-industries/zed",
+      "contributors": [
+        {
+          "username": "as-cii",
+          "url": "https://github.com/as-cii"
+        },
+        {
+          "username": "maxbrunsfeld",
+          "url": "https://github.com/maxbrunsfeld"
+        },
+        {
+          "username": "maxdeviant",
+          "url": "https://github.com/maxdeviant"
+        },
+        {
+          "username": "nathansobo",
+          "url": "https://github.com/nathansobo"
+        },
+        {
+          "username": "ConradIrwin",
+          "url": "https://github.com/ConradIrwin"
+        }
+      ],
+      "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+      "primary_language": "Rust",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "Italy",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "as-cii: location=Italy"
+      ]
+    },
+    {
+      "repository_name": "NVIDIA/auto-ontology",
+      "url": "https://github.com/NVIDIA/auto-ontology",
+      "contributors": [
+        {
+          "username": "DinaLaptii",
+          "url": "https://github.com/DinaLaptii"
+        },
+        {
+          "username": "yuvalshkolar",
+          "url": "https://github.com/yuvalshkolar"
+        },
+        {
+          "username": "liavnave",
+          "url": "https://github.com/liavnave"
+        },
+        {
+          "username": "liofnv",
+          "url": "https://github.com/liofnv"
+        },
+        {
+          "username": "tomer-levin-nv",
+          "url": "https://github.com/tomer-levin-nv"
+        }
+      ],
+      "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "rails/rails",
+      "url": "https://github.com/rails/rails",
+      "contributors": [
+        {
+          "username": "rafaelfranca",
+          "url": "https://github.com/rafaelfranca"
+        },
+        {
+          "username": "kamipo",
+          "url": "https://github.com/kamipo"
+        },
+        {
+          "username": "jeremy",
+          "url": "https://github.com/jeremy"
+        },
+        {
+          "username": "tenderlove",
+          "url": "https://github.com/tenderlove"
+        },
+        {
+          "username": "byroot",
+          "url": "https://github.com/byroot"
+        }
+      ],
+      "description": "Ruby on Rails",
+      "primary_language": "Ruby",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "Japan",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "kamipo: location=Tokyo, Japan"
+      ]
+    },
+    {
+      "repository_name": "mpv-player/mpv",
+      "url": "https://github.com/mpv-player/mpv",
+      "contributors": [
+        {
+          "username": "kasper93",
+          "url": "https://github.com/kasper93"
+        },
+        {
+          "username": "Dudemanguy",
+          "url": "https://github.com/Dudemanguy"
+        },
+        {
+          "username": "guidocella",
+          "url": "https://github.com/guidocella"
+        },
+        {
+          "username": "haasn",
+          "url": "https://github.com/haasn"
+        },
+        {
+          "username": "pigoz",
+          "url": "https://github.com/pigoz"
+        }
+      ],
+      "description": "🎥 Command line media player",
+      "primary_language": "C",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "Italy",
+      "origin_confidence": "medium",
+      "origin_evidence": [
+        "guidocella: location=Italy",
+        "pigoz: location=Italy"
+      ]
+    },
+    {
+      "repository_name": "rust-lang/rust",
+      "url": "https://github.com/rust-lang/rust",
+      "contributors": [
+        {
+          "username": "bors",
+          "url": "https://github.com/bors"
+        },
+        {
+          "username": "matthiaskrgr",
+          "url": "https://github.com/matthiaskrgr"
+        },
+        {
+          "username": "RalfJung",
+          "url": "https://github.com/RalfJung"
+        },
+        {
+          "username": "GuillaumeGomez",
+          "url": "https://github.com/GuillaumeGomez"
+        },
+        {
+          "username": "matklad",
+          "url": "https://github.com/matklad"
+        }
+      ],
+      "description": "Empowering everyone to build reliable and efficient software.",
+      "primary_language": "Rust",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "France",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "GuillaumeGomez: location=France"
+      ]
+    },
+    {
+      "repository_name": "react/react",
+      "url": "https://github.com/react/react",
+      "contributors": [
+        {
+          "username": "sebmarkbage",
+          "url": "https://github.com/sebmarkbage"
+        },
+        {
+          "username": "zpao",
+          "url": "https://github.com/zpao"
+        },
+        {
+          "username": "gaearon",
+          "url": "https://github.com/gaearon"
+        },
+        {
+          "username": "acdlite",
+          "url": "https://github.com/acdlite"
+        },
+        {
+          "username": "sophiebits",
+          "url": "https://github.com/sophiebits"
+        }
+      ],
+      "description": "The library for web and native user interfaces.",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "medium",
+      "origin_evidence": [
+        "sebmarkbage: location=New York City",
+        "acdlite: location=New York"
+      ]
+    },
+    {
+      "repository_name": "angular/angular",
+      "url": "https://github.com/angular/angular",
+      "contributors": [
+        {
+          "username": "gkalpak",
+          "url": "https://github.com/gkalpak"
+        },
+        {
+          "username": "petebacondarwin",
+          "url": "https://github.com/petebacondarwin"
+        },
+        {
+          "username": "crisbeto",
+          "url": "https://github.com/crisbeto"
+        },
+        {
+          "username": "angular-robot",
+          "url": "https://github.com/angular-robot"
+        },
+        {
+          "username": "devversion",
+          "url": "https://github.com/devversion"
+        }
+      ],
+      "description": "Deliver web apps with confidence 🚀",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "petebacondarwin: location=London, UK"
+      ]
+    },
+    {
+      "repository_name": "symfony/symfony",
+      "url": "https://github.com/symfony/symfony",
+      "contributors": [
+        {
+          "username": "fabpot",
+          "url": "https://github.com/fabpot"
+        },
+        {
+          "username": "nicolas-grekas",
+          "url": "https://github.com/nicolas-grekas"
+        },
+        {
+          "username": "xabbuh",
+          "url": "https://github.com/xabbuh"
+        },
+        {
+          "username": "derrabus",
+          "url": "https://github.com/derrabus"
+        },
+        {
+          "username": "chalasr",
+          "url": "https://github.com/chalasr"
+        }
+      ],
+      "description": "The Symfony PHP framework",
+      "primary_language": "PHP",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "France",
+      "origin_confidence": "medium",
+      "origin_evidence": [
+        "fabpot: location=Paris, France",
+        "nicolas-grekas: location=Paris, France",
+        "chalasr: location=Lyon, France"
+      ]
+    },
+    {
+      "repository_name": "prometheus/prometheus",
+      "url": "https://github.com/prometheus/prometheus",
+      "contributors": [
+        {
+          "username": "fabxc",
+          "url": "https://github.com/fabxc"
+        },
+        {
+          "username": "juliusv",
+          "url": "https://github.com/juliusv"
+        },
+        {
+          "username": "beorn7",
+          "url": "https://github.com/beorn7"
+        },
+        {
+          "username": "bboreham",
+          "url": "https://github.com/bboreham"
+        }
+      ],
+      "description": "The Prometheus monitoring system and time series database.",
+      "primary_language": "Go",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "bboreham: location=London, UK"
+      ]
+    },
+    {
+      "repository_name": "google/skills",
+      "url": "https://github.com/google/skills",
+      "contributors": [
+        {
+          "username": "cloud-ix-copybara",
+          "url": "https://github.com/cloud-ix-copybara"
+        },
+        {
+          "username": "holtskinner",
+          "url": "https://github.com/holtskinner"
+        },
+        {
+          "username": "martinvarelaj",
+          "url": "https://github.com/martinvarelaj"
+        },
+        {
+          "username": "helloeve",
+          "url": "https://github.com/helloeve"
+        },
+        {
+          "username": "wangauone",
+          "url": "https://github.com/wangauone"
+        }
+      ],
+      "description": "Agent Skills for Google products and technologies",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "microsoft/vscode",
+      "url": "https://github.com/microsoft/vscode",
+      "contributors": [
+        {
+          "username": "bpasero",
+          "url": "https://github.com/bpasero"
+        },
+        {
+          "username": "jrieken",
+          "url": "https://github.com/jrieken"
+        },
+        {
+          "username": "Tyriar",
+          "url": "https://github.com/Tyriar"
+        },
+        {
+          "username": "sandy081",
+          "url": "https://github.com/sandy081"
+        },
+        {
+          "username": "joaomoreno",
+          "url": "https://github.com/joaomoreno"
+        }
+      ],
+      "description": "Visual Studio Code",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "lz4/lz4",
+      "url": "https://github.com/lz4/lz4",
+      "contributors": [
+        {
+          "username": "Cyan4973",
+          "url": "https://github.com/Cyan4973"
+        },
+        {
+          "username": "inikep",
+          "url": "https://github.com/inikep"
+        },
+        {
+          "username": "t-mat",
+          "url": "https://github.com/t-mat"
+        },
+        {
+          "username": "felixhandte",
+          "url": "https://github.com/felixhandte"
+        }
+      ],
+      "description": "Extremely Fast Compression algorithm",
+      "primary_language": "C",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "medium",
+      "origin_evidence": [
+        "Cyan4973: location=Menlo Park, USA",
+        "felixhandte: location=New York. NY"
+      ]
+    },
+    {
+      "repository_name": "nushell/nushell",
+      "url": "https://github.com/nushell/nushell",
+      "contributors": [
+        {
+          "username": "sophiajt",
+          "url": "https://github.com/sophiajt"
+        },
+        {
+          "username": "fdncred",
+          "url": "https://github.com/fdncred"
+        },
+        {
+          "username": "sholderbach",
+          "url": "https://github.com/sholderbach"
+        },
+        {
+          "username": "andrasio",
+          "url": "https://github.com/andrasio"
+        }
+      ],
+      "description": "A new type of shell",
+      "primary_language": "Rust",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "fdncred: location=Hot Springs, Arkansas, USA"
+      ]
+    },
+    {
+      "repository_name": "etcd-io/etcd",
+      "url": "https://github.com/etcd-io/etcd",
+      "contributors": [
+        {
+          "username": "gyuho",
+          "url": "https://github.com/gyuho"
+        },
+        {
+          "username": "ahrtr",
+          "url": "https://github.com/ahrtr"
+        },
+        {
+          "username": "xiang90",
+          "url": "https://github.com/xiang90"
+        },
+        {
+          "username": "serathius",
+          "url": "https://github.com/serathius"
+        },
+        {
+          "username": "yichengq",
+          "url": "https://github.com/yichengq"
+        }
+      ],
+      "description": "Distributed reliable key-value store for the most critical data of a distributed system",
+      "primary_language": "Go",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "ahrtr: location=London, UK"
+      ]
+    },
+    {
+      "repository_name": "openssl/openssl",
+      "url": "https://github.com/openssl/openssl",
+      "contributors": [
+        {
+          "username": "levitte",
+          "url": "https://github.com/levitte"
+        },
+        {
+          "username": "mattcaswell",
+          "url": "https://github.com/mattcaswell"
+        },
+        {
+          "username": "dot-asm",
+          "url": "https://github.com/dot-asm"
+        },
+        {
+          "username": "paulidale",
+          "url": "https://github.com/paulidale"
+        },
+        {
+          "username": "snhenson",
+          "url": "https://github.com/snhenson"
+        }
+      ],
+      "description": "General purpose TLS and crypto library",
+      "primary_language": "C",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "contributors": [
+        {
+          "username": "mattpocock",
+          "url": "https://github.com/mattpocock"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "gabimoncha",
+          "url": "https://github.com/gabimoncha"
+        }
+      ],
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "primary_language": "Shell",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "contributors": [
+        {
+          "username": "literally-dan",
+          "url": "https://github.com/literally-dan"
+        },
+        {
+          "username": "CooperSheroy",
+          "url": "https://github.com/CooperSheroy"
+        },
+        {
+          "username": "kennysarnoski-jarvis",
+          "url": "https://github.com/kennysarnoski-jarvis"
+        }
+      ],
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "astral-sh/ruff",
+      "url": "https://github.com/astral-sh/ruff",
+      "contributors": [
+        {
+          "username": "charliermarsh",
+          "url": "https://github.com/charliermarsh"
+        },
+        {
+          "username": "MichaReiser",
+          "url": "https://github.com/MichaReiser"
+        },
+        {
+          "username": "AlexWaygood",
+          "url": "https://github.com/AlexWaygood"
+        },
+        {
+          "username": "sharkdp",
+          "url": "https://github.com/sharkdp"
+        }
+      ],
+      "description": "An extremely fast Python linter and code formatter, written in Rust.",
+      "primary_language": "Rust",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "charliermarsh: location=Brooklyn, NY"
+      ]
+    }
+  ]
+}
