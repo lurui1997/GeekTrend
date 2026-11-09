@@ -1,0 +1,386 @@
+{
+  "fetched_at": "2026-11-10T04:14:02+08:00",
+  "source_url": "https://github.com/trending/",
+  "repository_count": 11,
+  "ai_agent_project_count": 7,
+  "ai_agent_project_ratio": 0.6364,
+  "repositories": [
+    {
+      "repository_name": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "contributors": [
+        {
+          "username": "rlancemartin",
+          "url": "https://github.com/rlancemartin"
+        },
+        {
+          "username": "klazuka",
+          "url": "https://github.com/klazuka"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "cj-ant",
+          "url": "https://github.com/cj-ant"
+        },
+        {
+          "username": "ericharmeling",
+          "url": "https://github.com/ericharmeling"
+        }
+      ],
+      "description": "Public repository for Agent Skills",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "ericharmeling: location=Brooklyn, NY"
+      ]
+    },
+    {
+      "repository_name": "meta/astryx",
+      "url": "https://github.com/meta/astryx",
+      "contributors": [
+        {
+          "username": "cixzhang",
+          "url": "https://github.com/cixzhang"
+        },
+        {
+          "username": "rubyycheung",
+          "url": "https://github.com/rubyycheung"
+        },
+        {
+          "username": "josephfarina",
+          "url": "https://github.com/josephfarina"
+        },
+        {
+          "username": "vjeux",
+          "url": "https://github.com/vjeux"
+        }
+      ],
+      "description": "An open source design system that's fully customizable and agent ready",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "sherlock-project/sherlock",
+      "url": "https://github.com/sherlock-project/sherlock",
+      "contributors": [
+        {
+          "username": "sdushantha",
+          "url": "https://github.com/sdushantha"
+        },
+        {
+          "username": "hoadlck",
+          "url": "https://github.com/hoadlck"
+        },
+        {
+          "username": "ppfeister",
+          "url": "https://github.com/ppfeister"
+        },
+        {
+          "username": "TheYahya",
+          "url": "https://github.com/TheYahya"
+        },
+        {
+          "username": "Czechball",
+          "url": "https://github.com/Czechball"
+        }
+      ],
+      "description": "Hunt down social media accounts by username across social networks",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "ppfeister: location=New York City Metropolitan Area"
+      ]
+    },
+    {
+      "repository_name": "google-deepmind/mujoco",
+      "url": "https://github.com/google-deepmind/mujoco",
+      "contributors": [
+        {
+          "username": "yuvaltassa",
+          "url": "https://github.com/yuvaltassa"
+        },
+        {
+          "username": "quagla",
+          "url": "https://github.com/quagla"
+        },
+        {
+          "username": "haroonq",
+          "url": "https://github.com/haroonq"
+        },
+        {
+          "username": "kbayes",
+          "url": "https://github.com/kbayes"
+        },
+        {
+          "username": "saran-t",
+          "url": "https://github.com/saran-t"
+        }
+      ],
+      "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+      "primary_language": "C++",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "medium",
+      "origin_evidence": [
+        "yuvaltassa: location=London",
+        "kbayes: location=London, UK",
+        "saran-t: location=London, UK"
+      ]
+    },
+    {
+      "repository_name": "anthropics/claude-quickstarts",
+      "url": "https://github.com/anthropics/claude-quickstarts",
+      "contributors": [
+        {
+          "username": "cj-ant",
+          "url": "https://github.com/cj-ant"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "x5a",
+          "url": "https://github.com/x5a"
+        },
+        {
+          "username": "alexalbertt",
+          "url": "https://github.com/alexalbertt"
+        },
+        {
+          "username": "zealoushacker",
+          "url": "https://github.com/zealoushacker"
+        }
+      ],
+      "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "garrytan/gbrain",
+      "url": "https://github.com/garrytan/gbrain",
+      "contributors": [
+        {
+          "username": "garrytan",
+          "url": "https://github.com/garrytan"
+        },
+        {
+          "username": "time-attack",
+          "url": "https://github.com/time-attack"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "Masashi-Ono0611",
+          "url": "https://github.com/Masashi-Ono0611"
+        }
+      ],
+      "description": "Garry's Opinionated OpenClaw/Hermes Agent Brain",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "vercel-labs/agent-browser",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "contributors": [
+        {
+          "username": "ctate",
+          "url": "https://github.com/ctate"
+        },
+        {
+          "username": "Railly",
+          "url": "https://github.com/Railly"
+        },
+        {
+          "username": "lahfir",
+          "url": "https://github.com/lahfir"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        }
+      ],
+      "description": "Browser automation CLI for AI agents",
+      "primary_language": "Rust",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "lahfir: location=United States"
+      ]
+    },
+    {
+      "repository_name": "ruvnet/RuView",
+      "url": "https://github.com/ruvnet/RuView",
+      "contributors": [
+        {
+          "username": "ruvnet",
+          "url": "https://github.com/ruvnet"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "proffesor-for-testing",
+          "url": "https://github.com/proffesor-for-testing"
+        },
+        {
+          "username": "aepod",
+          "url": "https://github.com/aepod"
+        }
+      ],
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "primary_language": "Rust",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "ZhuLinsen/daily_stock_analysis",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "contributors": [
+        {
+          "username": "ZhuLinsen",
+          "url": "https://github.com/ZhuLinsen"
+        },
+        {
+          "username": "massif-01",
+          "url": "https://github.com/massif-01"
+        },
+        {
+          "username": "freesme",
+          "url": "https://github.com/freesme"
+        },
+        {
+          "username": "Activer007",
+          "url": "https://github.com/Activer007"
+        },
+        {
+          "username": "birdxs",
+          "url": "https://github.com/birdxs"
+        }
+      ],
+      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "homeassistant-ai/ha-mcp",
+      "url": "https://github.com/homeassistant-ai/ha-mcp",
+      "contributors": [
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "kingpanther13",
+          "url": "https://github.com/kingpanther13"
+        },
+        {
+          "username": "julienld",
+          "url": "https://github.com/julienld"
+        }
+      ],
+      "description": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "milind-soni/OpenMausBot",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "contributors": [
+        {
+          "username": "milind-soni",
+          "url": "https://github.com/milind-soni"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "aivsomkar",
+          "url": "https://github.com/aivsomkar"
+        },
+        {
+          "username": "robinsonnblack",
+          "url": "https://github.com/robinsonnblack"
+        },
+        {
+          "username": "bradhallett",
+          "url": "https://github.com/bradhallett"
+        }
+      ],
+      "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    }
+  ]
+}
