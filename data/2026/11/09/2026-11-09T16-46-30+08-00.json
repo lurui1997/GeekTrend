@@ -1,0 +1,322 @@
+{
+  "fetched_at": "2026-11-09T16:46:30+08:00",
+  "source_url": "https://github.com/trending/",
+  "repository_count": 9,
+  "ai_agent_project_count": 4,
+  "ai_agent_project_ratio": 0.4444,
+  "repositories": [
+    {
+      "repository_name": "sherlock-project/sherlock",
+      "url": "https://github.com/sherlock-project/sherlock",
+      "contributors": [
+        {
+          "username": "sdushantha",
+          "url": "https://github.com/sdushantha"
+        },
+        {
+          "username": "hoadlck",
+          "url": "https://github.com/hoadlck"
+        },
+        {
+          "username": "ppfeister",
+          "url": "https://github.com/ppfeister"
+        },
+        {
+          "username": "TheYahya",
+          "url": "https://github.com/TheYahya"
+        },
+        {
+          "username": "Czechball",
+          "url": "https://github.com/Czechball"
+        }
+      ],
+      "description": "Hunt down social media accounts by username across social networks",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "ppfeister: location=New York City Metropolitan Area"
+      ]
+    },
+    {
+      "repository_name": "dsx-ai-factory/nvke",
+      "url": "https://github.com/dsx-ai-factory/nvke",
+      "contributors": [
+        {
+          "username": "dims",
+          "url": "https://github.com/dims"
+        },
+        {
+          "username": "TerryHowe",
+          "url": "https://github.com/TerryHowe"
+        },
+        {
+          "username": "lia-campbell",
+          "url": "https://github.com/lia-campbell"
+        },
+        {
+          "username": "jedimt",
+          "url": "https://github.com/jedimt"
+        },
+        {
+          "username": "danbudris",
+          "url": "https://github.com/danbudris"
+        }
+      ],
+      "description": "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.",
+      "primary_language": "Go",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "jedimt: location=United States"
+      ]
+    },
+    {
+      "repository_name": "milind-soni/OpenMausBot",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "contributors": [
+        {
+          "username": "milind-soni",
+          "url": "https://github.com/milind-soni"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "aivsomkar",
+          "url": "https://github.com/aivsomkar"
+        },
+        {
+          "username": "robinsonnblack",
+          "url": "https://github.com/robinsonnblack"
+        },
+        {
+          "username": "bradhallett",
+          "url": "https://github.com/bradhallett"
+        }
+      ],
+      "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "anthropics/claude-quickstarts",
+      "url": "https://github.com/anthropics/claude-quickstarts",
+      "contributors": [
+        {
+          "username": "cj-ant",
+          "url": "https://github.com/cj-ant"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "x5a",
+          "url": "https://github.com/x5a"
+        },
+        {
+          "username": "alexalbertt",
+          "url": "https://github.com/alexalbertt"
+        },
+        {
+          "username": "zealoushacker",
+          "url": "https://github.com/zealoushacker"
+        }
+      ],
+      "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "vercel-labs/agent-browser",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "contributors": [
+        {
+          "username": "ctate",
+          "url": "https://github.com/ctate"
+        },
+        {
+          "username": "Railly",
+          "url": "https://github.com/Railly"
+        },
+        {
+          "username": "lahfir",
+          "url": "https://github.com/lahfir"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        }
+      ],
+      "description": "Browser automation CLI for AI agents",
+      "primary_language": "Rust",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "lahfir: location=United States"
+      ]
+    },
+    {
+      "repository_name": "meta/astryx",
+      "url": "https://github.com/meta/astryx",
+      "contributors": [
+        {
+          "username": "cixzhang",
+          "url": "https://github.com/cixzhang"
+        },
+        {
+          "username": "rubyycheung",
+          "url": "https://github.com/rubyycheung"
+        },
+        {
+          "username": "josephfarina",
+          "url": "https://github.com/josephfarina"
+        },
+        {
+          "username": "vjeux",
+          "url": "https://github.com/vjeux"
+        }
+      ],
+      "description": "An open source design system that's fully customizable and agent ready",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "contributors": [
+        {
+          "username": "rlancemartin",
+          "url": "https://github.com/rlancemartin"
+        },
+        {
+          "username": "klazuka",
+          "url": "https://github.com/klazuka"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "cj-ant",
+          "url": "https://github.com/cj-ant"
+        },
+        {
+          "username": "ericharmeling",
+          "url": "https://github.com/ericharmeling"
+        }
+      ],
+      "description": "Public repository for Agent Skills",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "ericharmeling: location=Brooklyn, NY"
+      ]
+    },
+    {
+      "repository_name": "google-deepmind/mujoco",
+      "url": "https://github.com/google-deepmind/mujoco",
+      "contributors": [
+        {
+          "username": "yuvaltassa",
+          "url": "https://github.com/yuvaltassa"
+        },
+        {
+          "username": "quagla",
+          "url": "https://github.com/quagla"
+        },
+        {
+          "username": "haroonq",
+          "url": "https://github.com/haroonq"
+        },
+        {
+          "username": "kbayes",
+          "url": "https://github.com/kbayes"
+        },
+        {
+          "username": "saran-t",
+          "url": "https://github.com/saran-t"
+        }
+      ],
+      "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+      "primary_language": "C++",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "medium",
+      "origin_evidence": [
+        "yuvaltassa: location=London",
+        "kbayes: location=London, UK",
+        "saran-t: location=London, UK"
+      ]
+    },
+    {
+      "repository_name": "ranxianglei/billion-context",
+      "url": "https://github.com/ranxianglei/billion-context",
+      "contributors": [
+        {
+          "username": "ranxianglei",
+          "url": "https://github.com/ranxianglei"
+        },
+        {
+          "username": "YunzhouLi-hub",
+          "url": "https://github.com/YunzhouLi-hub"
+        },
+        {
+          "username": "z0d0dOr",
+          "url": "https://github.com/z0d0dOr"
+        },
+        {
+          "username": "yanhuojiyusheng",
+          "url": "https://github.com/yanhuojiyusheng"
+        }
+      ],
+      "description": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    }
+  ]
+}
