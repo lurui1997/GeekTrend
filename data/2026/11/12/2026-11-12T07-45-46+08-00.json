@@ -1,0 +1,339 @@
+{
+  "fetched_at": "2026-11-12T07:45:46+08:00",
+  "source_url": "https://github.com/trending/",
+  "repository_count": 10,
+  "ai_agent_project_count": 6,
+  "ai_agent_project_ratio": 0.6,
+  "repositories": [
+    {
+      "repository_name": "meta/astryx",
+      "url": "https://github.com/meta/astryx",
+      "contributors": [
+        {
+          "username": "cixzhang",
+          "url": "https://github.com/cixzhang"
+        },
+        {
+          "username": "rubyycheung",
+          "url": "https://github.com/rubyycheung"
+        },
+        {
+          "username": "josephfarina",
+          "url": "https://github.com/josephfarina"
+        },
+        {
+          "username": "vjeux",
+          "url": "https://github.com/vjeux"
+        }
+      ],
+      "description": "An open source design system that's fully customizable and agent ready",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "ZhuLinsen/daily_stock_analysis",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "contributors": [
+        {
+          "username": "ZhuLinsen",
+          "url": "https://github.com/ZhuLinsen"
+        },
+        {
+          "username": "massif-01",
+          "url": "https://github.com/massif-01"
+        },
+        {
+          "username": "freesme",
+          "url": "https://github.com/freesme"
+        },
+        {
+          "username": "Activer007",
+          "url": "https://github.com/Activer007"
+        },
+        {
+          "username": "birdxs",
+          "url": "https://github.com/birdxs"
+        }
+      ],
+      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "GoogleChrome/modern-web-guidance-src",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "contributors": [
+        {
+          "username": "paulirish",
+          "url": "https://github.com/paulirish"
+        },
+        {
+          "username": "rviscomi",
+          "url": "https://github.com/rviscomi"
+        },
+        {
+          "username": "micahjo7",
+          "url": "https://github.com/micahjo7"
+        },
+        {
+          "username": "philipwalton",
+          "url": "https://github.com/philipwalton"
+        }
+      ],
+      "description": null,
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "rviscomi: location=New York, NY"
+      ]
+    },
+    {
+      "repository_name": "shadcn/improve",
+      "url": "https://github.com/shadcn/improve",
+      "contributors": [
+        {
+          "username": "shadcn",
+          "url": "https://github.com/shadcn"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "erikpr1994",
+          "url": "https://github.com/erikpr1994"
+        },
+        {
+          "username": "beastawakens",
+          "url": "https://github.com/beastawakens"
+        },
+        {
+          "username": "morinim",
+          "url": "https://github.com/morinim"
+        }
+      ],
+      "description": "Use your most capable model to audit your codebase and write plans for cheaper models to execute.",
+      "primary_language": null,
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "beastawakens: location=UK"
+      ]
+    },
+    {
+      "repository_name": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "contributors": [
+        {
+          "username": "addyosmani",
+          "url": "https://github.com/addyosmani"
+        },
+        {
+          "username": "nucliweb",
+          "url": "https://github.com/nucliweb"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "rudycelekli",
+          "url": "https://github.com/rudycelekli"
+        },
+        {
+          "username": "ayobamiseun",
+          "url": "https://github.com/ayobamiseun"
+        }
+      ],
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "vercel-labs/agent-browser",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "contributors": [
+        {
+          "username": "ctate",
+          "url": "https://github.com/ctate"
+        },
+        {
+          "username": "Railly",
+          "url": "https://github.com/Railly"
+        },
+        {
+          "username": "lahfir",
+          "url": "https://github.com/lahfir"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        }
+      ],
+      "description": "Browser automation CLI for AI agents",
+      "primary_language": "Rust",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "lahfir: location=United States"
+      ]
+    },
+    {
+      "repository_name": "we-promise/sure",
+      "url": "https://github.com/we-promise/sure",
+      "contributors": [
+        {
+          "username": "jjmata",
+          "url": "https://github.com/jjmata"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "zachgoll",
+          "url": "https://github.com/zachgoll"
+        },
+        {
+          "username": "Shpigford",
+          "url": "https://github.com/Shpigford"
+        }
+      ],
+      "description": "The personal finance app for everyone (by everyone)",
+      "primary_language": "Ruby",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "jjmata: location=United States"
+      ]
+    },
+    {
+      "repository_name": "homeassistant-ai/ha-mcp",
+      "url": "https://github.com/homeassistant-ai/ha-mcp",
+      "contributors": [
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "kingpanther13",
+          "url": "https://github.com/kingpanther13"
+        },
+        {
+          "username": "julienld",
+          "url": "https://github.com/julienld"
+        }
+      ],
+      "description": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "openai/codex-security",
+      "url": "https://github.com/openai/codex-security",
+      "contributors": [
+        {
+          "username": "mldangelo-oai",
+          "url": "https://github.com/mldangelo-oai"
+        },
+        {
+          "username": "codex",
+          "url": "https://github.com/codex"
+        },
+        {
+          "username": "ianw-oai",
+          "url": "https://github.com/ianw-oai"
+        },
+        {
+          "username": "kmbroai",
+          "url": "https://github.com/kmbroai"
+        }
+      ],
+      "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "codex"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "TheAlgorithms/Java",
+      "url": "https://github.com/TheAlgorithms/Java",
+      "contributors": [
+        {
+          "username": "alxkm",
+          "url": "https://github.com/alxkm"
+        },
+        {
+          "username": "vil02",
+          "url": "https://github.com/vil02"
+        },
+        {
+          "username": "Hardvan",
+          "url": "https://github.com/Hardvan"
+        },
+        {
+          "username": "yanglbme",
+          "url": "https://github.com/yanglbme"
+        }
+      ],
+      "description": "All Algorithms implemented in Java",
+      "primary_language": "Java",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    }
+  ]
+}
