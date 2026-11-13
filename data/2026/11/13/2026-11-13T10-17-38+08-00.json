@@ -1,0 +1,457 @@
+{
+  "fetched_at": "2026-11-13T10:17:38+08:00",
+  "source_url": "https://github.com/trending/",
+  "repository_count": 13,
+  "ai_agent_project_count": 6,
+  "ai_agent_project_ratio": 0.4615,
+  "repositories": [
+    {
+      "repository_name": "GoogleChrome/modern-web-guidance-src",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "contributors": [
+        {
+          "username": "paulirish",
+          "url": "https://github.com/paulirish"
+        },
+        {
+          "username": "rviscomi",
+          "url": "https://github.com/rviscomi"
+        },
+        {
+          "username": "micahjo7",
+          "url": "https://github.com/micahjo7"
+        },
+        {
+          "username": "LeaVerou",
+          "url": "https://github.com/LeaVerou"
+        }
+      ],
+      "description": "Keep your coding agent up to date with the latest web best practices",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "medium",
+      "origin_evidence": [
+        "rviscomi: location=New York, NY",
+        "LeaVerou: bio=CSS WG Invited Expert, W3C TAG alumni. Started PrismJS, Color.js and over 50 other open source projects.\r\nPhD in usability from MIT CSAIL"
+      ]
+    },
+    {
+      "repository_name": "openai/codex-security",
+      "url": "https://github.com/openai/codex-security",
+      "contributors": [
+        {
+          "username": "mldangelo-oai",
+          "url": "https://github.com/mldangelo-oai"
+        },
+        {
+          "username": "codex",
+          "url": "https://github.com/codex"
+        },
+        {
+          "username": "ianw-oai",
+          "url": "https://github.com/ianw-oai"
+        },
+        {
+          "username": "kmbroai",
+          "url": "https://github.com/kmbroai"
+        }
+      ],
+      "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "codex"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "nvm-sh/nvm",
+      "url": "https://github.com/nvm-sh/nvm",
+      "contributors": [
+        {
+          "username": "ljharb",
+          "url": "https://github.com/ljharb"
+        },
+        {
+          "username": "PeterDaveHello",
+          "url": "https://github.com/PeterDaveHello"
+        },
+        {
+          "username": "creationix",
+          "url": "https://github.com/creationix"
+        },
+        {
+          "username": "koenpunt",
+          "url": "https://github.com/koenpunt"
+        },
+        {
+          "username": "lukechilds",
+          "url": "https://github.com/lukechilds"
+        }
+      ],
+      "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.",
+      "primary_language": "Shell",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "creationix: location=Mountainburg, AR, USA"
+      ]
+    },
+    {
+      "repository_name": "pookjw/HermesEnabler",
+      "url": "https://github.com/pookjw/HermesEnabler",
+      "contributors": [
+        {
+          "username": "pookjw",
+          "url": "https://github.com/pookjw"
+        },
+        {
+          "username": "metalnodeug",
+          "url": "https://github.com/metalnodeug"
+        },
+        {
+          "username": "SamZong233",
+          "url": "https://github.com/SamZong233"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "dfrias",
+          "url": "https://github.com/dfrias"
+        }
+      ],
+      "description": "Enable Hermès Watch Faces on any Apple Watch devices",
+      "primary_language": "Objective-C",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "we-promise/sure",
+      "url": "https://github.com/we-promise/sure",
+      "contributors": [
+        {
+          "username": "jjmata",
+          "url": "https://github.com/jjmata"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "zachgoll",
+          "url": "https://github.com/zachgoll"
+        },
+        {
+          "username": "Shpigford",
+          "url": "https://github.com/Shpigford"
+        }
+      ],
+      "description": "The personal finance app for everyone (by everyone)",
+      "primary_language": "Ruby",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "jjmata: location=United States"
+      ]
+    },
+    {
+      "repository_name": "QwenLM/qwen-code",
+      "url": "https://github.com/QwenLM/qwen-code",
+      "contributors": [
+        {
+          "username": "wenshao",
+          "url": "https://github.com/wenshao"
+        },
+        {
+          "username": "qwencoder",
+          "url": "https://github.com/qwencoder"
+        },
+        {
+          "username": "yiliang114",
+          "url": "https://github.com/yiliang114"
+        },
+        {
+          "username": "tanzhenxin",
+          "url": "https://github.com/tanzhenxin"
+        },
+        {
+          "username": "qwen-code-dev-bot",
+          "url": "https://github.com/qwen-code-dev-bot"
+        }
+      ],
+      "description": "An open-source AI coding agent that lives in your terminal.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "ashhart/TensorFold",
+      "url": "https://github.com/ashhart/TensorFold",
+      "contributors": [
+        {
+          "username": "ashhart",
+          "url": "https://github.com/ashhart"
+        },
+        {
+          "username": "jschmied",
+          "url": "https://github.com/jschmied"
+        },
+        {
+          "username": "BobClawblaw",
+          "url": "https://github.com/BobClawblaw"
+        },
+        {
+          "username": "laudney",
+          "url": "https://github.com/laudney"
+        },
+        {
+          "username": "BlivionIaG",
+          "url": "https://github.com/BlivionIaG"
+        }
+      ],
+      "description": "LLM Inference Engine for Metal, CUDA and Vulkan.",
+      "primary_language": "Zig",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "ashhart: location=United Kingdom"
+      ]
+    },
+    {
+      "repository_name": "nodejs/node",
+      "url": "https://github.com/nodejs/node",
+      "contributors": [
+        {
+          "username": "Trott",
+          "url": "https://github.com/Trott"
+        },
+        {
+          "username": "ry",
+          "url": "https://github.com/ry"
+        },
+        {
+          "username": "bnoordhuis",
+          "url": "https://github.com/bnoordhuis"
+        },
+        {
+          "username": "addaleax",
+          "url": "https://github.com/addaleax"
+        },
+        {
+          "username": "isaacs",
+          "url": "https://github.com/isaacs"
+        }
+      ],
+      "description": "Node.js JavaScript runtime ✨🐢🚀✨",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "Netherlands",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "bnoordhuis: location=The Netherlands"
+      ]
+    },
+    {
+      "repository_name": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "contributors": [
+        {
+          "username": "addyosmani",
+          "url": "https://github.com/addyosmani"
+        },
+        {
+          "username": "nucliweb",
+          "url": "https://github.com/nucliweb"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "rudycelekli",
+          "url": "https://github.com/rudycelekli"
+        },
+        {
+          "username": "ayobamiseun",
+          "url": "https://github.com/ayobamiseun"
+        }
+      ],
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "meta/astryx",
+      "url": "https://github.com/meta/astryx",
+      "contributors": [
+        {
+          "username": "cixzhang",
+          "url": "https://github.com/cixzhang"
+        },
+        {
+          "username": "rubyycheung",
+          "url": "https://github.com/rubyycheung"
+        },
+        {
+          "username": "josephfarina",
+          "url": "https://github.com/josephfarina"
+        },
+        {
+          "username": "vjeux",
+          "url": "https://github.com/vjeux"
+        }
+      ],
+      "description": "An open source design system that's fully customizable and agent ready",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "CopilotKit/OpenBot",
+      "url": "https://github.com/CopilotKit/OpenBot",
+      "contributors": [
+        {
+          "username": "davidmckayv",
+          "url": "https://github.com/davidmckayv"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "kevin9327",
+          "url": "https://github.com/kevin9327"
+        },
+        {
+          "username": "guidovizoso",
+          "url": "https://github.com/guidovizoso"
+        },
+        {
+          "username": "Ayush7614",
+          "url": "https://github.com/Ayush7614"
+        }
+      ],
+      "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "Ayush7614: location=USA, India"
+      ]
+    },
+    {
+      "repository_name": "Alishahryar1/free-claude-code",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "contributors": [
+        {
+          "username": "Alishahryar1",
+          "url": "https://github.com/Alishahryar1"
+        },
+        {
+          "username": "cursoragent",
+          "url": "https://github.com/cursoragent"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "Tanishq-1",
+          "url": "https://github.com/Tanishq-1"
+        }
+      ],
+      "description": "Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "ggml-org/llama.cpp",
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "contributors": [
+        {
+          "username": "ggerganov",
+          "url": "https://github.com/ggerganov"
+        },
+        {
+          "username": "ngxson",
+          "url": "https://github.com/ngxson"
+        },
+        {
+          "username": "CISC",
+          "url": "https://github.com/CISC"
+        },
+        {
+          "username": "JohannesGaessler",
+          "url": "https://github.com/JohannesGaessler"
+        },
+        {
+          "username": "slaren",
+          "url": "https://github.com/slaren"
+        }
+      ],
+      "description": "LLM inference in C/C++",
+      "primary_language": "C++",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "France",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "ngxson: location=France"
+      ]
+    }
+  ]
+}
