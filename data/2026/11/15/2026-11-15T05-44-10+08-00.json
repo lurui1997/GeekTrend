@@ -1,0 +1,521 @@
+{
+  "fetched_at": "2026-11-15T05:44:10+08:00",
+  "source_url": "https://github.com/trending/",
+  "repository_count": 15,
+  "ai_agent_project_count": 8,
+  "ai_agent_project_ratio": 0.5333,
+  "repositories": [
+    {
+      "repository_name": "backnotprop/plannotator",
+      "url": "https://github.com/backnotprop/plannotator",
+      "contributors": [
+        {
+          "username": "backnotprop",
+          "url": "https://github.com/backnotprop"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "utpalsinghdev",
+          "url": "https://github.com/utpalsinghdev"
+        },
+        {
+          "username": "leoreisdias",
+          "url": "https://github.com/leoreisdias"
+        },
+        {
+          "username": "uvw",
+          "url": "https://github.com/uvw"
+        }
+      ],
+      "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United States",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "backnotprop: location=nyc"
+      ]
+    },
+    {
+      "repository_name": "GoogleChrome/modern-web-guidance-src",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "contributors": [
+        {
+          "username": "paulirish",
+          "url": "https://github.com/paulirish"
+        },
+        {
+          "username": "rviscomi",
+          "url": "https://github.com/rviscomi"
+        },
+        {
+          "username": "micahjo7",
+          "url": "https://github.com/micahjo7"
+        },
+        {
+          "username": "LeaVerou",
+          "url": "https://github.com/LeaVerou"
+        }
+      ],
+      "description": "Keep your coding agent up to date with the latest web best practices",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "medium",
+      "origin_evidence": [
+        "rviscomi: location=New York, NY",
+        "LeaVerou: bio=CSS WG Invited Expert, W3C TAG alumni. Started PrismJS, Color.js and over 50 other open source projects.\r\nPhD in usability from MIT CSAIL"
+      ]
+    },
+    {
+      "repository_name": "tradermonty/claude-trading-skills",
+      "url": "https://github.com/tradermonty/claude-trading-skills",
+      "contributors": [
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "tradermonty",
+          "url": "https://github.com/tradermonty"
+        },
+        {
+          "username": "raikkonenPotter",
+          "url": "https://github.com/raikkonenPotter"
+        },
+        {
+          "username": "wolframarnold",
+          "url": "https://github.com/wolframarnold"
+        }
+      ],
+      "description": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "ChromeDevTools/chrome-devtools-mcp",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "contributors": [
+        {
+          "username": "OrKoN",
+          "url": "https://github.com/OrKoN"
+        },
+        {
+          "username": "Lightning00Blade",
+          "url": "https://github.com/Lightning00Blade"
+        },
+        {
+          "username": "browser-automation-bot",
+          "url": "https://github.com/browser-automation-bot"
+        },
+        {
+          "username": "yulunz",
+          "url": "https://github.com/yulunz"
+        }
+      ],
+      "description": "Chrome DevTools for coding agents",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "contributors": [
+        {
+          "username": "lizhengfeng101",
+          "url": "https://github.com/lizhengfeng101"
+        },
+        {
+          "username": "wu21-web",
+          "url": "https://github.com/wu21-web"
+        },
+        {
+          "username": "chethanuk",
+          "url": "https://github.com/chethanuk"
+        },
+        {
+          "username": "Qiyuanqiii",
+          "url": "https://github.com/Qiyuanqiii"
+        },
+        {
+          "username": "stay-foolish-forever",
+          "url": "https://github.com/stay-foolish-forever"
+        }
+      ],
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "primary_language": "Go",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "chethanuk: location=London"
+      ]
+    },
+    {
+      "repository_name": "QwenLM/qwen-code",
+      "url": "https://github.com/QwenLM/qwen-code",
+      "contributors": [
+        {
+          "username": "wenshao",
+          "url": "https://github.com/wenshao"
+        },
+        {
+          "username": "qwencoder",
+          "url": "https://github.com/qwencoder"
+        },
+        {
+          "username": "yiliang114",
+          "url": "https://github.com/yiliang114"
+        },
+        {
+          "username": "tanzhenxin",
+          "url": "https://github.com/tanzhenxin"
+        },
+        {
+          "username": "qwen-code-dev-bot",
+          "url": "https://github.com/qwen-code-dev-bot"
+        }
+      ],
+      "description": "An open-source AI coding agent that lives in your terminal.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "dream-num/univer",
+      "url": "https://github.com/dream-num/univer",
+      "contributors": [
+        {
+          "username": "jikkai",
+          "url": "https://github.com/jikkai"
+        },
+        {
+          "username": "DR-Univer",
+          "url": "https://github.com/DR-Univer"
+        },
+        {
+          "username": "wpxp123456",
+          "url": "https://github.com/wpxp123456"
+        },
+        {
+          "username": "wzhudev",
+          "url": "https://github.com/wzhudev"
+        },
+        {
+          "username": "Dushusir",
+          "url": "https://github.com/Dushusir"
+        }
+      ],
+      "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "China",
+      "origin_confidence": "medium",
+      "origin_evidence": [
+        "jikkai: location=Shanghai, China",
+        "wzhudev: location=Beijing",
+        "Dushusir: location=Shanghai"
+      ]
+    },
+    {
+      "repository_name": "ag-ui-protocol/ag-ui",
+      "url": "https://github.com/ag-ui-protocol/ag-ui",
+      "contributors": [
+        {
+          "username": "ranst91",
+          "url": "https://github.com/ranst91"
+        },
+        {
+          "username": "contextablemark",
+          "url": "https://github.com/contextablemark"
+        },
+        {
+          "username": "mme",
+          "url": "https://github.com/mme"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "jpr5",
+          "url": "https://github.com/jpr5"
+        }
+      ],
+      "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "ashhart/TensorFold",
+      "url": "https://github.com/ashhart/TensorFold",
+      "contributors": [
+        {
+          "username": "ashhart",
+          "url": "https://github.com/ashhart"
+        },
+        {
+          "username": "jschmied",
+          "url": "https://github.com/jschmied"
+        },
+        {
+          "username": "BobClawblaw",
+          "url": "https://github.com/BobClawblaw"
+        },
+        {
+          "username": "laudney",
+          "url": "https://github.com/laudney"
+        },
+        {
+          "username": "BlivionIaG",
+          "url": "https://github.com/BlivionIaG"
+        }
+      ],
+      "description": "LLM Inference Engine for Metal, CUDA and Vulkan.",
+      "primary_language": "Zig",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "ashhart: location=United Kingdom"
+      ]
+    },
+    {
+      "repository_name": "JuliusBrussee/caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "contributors": [
+        {
+          "username": "JuliusBrussee",
+          "url": "https://github.com/JuliusBrussee"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "nikpushkarski",
+          "url": "https://github.com/nikpushkarski"
+        },
+        {
+          "username": "AmirF194",
+          "url": "https://github.com/AmirF194"
+        }
+      ],
+      "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
+      "primary_language": "Go",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "Netherlands",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "JuliusBrussee: location=Netherlands"
+      ]
+    },
+    {
+      "repository_name": "louislam/uptime-kuma",
+      "url": "https://github.com/louislam/uptime-kuma",
+      "contributors": [
+        {
+          "username": "louislam",
+          "url": "https://github.com/louislam"
+        },
+        {
+          "username": "CommanderStorm",
+          "url": "https://github.com/CommanderStorm"
+        },
+        {
+          "username": "chakflying",
+          "url": "https://github.com/chakflying"
+        },
+        {
+          "username": "Saibamen",
+          "url": "https://github.com/Saibamen"
+        },
+        {
+          "username": "Computroniks",
+          "url": "https://github.com/Computroniks"
+        }
+      ],
+      "description": "A fancy self-hosted monitoring tool",
+      "primary_language": "JavaScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "Hong Kong",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "louislam: location=Hong Kong"
+      ]
+    },
+    {
+      "repository_name": "we-promise/sure",
+      "url": "https://github.com/we-promise/sure",
+      "contributors": [
+        {
+          "username": "jjmata",
+          "url": "https://github.com/jjmata"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "zachgoll",
+          "url": "https://github.com/zachgoll"
+        },
+        {
+          "username": "Shpigford",
+          "url": "https://github.com/Shpigford"
+        }
+      ],
+      "description": "The personal finance app for everyone (by everyone)",
+      "primary_language": "Ruby",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "jjmata: location=United States"
+      ]
+    },
+    {
+      "repository_name": "Tencent/LoopForge",
+      "url": "https://github.com/Tencent/LoopForge",
+      "contributors": [
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "fx-kurumi",
+          "url": "https://github.com/fx-kurumi"
+        },
+        {
+          "username": "Robert0622",
+          "url": "https://github.com/Robert0622"
+        },
+        {
+          "username": "cursoragent",
+          "url": "https://github.com/cursoragent"
+        },
+        {
+          "username": "cocofhu",
+          "url": "https://github.com/cocofhu"
+        }
+      ],
+      "description": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
+      "primary_language": "Go",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "Likely7/Veyra-NRVideo",
+      "url": "https://github.com/Likely7/Veyra-NRVideo",
+      "contributors": [
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "Likely7",
+          "url": "https://github.com/Likely7"
+        },
+        {
+          "username": "georgeg911",
+          "url": "https://github.com/georgeg911"
+        },
+        {
+          "username": "GeT-LeFt",
+          "url": "https://github.com/GeT-LeFt"
+        }
+      ],
+      "description": "Bring PS5 GTA6 to 120FPS with DLSS 5. An advanced Windows video player and capture enhancement tool featuring real-time preview for videos, images, and capture card sources. Combine AI-powered Super Resolution, DLSS5 image enhancement, and Frame Generation to deliver a next-generation visual experience.",
+      "primary_language": "C++",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "Hong Kong",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "GeT-LeFt: location=Hong Kong"
+      ]
+    },
+    {
+      "repository_name": "martin-olivier/airgorah",
+      "url": "https://github.com/martin-olivier/airgorah",
+      "contributors": [
+        {
+          "username": "martin-olivier",
+          "url": "https://github.com/martin-olivier"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "m-bdf",
+          "url": "https://github.com/m-bdf"
+        }
+      ],
+      "description": "A WiFi security auditing software",
+      "primary_language": "Rust",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "France",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "martin-olivier: location=🇫🇷 Paris"
+      ]
+    }
+  ]
+}
