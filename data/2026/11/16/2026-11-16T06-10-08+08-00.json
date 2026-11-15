@@ -1,0 +1,428 @@
+{
+  "fetched_at": "2026-11-16T06:10:08+08:00",
+  "source_url": "https://github.com/trending/",
+  "repository_count": 12,
+  "ai_agent_project_count": 6,
+  "ai_agent_project_ratio": 0.5,
+  "repositories": [
+    {
+      "repository_name": "dream-num/univer",
+      "url": "https://github.com/dream-num/univer",
+      "contributors": [
+        {
+          "username": "jikkai",
+          "url": "https://github.com/jikkai"
+        },
+        {
+          "username": "DR-Univer",
+          "url": "https://github.com/DR-Univer"
+        },
+        {
+          "username": "wpxp123456",
+          "url": "https://github.com/wpxp123456"
+        },
+        {
+          "username": "wzhudev",
+          "url": "https://github.com/wzhudev"
+        },
+        {
+          "username": "Dushusir",
+          "url": "https://github.com/Dushusir"
+        }
+      ],
+      "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "China",
+      "origin_confidence": "medium",
+      "origin_evidence": [
+        "jikkai: location=Shanghai, China",
+        "wzhudev: location=Beijing",
+        "Dushusir: location=Shanghai"
+      ]
+    },
+    {
+      "repository_name": "ag-ui-protocol/ag-ui",
+      "url": "https://github.com/ag-ui-protocol/ag-ui",
+      "contributors": [
+        {
+          "username": "ranst91",
+          "url": "https://github.com/ranst91"
+        },
+        {
+          "username": "contextablemark",
+          "url": "https://github.com/contextablemark"
+        },
+        {
+          "username": "mme",
+          "url": "https://github.com/mme"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "jpr5",
+          "url": "https://github.com/jpr5"
+        }
+      ],
+      "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "google-labs-code/stitch-skills",
+      "url": "https://github.com/google-labs-code/stitch-skills",
+      "contributors": [
+        {
+          "username": "JLXIA",
+          "url": "https://github.com/JLXIA"
+        },
+        {
+          "username": "davideast",
+          "url": "https://github.com/davideast"
+        },
+        {
+          "username": "Emp1500",
+          "url": "https://github.com/Emp1500"
+        },
+        {
+          "username": "dalmaer",
+          "url": "https://github.com/dalmaer"
+        },
+        {
+          "username": "meeChn",
+          "url": "https://github.com/meeChn"
+        }
+      ],
+      "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "backnotprop/plannotator",
+      "url": "https://github.com/backnotprop/plannotator",
+      "contributors": [
+        {
+          "username": "backnotprop",
+          "url": "https://github.com/backnotprop"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "utpalsinghdev",
+          "url": "https://github.com/utpalsinghdev"
+        },
+        {
+          "username": "leoreisdias",
+          "url": "https://github.com/leoreisdias"
+        },
+        {
+          "username": "uvw",
+          "url": "https://github.com/uvw"
+        }
+      ],
+      "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United States",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "backnotprop: location=nyc"
+      ]
+    },
+    {
+      "repository_name": "ChromeDevTools/chrome-devtools-mcp",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "contributors": [
+        {
+          "username": "OrKoN",
+          "url": "https://github.com/OrKoN"
+        },
+        {
+          "username": "Lightning00Blade",
+          "url": "https://github.com/Lightning00Blade"
+        },
+        {
+          "username": "browser-automation-bot",
+          "url": "https://github.com/browser-automation-bot"
+        },
+        {
+          "username": "yulunz",
+          "url": "https://github.com/yulunz"
+        }
+      ],
+      "description": "Chrome DevTools for coding agents",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "contributors": [
+        {
+          "username": "lizhengfeng101",
+          "url": "https://github.com/lizhengfeng101"
+        },
+        {
+          "username": "wu21-web",
+          "url": "https://github.com/wu21-web"
+        },
+        {
+          "username": "chethanuk",
+          "url": "https://github.com/chethanuk"
+        },
+        {
+          "username": "Qiyuanqiii",
+          "url": "https://github.com/Qiyuanqiii"
+        },
+        {
+          "username": "stay-foolish-forever",
+          "url": "https://github.com/stay-foolish-forever"
+        }
+      ],
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "primary_language": "Go",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "chethanuk: location=London"
+      ]
+    },
+    {
+      "repository_name": "Tencent/LoopForge",
+      "url": "https://github.com/Tencent/LoopForge",
+      "contributors": [
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "fx-kurumi",
+          "url": "https://github.com/fx-kurumi"
+        },
+        {
+          "username": "Robert0622",
+          "url": "https://github.com/Robert0622"
+        },
+        {
+          "username": "cursoragent",
+          "url": "https://github.com/cursoragent"
+        },
+        {
+          "username": "cocofhu",
+          "url": "https://github.com/cocofhu"
+        }
+      ],
+      "description": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
+      "primary_language": "Go",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "ggml-org/ggml",
+      "url": "https://github.com/ggml-org/ggml",
+      "contributors": [
+        {
+          "username": "ggerganov",
+          "url": "https://github.com/ggerganov"
+        },
+        {
+          "username": "JohannesGaessler",
+          "url": "https://github.com/JohannesGaessler"
+        },
+        {
+          "username": "jeffbolznv",
+          "url": "https://github.com/jeffbolznv"
+        },
+        {
+          "username": "slaren",
+          "url": "https://github.com/slaren"
+        },
+        {
+          "username": "lhez",
+          "url": "https://github.com/lhez"
+        }
+      ],
+      "description": "Tensor library for machine learning",
+      "primary_language": "C++",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "lhez: location=San Diego"
+      ]
+    },
+    {
+      "repository_name": "elementalsouls/Claude-BugHunter",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter",
+      "contributors": [
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "injectifytest",
+          "url": "https://github.com/injectifytest"
+        },
+        {
+          "username": "elementalsouls",
+          "url": "https://github.com/elementalsouls"
+        },
+        {
+          "username": "xiaolai",
+          "url": "https://github.com/xiaolai"
+        }
+      ],
+      "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "China",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "xiaolai: location=beijing"
+      ]
+    },
+    {
+      "repository_name": "GoogleChrome/modern-web-guidance-src",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "contributors": [
+        {
+          "username": "paulirish",
+          "url": "https://github.com/paulirish"
+        },
+        {
+          "username": "rviscomi",
+          "url": "https://github.com/rviscomi"
+        },
+        {
+          "username": "micahjo7",
+          "url": "https://github.com/micahjo7"
+        },
+        {
+          "username": "LeaVerou",
+          "url": "https://github.com/LeaVerou"
+        }
+      ],
+      "description": "Keep your coding agent up to date with the latest web best practices",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United States",
+      "origin_confidence": "medium",
+      "origin_evidence": [
+        "rviscomi: location=New York, NY",
+        "LeaVerou: bio=CSS WG Invited Expert, W3C TAG alumni. Started PrismJS, Color.js and over 50 other open source projects.\r\nPhD in usability from MIT CSAIL"
+      ]
+    },
+    {
+      "repository_name": "tradermonty/claude-trading-skills",
+      "url": "https://github.com/tradermonty/claude-trading-skills",
+      "contributors": [
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "tradermonty",
+          "url": "https://github.com/tradermonty"
+        },
+        {
+          "username": "raikkonenPotter",
+          "url": "https://github.com/raikkonenPotter"
+        },
+        {
+          "username": "wolframarnold",
+          "url": "https://github.com/wolframarnold"
+        }
+      ],
+      "description": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "NVIDIA/SkillEvaluator",
+      "url": "https://github.com/NVIDIA/SkillEvaluator",
+      "contributors": [
+        {
+          "username": "rng1995",
+          "url": "https://github.com/rng1995"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "chrisknvidia",
+          "url": "https://github.com/chrisknvidia"
+        },
+        {
+          "username": "YMuskrat",
+          "url": "https://github.com/YMuskrat"
+        },
+        {
+          "username": "kweinmeister",
+          "url": "https://github.com/kweinmeister"
+        }
+      ],
+      "description": "Multi-tier framework for evaluating AI agent skills with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "YMuskrat: location=Manchester, United Kingdom"
+      ]
+    }
+  ]
+}
