@@ -1,0 +1,557 @@
+{
+  "fetched_at": "2026-11-19T22:46:47+08:00",
+  "source_url": "https://github.com/trending/",
+  "repository_count": 16,
+  "ai_agent_project_count": 7,
+  "ai_agent_project_ratio": 0.4375,
+  "repositories": [
+    {
+      "repository_name": "elementalsouls/Claude-BugHunter",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter",
+      "contributors": [
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "injectifytest",
+          "url": "https://github.com/injectifytest"
+        },
+        {
+          "username": "elementalsouls",
+          "url": "https://github.com/elementalsouls"
+        },
+        {
+          "username": "rudycelekli",
+          "url": "https://github.com/rudycelekli"
+        }
+      ],
+      "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "contributors": [
+        {
+          "username": "obra",
+          "url": "https://github.com/obra"
+        },
+        {
+          "username": "arittr",
+          "url": "https://github.com/arittr"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "clkao",
+          "url": "https://github.com/clkao"
+        },
+        {
+          "username": "arimu1",
+          "url": "https://github.com/arimu1"
+        }
+      ],
+      "description": "An agentic skills framework & software development methodology that works.",
+      "primary_language": "Shell",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "HKUDS/CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "contributors": [
+        {
+          "username": "yuh-yang",
+          "url": "https://github.com/yuh-yang"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "AiMiDi",
+          "url": "https://github.com/AiMiDi"
+        },
+        {
+          "username": "omerarslan0",
+          "url": "https://github.com/omerarslan0"
+        },
+        {
+          "username": "hito0512",
+          "url": "https://github.com/hito0512"
+        }
+      ],
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "Hong Kong",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "yuh-yang: location=Hong Kong"
+      ]
+    },
+    {
+      "repository_name": "jingyaogong/minimind",
+      "url": "https://github.com/jingyaogong/minimind",
+      "contributors": [
+        {
+          "username": "jingyaogong",
+          "url": "https://github.com/jingyaogong"
+        },
+        {
+          "username": "iomgaa-ycz",
+          "url": "https://github.com/iomgaa-ycz"
+        },
+        {
+          "username": "Linxiushen",
+          "url": "https://github.com/Linxiushen"
+        },
+        {
+          "username": "basil-k-aji-dev",
+          "url": "https://github.com/basil-k-aji-dev"
+        },
+        {
+          "username": "readlnh",
+          "url": "https://github.com/readlnh"
+        }
+      ],
+      "description": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "cursor/plugins",
+      "url": "https://github.com/cursor/plugins",
+      "contributors": [
+        {
+          "username": "cursoragent",
+          "url": "https://github.com/cursoragent"
+        },
+        {
+          "username": "poteto",
+          "url": "https://github.com/poteto"
+        },
+        {
+          "username": "djiang-jq",
+          "url": "https://github.com/djiang-jq"
+        },
+        {
+          "username": "minupalaniappan",
+          "url": "https://github.com/minupalaniappan"
+        },
+        {
+          "username": "ericzakariasson",
+          "url": "https://github.com/ericzakariasson"
+        }
+      ],
+      "description": "Cursor plugin specification and official plugins",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "firecrawl/firecrawl",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "contributors": [
+        {
+          "username": "nickscamara",
+          "url": "https://github.com/nickscamara"
+        },
+        {
+          "username": "mogery",
+          "url": "https://github.com/mogery"
+        },
+        {
+          "username": "rafaelsideguide",
+          "url": "https://github.com/rafaelsideguide"
+        },
+        {
+          "username": "abimaelmartell",
+          "url": "https://github.com/abimaelmartell"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        }
+      ],
+      "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and 550+ data providers through one API.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "nginx/nginx",
+      "url": "https://github.com/nginx/nginx",
+      "contributors": [
+        {
+          "username": "mdounin",
+          "url": "https://github.com/mdounin"
+        },
+        {
+          "username": "arut",
+          "url": "https://github.com/arut"
+        },
+        {
+          "username": "vl-homutov",
+          "url": "https://github.com/vl-homutov"
+        },
+        {
+          "username": "VBart",
+          "url": "https://github.com/VBart"
+        },
+        {
+          "username": "pluknet",
+          "url": "https://github.com/pluknet"
+        }
+      ],
+      "description": "The official NGINX Open Source repository.",
+      "primary_language": "C",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "openvinotoolkit/openvino",
+      "url": "https://github.com/openvinotoolkit/openvino",
+      "contributors": [
+        {
+          "username": "ilya-lavrenov",
+          "url": "https://github.com/ilya-lavrenov"
+        },
+        {
+          "username": "rkazants",
+          "url": "https://github.com/rkazants"
+        },
+        {
+          "username": "ilyachur",
+          "url": "https://github.com/ilyachur"
+        },
+        {
+          "username": "mvafin",
+          "url": "https://github.com/mvafin"
+        }
+      ],
+      "description": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
+      "primary_language": "C++",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "cathrynlavery/diagram-design",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "contributors": [
+        {
+          "username": "cathrynlavery",
+          "url": "https://github.com/cathrynlavery"
+        },
+        {
+          "username": "rudycelekli",
+          "url": "https://github.com/rudycelekli"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "mvanhorn",
+          "url": "https://github.com/mvanhorn"
+        }
+      ],
+      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "primary_language": "HTML",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "mvanhorn/last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "contributors": [
+        {
+          "username": "mvanhorn",
+          "url": "https://github.com/mvanhorn"
+        },
+        {
+          "username": "tmchow",
+          "url": "https://github.com/tmchow"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "iliaal",
+          "url": "https://github.com/iliaal"
+        }
+      ],
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "google-labs-code/stitch-skills",
+      "url": "https://github.com/google-labs-code/stitch-skills",
+      "contributors": [
+        {
+          "username": "JLXIA",
+          "url": "https://github.com/JLXIA"
+        },
+        {
+          "username": "davideast",
+          "url": "https://github.com/davideast"
+        },
+        {
+          "username": "Emp1500",
+          "url": "https://github.com/Emp1500"
+        },
+        {
+          "username": "dalmaer",
+          "url": "https://github.com/dalmaer"
+        },
+        {
+          "username": "meeChn",
+          "url": "https://github.com/meeChn"
+        }
+      ],
+      "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "mjmirza/app-store-compliance",
+      "url": "https://github.com/mjmirza/app-store-compliance",
+      "contributors": [
+        {
+          "username": "mjmirza",
+          "url": "https://github.com/mjmirza"
+        },
+        {
+          "username": "omaralbeik",
+          "url": "https://github.com/omaralbeik"
+        },
+        {
+          "username": "akash5852",
+          "url": "https://github.com/akash5852"
+        },
+        {
+          "username": "userInDev",
+          "url": "https://github.com/userInDev"
+        }
+      ],
+      "description": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 117 documented rejection patterns and fixes, privacy manifest and Data safety checks, 95 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
+      "primary_language": "Shell",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "Tracer-Cloud/opensre",
+      "url": "https://github.com/Tracer-Cloud/opensre",
+      "contributors": [
+        {
+          "username": "davincios",
+          "url": "https://github.com/davincios"
+        },
+        {
+          "username": "VaibhavUpreti",
+          "url": "https://github.com/VaibhavUpreti"
+        },
+        {
+          "username": "muddlebee",
+          "url": "https://github.com/muddlebee"
+        },
+        {
+          "username": "YauhenBichel",
+          "url": "https://github.com/YauhenBichel"
+        },
+        {
+          "username": "cursoragent",
+          "url": "https://github.com/cursoragent"
+        }
+      ],
+      "description": "The open-source agent for CI/CD reliability.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "United Kingdom",
+      "origin_confidence": "medium",
+      "origin_evidence": [
+        "davincios: location=London",
+        "VaibhavUpreti: location=London",
+        "YauhenBichel: location=London, United Kingdom"
+      ]
+    },
+    {
+      "repository_name": "toeverything/AFFiNE",
+      "url": "https://github.com/toeverything/AFFiNE",
+      "contributors": [
+        {
+          "username": "darkskygit",
+          "url": "https://github.com/darkskygit"
+        },
+        {
+          "username": "pengx17",
+          "url": "https://github.com/pengx17"
+        },
+        {
+          "username": "JimmFly",
+          "url": "https://github.com/JimmFly"
+        },
+        {
+          "username": "EYHN",
+          "url": "https://github.com/EYHN"
+        }
+      ],
+      "description": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.",
+      "primary_language": "TypeScript",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "China",
+      "origin_confidence": "low",
+      "origin_evidence": [
+        "EYHN: location=Shanghai, China"
+      ]
+    },
+    {
+      "repository_name": "XiaoYouChR/Ghost-Downloader-3",
+      "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
+      "contributors": [
+        {
+          "username": "XiaoYouChR",
+          "url": "https://github.com/XiaoYouChR"
+        },
+        {
+          "username": "i0ntempest",
+          "url": "https://github.com/i0ntempest"
+        },
+        {
+          "username": "Alpha-Qian",
+          "url": "https://github.com/Alpha-Qian"
+        },
+        {
+          "username": "LittleNightSong",
+          "url": "https://github.com/LittleNightSong"
+        }
+      ],
+      "description": "The only downloader you need. 下载器的集大成者。",
+      "primary_language": "Python",
+      "ai_agent_contributors": [],
+      "uses_ai_agent": false,
+      "origin_country": "unknown",
+      "origin_confidence": "unknown",
+      "origin_evidence": [
+        "No public contributor location signal found"
+      ]
+    },
+    {
+      "repository_name": "zhouxiaoka/autoclip",
+      "url": "https://github.com/zhouxiaoka/autoclip",
+      "contributors": [
+        {
+          "username": "zhouxiaoka",
+          "url": "https://github.com/zhouxiaoka"
+        },
+        {
+          "username": "cursoragent",
+          "url": "https://github.com/cursoragent"
+        },
+        {
+          "username": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "username": "mitsa-ng",
+          "url": "https://github.com/mitsa-ng"
+        },
+        {
+          "username": "charlie",
+          "url": "https://github.com/charlie"
+        }
+      ],
+      "description": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping & content repurposing.",
+      "primary_language": "Python",
+      "ai_agent_contributors": [
+        "claude"
+      ],
+      "uses_ai_agent": true,
+      "origin_country": "China",
+      "origin_confidence": "high",
+      "origin_evidence": [
+        "zhouxiaoka: location=Shanghai, China"
+      ]
+    }
+  ]
+}
